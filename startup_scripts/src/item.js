@@ -1,0 +1,31 @@
+// ========== 物品注册 ==========
+StartupEvents.registry("item", event => {
+    // 工程处理器打印件
+    event.create("skynh:printed_engineering_processor", "create:sequenced_assembly"); // pep
+    // 逻辑处理器打印件
+    event.create("skynh:printed_logic_processor", "create:sequenced_assembly");       // plp
+    // 复杂链路电路板打印件
+    event.create("skynh:complex_link_circuit_print", "create:sequenced_assembly");    // clcp
+    // 并发处理器打印件
+    event.create("skynh:concurrent_processor_print", "create:sequenced_assembly");    // cpp
+    // 多维展开电路板打印件
+    event.create("skynh:multidimensional_expansion_circuit_print", "create:sequenced_assembly"); // mecp
+    // 全能链路电路板打印件
+    event.create("skynh:omni_link_circuit_print", "create:sequenced_assembly");        // olcp
+    // 累积处理器打印件
+    event.create("skynh:printed_accumulation_processor", "create:sequenced_assembly"); // pap
+    // 硅板打印件
+    event.create("skynh:printed_silicon", "create:sequenced_assembly");                // ps
+    // 量子处理器打印件
+    event.create("skynh:printed_quantum_processor", "create:sequenced_assembly");      // pqp
+    // 能量处理器打印件
+    event.create("skynh:printed_energy_processor", "create:sequenced_assembly");       // penp
+    // 计算处理器打印件
+    event.create("skynh:printed_calculation_processor", "create:sequenced_assembly");  // pcp
+    // 压缩铁半成品
+    event.create("skynh:incomplete_compressed_iron", "create:sequenced_assembly");
+    // 黑铁锭半成品
+    event.create("skynh:incomplete_black_iron_ingot", "create:sequenced_assembly");
+    // 焦黑石英半成品
+    event.create("skynh:incomplete_black_quartz", "create:sequenced_assembly");
+});
