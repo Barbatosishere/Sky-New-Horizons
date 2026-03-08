@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "42604EE01DB41046"
+	group: "000258239E4546A8"
+	id: "42604EE01DB41046"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4A343D1321E97A4D"
+			invisible: true
+			rewards: [{
+				id: "399481F8B50527E3"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CA16CBE4F1F1B04"
+				item: { count: 1, id: "create_simple_generator:stress_generator" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A343D1321E97A4D"]
+			id: "29935427DB4FF88F"
+			tasks: [{
+				count: 36L
+				id: "33D67998859C76F8"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A343D1321E97A4D"]
+			id: "5C1BCC42EDC47773"
+			tasks: [{
+				count: 36L
+				id: "64B54179DBFA597A"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1BCC42EDC47773"]
+			id: "50C8CB8941720B28"
+			tasks: [
+				{
+					count: 31L
+					id: "37114C8751CCBC5C"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6F9EED97282AB5BC"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "740276391105337C"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "7FC7718060F30106"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5C1BCC42EDC47773"]
+			id: "383FDC8612A0B026"
+			tasks: [
+				{
+					count: 2L
+					id: "045BCA27B5EB69D4"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "5E478E8C5F6178C2"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "58DE8CD61248242B"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 117L
+					id: "38E77B5F64D15BC6"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 45L
+					id: "10752398A7F7E150"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "75B4F05CC20043A8"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "66F17E103FBBE76F"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "76DA4BBED409C627"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"383FDC8612A0B026"
+				"5C1BCC42EDC47773"
+			]
+			dependency_requirement: "one_completed"
+			id: "3C2DED6565238341"
+			tasks: [{
+				count: 36L
+				id: "4DA95A19905EEBB9"
+				item: { count: 1, id: "powah:reactor_hardened" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2DED6565238341"]
+			id: "5B8261B6FC3F98D7"
+			tasks: [{
+				count: 36L
+				id: "7EA9C47C6D782118"
+				item: { count: 1, id: "powah:reactor_blazing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C2DED6565238341"
+				"49B8268848F22F07"
+			]
+			dependency_requirement: "one_completed"
+			id: "52A35329B4A28C4E"
+			tasks: [{
+				count: 36L
+				id: "2E3BD2747044D38D"
+				item: { count: 1, id: "powah:reactor_niotic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2DED6565238341"]
+			id: "277DC6CEFFA7B918"
+			tasks: [{
+				count: 36L
+				id: "70F2A059DC13C111"
+				item: { count: 1, id: "powah:reactor_spirited" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2DED6565238341"]
+			id: "7ABBD4F708AE94AF"
+			tasks: [{
+				count: 36L
+				id: "492B784202EBFD0F"
+				item: { count: 1, id: "powah:reactor_nitro" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["383FDC8612A0B026"]
+			id: "49B8268848F22F07"
+			optional: true
+			tasks: [
+				{
+					count: 36L
+					id: "15B7A5B6950FF385"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					id: "594A471630132333"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "600D60B5A150018F"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "047271880444F3F1"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "372680765E43AFF2"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["383FDC8612A0B026"]
+			id: "5DC5F7170BDB0C13"
+			tasks: [
+				{
+					count: 60L
+					id: "1AA843566634FA54"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "127068998A6F8E97"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7338DF3BCCE5C1A6"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "06E68065371B85A1"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -3.0d
+		}
+	]
+}

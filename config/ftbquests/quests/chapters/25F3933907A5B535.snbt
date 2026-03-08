@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25F3933907A5B535"
+	group: "000258239E4546A8"
+	id: "25F3933907A5B535"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "541E4393469FAC11"
+			rewards: [{
+				id: "01B046C23524B6C3"
+				item: {
+					count: 1
+					id: "immersiveengineering:manual"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6744507DC6A6964C"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["541E4393469FAC11"]
+			id: "6D21D3E6EEEC4921"
+			tasks: [{
+				count: 27L
+				id: "2AB4A01DD89192FF"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D21D3E6EEEC4921"]
+			id: "49C9FC531BB04276"
+			tasks: [{
+				id: "4B51323C5B710EB1"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["541E4393469FAC11"]
+			id: "5318948EB541560C"
+			tasks: [{
+				count: 27L
+				id: "1C69B14AF0ACECA0"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5318948EB541560C"]
+			id: "5BC23CF13FA624C6"
+			tasks: [{
+				id: "426841470A7C03A1"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,20 @@
+// Compost colors for create_ore_excavation_plus. You may add your own colors, change existing ones, or remove colors that aren't needed.
+burned_netherite_scrap, #48281b
+crushed_lapis_lazuli, #4073ea
+crushed_redstone, #ab0500
+cut_raw_diamond, #a0ffff
+cut_raw_emerald, #3ad676
+fired_netherite_scrap, #c67548
+haunted_raw_netherite_scrap, #73a09a
+heated_raw_diamond, #fffeda
+heated_raw_emerald, #c9e46e
+lavad_netherite_scrap, #ffe89b
+pressed_raw_diamond, #51fef5
+pressed_raw_emerald, #20c84a
+raw_diamond_dust, #9bffff
+raw_emerald_dust, #29cf65
+raw_lapis_lazuli, #4376eb
+raw_netherite_scrap, #795146
+ultimate_drill, #839b9a
+washed_raw_diamond, #7affff
+washed_raw_emerald, #25f4d3

@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mek"
+	group: "000258239E4546A8"
+	id: "17CC7D5FE3221067"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["541E4393469FAC11"]
+			id: "4F253D17B2F9A197"
+			tasks: [{
+				id: "3D9929795E65CD5C"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F253D17B2F9A197"]
+			id: "3B82F302F2F03EA4"
+			tasks: [{
+				id: "1B8ED17F43C6307D"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F253D17B2F9A197"]
+			id: "2F133A77ECD20971"
+			tasks: [{
+				id: "503CF5E9A2790E05"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F253D17B2F9A197"]
+			id: "0F3EC20AFBDCD92D"
+			tasks: [
+				{
+					id: "7124B0D3D8E86FB0"
+					item: { count: 1, id: "immersiveengineering:ingot_steel" }
+					type: "item"
+				}
+				{
+					id: "6B47C267DC3E704B"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F133A77ECD20971"]
+			id: "51CEAB092DBBDF47"
+			tasks: [{
+				id: "5818E944CEA5E94D"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F133A77ECD20971"]
+			id: "55EEEBDCD2EA1167"
+			tasks: [{
+				id: "19BA1E0D72F8F655"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F133A77ECD20971"]
+			id: "5FFBDEDA176C55A3"
+			tasks: [{
+				id: "556F440088190CA9"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B82F302F2F03EA4"]
+			id: "524C4C03642C0ACE"
+			tasks: [{
+				id: "7BED38C072158416"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["524C4C03642C0ACE"]
+			id: "5CCA17C76663B82F"
+			tasks: [{
+				id: "5FB41C3307FB90C7"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0F3EC20AFBDCD92D"
+				"2F133A77ECD20971"
+			]
+			id: "5063F3A5CAEA9B50"
+			tasks: [
+				{
+					id: "54701BBA8782DEF9"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+				{
+					id: "3DBB187C2D58DDEE"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F3EC20AFBDCD92D"
+				"3B82F302F2F03EA4"
+				"51CEAB092DBBDF47"
+			]
+			id: "41BFC94C57C70FF1"
+			tasks: [{
+				id: "1EE1BB326833FDCF"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51CEAB092DBBDF47"]
+			id: "24C1E8FA20620530"
+			tasks: [{
+				id: "77A33182D893F6E8"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "67059933B56ADBCC"
+			tasks: [{
+				id: "60425DEA1231EC68"
+				item: { count: 1, id: "mekanism:configurator" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.0d
+		}
+	]
+}
