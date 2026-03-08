@@ -376,4 +376,54 @@ create.sequenced_assembly(
 )
 .transitionalItem(incompleteIron)
 .loops(5);
+// 轻型工程块：铜锭 + 机械零件 + 铁板金属（循环4次）
+const incomplete_light = 'skynh:incomplete_light_engineering';
+create.sequenced_assembly(
+    ['immersiveengineering:light_engineering'],
+    'minecraft:copper_ingot',
+    [
+        create.deploying(incomplete_light, [incomplete_light, 'immersiveengineering:component_iron']),
+        create.deploying(incomplete_light, [incomplete_light, 'immersiveengineering:sheetmetal_iron'])
+    ]
+)
+.transitionalItem(incomplete_light)
+.loops(4);
+
+// 红石工程块：铜锭 + 红石 + 铁板金属（循环4次）
+const incomplete_rs = 'skynh:incomplete_rs_engineering';
+create.sequenced_assembly(
+    ['immersiveengineering:rs_engineering'],
+    'minecraft:copper_ingot',
+    [
+        create.deploying(incomplete_rs, [incomplete_rs, 'minecraft:redstone']),
+        create.deploying(incomplete_rs, [incomplete_rs, 'immersiveengineering:sheetmetal_iron'])
+    ]
+)
+.transitionalItem(incomplete_rs)
+.loops(4);
+// 重型工程块：琥珀金锭 + 钢机械零件 + 钢板金属（循环4次）
+const incomplete_heavy = 'skynh:incomplete_heavy_engineering';
+create.sequenced_assembly(
+    ['immersiveengineering:heavy_engineering'],
+    'immersiveengineering:ingot_electrum',
+    [
+        create.deploying(incomplete_heavy, [incomplete_heavy, 'immersiveengineering:component_steel']),
+        create.deploying(incomplete_heavy, [incomplete_heavy, 'immersiveengineering:sheetmetal_steel'])
+    ]
+)
+.transitionalItem(incomplete_heavy)
+.loops(4);
+
+// 共振工程块：回响碎片 + 高级电子元件 + 铅板金属（循环4次）
+const incomplete_resonanz = 'skynh:incomplete_resonanz_engineering';
+create.sequenced_assembly(
+    ['immersiveengineering:resonanz_engineering'],
+    'minecraft:echo_shard',
+    [
+        create.deploying(incomplete_resonanz, [incomplete_resonanz, 'immersiveengineering:component_electronic_adv']),
+        create.deploying(incomplete_resonanz, [incomplete_resonanz, 'immersiveengineering:sheetmetal_lead'])
+    ]
+)
+.transitionalItem(incomplete_resonanz)
+.loops(4);
 }); 

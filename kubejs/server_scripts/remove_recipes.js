@@ -189,6 +189,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:diamond_upgrade_smithing_template' });
+    // 移除 红石工程块 配方
+    event.remove({ id: 'immersiveengineering:crafting/rs_engineering' });
+    // 移除 轻型工程块 配方
+    event.remove({ id: 'immersiveengineering:crafting/light_engineering' });
+    // 移除 重型工程块 配方
+    event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
+    // 移除 共震工程块 配方
+    event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
     // 移除 无用 配方
     event.remove({ id: 'ironfurnaces:upgrade_allthemodium' });
   
@@ -301,10 +309,10 @@ event.shaped('extendedae:entro_seed', [
     C: 'mysticalagradditions:insanium_gemstone', 
     D: 'pneumaticcraft:printed_circuit_board',
     E: 'occultism:soul_gem',
-    F: 'hostilenetworks:nether_prediction',
+    F: 'apotheosis:mythic_material',
     H: 'mekanism:block_refined_obsidian',
-    I: 'hostilenetworks:end_prediction',
-    G: 'hostilenetworks:overworld_prediction' 
+    I: 'mekanism:pellet_antimatter',
+    G: 'draconicevolution:small_chaos_frag' 
 });
 // 无限圆石
 event.shaped('extendedae:infinity_cobblestone_cell', [

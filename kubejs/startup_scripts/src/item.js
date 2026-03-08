@@ -28,4 +28,12 @@ StartupEvents.registry("item", event => {
     event.create("skynh:incomplete_black_iron_ingot", "create:sequenced_assembly");
     // 焦黑石英半成品
     event.create("skynh:incomplete_black_quartz", "create:sequenced_assembly");
+     // 红石工程块半成品
+    event.create("skynh:incomplete_rs_engineering", "create:sequenced_assembly");
+     // 轻型工程块半成品
+    event.create("skynh:incomplete_light_engineering", "create:sequenced_assembly");
+     // 重型工程块半成品
+    event.create("skynh:incomplete_heavy_engineering", "create:sequenced_assembly");
+     // 共振工程块半成品
+    event.create("skynh:incomplete_resonanz_engineering", "create:sequenced_assembly");
 });
