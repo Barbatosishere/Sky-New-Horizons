@@ -189,14 +189,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:diamond_upgrade_smithing_template' });
-    // 移除 锻造模板 配方
-    event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
-    event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
-    event.remove({ id: 'apotheosis:diamond_upgrade_smithing_template' });
     // 移除 无用 配方
     event.remove({ id: 'ironfurnaces:upgrade_allthemodium' });
-    event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
-
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
@@ -307,7 +301,7 @@ event.shaped('extendedae:entro_seed', [
     C: 'mysticalagradditions:insanium_gemstone', 
     D: 'pneumaticcraft:printed_circuit_board',
     E: 'occultism:soul_gem',
-    F: 'apotheosis:mythic_material',
+    F: 'hostilenetworks:nether_prediction',
     H: 'mekanism:block_refined_obsidian',
     I: 'hostilenetworks:end_prediction',
     G: 'hostilenetworks:overworld_prediction' 
