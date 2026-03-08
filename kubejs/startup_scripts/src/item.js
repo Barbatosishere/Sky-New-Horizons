@@ -36,4 +36,6 @@ StartupEvents.registry("item", event => {
     event.create("skynh:incomplete_heavy_engineering", "create:sequenced_assembly");
      // 共振工程块半成品
     event.create("skynh:incomplete_resonanz_engineering", "create:sequenced_assembly");
+     // 玫瑰石英半成品
+    event.create("skynh:incomplete_rose_quartz", "create:sequenced_assembly");
 });

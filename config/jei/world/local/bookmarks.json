@@ -1,8 +1,7 @@
 [
   {"version":2},
   {"ingredient":{"id":"mekanism:configurator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"functionalstorage:compacting_drawer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pipez:basic_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"functionalstorage:simple_compacting_drawer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"functionalstorage:copper_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create:spout"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:encased_chain_drive"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

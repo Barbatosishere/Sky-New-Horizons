@@ -140,5 +140,46 @@
 			x: -4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["63AE24D98543F689"]
+			id: "384B5ADAE9A9D0EC"
+			tasks: [{
+				id: "2C1D90DC8487871E"
+				item: { count: 1, id: "mob_grinding_utils:saw" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			id: "63AE24D98543F689"
+			tasks: [{
+				id: "189F8EB80E707F30"
+				item: { count: 1, id: "mob_grinding_utils:spikes" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			id: "671D301AF9AC3BCD"
+			tasks: [{
+				id: "207D9491778A626D"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			id: "5BE1F21E473B24AC"
+			tasks: [{
+				id: "269CDD8B8A6F1794"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
 	]
 }

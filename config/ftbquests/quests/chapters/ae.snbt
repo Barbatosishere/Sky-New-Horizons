@@ -20,7 +20,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -34,7 +34,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -59,20 +59,7 @@
 				"699A653E48C5D72E"
 			]
 			id: "5F7BFB17B6CE5A36"
-			rewards: [{
-				id: "351EA3CCF9E3069B"
-				item: {
-					count: 1
-					id: "ae2:mysterious_cube"
-				}
-				type: "item"
-			}]
 			tasks: [
-				{
-					id: "49A38B95DF0E7802"
-					item: { count: 1, id: "ae2:controller" }
-					type: "item"
-				}
 				{
 					id: "476A02BA2EE07815"
 					item: { count: 1, id: "ae2:energy_acceptor" }
@@ -85,7 +72,7 @@
 				}
 			]
 			x: -4.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5F7BFB17B6CE5A36"]
@@ -187,7 +174,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5F7BFB17B6CE5A36"]
+			dependencies: [
+				"589F3AC04BE87E8C"
+				"06FC6634139961F5"
+				"2342ED47B3E0B661"
+			]
 			id: "35AC0AFAFD1DE156"
 			tasks: [
 				{
@@ -304,7 +295,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0BB7B2C9900050EF"]
+			dependencies: [
+				"0BB7B2C9900050EF"
+				"1F39CC76D9E74823"
+			]
 			id: "7CBCF5CD8B5AE894"
 			tasks: [
 				{
@@ -358,7 +352,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1F39CC76D9E74823"]
 			id: "0BB7B2C9900050EF"
 			tasks: [{
 				id: "33BE5EE5D7C5840F"
@@ -378,6 +371,48 @@
 			}]
 			x: 5.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"35AC0AFAFD1DE156"
+				"3436865F1CA973AE"
+			]
+			id: "2566581CD0F8CBA8"
+			tasks: [{
+				id: "05307E5C7A4C6B77"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FCB5941AABBBC5C"]
+			id: "2342ED47B3E0B661"
+			tasks: [
+				{
+					id: "3DA3A679FCABBE13"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "44D33C2090B7D969"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "0CC48F3E7FBB3A68"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "7BF75D1FE14F1238"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 }

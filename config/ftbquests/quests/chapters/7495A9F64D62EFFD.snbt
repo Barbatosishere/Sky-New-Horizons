@@ -400,7 +400,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -10.0d
 			y: 0.5d
 		}
 		{
@@ -551,6 +551,24 @@
 				type: "item"
 			}]
 			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2248288B49BDAB94"]
+			id: "1A22D1FCEEC1C63C"
+			tasks: [
+				{
+					id: "07C054FB7810BE14"
+					item: { count: 1, id: "integrateddynamics:squeezer" }
+					type: "item"
+				}
+				{
+					id: "3EF285C8577EBF2B"
+					item: { count: 1, id: "alltheores:copper_ore_hammer" }
+					type: "item"
+				}
+			]
+			x: -13.0d
 			y: -1.0d
 		}
 	]

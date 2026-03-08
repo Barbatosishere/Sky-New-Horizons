@@ -242,7 +242,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1304A5CE73EE2996"]
+			dependencies: [
+				"1304A5CE73EE2996"
+				"1ACB0E9549A40875"
+			]
 			id: "7FFB0E0A6BF27CFA"
 			tasks: [{
 				id: "3858488D68CFA7AD"
@@ -269,6 +272,161 @@
 			]
 			x: -8.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["52CB19F18D84BFA7"]
+			id: "0BEF3707748C14A6"
+			tasks: [{
+				id: "17E546F6D23DA941"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1F6069860ECC347B"
+				"75DDA0BBB3208170"
+				"5134C520C848CE93"
+			]
+			id: "57100D21107D54FB"
+			tasks: [{
+				id: "733CB5F35BB7E3FE"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57100D21107D54FB"]
+			id: "077920A2A8495EC4"
+			tasks: [{
+				id: "72125D8A0887CC07"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["077920A2A8495EC4"]
+			id: "75B09A3A85B4E778"
+			tasks: [{
+				id: "61251215D80EE021"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75B09A3A85B4E778"]
+			id: "08639A346B42426E"
+			tasks: [{
+				id: "7424C0794ACCD630"
+				item: { count: 1, id: "extendedcrafting:ultimate_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"57100D21107D54FB"
+				"75B09A3A85B4E778"
+			]
+			id: "146BE46941DECCFF"
+			tasks: [{
+				id: "5A1213A63609AFAF"
+				item: { count: 1, id: "extendedcrafting:basic_auto_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"146BE46941DECCFF"
+				"077920A2A8495EC4"
+			]
+			id: "2134E05E26D4C455"
+			tasks: [{
+				id: "4FBE5E0DACEB8397"
+				item: { count: 1, id: "extendedcrafting:advanced_auto_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"75B09A3A85B4E778"
+				"2134E05E26D4C455"
+			]
+			id: "51B0247D1A2EC81B"
+			tasks: [{
+				id: "0260BB0E6C2CFCCF"
+				item: { count: 1, id: "extendedcrafting:elite_auto_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"51B0247D1A2EC81B"
+				"08639A346B42426E"
+			]
+			id: "469BA5E6A3983065"
+			tasks: [{
+				id: "17B1E9A291D55495"
+				item: { count: 1, id: "extendedcrafting:ultimate_auto_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F419883174057CB"]
+			id: "631C533475E686C6"
+			tasks: [
+				{
+					id: "612863B0DE5C1AC2"
+					item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+					type: "item"
+				}
+				{
+					id: "1FFB246CE2DB6127"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_block" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["631C533475E686C6"]
+			id: "5134C520C848CE93"
+			tasks: [{
+				id: "4F9E7D69968B5333"
+				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67545B7084B604A5"]
+			id: "589F3AC04BE87E8C"
+			tasks: [{
+				id: "702463C021C3298E"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
 		}
 	]
 }

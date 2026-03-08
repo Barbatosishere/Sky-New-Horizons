@@ -3,9 +3,11 @@
 	chapter.10B223B63CD7238B.title: "管道"
 	chapter.17CC7D5FE3221067.title: "MEK"
 	chapter.25F3933907A5B535.title: "沉浸工程"
+	chapter.26D433730743E32D.title: "pow"
 	chapter.38CC25ACF2113F4E.title: "AE"
-	chapter.42604EE01DB41046.title: "发电"
+	chapter.42604EE01DB41046.title: "电力"
 	chapter.427200AEE32C13E9.title: "神秘农业"
+	chapter.5181E0C0A9E3F80A.title: "龙之研究"
 	chapter.53626F8368F4177F.title: "神话"
 	chapter.6BAF3B045FC426FF.title: "机械动力"
 	chapter.6C002AC620B9741C.title: "高级AE"
@@ -35,6 +37,7 @@
 	quest.541E4393469FAC11.quest_desc: ["科技起源于锤子"]
 	quest.5997309D33B22401.quest_desc: ["你可以通过给魔灵全典重命名来保证束缚之书的NBT相同"]
 	quest.5AD1D84F1A40CF19.quest_desc: ["无中生有怎么能没有自动锤和自动筛呢"]
+	quest.5BE1F21E473B24AC.title: "偷天换日，去地狱摸个刷怪笼回来吧"
 	quest.60061317A2C3B716.quest_desc: [
 		"EAEP的实体加速器无法合成"
 		"吞噬万籁无法合成"

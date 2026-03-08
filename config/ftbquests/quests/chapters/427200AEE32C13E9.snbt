@@ -102,13 +102,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["19C276EEC1080223"]
 			id: "67D1A63C64CAEFBD"
 			tasks: [{
 				id: "79CEDB5E1C81A134"
 				item: { count: 1, id: "mysticalagriculture:soulium_seed_base" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -126,7 +127,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -151,6 +152,20 @@
 				}
 			]
 			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"19C276EEC1080223"
+				"3193000767291A2F"
+			]
+			id: "6FCB5941AABBBC5C"
+			tasks: [{
+				id: "1D57A020FD6465DF"
+				item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
+				type: "item"
+			}]
+			x: -5.5d
 			y: -1.0d
 		}
 	]

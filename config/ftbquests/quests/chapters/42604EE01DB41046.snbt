@@ -24,10 +24,14 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4A343D1321E97A4D"]
+			dependencies: [
+				"4A343D1321E97A4D"
+				"6ECA51D9E07FDA71"
+				"415FA96E4BF44353"
+			]
 			id: "29935427DB4FF88F"
 			tasks: [{
 				count: 36L
@@ -36,10 +40,10 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4A343D1321E97A4D"]
+			dependencies: ["29935427DB4FF88F"]
 			id: "5C1BCC42EDC47773"
 			tasks: [{
 				count: 36L
@@ -48,7 +52,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C1BCC42EDC47773"]
@@ -78,7 +82,7 @@
 				}
 			]
 			x: -8.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: false
@@ -142,7 +146,7 @@
 				}
 			]
 			x: -8.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -158,7 +162,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3C2DED6565238341"]
@@ -170,7 +174,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -186,7 +190,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3C2DED6565238341"]
@@ -198,7 +202,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3C2DED6565238341"]
@@ -210,7 +214,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["383FDC8612A0B026"]
@@ -247,7 +251,7 @@
 				}
 			]
 			x: -5.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["383FDC8612A0B026"]
@@ -278,7 +282,180 @@
 				}
 			]
 			x: -9.5d
-			y: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A343D1321E97A4D"]
+			id: "589E306C20B6FCDD"
+			tasks: [{
+				id: "5B48A8C94F3D9E39"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["589E306C20B6FCDD"]
+			id: "7F221DEC0AB1B065"
+			tasks: [
+				{
+					id: "329218F1B8B92C0D"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+				{
+					id: "2333DE3047917E1C"
+					item: { count: 1, id: "fluxnetworks:flux_controller" }
+					type: "item"
+				}
+				{
+					id: "4FBFAED7CE530AC1"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["589E306C20B6FCDD"]
+			id: "3C56E0B0387606BE"
+			tasks: [{
+				id: "450AEFEA769AD0A2"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C56E0B0387606BE"]
+			id: "280B6C826986156E"
+			tasks: [{
+				id: "2236570BADE05375"
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["280B6C826986156E"]
+			id: "300A2582C1B3905A"
+			tasks: [{
+				id: "4F7D5C7E528A3E26"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "0B8A6343DF2D3C10"
+			tasks: [{
+				id: "10EC966D0AE50C38"
+				item: { count: 1, id: "powah:energy_cell_starter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B8A6343DF2D3C10"]
+			id: "1193F4998A5695BA"
+			tasks: [{
+				id: "2480CD18FE0F16EF"
+				item: { count: 1, id: "powah:energy_cell_basic" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1193F4998A5695BA"]
+			id: "1E6A464E8E37AD0F"
+			tasks: [{
+				id: "7BBD2E73A71AB6C0"
+				item: { count: 1, id: "powah:energy_cell_hardened" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E6A464E8E37AD0F"]
+			id: "052C7ADCB0EA3854"
+			tasks: [{
+				id: "5164607F88B67085"
+				item: { count: 1, id: "powah:energy_cell_blazing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["052C7ADCB0EA3854"]
+			id: "1690C7ACBF31BB9C"
+			tasks: [{
+				id: "747CB89AD72F0CCA"
+				item: { count: 1, id: "powah:energy_cell_niotic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1690C7ACBF31BB9C"]
+			id: "4FE1495316A7CB09"
+			tasks: [{
+				id: "11173054D32A07F9"
+				item: { count: 1, id: "powah:energy_cell_spirited" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FE1495316A7CB09"]
+			id: "709B21A2FA195BFC"
+			tasks: [{
+				id: "638F65DF9010E3D5"
+				item: { count: 1, id: "powah:energy_cell_nitro" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F133A77ECD20971"]
+			id: "39DFC4C568AF990A"
+			tasks: [
+				{
+					count: 32L
+					id: "3EB10C6023F44E4B"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					id: "2E39BAE4B8D99704"
+					item: { count: 1, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+				{
+					id: "58BCEED8F2675C2F"
+					item: { count: 1, id: "mekanism:basic_induction_cell" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68C5BB0BD775A5BB"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.0d
 		}
 	]
 }

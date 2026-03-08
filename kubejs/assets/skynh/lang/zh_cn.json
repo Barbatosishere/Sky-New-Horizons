@@ -13,10 +13,11 @@
     "item.skynh.incomplete_compressed_iron":"压缩铁(半成品)",
     "item.skynh.incomplete_compressed_iron_block":"压缩铁块(半成品)",
     "item.skynh.incomplete_black_iron_ingot":"黑铁锭(半成品)",
-    "item.skynh.incomplete_black_quartz":"焦黑石英(半成品)"
-    "item.skynh.incomplete_rs_engineering":"红石工程块(半成品)"
-    "item.skynh.incomplete_light_engineering":"轻型工程块(半成品)"
-    "item.skynh.incomplete_heavy_engineering":"重型工程块(半成品)"
-    "item.skynh.incomplete_resonanz_engineering":"共振工程块(半成品)"
+    "item.skynh.incomplete_black_quartz":"焦黑石英(半成品)",
+    "item.skynh.incomplete_rs_engineering":"红石工程块(半成品)",
+    "item.skynh.incomplete_light_engineering":"轻型工程块(半成品)",
+    "item.skynh.incomplete_heavy_engineering":"重型工程块(半成品)",
+    "item.skynh.incomplete_resonanz_engineering":"共振工程块(半成品)",
+    "item.skynh.incomplete_rose_quartz":"玫瑰石英(半成品)"
 }
     

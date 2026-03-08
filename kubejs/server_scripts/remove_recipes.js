@@ -197,6 +197,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
     // 移除 共震工程块 配方
     event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
+    // 移除 玫瑰石英 配方
+    event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 无用 配方
     event.remove({ id: 'ironfurnaces:upgrade_allthemodium' });
   

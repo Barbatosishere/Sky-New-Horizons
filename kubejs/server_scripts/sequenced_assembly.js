@@ -426,4 +426,16 @@ create.sequenced_assembly(
 )
 .transitionalItem(incomplete_resonanz)
 .loops(4);
+
+// 玫瑰石英：石英+红石（循环8次）
+const incomplete_rose_quartz = 'skynh:incomplete_rose_quartz';
+create.sequenced_assembly(
+    ['create:rose_quartz'],
+    'minecraft:quartz', 
+     [
+        create.deploying(incomplete_rose_quartz, [incomplete_rose_quartz, 'minecraft:redstone'])
+    ]
+)
+.transitionalItem(incomplete_rose_quartz)
+.loops(8);
 }); 
