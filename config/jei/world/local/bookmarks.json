@@ -1,7 +1,6 @@
 [
   {"version":2},
-  {"ingredient":{"id":"mekanism:configurator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:spout"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:encased_chain_drive"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"functionalstorage:linking_tool","components":{"functionalstorage:action_mode":"add","functionalstorage:controller_position":[8,65,9],"functionalstorage:linking_mode":"single"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exmachinis:flux_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exmachinis:flux_sieve"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
