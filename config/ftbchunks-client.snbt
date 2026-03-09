@@ -138,36 +138,36 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:enderman": true
 			"ars_nouveau:starbuncle": true
-			"minecraft:wither": true
-			"minecraft:zombified_piglin": true
-			"minecraft:hoglin": true
-			"touhou_little_maid:fairy": true
-			"minecraft:creeper": true
-			"minecraft:skeleton_horse": true
-			"minecraft:blaze": true
-			"minecraft:sheep": true
-			"minecraft:piglin": true
-			"minecraft:chicken": true
 			"minecraft:pig": true
+			"minecraft:skeleton": true
+			"minecraft:wither": true
+			"minecraft:sheep": true
+			"minecraft:zombie_villager": true
+			"minecraft:piglin": true
+			"minecraft:wolf": true
+			"ars_nouveau:whirlisprig": true
+			"ars_nouveau:drygmy": true
+			"minecraft:wither_skeleton": true
+			"minecraft:enderman": true
 			"minecraft:phantom": true
 			"minecraft:spider": true
+			"minecraft:witch": true
+			"minecraft:skeleton_horse": true
+			"minecraft:zombie": true
+			"minecraft:zombified_piglin": true
+			"minecraft:blaze": true
+			"minecraft:magma_cube": true
 			"minecraft:cow": true
 			"minecraft:ender_dragon": true
 			"minecraft:wandering_trader": true
-			"minecraft:skeleton": true
-			"ars_nouveau:drygmy": true
-			"minecraft:magma_cube": true
-			"minecraft:wolf": true
-			"minecraft:trader_llama": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:zombie": true
-			"ars_nouveau:gift_starby": true
-			"minecraft:zombie_villager": true
-			"minecraft:wither_skeleton": true
-			"minecraft:witch": true
 			"touhou_little_maid:maid": true
+			"ars_nouveau:gift_starby": true
+			"minecraft:hoglin": true
+			"minecraft:trader_llama": true
+			"touhou_little_maid:fairy": true
+			"minecraft:chicken": true
+			"minecraft:creeper": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

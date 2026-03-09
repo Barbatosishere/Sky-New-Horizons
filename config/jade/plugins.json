@@ -72,6 +72,9 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "maid_storage_manager": {
+    "virtual_frame": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -151,6 +154,10 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "appliedcreate": {
+    "grid_node_state": true,
+    "power_storage": true
   },
   "jade_access": {
     "held_item": true,
