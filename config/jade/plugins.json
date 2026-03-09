@@ -146,6 +146,9 @@
     "maid": true,
     "shrine_lamp": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   },

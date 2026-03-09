@@ -460,5 +460,16 @@
 			x: -3.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["3F419883174057CB"]
+			id: "30B6401AEEB89535"
+			tasks: [{
+				id: "36A9FE41C8DFA085"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
 	]
 }

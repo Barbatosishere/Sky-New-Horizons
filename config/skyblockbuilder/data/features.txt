@@ -302,6 +302,12 @@ quark:lavender_blossom
 quark:orange_blossom
 quark:red_blossom
 quark:yellow_blossom
+waystones:blackstone_waystone
+waystones:deepslate_waystone
+waystones:end_stone_waystone
+waystones:mossy_waystone
+waystones:sandy_waystone
+waystones:waystone
 xycraft_world:ore_aluminum
 xycraft_world:ore_kivi
 xycraft_world:ore_xy_blue
