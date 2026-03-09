@@ -428,5 +428,37 @@
 			x: -11.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["7EC54502A704DBD8"]
+			id: "4037993E4CD21017"
+			tasks: [{
+				id: "560277948CFFE526"
+				item: { count: 1, id: "exmachinis:diamond_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "7EC54502A704DBD8"
+			tasks: [{
+				id: "5F8F2C9F839F5D51"
+				item: { count: 1, id: "exmachinis:gold_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4037993E4CD21017"]
+			id: "797D57189F8AC8A5"
+			tasks: [{
+				id: "21CBDDDAC7782152"
+				item: { count: 1, id: "exmachinis:netherite_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
 	]
 }

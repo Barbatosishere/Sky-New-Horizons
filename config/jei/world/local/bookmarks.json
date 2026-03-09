@@ -2,5 +2,7 @@
   {"version":2},
   {"ingredient":{"id":"functionalstorage:linking_tool","components":{"functionalstorage:action_mode":"add","functionalstorage:controller_position":[8,65,9],"functionalstorage:linking_mode":"single"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"exmachinis:flux_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"exmachinis:flux_sieve"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"exmachinis:flux_sieve"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"functionalstorage:gold_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherite_helmet","components":{"apotheosis:from_mob":true,"apotheosis:rarity":"apotheosis:mythic","apotheosis:durability_bonus":0.6326529,"apotheosis:sockets":3,"apotheosis:affix_name":{"translate":"misc.apotheosis.affix_name.three","with":[{"translate":"affix.apotheosis:armor/mob_effect/blinding"},"",{"translate":"affix.apotheosis:armor/dmg_reduction/runed.suffix"}],"italic":false,"color":"#ED7014"},"apotheosis:affixes":{"apotheosis:generic/attribute/lucky":0.9730955,"apotheosis:armor/dmg_reduction/grounded":0.8082704,"apotheosis:armor/attribute/fireproof":0.96862686,"apotheosis:armor/attribute/blessed":0.23424101,"apotheosis:armor/dmg_reduction/runed":0.7925382,"apotheosis:armor/mob_effect/blinding":0.048981607,"apotheosis:armor/attribute/stalwart":0.7679016}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
