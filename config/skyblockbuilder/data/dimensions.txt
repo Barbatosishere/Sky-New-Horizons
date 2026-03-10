@@ -1,7 +1,7 @@
 minecraft:overworld
-jamd:mining
-minecraft:the_end
 jamd:nether
 minecraft:the_nether
+jamd:mining
 jamd:end
+minecraft:the_end
 ae2:spatial_storage

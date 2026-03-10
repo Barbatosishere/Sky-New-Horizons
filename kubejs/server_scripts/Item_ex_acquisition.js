@@ -57,8 +57,8 @@ ServerEvents.recipes(event => {
     });
 
     // ========== 磊岩（使用末地石） ==========
-    const kivResultId = 'xycraft_world:kivi';   // 你提供的正确ID
-    const kivIngredient = 'exdeorum:crushed_end_stone';
+    const kivResultId = 'xycraft_world:kivi';
+    const kivIngredient = 'minecraft:end_stone';
 
     // 铁筛网 5%
     event.custom({
@@ -111,59 +111,18 @@ ServerEvents.recipes(event => {
             p: 0.15
         }
     });
-    // ========== 离魂粉（使用粉碎下界岩） ==========
-    const souliumDustResult = 'mysticalagriculture:soulium_dust';
-    const netherrackIngredient = 'exdeorum:crushed_netherrack';
-    
-    // 铁筛网 5%
+
+    // ========== 门瑞欧树苗（使用泥土） ==========
+    // 线筛网 5% 获得门瑞欧树苗
     event.custom({
         type: 'exdeorum:sieve',
-        ingredient: { item: netherrackIngredient },
-        mesh: { item: 'exdeorum:iron_mesh' },
-        result: { id: souliumDustResult },
+        ingredient: { item: 'minecraft:dirt' },
+        mesh: { item: 'exdeorum:string_mesh' },   // 线筛网
+        result: { id: 'integrateddynamics:menril_sapling' },
         result_amount: {
             type: 'minecraft:binomial',
             n: 1.0,
             p: 0.05
         }
     });
-    
-    // 金筛网 8%
-    event.custom({
-        type: 'exdeorum:sieve',
-        ingredient: { item: netherrackIngredient },
-        mesh: { item: 'exdeorum:golden_mesh' },
-        result: { id: souliumDustResult },
-        result_amount: {
-            type: 'minecraft:binomial',
-             n: 1.0,
-             p: 0.08
-            }
-        });
-        
-        // 钻石筛网 10%
-        event.custom({
-            type: 'exdeorum:sieve',
-            ingredient: { item: netherrackIngredient },
-            mesh: { item: 'exdeorum:diamond_mesh' },
-            result: { id: souliumDustResult },
-            result_amount: {
-                type: 'minecraft:binomial',
-                n: 1.0,
-                p: 0.10
-            }
-        });
-        
-        // 下界合金筛网 15%
-        event.custom({
-            type: 'exdeorum:sieve',
-            ingredient: { item: netherrackIngredient },
-            mesh: { item: 'exdeorum:netherite_mesh' },
-            result: { id: souliumDustResult },
-            result_amount: {
-                type: 'minecraft:binomial',
-                n: 1.0,
-                p: 0.15
-            }
-        });
-    });
+});

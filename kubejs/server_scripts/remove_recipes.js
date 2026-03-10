@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
     // 移除 玫瑰石英 配方
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 无用 配方
-    event.remove({ id: 'ironfurnaces:upgrade_allthemodium' });
+    event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
@@ -369,7 +369,7 @@ event.shaped('extendedcrafting:basic_component', [
     E: 'create:whisk',   
     B: 'pneumaticcraft:compressed_iron_block',
     A: 'create:propeller',
-    C: 'avaritia:double_compressed_crafting_table'           
+    C: 'extendedcrafting:black_iron_slate'           
 });
 // 高级合成组件
 event.shaped('extendedcrafting:advanced_component', [
