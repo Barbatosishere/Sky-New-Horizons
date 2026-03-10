@@ -141,7 +141,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["304475AF71D88F91"]
+			dependencies: ["75DDA0BBB3208170"]
 			id: "1F39CC76D9E74823"
 			tasks: [{
 				id: "439E1C1704F0A1B1"
@@ -152,7 +152,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["304475AF71D88F91"]
+			dependencies: ["1F39CC76D9E74823"]
 			id: "2E1D8940957769C3"
 			tasks: [{
 				id: "1BD37F5262235B6F"
@@ -163,7 +163,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["304475AF71D88F91"]
+			dependencies: ["2E1D8940957769C3"]
 			id: "108A11A538F88F8A"
 			tasks: [{
 				id: "24A73E25766528F9"
@@ -330,14 +330,14 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["12C65130332FBF15"]
+			dependencies: ["7D3BC72A047A43F1"]
 			id: "399A6070A4ABE46D"
 			tasks: [{
 				id: "136345FBEBC87CF0"
 				item: { count: 1, id: "extendedae_plus:channel_card" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -5.5d
 		}
 		{

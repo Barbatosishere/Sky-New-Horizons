@@ -1,7 +1,9 @@
 [
   {"version":2},
   {"ingredient":{"id":"create:fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pipez:basic_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:brass_funnel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"functionalstorage:simple_compacting_drawer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"advanced_ae:reaction_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:wireless_crafting_terminal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:quantum_ring"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:blank_pattern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

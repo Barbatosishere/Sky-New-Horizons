@@ -247,6 +247,11 @@ key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.tour_guide.check_step:key.keyboard.enter
+key_key.tour_guide.skip:key.keyboard.keypad.subtract
+key_key.tour_guide.quit:key.keyboard.end
+key_key.tour_guide.start:key.keyboard.t
+key_key.tour_guide.switch:key.keyboard.tab
 key_key.hostilenetworks.open_deep_learner:key.keyboard.u
 key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown
 key_key.touhou_little_maid.stt_chat.desc:key.keyboard.x
@@ -269,6 +274,9 @@ key_key.kubejs.kubedex:key.keyboard.k
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
+key_key.maid_storage_manager.request_ingredient:key.keyboard.left.alt
+key_key.maid_storage_manager.see_through_mark_box:key.keyboard.left.alt
+key_key.maid_storage_manager.roll_special_mode:key.keyboard.left.alt
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.guideme.guide:key.keyboard.g
 key_key.xycraft_core.modifier_key:key.keyboard.left.control
