@@ -355,6 +355,15 @@ event.shaped('appliedcreate:brass_pattern_provider', [
     B: 'extendedae:ex_pattern_provider',
     A: 'create:brass_ingot'
 });
+   //离魂原石
+event.shaped('mysticalagriculture:soulstone_cobble', [
+    'AB ',
+    '   ',
+    '   '
+], {
+    B: 'mysticalagriculture:soulium_dust',
+    A: 'minecraft:cobblestone'
+});
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
     'DAD',

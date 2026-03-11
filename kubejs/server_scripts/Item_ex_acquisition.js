@@ -117,12 +117,68 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: 'minecraft:dirt' },
-        mesh: { item: 'exdeorum:string_mesh' },   // 线筛网
+        mesh: { item: 'exdeorum:string_mesh' },
         result: { id: 'integrateddynamics:menril_sapling' },
         result_amount: {
             type: 'minecraft:binomial',
             n: 1.0,
             p: 0.05
+        }
+    });
+
+    // ========== 高魂粉（使用粉碎下界岩） ==========
+    const souliumDustId = 'mysticalagriculture:soulium_dust';
+    const crushedNetherrack = 'exdeorum:crushed_netherrack';
+
+    // 铁筛网 5%
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: crushedNetherrack },
+        mesh: { item: 'exdeorum:iron_mesh' },
+        result: { id: souliumDustId },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.05
+        }
+    });
+
+    // 金筛网 8%
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: crushedNetherrack },
+        mesh: { item: 'exdeorum:golden_mesh' },
+        result: { id: souliumDustId },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.08
+        }
+    });
+
+    // 钻石筛网 10%
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: crushedNetherrack },
+        mesh: { item: 'exdeorum:diamond_mesh' },
+        result: { id: souliumDustId },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.10
+        }
+    });
+
+    // 下界合金筛网 15%
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: crushedNetherrack },
+        mesh: { item: 'exdeorum:netherite_mesh' },
+        result: { id: souliumDustId },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.15
         }
     });
 });
