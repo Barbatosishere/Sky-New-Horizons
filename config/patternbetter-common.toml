@@ -1,9 +1,0 @@
-#the number of slot
-# Default: 36
-# Range: > 0
-slotvalue = 36
-pagebutton = true
-jumpbox = true
-patternsinto = true
-editmode = true
-balancemode = true
