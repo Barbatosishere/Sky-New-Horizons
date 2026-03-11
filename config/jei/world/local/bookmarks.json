@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"powah:energizing_rod_nitro"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:energy_cell_niotic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:reactor_spirited"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"mekanism:antimatter","type":"mekanism.api.chemical.ChemicalStack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,4 @@
+// Compost colors for teleportcakes. You may add your own colors, change existing ones, or remove colors that aren't needed.
+end_cake, #d3e7b8
+nether_cake, #caa596
+overworld_cake, #9bb46b

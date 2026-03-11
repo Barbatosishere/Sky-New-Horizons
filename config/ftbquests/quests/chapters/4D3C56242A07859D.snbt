@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D3C56242A07859D"
+	group: "1AC48EC46342DE27"
+	id: "4D3C56242A07859D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "003B48A4848F382C"
+			tasks: [
+				{
+					id: "6CC4D64F87F53421"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "1464100E60AC8781"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["003B48A4848F382C"]
+			id: "73364B56D2705ACC"
+			tasks: [{
+				id: "19541F9C97DB363A"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "38521A248FAE29D4"
+			tasks: [{
+				id: "7E9BE3039795FF21"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}
