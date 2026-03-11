@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
     // 移除富集强化黑曜石的氧化和灌注转化配方
     event.remove({ id: 'mekanism:chemical_conversion/refined_obsidian/from_enriched' });
     event.remove({ id: 'mekanism:oxidizing/refined_obsidian/from_enriched' });
+    // 移除反物质球相关配方
+    event.remove({ id: 'mekanism:processing/lategame/antimatter_pellet/from_gas' });
+    event.remove({ id: 'mekanism:processing/lategame/antimatter/from_pellet' });
 
     // 冶金灌注机配方：粉碎黑曜石 + 钻石 → 强化黑曜石粉
     event.recipes.mekanism.metallurgic_infusing({
@@ -34,10 +37,16 @@ ServerEvents.recipes(event => {
         chemical_input: { chemical: 'mekanism:diamond', amount: 30 }
     });
 
-
     // 化学氧化机配方：钻石水晶 → 钻石气体
     event.recipes.mekanism.oxidizing({
         input: { item: 'actuallyadditions:diamatine_crystal' },
         output: { id: 'mekanism:diamond', amount: 10 }
     });
-});
+
+    // 新配方：气体 → 球（化学结晶器）
+    event.custom({
+        type: 'mekanism:crystallizing',
+        input: { chemical: 'mekanism:antimatter', amount: 100 },
+        output: { id: 'mekanism:pellet_antimatter' }
+    });
+}); 

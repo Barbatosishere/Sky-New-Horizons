@@ -362,7 +362,7 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     '   '
 ], {
     B: 'mysticalagriculture:soulium_dust',
-    A: 'minecraft:cobblestone'
+    A: 'minecraft:cobblestone   '
 });
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
@@ -578,4 +578,18 @@ event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
+// 回响碎片合成幽匿块（使用幽匿工作台）
+event.custom({
+    type: 'avaritia:shaped_table',
+    pattern: [
+        "AAA",
+        "AAA",
+        "AAA",
+    ],
+    key: {
+        A: { item: 'minecraft:echo_shard' }
+    },
+    result: { id: 'minecraft:sculk' },
+    tier: 1
+});
 });
