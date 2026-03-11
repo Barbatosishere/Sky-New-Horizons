@@ -1,0 +1,40 @@
+ServerEvents.recipes(event => {
+  event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'draconicevolution:large_chaos_frag', count: 6 },
+      { item: 'mysticalagradditions:insanium_essence', count: 1 },
+      { item: 'ae2:singularity', count: 1 },
+      { item: 'industrialforegoing:infinity_nuke', count: 1 }
+    ],
+    pressure: 10.0,
+    results: [
+      { id: 'draconicevolution:chaos_shard', count: 1 }
+    ]
+  })
+
+   event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'draconicevolution:medium_chaos_frag', count: 6 },
+      { item: 'mysticalagradditions:insanium_essence', count: 1 },
+      { item: 'ae2:singularity', count: 1 },
+      { item: 'industrialforegoing:infinity_nuke', count: 1 }
+    ],
+    pressure: 10.0,
+    results: [
+      { id: 'draconicevolution:large_chaos_frag', count: 1 }
+    ]
+  })
+
+   event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'draconicevolution:small_chaos_frag', count: 6 },
+      { item: 'mysticalagradditions:insanium_essence', count: 1 },
+      { item: 'ae2:singularity', count: 1 },
+      { item: 'industrialforegoing:infinity_nuke', count: 1 }
+    ],
+    pressure: 10.0,
+    results: [
+      { id: 'draconicevolution:medium_chaos_frag', count: 1 }
+    ]
+  })
+})
