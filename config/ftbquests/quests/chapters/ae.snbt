@@ -414,5 +414,24 @@
 			x: -4.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["0FFE8882F4761548"]
+			id: "7F4501CBD454D5E7"
+			tasks: [
+				{
+					id: "2F0F247CA93792B9"
+					item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "349FCB88DCF68EB4"
+					item: { count: 1, id: "ae2:quantum_entangled_singularity" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
 	]
 }

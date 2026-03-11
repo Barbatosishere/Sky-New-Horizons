@@ -337,6 +337,24 @@ event.shaped('extendedae:infinity_water_cell', [
     B: 'minecraft:water_bucket',
     A: 'ae2:cell_component_256k'
 });
+   // 安山样板供应器
+event.shaped('appliedcreate:andesite_pattern_provider', [
+    'AB ',
+    '   ',
+    '   '
+], {
+    B: 'ae2:pattern_provider',
+    A: 'create:andesite_alloy'
+});
+   // 黄铜样板供应器
+event.shaped('appliedcreate:brass_pattern_provider', [
+    'AB ',
+    '   ',
+    '   '
+], {
+    B: 'extendedae:ex_pattern_provider',
+    A: 'create:brass_ingot'
+});
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
     'DAD',
