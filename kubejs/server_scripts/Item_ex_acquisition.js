@@ -181,4 +181,16 @@ ServerEvents.recipes(event => {
             p: 0.15
         }
     });
+    // ========== 幽匿感测体（使用粉碎末地石） ==========
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: 'exdeorum:crushed_end_stone' },
+        mesh: { item: 'exdeorum:netherite_mesh' },
+        result: { id: 'minecraft:sculk_sensor' },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.03
+        }
+    });
 });
