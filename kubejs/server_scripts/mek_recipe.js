@@ -15,6 +15,9 @@ ServerEvents.recipes(event => {
     // 移除反物质球相关配方
     event.remove({ id: 'mekanism:processing/lategame/antimatter_pellet/from_gas' });
     event.remove({ id: 'mekanism:processing/lategame/antimatter/from_pellet' });
+     // 移除原钚球配方
+    event.remove({ output: 'mekanism:pellet_plutonium' });
+
 
     // 冶金灌注机配方：粉碎黑曜石 + 钻石 → 强化黑曜石粉
     event.recipes.mekanism.metallurgic_infusing({
@@ -48,5 +51,15 @@ ServerEvents.recipes(event => {
         type: 'mekanism:crystallizing',
         input: { chemical: 'mekanism:antimatter', amount: 100 },
         output: { id: 'mekanism:pellet_antimatter' }
+    });
+    // 添加新配方：1000 mB 水 + 100 mB 钚 → 1 钚球 + 1000 mB 核废料
+    event.recipes.mekanism.reaction({
+        fluid_input: { amount: 1000, fluid: 'minecraft:water' },
+        chemical_input: { amount: 100, chemical: 'mekanism:plutonium' },
+        item_input: { item: 'mekanism:dust_fluorite' },
+        item_output: { id: 'mekanism:pellet_plutonium' },
+        chemical_output: { id: 'mekanism:spent_nuclear_waste', amount: 1000 },
+        duration: 200,
+        energy_required: 100000
     });
 }); 
