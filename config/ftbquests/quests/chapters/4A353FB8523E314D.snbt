@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4A353FB8523E314D"
+	group: "000258239E4546A8"
+	id: "4A353FB8523E314D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69B8CB7BA89738A2"]
+			id: "34C660F98CEBDB97"
+			tasks: [{
+				id: "10AEB85EFE0B3B1F"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "69B8CB7BA89738A2"
+			tasks: [{
+				id: "33BA3C039252D399"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34C660F98CEBDB97"]
+			id: "36B54C1A8476B53B"
+			tasks: [{
+				id: "01E8036E774B1B99"
+				item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+	]
+}

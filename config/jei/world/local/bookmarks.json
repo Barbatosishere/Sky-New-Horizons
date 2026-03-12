@@ -1,0 +1,16 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"appflux:flux_accessor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:basic_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:basic_universal_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:advanced_universal_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_energy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_speed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:elite_universal_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:elite_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:elite_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:elite_component"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:storage_electrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:ingot_electrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagriculture:electrum_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

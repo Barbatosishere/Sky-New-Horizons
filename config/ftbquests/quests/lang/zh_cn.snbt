@@ -1,0 +1,64 @@
+{
+	chapter.005A69F6C4849590.title: "工业先锋"
+	chapter.10B223B63CD7238B.title: "管道"
+	chapter.17CC7D5FE3221067.title: "MEK"
+	chapter.25F3933907A5B535.title: "沉浸工程"
+	chapter.26D433730743E32D.title: "pow"
+	chapter.38CC25ACF2113F4E.title: "AE"
+	chapter.42604EE01DB41046.title: "电力"
+	chapter.427200AEE32C13E9.title: "神秘农业"
+	chapter.4A353FB8523E314D.title: "实用拓展"
+	chapter.4D3C56242A07859D.title: "新生魔艺"
+	chapter.5181E0C0A9E3F80A.title: "龙之研究"
+	chapter.53626F8368F4177F.title: "神话"
+	chapter.53ECF85CF8E4BC12.title: "气动工艺"
+	chapter.6BAF3B045FC426FF.title: "机械动力"
+	chapter.6C002AC620B9741C.title: "高级AE"
+	chapter.6F4F46D545235F56.title: "存储"
+	chapter.7495A9F64D62EFFD.title: "开始"
+	chapter.7CF0048144F2E450.title: "提示"
+	chapter_group.000258239E4546A8.title: "电力初期"
+	chapter_group.00687B1484DEC638.title: "分支"
+	chapter_group.1AC48EC46342DE27.title: "机械时代"
+	chapter_group.20FF5607464679D6.title: "电力中期"
+	chapter_group.47195CDC51A7AF94.title: "电力后期"
+	chapter_group.6E5CC43D1068B7FA.title: "原始时代"
+	quest.132F8C9AE956C2B3.title: "筛网"
+	quest.17FFFCE4D4A6FDFE.quest_desc: [
+		"横向流体储罐无法合成"
+		"不要想着无烈焰蛋糕还能获得满级锅炉了"
+	]
+	quest.1DAE0AF54DB41D0A.quest_desc: ["移除了几乎所有单方块发电机"]
+	quest.1DCB5D53228EB9D4.quest_desc: ["在机械动力序列装配的界面中,如果右下角有1/x的标志,则代表你可以使用滚轮进行翻页"]
+	quest.21EF3E4919BD509C.quest_subtitle: "应该不会有人这么倒霉吧,不会吧不会吧(偷笑ing)"
+	quest.21EF3E4919BD509C.title: "免费树苗"
+	quest.23F71D49F30BCCCB.quest_desc: [""]
+	quest.23F71D49F30BCCCB.quest_subtitle: "欢迎来到XXX"
+	quest.2DB8BBA73384AEC8.quest_desc: ["抽屉模组标志建筑:抽屉墙"]
+	quest.32104B6A986596BE.title: "免费的女仆，记得用心培养哦"
+	quest.4670E1B423528CF0.quest_desc: [
+		"以右键的筛子为中心的5*5的所有筛子可以一起联动筛矿"
+		"压缩筛子无法联动筛矿"
+	]
+	quest.46AD21F325EF59BF.quest_desc: ["空燃烧室可以通过右键烈焰人或烈焰人刷怪笼来获得燃烧室"]
+	quest.541E4393469FAC11.quest_desc: ["科技起源于锤子"]
+	quest.5997309D33B22401.quest_desc: ["你可以通过给魔灵全典重命名来保证束缚之书的NBT相同"]
+	quest.5AD1D84F1A40CF19.quest_desc: ["无中生有怎么能没有自动锤和自动筛呢"]
+	quest.5BE1F21E473B24AC.title: "偷天换日，去地狱摸个刷怪笼回来吧"
+	quest.60061317A2C3B716.quest_desc: [
+		"EAEP的实体加速器无法合成"
+		"吞噬万籁无法合成"
+	]
+	quest.6F2AD98706485DBB.quest_desc: ["所有使用基础框架的发电机无法合成"]
+	quest.6F866C802BAABD06.quest_desc: ["除反应堆外的发电机全部无法合成"]
+	task.062729D6EFF120F9.title: "JEI相关"
+	task.088368C7282EC90F.title: "无中生有相关"
+	task.1590F55B33633BDF.title: "MEK相关"
+	task.160A26AD432001BC.title: "应力源"
+	task.4B950DA7A78C757B.title: "Powah相关"
+	task.4E9A8B4488604417.title: "神秘学相关"
+	task.537990D147E467DC.title: "一些提示"
+	task.5B518137CF8C5FD5.title: "一切的开始"
+	task.6D08F8C7DACF6B01.title: "工业先锋相关"
+	task.6EC0A3CBD4A13609.title: "EAEP相关"
+}

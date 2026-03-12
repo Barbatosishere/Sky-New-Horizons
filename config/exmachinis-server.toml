@@ -1,0 +1,48 @@
+#General balance configs
+#The default calculations for each upgrade are calculated as follows:
+#(ticks per operation * RF per block) * blocks processed = RF per operation
+#RF per operation / ticks per operation = RF per tick
+[general]
+	#Ticks per operation for the gold upgrade.
+	# Default: 160
+	# Range: 10 ~ 1200
+	goldTicksPerOperation = 160
+	#Energy per block for the gold upgrade.
+	#(160 * 1280) * 8 = 1,280RF/operation, 8RF/t
+	# Default: 1280
+	# Range: 0 ~ 128000
+	goldEnergyPerOperation = 1280
+	#Ticks per operation for the diamond upgrade.
+	# Default: 80
+	# Range: 10 ~ 1200
+	diamondTicksPerOperation = 80
+	#Energy per block for the diamond upgrade.
+	#(80 * 2560) * 64 = 163,840RF/operation, 2,048RF/t
+	# Default: 2560
+	# Range: 0 ~ 256000
+	diamondEnergyPerOperation = 2560
+	#Ticks per operation for the netherite upgrade.
+	# Default: 20
+	# Range: 10 ~ 1200
+	netheriteTicksPerOperation = 20
+	#Energy per block for the netherite upgrade.
+	#(20 * 2560) * 64 = 163,840RF/operation, 8,192RF/t
+	# Default: 2560
+	# Range: 0 ~ 256000
+	netheriteEnergyPerOperation = 2560
+	#Max energy buffer size for machines.
+	# Default: 200000
+	# Range: 20000 ~ 20000000
+	energyBufferSize = 200000
+	#Max energy transfer per tick for machines.
+	# Default: 10000
+	# Range: 1000 ~ 1000000
+	maxEnergyPerTick = 10000
+
+[sieve]
+	#Whether fortune is applied from an enchanted mesh.
+	sieveFortuneEnabled = true
+	#Whether sieve rolls are processed in bulk for better performance.
+	#Bulk processing will roll once per slot and multiply the output,
+	#while single processing will roll for each input.
+	sieveBulkProcessing = true
