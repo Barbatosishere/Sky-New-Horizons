@@ -1,0 +1,12 @@
+ {
+    "fluid.kubejs.liquid_gold": "液态金",
+    "fluid.kubejs.liquid_redstone": "液态红石",
+    "fluid.kubejs.liquid_diamond": "液态钻石",
+    "fluid.kubejs.liquid_refined_obsidian": "液态强化黑曜石",
+    "fluid.kubejs.antimatter": "反物质",
+    "item.kubejs.liquid_gold_bucket": "液态金桶",
+    "item.kubejs.liquid_redstone_bucket": "液态红石桶",
+    "item.kubejs.liquid_diamond_bucket": "液态钻石桶",
+    "item.kubejs.liquid_refined_obsidian_bucket": "液态强化黑曜石桶",
+    "item.kubejs.antimatter_bucket": "反物质桶"
+    }
