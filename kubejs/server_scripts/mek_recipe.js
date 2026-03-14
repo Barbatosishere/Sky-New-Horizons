@@ -47,6 +47,10 @@ ServerEvents.recipes(event => {
         input: { item: 'actuallyadditions:diamatine_crystal' },
         output: { id: 'mekanism:diamond', amount: 10 }
     });
+    event.recipes.mekanism.oxidizing({
+        input: { item: 'actuallyadditions:diamatine_crystal_block' },
+        output: { id: 'mekanism:diamond', amount: 90 }
+    });
 
     // 新配方：气体 → 球（化学结晶器）
     event.custom({
@@ -74,4 +78,15 @@ ServerEvents.recipes(event => {
         duration: 200,
         energy_required: 100000
     });
-});
+     // 添加新配方：1 龙蛋 → 16龙尘
+     event.custom({
+        "type": "mekanism:crushing",
+        "input": {
+            "item": "minecraft:dragon_egg"
+        },
+        "output": {
+            "id": "draconicevolution:draconium_dust",
+            "count": 16
+        }
+    });
+    });
