@@ -199,6 +199,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
     // 移除 玫瑰石英 配方
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
+    // 移除 鱼大 配方
+    event.remove({ id: 'extendedae:fishbig' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
@@ -362,7 +364,7 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     '   '
 ], {
     B: 'mysticalagriculture:soulium_dust',
-    A: 'minecraft:cobblestone   '
+    A: 'minecraft:cobblestone'
 });
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
@@ -492,6 +494,22 @@ event.shaped('mekanism:cardboard_box', [
 ], {
     A: 'minecraft:paper'
     });  
+    // 鱼大
+event.shaped('extendedae:fishbig', [
+    'ABC',
+    'DEF',
+    'GHI'
+], {
+    A: 'pneumaticcraft:creative_compressed_iron_block',
+    B: 'draconicevolution:creative_capacitor',  
+    C: 'pneumaticcraft:creative_compressor',
+    D: 'mekanism:creative_chemical_tank',
+    E: 'mekanism:creative_bin',
+    F: 'mekanism:creative_fluid_tank',
+    G: 'enderio:creative_power',
+    H: 'ae2:creative_energy_cell',
+    I: 'draconicevolution:creative_op_capacitor'            
+});
 // 添加幽匿工作台配方（Extended Crafting 高级工作台 5x5 合成）
 event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
     'AAAAA',
@@ -530,7 +548,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
     W: 'create:propeller'
     
 });
-// 添加高级控制电路 配方（Extended Crafting 高级工作台 5x5 合成）
+// 添加高级控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit', [
     'CCCCC',
     'CDDDC',
@@ -543,37 +561,28 @@ event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 添加精英控制电路 配方（Extended Crafting 高级工作台 7x7 合成）
+// 添加精英控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
-    'BBBBBBB',
-    'BCCCCCB',
-    'BCDDDCB',
-    'BCDEDCB',
-    'BCDDDCB',
-    'BCCCCCB',
-    'BBBBBBB'
+     'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
 ], {
-    B: 'mekanism:alloy_reinforced',
-    C: 'mekanism:alloy_infused',
+    C: 'mekanism:alloy_reinforced',
     D: 'mekanism:advanced_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 添加终极控制电路 配方（Extended Crafting 终极工作台 9x9 合成）
+// 添加终极控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit', [
-    'AAAAAAAAA',
-    'ABBBBBBBA',
-    'ABCCCCCBA',
-    'ABCDDDCBA',
-    'ABCDEDCBA',
-    'ABCDDDCBA',
-    'ABCCCCCBA',
-    'ABBBBBBBA',
-    'AAAAAAAAA'
-], {
-    A: 'mekanism:alloy_atomic',
-    B: 'mekanism:alloy_reinforced',
-    C: 'mekanism:alloy_infused',
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism:alloy_atomic',
     D: 'mekanism:elite_control_circuit',    
     E: 'minecraft:redstone_block'
 });
