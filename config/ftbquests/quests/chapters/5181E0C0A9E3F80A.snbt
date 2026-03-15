@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5181E0C0A9E3F80A"
+	group: "00687B1484DEC638"
+	id: "5181E0C0A9E3F80A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49F7DCAED963C3B5"
+			tasks: [{
+				id: "185F9508F57EFECC"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49F7DCAED963C3B5"]
+			id: "03993324E7FB1D0E"
+			tasks: [{
+				id: "1895511655DC49F3"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03993324E7FB1D0E"]
+			id: "5A8085E6652CA7C9"
+			tasks: [
+				{
+					count: 8L
+					id: "0B4E40FBE66ADF44"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+				{
+					id: "0040656C6FE26E5F"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03993324E7FB1D0E"]
+			id: "0BCA6F58096A4AD0"
+			tasks: [{
+				id: "24E0F9263185FCFD"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A8085E6652CA7C9"]
+			id: "66BB6967DD8F3D2E"
+			tasks: [{
+				count: 8L
+				id: "29F70A58925CCB79"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66BB6967DD8F3D2E"]
+			id: "39754EBA460BE8FD"
+			tasks: [{
+				count: 8L
+				id: "1B8471B52CE37F9B"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39754EBA460BE8FD"]
+			icon: {
+				id: "draconicevolution:chaotic_crafting_injector"
+			}
+			id: "3144681F4314DEAC"
+			tasks: [{
+				count: 8L
+				id: "771D4BE8DA60ACB4"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C24301F41F54D82"]
+			id: "4C0DE74B3DB66744"
+			tasks: [{
+				id: "23352ABE35515764"
+				item: { count: 1, id: "draconicevolution:draconic_energy_core" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03993324E7FB1D0E"]
+			id: "2C24301F41F54D82"
+			tasks: [{
+				id: "266A87AB94E6C751"
+				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C0DE74B3DB66744"]
+			id: "77B606E5BF808F33"
+			tasks: [{
+				id: "4A759BCA58B103FE"
+				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C24301F41F54D82"]
+			id: "6F772A0AA00132CB"
+			tasks: [{
+				id: "0D7D5F944C31B847"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 27447024, 372394407, -1188302841, 1395478257 ] }, count: 1, id: "draconicevolution:wyvern_chestpiece" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6F772A0AA00132CB"
+				"4C0DE74B3DB66744"
+			]
+			id: "0317BE35ACA8EA47"
+			tasks: [{
+				id: "763883F2DD02B61D"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -580343186, 479021724, -1850008323, -701023627 ] }, count: 1, id: "draconicevolution:draconic_chestpiece" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0317BE35ACA8EA47"
+				"77B606E5BF808F33"
+			]
+			id: "4D110A2045EA67D7"
+			tasks: [{
+				id: "2D04A5BB612CCD81"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1103725025, 1915700310, -1365994220, 537887652 ] }, count: 1, id: "draconicevolution:chaotic_chestpiece" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.0d
+		}
+	]
+}

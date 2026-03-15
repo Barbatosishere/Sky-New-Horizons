@@ -1,0 +1,2 @@
+// Compost colors for xycraft_core. You may add your own colors, change existing ones, or remove colors that aren't needed.
+errored, #b4836c
