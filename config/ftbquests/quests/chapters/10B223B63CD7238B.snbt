@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10B223B63CD7238B"
+	group: "00687B1484DEC638"
+	id: "10B223B63CD7238B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2248288B49BDAB94"]
+			id: "7AD239965A3BF7E0"
+			tasks: [{
+				id: "77D5603CE4EBBA6E"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2248288B49BDAB94"]
+			id: "7C866C8F7A2EA188"
+			tasks: [{
+				id: "18308A9395690F4C"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "45765F535999D464"
+			tasks: [{
+				id: "4314887CC93D6DE1"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "54058984E2DE8E61"
+			tasks: [{
+				id: "608B9EA895FB4254"
+				item: { count: 1, id: "pipez:gas_pipe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "7CFC48E4717FD2E1"
+			tasks: [{
+				id: "180D53E5CFC7AD3F"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			id: "3A3D2A0644AD5B7F"
+			tasks: [{
+				id: "3EF5D4D02AC8D99A"
+				item: { count: 1, id: "pipez:basic_upgrade" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A3D2A0644AD5B7F"]
+			id: "762D7E1527F07063"
+			tasks: [{
+				id: "62AFB3F960D0CED6"
+				item: { count: 1, id: "pipez:improved_upgrade" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["762D7E1527F07063"]
+			id: "4E3FB3D9107D82BC"
+			tasks: [{
+				id: "60D6F0907FFBFF7C"
+				item: { count: 1, id: "pipez:advanced_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E3FB3D9107D82BC"]
+			id: "750C7FB2B062669A"
+			tasks: [{
+				id: "4393C27672A1A811"
+				item: { count: 1, id: "pipez:ultimate_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,4 @@
+// Compost colors for botanypotstiers. You may add your own colors, change existing ones, or remove colors that aren't needed.
+elite_upgrade, #ab9d8a
+mega_upgrade, #b63626
+ultra_upgrade, #759886

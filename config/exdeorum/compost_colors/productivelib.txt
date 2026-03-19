@@ -1,0 +1,18 @@
+// Compost colors for productivelib. You may add your own colors, change existing ones, or remove colors that aren't needed.
+upgrade_adult, #fffff2
+upgrade_anti_teleport, #ffffff
+upgrade_base, #ffffff
+upgrade_block, #ffffd6
+upgrade_child, #fffff2
+upgrade_entity_filter, #fffffc
+upgrade_gene_sampler, #ffffff
+upgrade_pollen_sieve, #fffffb
+upgrade_productivity, #fffffc
+upgrade_productivity_2, #e7c89b
+upgrade_productivity_3, #debc86
+upgrade_productivity_4, #c89d76
+upgrade_range, #ffffff
+upgrade_simulator, #fffffa
+upgrade_stability, #ffffff
+upgrade_time, #fffffa
+upgrade_time_2, #fff2e6

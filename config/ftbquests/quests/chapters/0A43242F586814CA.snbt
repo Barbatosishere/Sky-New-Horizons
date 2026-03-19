@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0A43242F586814CA"
+	group: "1AC48EC46342DE27"
+	id: "0A43242F586814CA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59FD81B974398990"
+			tasks: [{
+				id: "70889F0B01220B79"
+				item: { count: 1, id: "occultism:datura_seeds" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59FD81B974398990"]
+			id: "00ECFD9F5BA35B44"
+			tasks: [{
+				id: "64F2E98BFA15A4EB"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00ECFD9F5BA35B44"]
+			id: "7BC1E4FE4F40FF6C"
+			tasks: [{
+				id: "3743010E066A575B"
+				item: { count: 1, id: "occultism:otherstone" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00ECFD9F5BA35B44"]
+			id: "1E57B4112EC72628"
+			tasks: [{
+				id: "7FB453B038E67376"
+				item: { count: 1, id: "occultism:otherworld_sapling" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["090A3C5D06D4BD7A"]
+			id: "49BCE86EDCDF953F"
+			tasks: [
+				{
+					id: "58F92C57AF42E8F1"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+				{
+					id: "1F0A141487ECC434"
+					item: { count: 1, id: "occultism:crushed_calcite" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BC1E4FE4F40FF6C"
+				"1E57B4112EC72628"
+			]
+			id: "090A3C5D06D4BD7A"
+			tasks: [
+				{
+					id: "6FC4B3294E3D9BCE"
+					item: { count: 1, id: "occultism:chalk_white" }
+					type: "item"
+				}
+				{
+					id: "549BE8F687B7F8D5"
+					item: { count: 1, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "02571BD876AD0B36"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "73D0388F6332890C"
+					item: { count: 1, id: "occultism:large_candle" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59FD81B974398990"]
+			id: "7D1D322022D4BB80"
+			tasks: [{
+				id: "6061470C29D23521"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49BCE86EDCDF953F"]
+			id: "143707EA08B54CB2"
+			tasks: [
+				{
+					id: "59E3BAFB1F2AA8E7"
+					item: { count: 1, id: "occultism:chalk_purple" }
+					type: "item"
+				}
+				{
+					id: "0E2FF0696589BADE"
+					item: { count: 1, id: "occultism:chalk_light_gray" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["143707EA08B54CB2"]
+			id: "41FAE879FAD5E5F2"
+			tasks: [{
+				id: "51CDCCF030E03B4E"
+				item: { count: 1, id: "occultism:chalk_green" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41FAE879FAD5E5F2"]
+			id: "0F1EC5A0A69E1C10"
+			tasks: [{
+				id: "1A03009F3E0AA35A"
+				item: { count: 1, id: "occultism:fragile_soul_gem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F1EC5A0A69E1C10"]
+			id: "226AD6B7C47E7285"
+			tasks: [{
+				id: "6A794A27FB4184AB"
+				item: { count: 1, id: "occultism:soul_gem" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+}
