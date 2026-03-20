@@ -126,6 +126,34 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // ========== 火把花（使用泥土） ==========
+    // 线筛网 5% 获得门瑞欧树苗
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: 'minecraft:dirt' },
+        mesh: { item: 'exdeorum:string_mesh' },
+        result: { id: 'minecraft:torchflower_seeds' },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.05
+        }
+    });
+
+    // ========== 瓶子草（使用泥土） ==========
+    // 线筛网 5% 获得门瑞欧树苗
+    event.custom({
+        type: 'exdeorum:sieve',
+        ingredient: { item: 'minecraft:dirt' },
+        mesh: { item: 'exdeorum:string_mesh' },
+        result: { id: 'minecraft:pitcher_pod' },
+        result_amount: {
+            type: 'minecraft:binomial',
+            n: 1.0,
+            p: 0.05
+        }
+    });
+
     // ========== 高魂粉（使用粉碎下界岩） ==========
     const souliumDustId = 'mysticalagriculture:soulium_dust';
     const crushedNetherrack = 'exdeorum:crushed_netherrack';

@@ -58,4 +58,14 @@ ServerEvents.recipes(event => {
     E:"extendedcrafting:elite_table",
     F:"minecraft:emerald_block"
   })
+
+    event.recipes.create.mechanical_crafting('appliedcreate:brass_pattern_provider', [
+    'AAA',
+    'ACA',
+    'ABA'
+  ], {
+    A:"create:brass_ingot",
+    B:"create:brass_casing",
+    C:"extendedae:ex_pattern_provider"
+  })
 })
