@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
 
     // ========== 磊岩（使用末地石） ==========
     const kivResultId = 'xycraft_world:kivi';
-    const kivIngredient = 'minecraft:end_stone';
+    const kivIngredient = 'exdeorum:crushed_end_stone';
 
     // 铁筛网 5%
     event.custom({

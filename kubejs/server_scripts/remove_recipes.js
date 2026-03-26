@@ -175,7 +175,8 @@ ServerEvents.recipes(event => {
    // 移除 io制作黑曜石粉末 配方
    event.remove({ id: 'enderio:sag_milling/obsidian' });
    // 移除 合金窑 制作黄铜锭 配方
-   event.remove({ id: 'immersiveengineering:alloysmelter/brass' });
+   event.remove({ id: 'alltheores:alloysmelter/brass/ingot' });
+   event.remove({ id: 'alltheores:arcfurnace/brass/ingot' });
    // 移除 铁漏斗 配方
    event.remove({ id: 'quark:tweaks/crafting/utility/misc/easy_hopper' });
    event.remove({ id: 'minecraft:hopper' });
@@ -196,7 +197,7 @@ ServerEvents.recipes(event => {
     // 移除 重型工程块 配方
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
     // 移除 共震工程块 配方
-    event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
+    event.remove({ id: 'immersiveengineering:crafting/thermoelectric_generator' });
     // 移除 玫瑰石英 配方
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 鱼大 配方
@@ -205,6 +206,51 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'appliedcreate:kinetic_energy_acceptor' });
     // 移除 黄铜样板 配方
     event.remove({ id: 'appliedcreate:brass_pattern_provider' });
+    // 移除 热传导发电机 配方
+    event.remove({ id: 'immersiveengineering:thermoelectric_generator' });
+    // 移除 琥珀金锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/electrum/ingot' });
+        event.remove({ id: 'alltheores:alloysmelter/electrum/ingot' });
+    // 移除 导电合金 配方
+        event.remove({ id: 'casting:mixer/conductive_alloy' });
+    // 移除 黄铜 配方
+        event.remove({ id: 'casting:mixer/brass' });
+    // 移除 震动合金 配方
+        event.remove({ id: 'casting:mixer/vibrant_alloy' });
+    // 移除 脉冲合金 配方
+        event.remove({ id: 'casting:mixer/pulsating_alloy' });
+    // 移除 充能合金 配方
+        event.remove({ id: 'casting:mixer/energetic_alloy' });
+    // 移除 末影锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/enderium/ingot' });
+        event.remove({ id: 'casting:mixer/enderium' });
+    // 移除 信素锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/signalum/ingot' });
+        event.remove({ id: 'casting:mixer/signalum' });
+    // 移除 青铜锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/bronze/ingot' });
+        event.remove({ id: 'alltheores:arcfurnace/bronze/ingot' });
+    // 移除 铜合金 配方
+        event.remove({ id: 'mysticalagriculture:copper_alloy' });
+        event.remove({ id: 'mysticalagriculture:essence/enderio/copper_alloy_ingot' });
+    // 移除 导电合金 配方
+        event.remove({ id: 'casting:mixer/conductive_alloy' });
+    // 移除 风力发电机 配方
+        event.remove({ id: 'makanismgenerators:generator/wind' });
+    // 移除 发电机 配方
+        event.remove({ id: 'integrateddynamics:crafting/coal_generator' });
+    // 移除 蜜蜂发电机 配方
+        event.remove({ id: 'productivebees:honey_generator' });
+    // 移除 原油发电机 配方
+        event.remove({ id: 'actuallyadditions:oil_generator' });
+    // 移除 热能发电机 配方
+        event.remove({ id: 'actuallyadditions:heat_collector' });
+    // 移除 煤炭发电机 配方
+        event.remove({ id: 'actuallyadditions:coal_generator' });
+    // 移除 砠叶发电机 配方
+        event.remove({ id: 'actuallyadditions:leaf_generator' });
+    // 移除 风力发电机 配方
+        event.remove({ id: 'mekanismgenerators:generator/wind' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   

@@ -147,6 +147,9 @@
     "wt_master_location": true,
     "wt_owner": true
   },
+  "createlowheated": {
+    "basic_burner_info": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -165,9 +168,6 @@
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
-  },
-  "productivemetalworks": {
-    "casting": true
   },
   "waystones": {
     "waystone": true

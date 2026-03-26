@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "42604EE01DB41046"
 	group: "000258239E4546A8"
+	hide_quest_until_deps_visible: true
 	id: "42604EE01DB41046"
 	order_index: 0
 	quest_links: [ ]
@@ -369,6 +370,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["4A343D1321E97A4D"]
 			id: "0B8A6343DF2D3C10"
 			tasks: [{
 				id: "10EC966D0AE50C38"
@@ -445,7 +447,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2F133A77ECD20971"]
+			dependencies: [
+				"2F133A77ECD20971"
+				"4A343D1321E97A4D"
+			]
 			id: "39DFC4C568AF990A"
 			tasks: [
 				{
