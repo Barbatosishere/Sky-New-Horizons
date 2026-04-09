@@ -1,3 +1,18 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"mekanism_extras:alloy_radiance"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:absolute_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:alloy_thermonuclear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:supreme_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:alloy_shining"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:cosmic_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:alloy_spectrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_extras:infinite_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:polished_rose_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:rose_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"packagedexcrafting:ultimate_crafter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"xycraft_machines:extractor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:dense_neutron_collector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"packagedavaritia:sculk_crafter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

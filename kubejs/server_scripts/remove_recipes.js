@@ -144,9 +144,23 @@ ServerEvents.recipes(event => {
     // 移除 终极控制电路 配方
    event.remove({ id: 'mekanism:control_circuit/infused_ultimate' });  
    event.remove({ id: 'mekanism:control_circuit/ultimate' });  
+    // 移除 绝对控制电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_absolute' });
+    event.remove({ id: 'mekanism_extras:control_circuit/absolute' });
+    // 移除 至尊控制电路 配方
+     event.remove({ id: 'mekanism_extras:control_circuit/infused_supreme' });
+    event.remove({ id: 'mekanism_extras:control_circuit/supreme' });
+    // 移除 寰宇支配电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_cosmic' });
+    event.remove({ id: 'mekanism_extras:control_circuit/cosmic' });
+    // 移除 悖论无限电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_infinite' });
+    event.remove({ id: 'mekanism_extras:control_circuit/infinite' });
    // 移除 强化黑曜石粉 配方
    event.remove({ id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust' });
-   // 移除 终极控制电路 配方
+    // 移除 富集辐光 配方
+        event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
+   // 移除 简陋机器框架 配方
    event.remove({ id: 'industrialforegoing:machine_frame_pity' });  
    // 移除 水晶矩阵锭 配方
    event.remove({ id: 'avaritia:crystal_matrix_ingot_normal' });  
@@ -555,7 +569,7 @@ event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
     B: 'avaritia:double_compressed_crafting_table',
     C: 'minecraft:sculk_sensor'
 });
-// 添加简陋机器框架 配方（Extended Crafting 高级工作台 5x5 合成）
+// 添加简陋机器框架 配方
 event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_pity', [
     'AAAAA',
     'ABBBA',
@@ -567,7 +581,7 @@ event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_p
     B: 'pneumaticcraft:compressed_iron_block',
     C: 'minecraft:redstone_block'
 });
-// 添加基础控制电路 配方（Extended Crafting 基础工作台 3x3 合成）
+// 添加 基础控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
     'ABA',
     'DED',
@@ -581,7 +595,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
     W: 'create:propeller'
     
 });
-// 添加高级控制电路 配方
+// 添加 高级控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit', [
     'CCCCC',
     'CDDDC',
@@ -594,7 +608,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 添加精英控制电路 配方
+// 添加 精英控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
      'CCCCC',
     'CDDDC',
@@ -607,7 +621,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
     E: 'minecraft:redstone_block'
 });
 
-// 添加终极控制电路 配方
+// 添加 终极控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit', [
     'CCCCC',
     'CDDDC',
@@ -620,18 +634,56 @@ event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 回响碎片合成幽匿块（使用幽匿工作台）
-event.custom({
-    type: 'avaritia:shaped_table',
-    pattern: [
-        "AAA",
-        "AAA",
-        "AAA",
-    ],
-    key: {
-        A: { item: 'minecraft:echo_shard' }
-    },
-    result: { id: 'minecraft:sculk' },
-    tier: 1
+// 添加 绝对控制电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:absolute_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_radiance',
+    D: 'mekanism:ultimate_control_circuit',    
+    E: 'minecraft:redstone_block'
 });
+
+// 添加 至尊控制电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:supreme_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_thermonuclear',
+    D: 'mekanism_extras:absolute_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
+// 添加 寰宇支配电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:cosmic_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_shining',
+    D: 'mekanism_extras:supreme_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
+// 添加 悖论无限电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:infinite_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_spectrum',
+    D: 'mekanism_extras:cosmic_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
 });

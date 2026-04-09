@@ -20,4 +20,5 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier('exdeorum:compressed_sand', '900x casting:molten_silver', 'geore:budding_silver')
     event.recipes.casting.solidifier('exdeorum:compressed_sand', '900x casting:molten_tin', 'geore:budding_tin')
     event.recipes.casting.solidifier('exdeorum:compressed_sand', '900x casting:molten_uranium', 'geore:budding_uranium')
+    event.recipes.casting.solidifier('exdeorum:compressed_sand', '900x casting:molten_black_quartz', 'geore:budding_black_quartz')
 })

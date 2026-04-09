@@ -11,31 +11,6 @@
 		{
 			id: "4A343D1321E97A4D"
 			invisible: true
-			rewards: [
-				{
-					id: "2DDD12619354451F"
-					item: {
-						count: 1
-						id: "minecraft:bedrock"
-					}
-					type: "item"
-				}
-				{
-					id: "7B3AAC3A8AB081FE"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"enchantplus:pickaxe/bedrock_breaker": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "3CA16CBE4F1F1B04"
 				item: { count: 1, id: "create_simple_generator:stress_generator" }
@@ -478,6 +453,42 @@
 			]
 			x: -11.0d
 			y: 3.0d
+		}
+		{
+			id: "5A45D0C071430957"
+			tasks: [
+				{
+					id: "36CE05DAEE5E6250"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "28E18DE819FAFFF8"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C9986C3E91EC090"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "068FD80ABA006FD6"
+					item: { count: 1, id: "mekanism_extras:lead_coated_laser_focus_matrix" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 216L
+					id: "6B7D0D8A920E7F10"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
 		}
 	]
 }

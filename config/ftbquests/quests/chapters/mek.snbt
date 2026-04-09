@@ -144,7 +144,7 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
+			x: -6.5d
 			y: 4.0d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -6.5d
 			y: 5.5d
 		}
 		{
@@ -169,7 +169,7 @@
 				item: { count: 1, id: "mekanism:osmium_compressor" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -183,7 +183,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2F133A77ECD20971"]
+			dependencies: [
+				"2F133A77ECD20971"
+				"56B111C7705C8A1D"
+			]
 			id: "4F78E432E510449A"
 			tasks: [
 				{
@@ -204,6 +207,7 @@
 			dependencies: [
 				"4F78E432E510449A"
 				"51CEAB092DBBDF47"
+				"3B82F302F2F03EA4"
 			]
 			id: "58FFBAA1E061012A"
 			tasks: [
@@ -225,6 +229,7 @@
 			dependencies: [
 				"58FFBAA1E061012A"
 				"55EEEBDCD2EA1167"
+				"524C4C03642C0ACE"
 			]
 			id: "504BCD6FA69B1B71"
 			tasks: [
@@ -246,6 +251,7 @@
 			dependencies: [
 				"504BCD6FA69B1B71"
 				"5FFBDEDA176C55A3"
+				"5CCA17C76663B82F"
 			]
 			id: "42093F6802F31B69"
 			tasks: [
@@ -271,7 +277,7 @@
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -9.5d
 			y: 8.5d
 		}
 		{
@@ -282,7 +288,7 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -315,7 +321,7 @@
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
@@ -326,7 +332,7 @@
 				item: { count: 1, id: "mekanism:chemical_crystallizer" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -359,7 +365,7 @@
 				item: { count: 1, id: "mekanism:solar_neutron_activator" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -9.5d
 			y: 7.0d
 		}
 		{
@@ -381,8 +387,421 @@
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
 			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CCA17C76663B82F"]
+			id: "3BC45E192D0E71B0"
+			tasks: [{
+				id: "3158872FD17E00DF"
+				item: { count: 1, id: "mekanism_extras:alloy_radiance" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3BC45E192D0E71B0"]
+			id: "6B345225CA149894"
+			tasks: [{
+				id: "02B5966EA75E29B1"
+				item: { count: 1, id: "mekanism_extras:alloy_thermonuclear" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6B345225CA149894"]
+			id: "43FF30F750597FD1"
+			tasks: [{
+				id: "1BFB7B959D931CCE"
+				item: { count: 1, id: "mekanism_extras:alloy_shining" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["43FF30F750597FD1"]
+			id: "230E9F362EF68A1E"
+			tasks: [{
+				id: "7C912B56EF055787"
+				item: { count: 1, id: "mekanism_extras:alloy_spectrum" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"5FFBDEDA176C55A3"
+				"3BC45E192D0E71B0"
+			]
+			id: "390557B7AA82FCEB"
+			tasks: [{
+				id: "4A24563522B8EBD2"
+				item: { count: 1, id: "mekanism_extras:absolute_control_circuit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6B345225CA149894"
+				"390557B7AA82FCEB"
+			]
+			id: "25B0C5A1441BB736"
+			tasks: [{
+				id: "70E01EA2F19FE20C"
+				item: { count: 1, id: "mekanism_extras:supreme_control_circuit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"43FF30F750597FD1"
+				"25B0C5A1441BB736"
+			]
+			id: "1F30E104DAFBCC08"
+			tasks: [{
+				id: "75C3BF2754928AC1"
+				item: { count: 1, id: "mekanism_extras:cosmic_control_circuit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1F30E104DAFBCC08"
+				"230E9F362EF68A1E"
+			]
+			id: "1A30884D75AEB083"
+			tasks: [{
+				id: "23BAAB6B78941F43"
+				item: { count: 1, id: "mekanism_extras:infinite_control_circuit" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3BC45E192D0E71B0"
+				"390557B7AA82FCEB"
+			]
+			id: "6EB83CCB701F6CF8"
+			tasks: [
+				{
+					id: "664C24F8685E93AA"
+					item: { count: 1, id: "mekanism_extras:absolute_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "386EAE8A5DDF9510"
+					item: { count: 1, id: "mekanism_extras:absolute_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6B345225CA149894"
+				"25B0C5A1441BB736"
+			]
+			id: "10AEF454094F3BB8"
+			tasks: [
+				{
+					id: "4283C96251F697F9"
+					item: { count: 1, id: "mekanism_extras:supreme_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "0B9D3B21A89EC804"
+					item: { count: 1, id: "mekanism_extras:supreme_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"43FF30F750597FD1"
+				"1F30E104DAFBCC08"
+			]
+			id: "6B522200C0906931"
+			tasks: [
+				{
+					id: "612EF0C4B22A33C7"
+					item: { count: 1, id: "mekanism_extras:cosmic_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "0331FAE56C71F46C"
+					item: { count: 1, id: "mekanism_extras:cosmic_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1A30884D75AEB083"
+				"230E9F362EF68A1E"
+			]
+			id: "17796DE739150C61"
+			tasks: [
+				{
+					id: "1C949E8E8AC8CD05"
+					item: { count: 1, id: "mekanism_extras:infinite_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "2DBA7405A57CE37D"
+					item: { count: 1, id: "mekanism_extras:infinite_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3B82F302F2F03EA4"]
+			id: "56B111C7705C8A1D"
+			tasks: [{
+				id: "2E999A10C82ABBCF"
+				item: { count: 1, id: "mekanism:energy_tablet" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["56B111C7705C8A1D"]
+			id: "724F4AFC3C16ACB7"
+			tasks: [{
+				id: "0A01D90AC185982F"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"724F4AFC3C16ACB7"
+				"3B82F302F2F03EA4"
+			]
+			id: "386ED7D08DA4F8C9"
+			tasks: [{
+				id: "0D4B5B30C983AA65"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"524C4C03642C0ACE"
+				"386ED7D08DA4F8C9"
+			]
+			id: "3C3BB5E263C7989E"
+			tasks: [{
+				id: "62D74C3FFF58781A"
+				item: { count: 1, id: "mekanism:elite_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5CCA17C76663B82F"
+				"3C3BB5E263C7989E"
+			]
+			id: "2911FB9A72E5054F"
+			tasks: [{
+				id: "7B9E658087BAFC67"
+				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3BC45E192D0E71B0"
+				"2911FB9A72E5054F"
+			]
+			id: "100E9415C8C2509F"
+			tasks: [{
+				id: "254E7FCC3035B75D"
+				item: { count: 1, id: "mekanism_extras:absolute_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6B345225CA149894"
+				"100E9415C8C2509F"
+			]
+			id: "24050D4C1537231F"
+			tasks: [{
+				id: "2237C506732DA796"
+				item: { count: 1, id: "mekanism_extras:supreme_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"43FF30F750597FD1"
+				"24050D4C1537231F"
+			]
+			id: "2FB833D7AB8F5658"
+			tasks: [{
+				id: "0418876BC91475AA"
+				item: { count: 1, id: "mekanism_extras:cosmic_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"230E9F362EF68A1E"
+				"2FB833D7AB8F5658"
+			]
+			id: "2D810FFCE1DE26D5"
+			tasks: [{
+				id: "5BF2802F6E07C531"
+				item: { count: 1, id: "mekanism_extras:infinite_energy_cube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2F133A77ECD20971"]
+			id: "6DA871E54BF0A335"
+			tasks: [{
+				id: "3AEA435AB6E817A8"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3B82F302F2F03EA4"
+				"51CEAB092DBBDF47"
+			]
+			id: "1B017B7AA9466745"
+			tasks: [{
+				id: "0CDA6CBB63B5E81A"
+				item: { count: 1, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"524C4C03642C0ACE"
+				"55EEEBDCD2EA1167"
+			]
+			id: "07E34E2A38BD5332"
+			tasks: [{
+				id: "175416B21AE39510"
+				item: { count: 1, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
 			x: -11.0d
 			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5CCA17C76663B82F"
+				"5FFBDEDA176C55A3"
+			]
+			id: "679710174F0C0DF6"
+			tasks: [{
+				id: "2793855C497496DA"
+				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3BC45E192D0E71B0"
+				"390557B7AA82FCEB"
+			]
+			id: "6058533EA914E47C"
+			tasks: [{
+				id: "1171DFF2FCA9472F"
+				item: { count: 1, id: "mekanism_extras:absolute_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6B345225CA149894"
+				"25B0C5A1441BB736"
+			]
+			id: "6A0A0981AA7AD064"
+			tasks: [{
+				id: "2A6E9C732EE70DF8"
+				item: { count: 1, id: "mekanism_extras:supreme_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"43FF30F750597FD1"
+				"1F30E104DAFBCC08"
+			]
+			id: "7660BCDADEC33087"
+			tasks: [{
+				id: "4F8E7E7EB3C9F898"
+				item: { count: 1, id: "mekanism_extras:cosmic_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"230E9F362EF68A1E"
+				"1A30884D75AEB083"
+			]
+			id: "072F03F31D8C0908"
+			tasks: [{
+				id: "156F9D77895588B1"
+				item: { count: 1, id: "mekanism_extras:infinite_tier_installer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.5d
 		}
 	]
 }
