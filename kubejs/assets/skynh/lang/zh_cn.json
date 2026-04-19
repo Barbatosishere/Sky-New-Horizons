@@ -18,6 +18,10 @@
     "item.skynh.incomplete_light_engineering":"轻型工程块(半成品)",
     "item.skynh.incomplete_heavy_engineering":"重型工程块(半成品)",
     "item.skynh.incomplete_resonanz_engineering":"共振工程块(半成品)",
-    "item.skynh.incomplete_rose_quartz":"玫瑰石英(半成品)"
+    "item.skynh.incomplete_rose_quartz":"玫瑰石英(半成品)",
+    "item.skynh.incomplete_printed_engineering_processor":"工程电路板(半成品)",
+    "item.skynh.mekanism_fragment_antimatter":"反物质碎片",
+    "item.skynh.mekanism_small_antimatter":"小的反物质碎片",
+    "item.skynh.mekanism_tiny_antimatter":"微小反物质球碎片"
 }
     

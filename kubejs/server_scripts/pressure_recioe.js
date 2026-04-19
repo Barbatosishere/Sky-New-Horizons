@@ -49,4 +49,14 @@ ServerEvents.recipes(event => {
       { id: 'draconicevolution:small_chaos_frag', count: 1 }
     ]
   })
+  event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'draconicevolution:dragon_heart_left', count: 1 },
+      { item: 'draconicevolution:dragon_heart_right', count: 1 }
+    ],
+    pressure: 15.0,
+    results: [
+      { id: 'draconicevolution:dragon_heart', count: 1 }
+    ]
+  })
 })

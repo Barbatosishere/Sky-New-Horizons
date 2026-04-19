@@ -144,9 +144,23 @@ ServerEvents.recipes(event => {
     // 移除 终极控制电路 配方
    event.remove({ id: 'mekanism:control_circuit/infused_ultimate' });  
    event.remove({ id: 'mekanism:control_circuit/ultimate' });  
+    // 移除 绝对控制电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_absolute' });
+    event.remove({ id: 'mekanism_extras:control_circuit/absolute' });
+    // 移除 至尊控制电路 配方
+     event.remove({ id: 'mekanism_extras:control_circuit/infused_supreme' });
+    event.remove({ id: 'mekanism_extras:control_circuit/supreme' });
+    // 移除 寰宇支配电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_cosmic' });
+    event.remove({ id: 'mekanism_extras:control_circuit/cosmic' });
+    // 移除 悖论无限电路 配方
+    event.remove({ id: 'mekanism_extras:control_circuit/infused_infinite' });
+    event.remove({ id: 'mekanism_extras:control_circuit/infinite' });
    // 移除 强化黑曜石粉 配方
    event.remove({ id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust' });
-   // 移除 终极控制电路 配方
+    // 移除 富集辐光 配方
+        event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
+   // 移除 简陋机器框架 配方
    event.remove({ id: 'industrialforegoing:machine_frame_pity' });  
    // 移除 水晶矩阵锭 配方
    event.remove({ id: 'avaritia:crystal_matrix_ingot_normal' });  
@@ -175,7 +189,8 @@ ServerEvents.recipes(event => {
    // 移除 io制作黑曜石粉末 配方
    event.remove({ id: 'enderio:sag_milling/obsidian' });
    // 移除 合金窑 制作黄铜锭 配方
-   event.remove({ id: 'immersiveengineering:alloysmelter/brass' });
+   event.remove({ id: 'alltheores:alloysmelter/brass/ingot' });
+   event.remove({ id: 'alltheores:arcfurnace/brass/ingot' });
    // 移除 铁漏斗 配方
    event.remove({ id: 'quark:tweaks/crafting/utility/misc/easy_hopper' });
    event.remove({ id: 'minecraft:hopper' });
@@ -185,6 +200,7 @@ ServerEvents.recipes(event => {
    event.remove({ id: 'extendedae_plus:entity_speed_card_x16' });
    event.remove({ id: 'extendedae_plus:entity_speed_card_x8' });
    event.remove({ id: 'extendedae_plus:entity_speed_card_x4' });
+    event.remove({ id: 'extendedae_plus:entity_speed_card_x2' });
    // 移除 锻造模板 配方
     event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
@@ -196,7 +212,7 @@ ServerEvents.recipes(event => {
     // 移除 重型工程块 配方
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
     // 移除 共震工程块 配方
-    event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
+    event.remove({ id: 'immersiveengineering:crafting/thermoelectric_generator' });
     // 移除 玫瑰石英 配方
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 鱼大 配方
@@ -205,6 +221,67 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'appliedcreate:kinetic_energy_acceptor' });
     // 移除 黄铜样板 配方
     event.remove({ id: 'appliedcreate:brass_pattern_provider' });
+    // 移除 热传导发电机 配方
+    event.remove({ id: 'immersiveengineering:thermoelectric_generator' });
+    // 移除 琥珀金锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/electrum/ingot' });
+        event.remove({ id: 'alltheores:alloysmelter/electrum/ingot' });
+    // 移除 导电合金 配方
+        event.remove({ id: 'casting:mixer/conductive_alloy' });
+    // 移除 黄铜 配方
+        event.remove({ id: 'casting:mixer/brass' });
+    // 移除 震动合金 配方
+        event.remove({ id: 'casting:mixer/vibrant_alloy' });
+    // 移除 脉冲合金 配方
+        event.remove({ id: 'casting:mixer/pulsating_alloy' });
+    // 移除 充能合金 配方
+        event.remove({ id: 'casting:mixer/energetic_alloy' });
+    // 移除 末影锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/enderium/ingot' });
+        event.remove({ id: 'casting:mixer/enderium' });
+    // 移除 信素锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/signalum/ingot' });
+        event.remove({ id: 'casting:mixer/signalum' });
+    // 移除 青铜锭 配方
+        event.remove({ id: 'alltheores:arcfurnace/bronze/ingot' });
+        event.remove({ id: 'alltheores:arcfurnace/bronze/ingot' });
+    // 移除 铜合金 配方
+        event.remove({ id: 'mysticalagriculture:copper_alloy' });
+        event.remove({ id: 'mysticalagriculture:essence/enderio/copper_alloy_ingot' });
+    // 移除 导电合金 配方
+        event.remove({ id: 'casting:mixer/conductive_alloy' });
+    // 移除 风力发电机 配方
+        event.remove({ id: 'makanismgenerators:generator/wind' });
+    // 移除 发电机 配方
+        event.remove({ id: 'integrateddynamics:crafting/coal_generator' });
+    // 移除 蜜蜂发电机 配方
+        event.remove({ id: 'productivebees:honey_generator' });
+    // 移除 原油发电机 配方
+        event.remove({ id: 'actuallyadditions:oil_generator' });
+    // 移除 热能发电机 配方
+        event.remove({ id: 'actuallyadditions:heat_collector' });
+    // 移除 煤炭发电机 配方
+        event.remove({ id: 'actuallyadditions:coal_generator' });
+    // 移除 砠叶发电机 配方
+        event.remove({ id: 'actuallyadditions:leaf_generator' });
+    // 移除 风力发电机 配方
+        event.remove({ id: 'mekanismgenerators:generator/wind' });
+    // 移除 创造板条箱 配方
+        event.remove({ id: 'avaritia:mek_creative_bin' });
+    // 移除 创造流体储罐 配方
+        event.remove({ id: 'avaritia:mek_creative_fluid_tank' });
+    // 移除 创造化学品储罐 配方
+        event.remove({ id: 'avaritia:mek_creative_chemical_tank' });
+    // 移除 创造能源原件 配方
+        event.remove({ id: 'avaritia:ae2_creative_energy_cell' });
+    // 移除 创造能源 配方
+        event.remove({ id: 'avaritia:eio_creative_power' });
+    // 移除 大型燃气发电机 配方
+        event.remove({ id: 'mekmm:large_gas_burning_generator' });
+    // 移除 大型热力发电机 配方
+        event.remove({ id: 'mekmm:large_heat_generator' });
+    // 移除 地热能发电单元 配方
+        event.remove({ id: 'mekanismgenerators:module_geothermal_generator_unit' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
@@ -295,7 +372,29 @@ event.shaped('cobblegengalore:block_gen_stone', [
         A: 'cobblegengalore:block_gen_diamond',
         B: 'minecraft:netherite_ingot'
     });
-// MEK太阳能发电机
+
+   // 反物质
+event.shaped('mekanism:pellet_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_fragment_antimatter'
+});
+event.shaped('mek:mekanism_fragment_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_small_antimatter'
+});
+event.shaped('mek:mekanism_small_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_tiny_antimatter'
+});
 event.shaped('mekanismgenerators:solar_generator', [
     'DDD',
     'B B',
@@ -353,6 +452,18 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     B: 'mysticalagriculture:soulium_dust',
     A: 'minecraft:cobblestone'
 });
+   
+   //地热能发电单元
+event.shaped('mysticalagriculture:soulstone_cobble', [
+    'ABA',
+    'ACA',
+    'DDD'
+], {
+    A: 'mekanism:alloy_reinforced',
+    B: 'minecraft:lava_bucket',
+    C: 'mekanism:module_base',
+    D: 'mekanism:pellet_polonium'
+});
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
     'DAD',
@@ -362,7 +473,7 @@ event.shaped('pneumaticcraft:creative_compressor', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'pneumaticcraft:compressed_iron_block',  
     A: 'ae2:cell_component_256k',
-    C: 'avaritia:neutron_compressor'            
+    C: 'avaritia:denser_neutron_compressor'            
 });
 // 创造模式压缩铁块
 event.shaped('pneumaticcraft:creative_compressed_iron_block', [
@@ -373,7 +484,7 @@ event.shaped('pneumaticcraft:creative_compressed_iron_block', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'ae2:cell_component_256k',
-    C: 'avaritia:neutron_compressor'           
+    C: 'avaritia:denser_neutron_compressor'           
 });
 // 基础合成组件
 event.shaped('extendedcrafting:basic_component', [
@@ -508,8 +619,7 @@ event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
     A: 'minecraft:sculk_shrieker',
     B: 'avaritia:double_compressed_crafting_table',
     C: 'minecraft:sculk_sensor'
-});
-// 添加简陋机器框架 配方（Extended Crafting 高级工作台 5x5 合成）
+});// 添加简陋机器框架 配方
 event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_pity', [
     'AAAAA',
     'ABBBA',
@@ -521,7 +631,7 @@ event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_p
     B: 'pneumaticcraft:compressed_iron_block',
     C: 'minecraft:redstone_block'
 });
-// 添加基础控制电路 配方（Extended Crafting 基础工作台 3x3 合成）
+// 添加 基础控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
     'ABA',
     'DED',
@@ -535,7 +645,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
     W: 'create:propeller'
     
 });
-// 添加高级控制电路 配方
+// 添加 高级控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit', [
     'CCCCC',
     'CDDDC',
@@ -548,7 +658,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 添加精英控制电路 配方
+// 添加 精英控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
      'CCCCC',
     'CDDDC',
@@ -561,7 +671,7 @@ event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
     E: 'minecraft:redstone_block'
 });
 
-// 添加终极控制电路 配方
+// 添加 终极控制电路 配方
 event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit', [
     'CCCCC',
     'CDDDC',
@@ -574,18 +684,56 @@ event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit',
     E: 'minecraft:redstone_block'
 });
 
-// 回响碎片合成幽匿块（使用幽匿工作台）
-event.custom({
-    type: 'avaritia:shaped_table',
-    pattern: [
-        "AAA",
-        "AAA",
-        "AAA",
-    ],
-    key: {
-        A: { item: 'minecraft:echo_shard' }
-    },
-    result: { id: 'minecraft:sculk' },
-    tier: 1
+// 添加 绝对控制电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:absolute_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_radiance',
+    D: 'mekanism:ultimate_control_circuit',    
+    E: 'minecraft:redstone_block'
 });
+
+// 添加 至尊控制电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:supreme_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_thermonuclear',
+    D: 'mekanism_extras:absolute_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
+// 添加 寰宇支配电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:cosmic_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_shining',
+    D: 'mekanism_extras:supreme_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
+// 添加 悖论无限电路 配方
+event.recipes.extendedcrafting.shaped_table('mekanism_extras:infinite_control_circuit', [
+    'CCCCC',
+    'CDDDC',
+    'CDEDC',
+    'CDDDC',
+    'CCCCC'
+    ], {
+    C: 'mekanism_extras:alloy_spectrum',
+    D: 'mekanism_extras:cosmic_control_circuit',    
+    E: 'minecraft:redstone_block'
+});
+
 });

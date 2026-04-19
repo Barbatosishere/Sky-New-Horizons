@@ -52,12 +52,17 @@ ServerEvents.recipes(event => {
         output: { id: 'mekanism:diamond', amount: 90 }
     });
 
-    // 新配方：气体 → 球（化学结晶器）
+    // 新配方：气体 → 球 → 气体（化学结晶器）
     event.custom({
         type: 'mekanism:crystallizing',
         input: { chemical: 'mekanism:antimatter', amount: 100 },
         output: { id: 'mekanism:pellet_antimatter' }
     });
+    event.recipes.mekanism.oxidizing({
+        input: { item: 'mekanism:pellet_antimatter' },
+        output: { id: 'mekanism:antimatter', amount: 100 }
+    });
+
     // 添加新配方：1000 mB 水 + 100 mB 钚 + 氟石粉→ 1 钚球 + 1000 mB 核废料
     event.recipes.mekanism.reaction({
         fluid_input: { amount: 1000, fluid: 'minecraft:water' },

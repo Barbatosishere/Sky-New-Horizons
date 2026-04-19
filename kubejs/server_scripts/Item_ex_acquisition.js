@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
 
     // ========== 磊岩（使用末地石） ==========
     const kivResultId = 'xycraft_world:kivi';
-    const kivIngredient = 'minecraft:end_stone';
+    const kivIngredient = 'exdeorum:crushed_end_stone';
 
     // 铁筛网 5%
     event.custom({
@@ -221,4 +221,56 @@ ServerEvents.recipes(event => {
             p: 0.03
         }
     });
+
+    // ========== 龙之心左半部分 ==========
+event.custom({
+    type: 'exdeorum:sieve',
+    ingredient: { item: 'minecraft:dragon_egg' },
+    mesh: { item: 'exdeorum:netherite_mesh' },
+    result: { id: 'draconicevolution:dragon_heart_left' },
+    result_amount: {
+        type: 'minecraft:binomial',
+        n: 1.0,
+        p: 0.25
+    }
+});
+
+// ========== 龙之心右半部分 ==========
+event.custom({
+    type: 'exdeorum:sieve',
+    ingredient: { item: 'minecraft:dragon_egg' },
+    mesh: { item: 'exdeorum:netherite_mesh' },
+    result: { id: 'draconicevolution:dragon_heart_right' },
+    result_amount: {
+        type: 'minecraft:binomial',
+        n: 1.0,
+        p: 0.25
+    }
+});
+
+// ========== 龙息 ==========
+event.custom({
+    type: 'exdeorum:sieve',
+    ingredient: { item: 'minecraft:dragon_egg' },
+    mesh: { item: 'exdeorum:netherite_mesh' },
+    result: { id: 'minecraft:dragon_breath' },
+    result_amount: {
+        type: 'minecraft:binomial',
+        n: 1.0,
+        p: 0.5
+    }
+});
+
+// ========== 龙尘（数量随机） ==========
+event.custom({
+    type: 'exdeorum:sieve',
+    ingredient: { item: 'minecraft:dragon_egg' },
+    mesh: { item: 'exdeorum:netherite_mesh' },
+    result: { id: 'draconicevolution:draconium_dust' },
+    result_amount: {
+        type: 'minecraft:uniform',
+        min: 1.0,
+        max: 32.0
+    }
+});
 });

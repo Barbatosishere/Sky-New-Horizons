@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "productivebees:antimatter",
+  "results": [
+    {
+      "item": {
+        "type": "productivebees:component",
+        "components": {
+          "productivebees:bee_type": "productivebees:antimatter"
+        },
+        "items": "productivebees:configurable_honeycomb"
+      }
+    }
+  ]
+} 
