@@ -282,6 +282,10 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mekmm:large_heat_generator' });
     // 移除 地热能发电单元 配方
         event.remove({ id: 'mekanismgenerators:module_geothermal_generator_unit' });
+    // 移除 锇压缩机 配方
+        event.remove({ id: 'mekanism:combiner' });
+    // 移除 水槽 配方
+        event.remove({ id: 'cookingforblockheads:sink' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
@@ -405,6 +409,16 @@ event.shaped('mekanismgenerators:solar_generator', [
     C: 'mekanism:pellet_polonium',
     E: 'mekanism:energy_tablet'
 });
+//水槽
+event.shaped('cookingforblockheads:sink', [
+    'AAA',
+    'BCB',
+    'BBB'
+], {
+    A: 'avaritia:neutron_ingot',
+    B: 'minecraft:terracotta',  
+    C: 'extendedae:infinity_water_cell'
+});
 // 恩特罗种子
 event.shaped('extendedae:entro_seed', [
     'ABC',
@@ -435,12 +449,13 @@ event.shaped('extendedae:infinity_cobblestone_cell', [
    // 无限水
 event.shaped('extendedae:infinity_water_cell', [
     'DAD',
-    'BBB',
+    'BCB',
     'DAD'
 ], {
     D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'minecraft:water_bucket',
-    A: 'ae2:cell_component_256k'
+    A: 'ae2:cell_component_256k',
+    C: 'avaritia:neutron_compressor'
 });
    
    //离魂原石
@@ -464,6 +479,19 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     C: 'mekanism:module_base',
     D: 'mekanism:pellet_polonium'
 });
+   
+   //融合机
+event.shaped('mekanism:combiner', [
+    'ABA',
+    'CDC',
+    'ABA'
+], {
+    A: 'mekanism:alloy_atomic',
+    B: 'mekanism:ultimate_control_circuit',
+    C: 'minecraft:piston',
+    D: 'mekanism:steel_casing'
+});
+
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
     'DAD',
