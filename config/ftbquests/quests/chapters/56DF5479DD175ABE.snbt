@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "56DF5479DD175ABE"
+	group: "00687B1484DEC638"
+	id: "56DF5479DD175ABE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "1BE6A4DA7F315BF1"
+		tasks: [{
+			id: "013856B55F8843E2"
+			item: { count: 1, id: "voidminers:rubetine_frame" }
+			type: "item"
+		}]
+		x: -7.5d
+		y: 1.0d
+	}]
+}

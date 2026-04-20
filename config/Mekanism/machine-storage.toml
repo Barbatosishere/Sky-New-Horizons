@@ -141,4 +141,4 @@ spsPort = 1000000000
 #Base energy storage in Joules of: Dimensional Stabilizer
 # Default: 40000
 # Range: 1 ~ 9223372036854775807
-dimensionalStabilizer = 40000
+dimensionalStabilizer = 400000000

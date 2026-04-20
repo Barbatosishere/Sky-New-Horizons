@@ -200,6 +200,7 @@ ServerEvents.recipes(event => {
    event.remove({ id: 'extendedae_plus:entity_speed_card_x16' });
    event.remove({ id: 'extendedae_plus:entity_speed_card_x8' });
    event.remove({ id: 'extendedae_plus:entity_speed_card_x4' });
+    event.remove({ id: 'extendedae_plus:entity_speed_card_x2' });
    // 移除 锻造模板 配方
     event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
@@ -265,6 +266,26 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'actuallyadditions:leaf_generator' });
     // 移除 风力发电机 配方
         event.remove({ id: 'mekanismgenerators:generator/wind' });
+    // 移除 创造板条箱 配方
+        event.remove({ id: 'avaritia:mek_creative_bin' });
+    // 移除 创造流体储罐 配方
+        event.remove({ id: 'avaritia:mek_creative_fluid_tank' });
+    // 移除 创造化学品储罐 配方
+        event.remove({ id: 'avaritia:mek_creative_chemical_tank' });
+    // 移除 创造能源原件 配方
+        event.remove({ id: 'avaritia:ae2_creative_energy_cell' });
+    // 移除 创造能源 配方
+        event.remove({ id: 'avaritia:eio_creative_power' });
+    // 移除 大型燃气发电机 配方
+        event.remove({ id: 'mekmm:large_gas_burning_generator' });
+    // 移除 大型热力发电机 配方
+        event.remove({ id: 'mekmm:large_heat_generator' });
+    // 移除 地热能发电单元 配方
+        event.remove({ id: 'mekanismgenerators:module_geothermal_generator_unit' });
+    // 移除 锇压缩机 配方
+        event.remove({ id: 'mekanism:combiner' });
+    // 移除 水槽 配方
+        event.remove({ id: 'cookingforblockheads:sink' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
@@ -355,7 +376,29 @@ event.shaped('cobblegengalore:block_gen_stone', [
         A: 'cobblegengalore:block_gen_diamond',
         B: 'minecraft:netherite_ingot'
     });
-// MEK太阳能发电机
+
+   // 反物质
+event.shaped('mekanism:pellet_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_fragment_antimatter'
+});
+event.shaped('mek:mekanism_fragment_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_small_antimatter'
+});
+event.shaped('mek:mekanism_small_antimatter', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'mek:mekanism_tiny_antimatter'
+});
 event.shaped('mekanismgenerators:solar_generator', [
     'DDD',
     'B B',
@@ -365,6 +408,16 @@ event.shaped('mekanismgenerators:solar_generator', [
     B: 'mekanism:ingot_osmium',  
     C: 'mekanism:pellet_polonium',
     E: 'mekanism:energy_tablet'
+});
+//水槽
+event.shaped('cookingforblockheads:sink', [
+    'AAA',
+    'BCB',
+    'BBB'
+], {
+    A: 'avaritia:neutron_ingot',
+    B: 'minecraft:terracotta',  
+    C: 'extendedae:infinity_water_cell'
 });
 // 恩特罗种子
 event.shaped('extendedae:entro_seed', [
@@ -396,12 +449,13 @@ event.shaped('extendedae:infinity_cobblestone_cell', [
    // 无限水
 event.shaped('extendedae:infinity_water_cell', [
     'DAD',
-    'BBB',
+    'BCB',
     'DAD'
 ], {
     D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'minecraft:water_bucket',
-    A: 'ae2:cell_component_256k'
+    A: 'ae2:cell_component_256k',
+    C: 'avaritia:neutron_compressor'
 });
    
    //离魂原石
@@ -413,6 +467,31 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     B: 'mysticalagriculture:soulium_dust',
     A: 'minecraft:cobblestone'
 });
+   
+   //地热能发电单元
+event.shaped('mysticalagriculture:soulstone_cobble', [
+    'ABA',
+    'ACA',
+    'DDD'
+], {
+    A: 'mekanism:alloy_reinforced',
+    B: 'minecraft:lava_bucket',
+    C: 'mekanism:module_base',
+    D: 'mekanism:pellet_polonium'
+});
+   
+   //融合机
+event.shaped('mekanism:combiner', [
+    'ABA',
+    'CDC',
+    'ABA'
+], {
+    A: 'mekanism:alloy_atomic',
+    B: 'mekanism:ultimate_control_circuit',
+    C: 'minecraft:piston',
+    D: 'mekanism:steel_casing'
+});
+
 // 创造模式压缩机
 event.shaped('pneumaticcraft:creative_compressor', [
     'DAD',
@@ -422,7 +501,7 @@ event.shaped('pneumaticcraft:creative_compressor', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'pneumaticcraft:compressed_iron_block',  
     A: 'ae2:cell_component_256k',
-    C: 'avaritia:neutron_compressor'            
+    C: 'avaritia:denser_neutron_compressor'            
 });
 // 创造模式压缩铁块
 event.shaped('pneumaticcraft:creative_compressed_iron_block', [
@@ -433,7 +512,7 @@ event.shaped('pneumaticcraft:creative_compressed_iron_block', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'ae2:cell_component_256k',
-    C: 'avaritia:neutron_compressor'           
+    C: 'avaritia:denser_neutron_compressor'           
 });
 // 基础合成组件
 event.shaped('extendedcrafting:basic_component', [
@@ -568,8 +647,7 @@ event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
     A: 'minecraft:sculk_shrieker',
     B: 'avaritia:double_compressed_crafting_table',
     C: 'minecraft:sculk_sensor'
-});
-// 添加简陋机器框架 配方
+});// 添加简陋机器框架 配方
 event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_pity', [
     'AAAAA',
     'ABBBA',

@@ -38,4 +38,15 @@ StartupEvents.registry("item", event => {
     event.create("skynh:incomplete_resonanz_engineering", "create:sequenced_assembly");
      // 玫瑰石英半成品
     event.create("skynh:incomplete_rose_quartz", "create:sequenced_assembly");
+     // 反物质球碎片
+    event.create("mek:mekanism_fragment_antimatter");
+     // 小的反物质球碎片
+    event.create("mek:mekanism_small_antimatter");
+     // 微小反物质球碎片
+    event.create("mek:mekanism_tiny_antimatter");
+    // 龙之心左侧
+   event.create("draconicevolution:dragon_heart_left");
+   // 龙之心右侧
+   event.create("draconicevolution:dragon_heart_right");
+
 });

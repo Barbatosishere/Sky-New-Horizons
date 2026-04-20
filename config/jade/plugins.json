@@ -147,9 +147,6 @@
     "wt_master_location": true,
     "wt_owner": true
   },
-  "createlowheated": {
-    "basic_burner_info": true
-  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -178,6 +175,14 @@
   "appliedcreate": {
     "grid_node_state": true,
     "power_storage": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   },
   "jade_access": {
     "held_item": true,

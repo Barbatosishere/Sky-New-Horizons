@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     // 钢锭 + 反物质 → 基础控制电路
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism:basic_control_circuit' },
-        item_input: { item: 'mekanism:ingot_steel' },
+        item_input: { item: 'immersiveengineering:ingot_steel'  },
         chemical_input: { chemical: 'mekanism:antimatter', amount: 1 },
         duration: 200
     });

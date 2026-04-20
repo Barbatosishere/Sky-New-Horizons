@@ -278,7 +278,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4A343D1321E97A4D"]
+			dependencies: [
+				"4A343D1321E97A4D"
+				"65D3F033FAC9DE3D"
+			]
 			id: "589E306C20B6FCDD"
 			tasks: [{
 				id: "5B48A8C94F3D9E39"
@@ -455,6 +458,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"5DC5F7170BDB0C13"
+				"49B8268848F22F07"
+			]
 			id: "5A45D0C071430957"
 			tasks: [
 				{
@@ -487,8 +494,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 2.5d
+			y: -3.0d
 		}
 	]
 }
