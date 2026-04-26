@@ -32,7 +32,7 @@
   "block.voidminers.rosarium_energy_modifier": "8级能量升级",
   "block.voidminers.rosarium_speed_modifier": "8级速度升级",
   "block.voidminers.rosarium_item_modifier": "8级物品升级",
-  "block.voidminers.glass_panel": "结构底座",
+  "block.voidminers.glass_panel": "结构玻璃",
   "block.voidminers.rubetine_frame": "1级框架",
   "block.voidminers.aurantium_frame": "2级框架",
   "block.voidminers.citrinetine_frame": "3级框架",
@@ -43,7 +43,7 @@
   "block.voidminers.rosarium_frame": "8级框架",
 
   "block.voidminers.structure_panel": "结构方块",
-  "block.voidminers.frame_base": "框架基础",
+  "block.voidminers.frame_base": "基础框架",
   
  "gui.voidminers.miner": "等级 %d 矿机",
   "gui.voidminers.miners": "矿机",
