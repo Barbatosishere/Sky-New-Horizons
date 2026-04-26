@@ -286,6 +286,12 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mekanism:combiner' });
     // 移除 水槽 配方
         event.remove({ id: 'cookingforblockheads:sink' });
+    // 移除 紧凑型聚变反应堆 配方
+        event.remove({ id: 'compactmekanismmachinesplus:compact_fusion_reactor' });
+    // 移除 紧凑型超临界移相器 配方
+        event.remove({ id: 'compactmekanismmachinesplus:compact_sps' });
+    // 移除 紧凑型热力锅炉 配方
+        event.remove({ id: 'compactmekanismmachinesplus:compact_thermoelectric_boiler' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
   
