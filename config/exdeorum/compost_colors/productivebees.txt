@@ -1,0 +1,23 @@
+// Compost colors for productivebees. You may add your own colors, change existing ones, or remove colors that aren't needed.
+adv_breed_all_bees, #cdffff
+adv_breed_bee, #ffffff
+bee_bomb, #dad9f1
+bee_cage, #a25832
+bee_nest_diamond_helmet, #fff1b9
+configurable_honeycomb, #ffffff
+draconic_chunk, #ffffff
+draconic_dust, #ffffff
+gene, #ffffff
+gene_bottle, #ffffff
+honey_treat, #ffffc2
+honeycomb_ghostly, #ffffff
+honeycomb_milky, #ffffff
+honeycomb_powdery, #ffffff
+milk_bottle, #ffffff
+nest_locator, #fcfff7
+obsidian_shard, #ffffff
+sturdy_bee_cage, #66431f
+sugarbag_honeycomb, #fffab9
+treat_on_a_stick, #ffffff
+wax, #ffc036
+wither_skull_chip, #ffffff

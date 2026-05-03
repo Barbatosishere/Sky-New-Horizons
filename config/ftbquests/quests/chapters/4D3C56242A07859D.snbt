@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D3C56242A07859D"
+	group: "1AC48EC46342DE27"
+	id: "4D3C56242A07859D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "003B48A4848F382C"
+			tasks: [
+				{
+					id: "6CC4D64F87F53421"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "1464100E60AC8781"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["003B48A4848F382C"]
+			id: "73364B56D2705ACC"
+			tasks: [{
+				id: "19541F9C97DB363A"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "38521A248FAE29D4"
+			tasks: [{
+				id: "7E9BE3039795FF21"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DF04869DC8607E4"]
+			id: "5B02260B0E9B0F3A"
+			tasks: [{
+				id: "11FC0CDDF568C2F5"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73364B56D2705ACC"]
+			id: "0757F5BE8C9BF94E"
+			tasks: [{
+				id: "77F619C5F565C798"
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0757F5BE8C9BF94E"]
+			id: "27AA81F8A3ECA17A"
+			tasks: [{
+				count: 8L
+				id: "22BEF7BE90C7B319"
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27AA81F8A3ECA17A"]
+			id: "65E7CC2BB891B8C8"
+			tasks: [
+				{
+					id: "18BB27896CAAC07D"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "07B7995EEC64ED3E"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27AA81F8A3ECA17A"]
+			id: "0DF04869DC8607E4"
+			tasks: [{
+				id: "158813713BEE6588"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+	]
+}

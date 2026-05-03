@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_empowered_energy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_empowered_speed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_io_capacity"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_fast_item_eject"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

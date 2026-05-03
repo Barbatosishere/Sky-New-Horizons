@@ -1,0 +1,15 @@
+{
+  "primaryColor": "#7f76d5",
+  "secondaryColor": "#eadeff",
+  "particleColor": "#f0da4c",
+  "flowerBlock": "small_flowers",
+  "breedingItem": "minecraft:nether_star",
+  "breedingItemCount": 1,
+  "selfbreed": false,
+  "createComb": true,
+  "waterproof": true,
+  "fireproof": true,
+  "speed": 3,
+  "attack": 8,
+  "size": 0.6
+  }

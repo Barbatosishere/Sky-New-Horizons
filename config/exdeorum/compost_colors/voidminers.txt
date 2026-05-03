@@ -1,0 +1,10 @@
+// Compost colors for voidminers. You may add your own colors, change existing ones, or remove colors that aren't needed.
+amethystine, #d904ff
+aurantium, #ffd704
+azurine, #15ffff
+caerium, #ff
+citrinetine, #ffff30
+rosarium, #ff04ff
+rubetine, #ff0505
+structure_helper, #7a3434
+verdium, #7ff07
