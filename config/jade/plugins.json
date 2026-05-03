@@ -250,6 +250,12 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "packaged_faa": {
+    "hephaestus.log": true,
+    "hephaestus.essences": true,
+    "hephaestus.enhancers": true,
+    "hephaestus.level": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,

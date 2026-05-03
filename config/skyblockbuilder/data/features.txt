@@ -85,6 +85,9 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+createnuclear:lead_ore
+createnuclear:striated_ores_overworld
+createnuclear:uranium_ore
 draconicevolution:chaos_island
 draconicevolution:end_comet
 draconicevolution:end_draconium_ore

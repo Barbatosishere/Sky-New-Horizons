@@ -1,0 +1,2 @@
+#Log that Create, Ponder, Flywheel and Registrate are available on the classpath.
+logCreateDependencies = true

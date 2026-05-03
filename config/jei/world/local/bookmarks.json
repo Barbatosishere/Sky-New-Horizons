@@ -1,12 +1,7 @@
 [
   {"version":2},
-  {"ingredient":{"id":"extendedae:fishbig"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:creative_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:creative_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:creative_chemical_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ae2:creative_energy_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"enderio:creative_power"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"voidminers:citrinetine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"voidminers:aurantium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"voidminers:citrinetine_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"mekanism_empowered:upgrade_empowered_energy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_empowered_speed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_io_capacity"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism_empowered:upgrade_fast_item_eject"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
