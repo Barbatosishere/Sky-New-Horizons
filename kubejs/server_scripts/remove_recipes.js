@@ -292,8 +292,27 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'compactmekanismmachinesplus:compact_sps' });
     // 移除 紧凑型热力锅炉 配方
         event.remove({ id: 'compactmekanismmachinesplus:compact_thermoelectric_boiler' });
+    // 移除 未过载电路板 配方
+        event.remove({ id: 'ae2lt:inscriber/overload_circuit_board' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
+    event.remove({ output: 'colors:black_sapling' });
+    event.remove({ output: 'colors:blue_sapling' });
+    event.remove({ output: 'colors:brown_sapling' });
+    event.remove({ output: 'colors:cyan_sapling' });
+    event.remove({ output: 'colors:green_sapling' });
+    event.remove({ output: 'colors:light_blue_sapling' });
+    event.remove({ output: 'colors:light_gray_sapling' });
+    event.remove({ output: 'colors:lime_sapling' });
+    event.remove({ output: 'colors:magenta_sapling' });
+    event.remove({ output: 'colors:orange_sapling' });
+    event.remove({ output: 'colors:pink_sapling' });
+    event.remove({ output: 'colors:purple_sapling' });
+    event.remove({ output: 'colors:red_sapling' });
+    event.remove({ output: 'colors:white_sapling' });
+    event.remove({ output: 'colors:yellow_sapling' });
+    event.remove({ id: 'immersiveengineering:crafting/stick_iron' });
+    event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
@@ -405,6 +424,7 @@ event.shaped('mek:mekanism_small_antimatter', [
 ], {
     '#': 'mek:mekanism_tiny_antimatter'
 });
+
 event.shaped('mekanismgenerators:solar_generator', [
     'DDD',
     'B B',
@@ -415,15 +435,27 @@ event.shaped('mekanismgenerators:solar_generator', [
     C: 'mekanism:pellet_polonium',
     E: 'mekanism:energy_tablet'
 });
+event.shaped('industrialforegoing:plastic', [
+    'A'
+], {
+    A: 'pneumaticcraft:plastic'
+});
+event.shaped('pneumaticcraft:plastic', [
+    'A'
+], {
+    A: 'industrialforegoing:plastic'
+    
+});
 //水槽
 event.shaped('cookingforblockheads:sink', [
-    'AAA',
+    'DAD',
     'BCB',
     'BBB'
 ], {
-    A: 'avaritia:neutron_ingot',
+    A: 'ae2:spatial_io_port',
     B: 'minecraft:terracotta',  
-    C: 'extendedae:infinity_water_cell'
+    C: 'extendedae:infinity_water_cell',  
+    D: 'ae2:speed_card'
 });
 // 恩特罗种子
 event.shaped('extendedae:entro_seed', [
@@ -459,9 +491,9 @@ event.shaped('extendedae:infinity_water_cell', [
     'DAD'
 ], {
     D: 'ae2omnicells:multidimensional_expansion_processor',
-    B: 'minecraft:water_bucket',
+    B: 'functionalstorage:water_generator_upgrade',
     A: 'ae2:cell_component_256k',
-    C: 'avaritia:neutron_compressor'
+    C: 'functionalstorage:fluid_1'
 });
    
    //离魂原石
@@ -642,6 +674,24 @@ event.shaped('extendedae:fishbig', [
     H: 'ae2:creative_energy_cell',
     I: 'draconicevolution:creative_op_capacitor'            
 });
+
+    //MOAKIEE
+    event.shaped('ae2lt:moakiee_fumo', [
+    'ABC',
+    'DEF',
+    'GHI'
+], {
+    A: 'ae2lt:thunderstorm_condensate',
+    B: 'ae2lt:clear_condensate',  
+    C: 'ae2lt:rain_condensate',
+    D: 'ae2lt:lightning_collapse_matrix',
+    E: 'ae2lt:pigmee_fumo',
+    F: 'ae2lt:tesla_coil',
+    G: 'ae2lt:lightning_assembly_chamber',
+    H: 'ae2:creative_energy_cell',
+    I: 'ae2lt:atmospheric_ionizer'            
+});
+
 // 添加幽匿工作台配方（Extended Crafting 高级工作台 5x5 合成）
 event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
     'AAAAA',

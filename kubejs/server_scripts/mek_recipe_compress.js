@@ -28,4 +28,20 @@ ServerEvents.recipes(event => {
         },
         duration: 200                     
     });
+
+    event.custom({
+        type: 'mekanism:compressing',
+        item_input: {
+            item: 'create_better_motors:reggarfonite_gem'      
+        },
+        chemical_input: {
+            chemical: 'mekanism:hydrogen',  
+            amount: 100
+        },
+        output: {
+            id: 'create_better_motors:reggarfonite_sheet'        
+        },
+        duration: 200                     
+    });
+
 });

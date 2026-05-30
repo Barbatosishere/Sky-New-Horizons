@@ -174,6 +174,20 @@ ServerEvents.recipes(event => {
     .transitionalItem(clcp)
     .loops(3)
 
+    // 未过载的电路板打印件：过载水晶 + 过载压印模板 → 3 次
+    create.sequenced_assembly(
+        [
+            "ae2lt:unoverloaded_circuit_board"
+        ],
+        "ae2lt:overload_crystal",
+        [
+            create.deploying(olcp,[olcp,'ae2lt:overload_inscriber_press']).keepHeldItem(),
+            create.pressing(olcp,olcp)
+        ]
+    )
+    .transitionalItem(olcp)
+    .loops(3)
+
     // -------------------- 第二组：将打印件与硅板组合，并注入红石酸，制成最终处理器 --------------------
     // 每个配方循环 1 次，但包含多次操作：部署硅板、三次注液+压制
 
@@ -426,16 +440,4 @@ create.sequenced_assembly(
 )
 .transitionalItem(incomplete_resonanz)
 .loops(4);
-
-// 玫瑰石英：石英+红石（循环8次）
-const incomplete_rose_quartz = 'skynh:incomplete_rose_quartz';
-create.sequenced_assembly(
-    ['create:rose_quartz'],
-    'minecraft:quartz', 
-     [
-        create.deploying(incomplete_rose_quartz, [incomplete_rose_quartz, 'minecraft:redstone'])
-    ]
-)
-.transitionalItem(incomplete_rose_quartz)
-.loops(8);
 }); 

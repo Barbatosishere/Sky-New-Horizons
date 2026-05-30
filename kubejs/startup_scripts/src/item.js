@@ -48,5 +48,7 @@ StartupEvents.registry("item", event => {
    event.create("draconicevolution:dragon_heart_left");
    // 龙之心右侧
    event.create("draconicevolution:dragon_heart_right");
+   //未过载的电路板
+   event.create("skynh:overload_circuit_board");
 
 });
