@@ -429,5 +429,360 @@
 			x: 3.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["0FE9A3C2081FD094"]
+			id: "43484AD1CAF58AD2"
+			tasks: [{
+				icon: {
+					id: "ae2lt:damaged_budding_overload_crystal"
+				}
+				id: "196BC1B77FD61DF4"
+				observe_type: 0
+				timer: 1L
+				to_observe: "ae2lt:damaged_budding_overload_crystal"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43484AD1CAF58AD2"]
+			id: "72B3C07788CA3774"
+			tasks: [{
+				id: "3B6211719DBCC5BC"
+				item: { count: 1, id: "ae2lt:overload_crystal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72B3C07788CA3774"]
+			id: "7F4C49356FD693ED"
+			tasks: [{
+				id: "3CCB72F927EB257A"
+				item: { count: 1, id: "ae2lt:overload_crystal_block" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F4C49356FD693ED"]
+			id: "2D6D4ADFB7D97801"
+			tasks: [{
+				icon: {
+					id: "ae2lt:flawless_budding_overload_crystal"
+				}
+				id: "28F5FC0A0FDBC588"
+				observe_type: 0
+				timer: 1L
+				to_observe: "ae2lt:flawless_budding_overload_crystal"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72B3C07788CA3774"]
+			id: "01755FA15255C224"
+			tasks: [{
+				id: "6758A8EC1CE2034E"
+				item: { count: 1, id: "ae2lt:overload_crystal_dust" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01755FA15255C224"]
+			id: "7887276533DE0658"
+			tasks: [
+				{
+					id: "386B066E8B21DD1C"
+					item: { count: 1, id: "ae2lt:unoverloaded_circuit_board" }
+					type: "item"
+				}
+				{
+					id: "1537FDE57C753BE8"
+					item: { count: 1, id: "ae2lt:overload_inscriber_press" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7887276533DE0658"]
+			id: "0778CAE1CCA8BB93"
+			tasks: [{
+				id: "75339C78006C8E62"
+				item: { count: 1, id: "ae2lt:overload_circuit_board" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0778CAE1CCA8BB93"]
+			id: "219F94334A8190D7"
+			tasks: [{
+				id: "420BB5094C1C8753"
+				item: { count: 1, id: "ae2lt:overload_processor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "669AFE7C01A201B5"
+			tasks: [{
+				id: "7F02A5BD897534EE"
+				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"669AFE7C01A201B5"
+				"01755FA15255C224"
+			]
+			id: "37A12B1B2EE1A0C9"
+			tasks: [{
+				id: "41C09F752E6F96C5"
+				item: { count: 1, id: "ae2lt:overload_alloy" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"37A12B1B2EE1A0C9"
+				"219F94334A8190D7"
+			]
+			id: "46F328E86BE3A79B"
+			tasks: [
+				{
+					id: "1C5D955942B469B8"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
+					type: "item"
+				}
+				{
+					id: "3C10A3CEF2F4B42F"
+					item: { count: 1, id: "ae2lt:electro_chime_crystal" }
+					type: "item"
+				}
+				{
+					id: "41A09DDF2E9B301F"
+					item: { count: 1, id: "ae2lt:perfect_electro_chime_crystal" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A12B1B2EE1A0C9"]
+			id: "7519FF015630DBA7"
+			tasks: [
+				{
+					id: "0196257DB7333D4C"
+					item: { count: 1, id: "ae2lt:lightning_item_cell_housing" }
+					type: "item"
+				}
+				{
+					id: "4B799F7D6C3BA9CE"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_i" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"219F94334A8190D7"
+				"46F328E86BE3A79B"
+			]
+			id: "4B6BFF4DF2A1F681"
+			tasks: [{
+				id: "511755493D32D536"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4B6BFF4DF2A1F681"
+				"219F94334A8190D7"
+			]
+			id: "32FA441EAE2EEC01"
+			tasks: [{
+				id: "35BFE68FB70A64F2"
+				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32FA441EAE2EEC01"]
+			id: "4752C4ADAE288C80"
+			tasks: [{
+				id: "79EF051F08DA3554"
+				item: { count: 1, id: "ae2lt:overload_machine_frame" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4752C4ADAE288C80"]
+			id: "6EB55725344A3758"
+			tasks: [
+				{
+					id: "123D5D7C5CBFB191"
+					item: { count: 1, id: "ae2lt:clear_condensate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27FF11D44466C320"
+					item: { count: 1, id: "ae2lt:rain_condensate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02DB31A467042724"
+					item: { count: 1, id: "ae2lt:thunderstorm_condensate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7254B8199C39E677"
+					item: { count: 1, id: "ae2lt:atmospheric_ionizer" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B6BFF4DF2A1F681"]
+			id: "104817C74ACF93BD"
+			tasks: [{
+				id: "60B69B3F5FC6FE03"
+				item: { count: 1, id: "ae2lt:overload_singularity" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"104817C74ACF93BD"
+				"4B6BFF4DF2A1F681"
+			]
+			id: "43CD998B48F648B6"
+			tasks: [{
+				id: "0B4F7A746580701C"
+				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"104817C74ACF93BD"
+				"4B6BFF4DF2A1F681"
+				"32FA441EAE2EEC01"
+			]
+			id: "4C844B63F216FDE5"
+			tasks: [{
+				id: "06B78FCBC5E90FB2"
+				item: { count: 1, id: "ae2lt:ultimate_overload_core" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4C844B63F216FDE5"
+				"4752C4ADAE288C80"
+				"43CD998B48F648B6"
+			]
+			id: "34C70525B18A0713"
+			tasks: [{
+				id: "0223CF5ED441E7A3"
+				item: { count: 1, id: "ae2lt:overload_processing_factory" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4C844B63F216FDE5"
+				"43CD998B48F648B6"
+			]
+			id: "6DB06C43F48D916D"
+			tasks: [
+				{
+					id: "77109F575F11EE06"
+					item: { count: 1, id: "ae2lt:overloaded_controller" }
+					type: "item"
+				}
+				{
+					id: "50829DA36BF58599"
+					item: { count: 1, id: "ae2lt:wireless_overloaded_controller" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B6BFF4DF2A1F681"]
+			id: "3BF22990867610E4"
+			tasks: [
+				{
+					id: "40A46656BF197446"
+					item: { components: { "minecraft:custom_data": { SelectedProvider: { Dim: "minecraft:overworld", HostType: "interface", Pos: -10445360349103L } } }, count: 1, id: "ae2lt:overloaded_wireless_connect_tool" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28D73E35212B5FDF"
+					item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B651EA06051470A"
+					item: { count: 1, id: "ae2lt:overloaded_interface" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "260108760D374CDA"
+					item: { count: 1, id: "ae2lt:overload_pattern_encoder" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EA8EA67B5EA8D52"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
 	]
 }

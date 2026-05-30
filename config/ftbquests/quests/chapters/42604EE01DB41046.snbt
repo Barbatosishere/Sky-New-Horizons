@@ -12,8 +12,8 @@
 			id: "4A343D1321E97A4D"
 			invisible: true
 			tasks: [{
-				id: "3CA16CBE4F1F1B04"
-				item: { count: 1, id: "create_simple_generator:stress_generator" }
+				id: "204315A59F762108"
+				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -495,6 +495,39 @@
 				}
 			]
 			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A343D1321E97A4D"]
+			id: "3EE414CAD866152E"
+			tasks: [{
+				id: "5F28345C47BD73B0"
+				item: { count: 1, id: "create_better_motors:andesite_alternator" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EE414CAD866152E"]
+			id: "0DF35081C6C15ADA"
+			tasks: [{
+				id: "4C741A9CFE661A0F"
+				item: { count: 1, id: "create_better_motors:copper_alternator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DF35081C6C15ADA"]
+			id: "1144A55CDD4A3B71"
+			tasks: [{
+				id: "2E7C49F211FF1C19"
+				item: { count: 1, id: "create_better_motors:brass_alternator" }
+				type: "item"
+			}]
+			x: -8.0d
 			y: -3.0d
 		}
 	]

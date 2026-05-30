@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["541E4393469FAC11"]
 			id: "4F253D17B2F9A197"
 			tasks: [{
 				id: "3D9929795E65CD5C"
@@ -494,6 +493,7 @@
 			dependencies: [
 				"3BC45E192D0E71B0"
 				"390557B7AA82FCEB"
+				"42093F6802F31B69"
 			]
 			id: "6EB83CCB701F6CF8"
 			tasks: [
@@ -515,6 +515,7 @@
 			dependencies: [
 				"6B345225CA149894"
 				"25B0C5A1441BB736"
+				"6EB83CCB701F6CF8"
 			]
 			id: "10AEF454094F3BB8"
 			tasks: [
@@ -536,6 +537,7 @@
 			dependencies: [
 				"43FF30F750597FD1"
 				"1F30E104DAFBCC08"
+				"10AEF454094F3BB8"
 			]
 			id: "6B522200C0906931"
 			tasks: [
@@ -557,6 +559,7 @@
 			dependencies: [
 				"1A30884D75AEB083"
 				"230E9F362EF68A1E"
+				"6B522200C0906931"
 			]
 			id: "17796DE739150C61"
 			tasks: [

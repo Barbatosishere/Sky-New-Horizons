@@ -571,5 +571,20 @@
 			x: -13.0d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"472EBC8A9F1E241F"
+				"43484AD1CAF58AD2"
+				"7F4C49356FD693ED"
+			]
+			id: "33B7675FD67C067B"
+			tasks: [{
+				id: "1249BBFFEB46C8F8"
+				item: { count: 1, id: "minecraft:lightning_rod" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
 	]
 }

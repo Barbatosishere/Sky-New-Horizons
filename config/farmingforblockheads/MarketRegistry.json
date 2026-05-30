@@ -1,0 +1,10 @@
+{
+    "customCategories": {
+        "vanilla:buildblock": {
+            "name": "\u95e8\u745e\u6b27\u6811\u82d7",
+            "icon": {
+                "item": "integrateddynamics:menril_sapling"
+            }
+        }
+    }
+}

@@ -108,5 +108,16 @@
 			x: 6.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["5B02260B0E9B0F3A"]
+			id: "1562F83A5B6901AC"
+			tasks: [{
+				id: "2524E8DEF718148F"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
 	]
 }

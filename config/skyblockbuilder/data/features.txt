@@ -85,6 +85,7 @@ colors:yellow_tree
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
+create_better_motors:deepslate_reggarfonite_ore
 createnuclear:lead_ore
 createnuclear:striated_ores_overworld
 createnuclear:uranium_ore
@@ -370,6 +371,13 @@ mysticalagradditions:nether_prosperity_ore
 mysticalagriculture:inferium_ore
 mysticalagriculture:prosperity_ore
 mysticalagriculture:soulstone
+naturesaura:ancient_tree
+naturesaura:aura_bloom
+naturesaura:aura_cactus
+naturesaura:aura_mushroom
+naturesaura:crimson_aura_mushroom
+naturesaura:nether_wart_mushroom
+naturesaura:warped_aura_mushroom
 occultism:grove_underground
 occultism:ore_iesnium
 occultism:ore_silver

@@ -84,7 +84,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D059F5F027E4A27"]
@@ -93,8 +93,8 @@
 				id: "062729D6EFF120F9"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -7.5d
+			x: -0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D059F5F027E4A27"]
@@ -103,8 +103,18 @@
 				id: "712F77718D3F3E04"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6D059F5F027E4A27"]
+			id: "79D266AEF1EAF4C9"
+			tasks: [{
+				id: "56E44AAF92F912F3"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.5d
 		}
 	]
 }

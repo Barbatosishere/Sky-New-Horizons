@@ -40,6 +40,9 @@
 	quest.23F71D49F30BCCCB.quest_subtitle: "欢迎来到XXX"
 	quest.2DB8BBA73384AEC8.quest_desc: ["抽屉模组标志建筑:抽屉墙"]
 	quest.32104B6A986596BE.title: "免费的女仆，记得用心培养哦"
+	quest.33B7675FD67C067B.quest_desc: ["使用避雷针在雷雨天引雷，这是进入闪电科技的前置"]
+	quest.43484AD1CAF58AD2.quest_subtitle: "新型mods闪电科技，可以添加群1085225388（作者的群）讨论"
+	quest.43484AD1CAF58AD2.title: "观察损坏的过载水晶母岩"
 	quest.45826155E316B365.quest_subtitle: "如果你选择了创建属于自己的空岛后请不要随便退出，否则会情况你的背包全部物品"
 	quest.45826155E316B365.title: "关于团队"
 	quest.4670E1B423528CF0.quest_desc: [
@@ -59,6 +62,8 @@
 	quest.6D059F5F027E4A27.title: "一些提示"
 	quest.6F2AD98706485DBB.quest_desc: ["所有使用基础框架的发电机无法合成"]
 	quest.6F866C802BAABD06.quest_desc: ["除反应堆外的发电机全部无法合成"]
+	quest.79D266AEF1EAF4C9.quest_desc: ["闪电科技的闪电分为极高压闪电(自然闪电)与人工闪电(高压闪电)"]
+	quest.79D266AEF1EAF4C9.title: "闪电科技相关"
 	task.062729D6EFF120F9.title: "JEI相关"
 	task.088368C7282EC90F.title: "无中生有相关"
 	task.1590F55B33633BDF.title: "MEK相关"

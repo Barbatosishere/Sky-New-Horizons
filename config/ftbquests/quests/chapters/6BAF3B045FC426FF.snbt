@@ -101,11 +101,18 @@
 		{
 			dependencies: ["52CB19F18D84BFA7"]
 			id: "3F419883174057CB"
-			tasks: [{
-				id: "4727415FE8938CF7"
-				item: { count: 1, id: "create:mechanical_press" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4727415FE8938CF7"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "5C743FAE47AC1AA7"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -0.5d
 		}
@@ -139,7 +146,7 @@
 			min_required_dependencies: 1
 			tasks: [{
 				id: "387D80641E82D07A"
-				item: { count: 1, id: "create_simple_generator:stress_generator" }
+				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -474,45 +481,77 @@
 		}
 		{
 			dependencies: ["146BE46941DECCFF"]
+			dependency_requirement: "one_completed"
 			id: "3E25CF9A70A6F026"
-			tasks: [{
-				id: "19333DA61323C52D"
-				item: { count: 1, id: "packagedexcrafting:basic_crafter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19333DA61323C52D"
+					item: { count: 1, id: "packagedexcrafting:basic_crafter" }
+					type: "item"
+				}
+				{
+					id: "4118E07D48352AD7"
+					item: { count: 1, id: "applied_extended_crafting:table_basic_pattern_provider" }
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["51B0247D1A2EC81B"]
+			dependency_requirement: "one_completed"
 			id: "16F8CBB7758D0FD8"
-			tasks: [{
-				id: "6A40EEABF8DFE634"
-				item: { count: 1, id: "packagedexcrafting:elite_crafter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A40EEABF8DFE634"
+					item: { count: 1, id: "packagedexcrafting:elite_crafter" }
+					type: "item"
+				}
+				{
+					id: "7EC793C2A23CA85F"
+					item: { count: 1, id: "applied_extended_crafting:table_elite_pattern_provider" }
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2134E05E26D4C455"]
+			dependency_requirement: "one_completed"
 			id: "52DC6C54A83F01EC"
-			tasks: [{
-				id: "244916649A7D238E"
-				item: { count: 1, id: "packagedexcrafting:advanced_crafter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "244916649A7D238E"
+					item: { count: 1, id: "packagedexcrafting:advanced_crafter" }
+					type: "item"
+				}
+				{
+					id: "377A4FDAB91F6126"
+					item: { count: 1, id: "applied_extended_crafting:table_advanced_pattern_provider" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["469BA5E6A3983065"]
+			dependency_requirement: "one_completed"
 			id: "53491896B4A906B4"
-			tasks: [{
-				id: "08CCDC25061033FB"
-				item: { count: 1, id: "packagedexcrafting:ultimate_crafter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08CCDC25061033FB"
+					item: { count: 1, id: "packagedexcrafting:ultimate_crafter" }
+					type: "item"
+				}
+				{
+					id: "313C5CBFE09D4356"
+					item: { count: 1, id: "applied_extended_crafting:table_ultimate_pattern_provider" }
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 4.0d
 		}
@@ -539,6 +578,17 @@
 			}]
 			x: 1.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["7A1F5C235ED85C87"]
+			id: "693A1100454C9D35"
+			tasks: [{
+				id: "51FB349D63931C66"
+				item: { count: 1, id: "waterwheelimmortal:ww_container" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
 		}
 	]
 }

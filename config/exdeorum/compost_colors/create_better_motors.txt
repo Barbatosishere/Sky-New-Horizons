@@ -1,0 +1,19 @@
+// Compost colors for create_better_motors. You may add your own colors, change existing ones, or remove colors that aren't needed.
+andesite_alternator_tier_upgrade, #bfc0c0
+basic_tier_upgrade, #abaaab
+blazing_tier_upgrade, #d9cfb8
+brass_alternator_tier_upgrade, #d0c3af
+copper_alternator_tier_upgrade, #cfb6af
+crushed_raw_reggarfonite, #6bd3c6
+hardened_tier_upgrade, #c0bcb8
+lava_quartz, #ffffbe
+lava_tube, #6e7a64
+niotic_tier_upgrade, #abd2cd
+nitro_tier_upgrade, #cca0a0
+polished_lava_quartz, #ffff8e
+raw_reggarfonite, #6bd2c6
+reggarfonite_gem, #8affff
+reggarfonite_nugget, #f4037
+reggarfonite_sheet, #52fff1
+spirited_tier_upgrade, #abbca4
+starter_tier_upgrade, #c3c3c3

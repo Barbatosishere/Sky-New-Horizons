@@ -147,6 +147,9 @@
     "wt_master_location": true,
     "wt_owner": true
   },
+  "ae2lt": {
+    "lightning_collector": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -249,12 +252,6 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "packaged_faa": {
-    "hephaestus.log": true,
-    "hephaestus.essences": true,
-    "hephaestus.enhancers": true,
-    "hephaestus.level": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,
