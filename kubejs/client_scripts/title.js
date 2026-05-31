@@ -1,1 +1,1 @@
-Client.setTitle('SkyNH 0.3.1')
+Client.setTitle('SkyNH 0.3.2-beta')

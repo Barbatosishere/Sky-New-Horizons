@@ -425,6 +425,14 @@ event.shaped('mek:mekanism_small_antimatter', [
     '#': 'mek:mekanism_tiny_antimatter'
 });
 
+event.shaped('powah:dry_ice', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'minecraft:blue_ice'
+});
+
 event.shaped('mekanismgenerators:solar_generator', [
     'DDD',
     'B B',
