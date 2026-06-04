@@ -1,0 +1,393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "56DF5479DD175ABE"
+	group: "00687B1484DEC638"
+	id: "56DF5479DD175ABE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BE6A4DA7F315BF1"
+			tasks: [
+				{
+					id: "633AE314BAE945E8"
+					item: { count: 1, id: "voidminers:rubetine_miner" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "013856B55F8843E2"
+					item: { count: 1, id: "voidminers:rubetine_frame" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "65BC34916737F6B3"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BE6A4DA7F315BF1"]
+			id: "10056F19C06ABA3F"
+			tasks: [
+				{
+					id: "4DDA62ED7931846F"
+					item: { count: 1, id: "voidminers:aurantium_miner" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "0C0AE1F9665769EC"
+					item: { count: 1, id: "voidminers:aurantium_frame" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "4FA0DDAF10988932"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10056F19C06ABA3F"]
+			id: "6E6125BA2BD95141"
+			tasks: [
+				{
+					id: "5DB100CA47D4C37E"
+					item: { count: 1, id: "voidminers:citrinetine_miner" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1297823C4EE61913"
+					item: { count: 1, id: "voidminers:citrinetine_frame" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "4B2770B76C1F82C8"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E6125BA2BD95141"]
+			id: "76EEE42D152AAFEA"
+			tasks: [
+				{
+					id: "29EAD5E0087729E3"
+					item: { count: 1, id: "voidminers:verdium_miner" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "58789389417FC58D"
+					item: { count: 1, id: "voidminers:verdium_frame" }
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "5E378DF5C0979A11"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76EEE42D152AAFEA"]
+			id: "6E88AD395C5BBC2A"
+			tasks: [
+				{
+					id: "5C0CA6110B5FAFDD"
+					item: { count: 1, id: "voidminers:azurine_miner" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "1AD5491A19B82926"
+					item: { count: 1, id: "voidminers:azurine_frame" }
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "0F974AA9324D3407"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E88AD395C5BBC2A"]
+			id: "558C5256C635B67B"
+			tasks: [
+				{
+					id: "123BD516699CD06F"
+					item: { count: 1, id: "voidminers:caerium_miner" }
+					type: "item"
+				}
+				{
+					id: "52CC2D534261A7BC"
+					item: { count: 1, id: "voidminers:caerium_frame" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["558C5256C635B67B"]
+			id: "4229398DD6A370A7"
+			tasks: [
+				{
+					id: "6843E8C84A8FF009"
+					item: { count: 1, id: "voidminers:amethystine_miner" }
+					type: "item"
+				}
+				{
+					id: "22C2717D709AA0F7"
+					item: { count: 1, id: "voidminers:amethystine_frame" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4229398DD6A370A7"]
+			id: "6624A711A617600F"
+			tasks: [
+				{
+					id: "79C64E504CD23411"
+					item: { count: 1, id: "voidminers:rosarium_miner" }
+					type: "item"
+				}
+				{
+					id: "156F0DC6A98EF19E"
+					item: { count: 1, id: "voidminers:rosarium_frame" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "352866F22848DBD6"
+			tasks: [
+				{
+					id: "15B100093ED4F257"
+					item: { count: 1, id: "voidminers:rubetine_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "5EE07DB5605FD154"
+					item: { count: 1, id: "voidminers:rubetine_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "3A0DC66E443BD1A5"
+					item: { count: 1, id: "voidminers:rubetine_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1BE6A4DA7F315BF1"
+				"352866F22848DBD6"
+			]
+			id: "3358EC9A92963252"
+			tasks: [
+				{
+					id: "1810206E009310E1"
+					item: { count: 1, id: "voidminers:aurantium_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "32925DB64F2D5535"
+					item: { count: 1, id: "voidminers:aurantium_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "3CCB40CBC58D8D28"
+					item: { count: 1, id: "voidminers:aurantium_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"10056F19C06ABA3F"
+				"3358EC9A92963252"
+			]
+			id: "0785F22D241DDAB4"
+			tasks: [
+				{
+					id: "13F953F7F8AD344B"
+					item: { count: 1, id: "voidminers:citrinetine_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "09E986F3606268A9"
+					item: { count: 1, id: "voidminers:citrinetine_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "31C7C9817836C001"
+					item: { count: 1, id: "voidminers:citrinetine_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E6125BA2BD95141"
+				"0785F22D241DDAB4"
+			]
+			id: "6AD9771DF1D8EBDD"
+			tasks: [
+				{
+					id: "2384D937EBD7ECE4"
+					item: { count: 1, id: "voidminers:verdium_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "1C0AF1EED2A8CFBD"
+					item: { count: 1, id: "voidminers:verdium_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "03A3842D068583BF"
+					item: { count: 1, id: "voidminers:verdium_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"76EEE42D152AAFEA"
+				"6AD9771DF1D8EBDD"
+			]
+			id: "7CBF2D0F7AA87D4D"
+			tasks: [
+				{
+					id: "284296789828CA6C"
+					item: { count: 1, id: "voidminers:azurine_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "5540F71B4F27555C"
+					item: { count: 1, id: "voidminers:azurine_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "2B7FBF2B7B2773E7"
+					item: { count: 1, id: "voidminers:azurine_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E88AD395C5BBC2A"
+				"7CBF2D0F7AA87D4D"
+			]
+			id: "51B5919DCFDF6608"
+			tasks: [
+				{
+					id: "401BF1E391E357B9"
+					item: { count: 1, id: "voidminers:caerium_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "6348DFECC92EFB24"
+					item: { count: 1, id: "voidminers:caerium_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "1B6EC631BBD6B428"
+					item: { count: 1, id: "voidminers:caerium_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"558C5256C635B67B"
+				"51B5919DCFDF6608"
+			]
+			id: "395112BF2DDFBAC8"
+			tasks: [
+				{
+					id: "093D0F53936D18E0"
+					item: { count: 1, id: "voidminers:amethystine_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "67097CA350806418"
+					item: { count: 1, id: "voidminers:amethystine_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "33C44E2F4A25B621"
+					item: { count: 1, id: "voidminers:amethystine_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"395112BF2DDFBAC8"
+				"4229398DD6A370A7"
+			]
+			id: "5B5C5390656B1118"
+			tasks: [
+				{
+					id: "27FB295EBE93649D"
+					item: { count: 1, id: "voidminers:rosarium_energy_modifier" }
+					type: "item"
+				}
+				{
+					id: "02FEF267E38E5E2F"
+					item: { count: 1, id: "voidminers:rosarium_speed_modifier" }
+					type: "item"
+				}
+				{
+					id: "64735906BE57DA6B"
+					item: { count: 1, id: "voidminers:rosarium_item_modifier" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+}

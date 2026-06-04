@@ -1,0 +1,29 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:nether_star"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+        {
+            "item": {
+                "item": "mysticalagradditions:nether_star_shard"
+            },
+            "min": 1,
+            "max": 5,
+            "chance": 1
+        },
+    {
+      "item": {
+        "item": "productivebees:wax"
+      }
+    }
+  ],
+  "fluid": {
+    "fluid": "productivebees:honey",
+    "amount": 100
+  }
+}

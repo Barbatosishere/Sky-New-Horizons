@@ -1,0 +1,20 @@
+{
+  "primaryColor": "#ffadde",
+  "secondaryColor": "#6b367c",
+  "particleColor": "#fc9efa",
+  "flowerBlock": "small_flowers",
+  "breedingItem": "mekanism:pellet_antimatter",
+  "breedingItemCount": 1,
+  "selfbreed": false,
+  "createComb": true,
+  "waterproof": true,
+  "fireproof": true,
+  "speed": 4.5,
+  "attack": 10,
+  "size": 0.6,
+  "withered": true,
+  "passiveEffects": {
+    "effect": "minecraft:withered",
+    "duration": 100
+  }
+}

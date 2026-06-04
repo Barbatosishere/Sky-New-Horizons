@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "productivebees:nether_star",
+  "results": [
+    {
+      "item": {
+        "type": "productivebees:component",
+        "components": {
+          "productivebees:bee_type": "productivebees:nether_star"
+        },
+        "items": "productivebees:configurable_honeycomb"
+      }
+    }
+  ]
+} 

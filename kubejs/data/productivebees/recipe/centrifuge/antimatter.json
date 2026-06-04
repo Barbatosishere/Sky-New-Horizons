@@ -1,0 +1,29 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:antimatter"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+        {
+            "item": {
+                "item": "mek:mekanism_tiny_antimatter"
+            },
+            "min": 1,
+            "max": 5,
+            "chance": 1
+        },
+    {
+      "item": {
+        "item": "productivebees:wax"
+      }
+    }
+  ],
+  "fluid": {
+    "fluid": "productivebees:honey",
+    "amount": 100
+  }
+}

@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D1C4818A5B560DB"
+	group: "47195CDC51A7AF94"
+	id: "4D1C4818A5B560DB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15EFB983252D5A66"
+			tasks: [{
+				id: "7ABF7228E1D456FE"
+				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "17615785BE337119"
+			tasks: [{
+				id: "7732A3BF842722E7"
+				item: { count: 1, id: "pneumaticcraft:creative_compressor" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "224B03E2BE51172B"
+			tasks: [{
+				id: "283FC06D4EFAD417"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "65805409F650CAF7"
+			tasks: [{
+				id: "37D9886685639E10"
+				item: { count: 1, id: "mekanism:creative_bin" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "73A419DD5CAA3335"
+			tasks: [{
+				id: "6B5B56C5AEFB8414"
+				item: { count: 1, id: "draconicevolution:creative_op_capacitor" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "2CD49055E3B05122"
+			tasks: [{
+				id: "1BB713E4CFC505C0"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "42BEC47C7D46FA5A"
+			tasks: [{
+				id: "088EA78EC65791DD"
+				item: { count: 1, id: "enderio:creative_power" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "571D4FBC52B14332"
+			tasks: [{
+				id: "5229AE4C0D7096F6"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "20FDA529299DB29D"
+			tasks: [{
+				id: "3EDF5AE526908CD6"
+				item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1033087708, 88689517, -1972474214, -725176708 ] }, count: 1, id: "draconicevolution:creative_capacitor" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"571D4FBC52B14332"
+				"2CD49055E3B05122"
+				"224B03E2BE51172B"
+				"20FDA529299DB29D"
+				"73A419DD5CAA3335"
+				"15EFB983252D5A66"
+				"42BEC47C7D46FA5A"
+				"65805409F650CAF7"
+				"17615785BE337119"
+			]
+			id: "48795B4F87F01363"
+			tasks: [{
+				id: "21E41FB315F5163D"
+				item: { count: 1, id: "extendedae:fishbig" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+	]
+}

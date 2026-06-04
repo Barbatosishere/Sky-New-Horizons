@@ -1,0 +1,11 @@
+// Compost colors for productivemetalworks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+fire_brick, #a7948e
+gear_cast, #dadce0
+gem_cast, #9a9da2
+ingot_cast, #b8bbbf
+meat_ingot, #ff9a86
+meat_nugget, #ffffff
+nugget_cast, #666b72
+plate_cast, #b9bcc0
+rod_cast, #797c83
+shiny_meat_ingot, #ffd379

@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae_6C002AC620B9741C"
+	group: "47195CDC51A7AF94"
+	id: "6C002AC620B9741C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"06D2F948F60C66D1"
+				"349D6C5887FB98DB"
+				"226AD6B7C47E7285"
+				"5B8261B6FC3F98D7"
+				"52A35329B4A28C4E"
+				"277DC6CEFFA7B918"
+			]
+			id: "68813500A5F18B83"
+			tasks: [{
+				id: "28F71B49A29D6FF9"
+				item: { count: 1, id: "extendedae:entro_seed" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68813500A5F18B83"]
+			id: "4C1091962B7B9177"
+			tasks: [{
+				id: "7C610C07714C564D"
+				item: { count: 1, id: "extendedae:entro_ingot" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C1091962B7B9177"]
+			id: "17AED7860BDBA902"
+			tasks: [{
+				id: "22337F3BBD63F79C"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["249360676DD0FFEF"]
+			id: "41F946AA9E294CD0"
+			tasks: [
+				{
+					id: "7D655097B5FA2C80"
+					item: { count: 1, id: "advanced_ae:quantum_core" }
+					type: "item"
+				}
+				{
+					id: "7100DBF6BEF2705B"
+					item: { count: 1, id: "advanced_ae:data_entangler" }
+					type: "item"
+				}
+				{
+					id: "2D730C16A6BF311D"
+					item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17AED7860BDBA902"]
+			id: "249360676DD0FFEF"
+			tasks: [
+				{
+					id: "36DA3C21FCF9154B"
+					item: { count: 1, id: "advanced_ae:quantum_unit" }
+					type: "item"
+				}
+				{
+					id: "3654C35C46B7F062"
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17AED7860BDBA902"]
+			id: "24FE73A77076AB61"
+			tasks: [
+				{
+					id: "34A7C392BE843784"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					id: "3B18AC8DB53E5A26"
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					type: "item"
+				}
+				{
+					id: "46C015D317959330"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					type: "item"
+				}
+				{
+					id: "190624E9AF317C94"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					type: "item"
+				}
+				{
+					id: "32BD9AA664F5ED80"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					type: "item"
+				}
+				{
+					id: "2F83A73471E3802A"
+					item: { count: 1, id: "extendedae_plus:assembler_matrix_upload_core" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24FE73A77076AB61"]
+			id: "1A663879874E689F"
+			tasks: [
+				{
+					id: "7D5A3919855D5EFF"
+					item: { count: 1, id: "extendedae_plus:assembler_matrix_speed_plus" }
+					type: "item"
+				}
+				{
+					id: "2E677ABE25939082"
+					item: { count: 1, id: "extendedae_plus:assembler_matrix_crafter_plus" }
+					type: "item"
+				}
+				{
+					id: "2F3C9B8646F2CD28"
+					item: { count: 1, id: "extendedae_plus:assembler_matrix_pattern_plus" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 2.0d
+		}
+	]
+}

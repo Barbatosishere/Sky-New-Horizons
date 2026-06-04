@@ -1,0 +1,9 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "minecraft:bee",
+  "result": "productivebees:nether_star",
+  "item": {
+    "item": "minecraft:nether_star"
+  },
+  "chance": 0.2
+}

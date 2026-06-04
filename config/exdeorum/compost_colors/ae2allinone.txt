@@ -1,0 +1,4 @@
+// Compost colors for ae2allinone. You may add your own colors, change existing ones, or remove colors that aren't needed.
+all_chemical_cell, #fff8b6
+all_fluid_cell, #64e0e4
+all_item_cell, #f5ffff

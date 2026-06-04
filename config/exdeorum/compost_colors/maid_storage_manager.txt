@@ -1,0 +1,15 @@
+// Compost colors for maid_storage_manager. You may add your own colors, change existing ones, or remove colors that aren't needed.
+allow_access, #ebffc9
+change_flag, #f08326
+configurable_communicate_terminal, #d2946c
+craft_guide, #dab6a4
+filter_list, #ffffeb
+inventory_list, #dabcb8
+logistics_guide, #e1ae8d
+no_access, #ffe6c8
+portable_craft_calculator_bauble, #ffffff
+progress_pad, #ebd29b
+request_list, #d7bb91
+storage_define_bauble, #eed0a4
+work_card, #918db1
+written_inventory_list, #b47c78
