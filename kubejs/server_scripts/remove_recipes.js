@@ -115,6 +115,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'appflux:inscriber/energy' });  
     // 移除 并发处理器 配方
     event.remove({ id: 'extendedae:inscriber/concurrent_process' }); 
+    // 移除 过载处理器 配方
+    event.remove({ id: 'ae2lt:inscriber/overload_processor' }); 
     // 移除 累积处理器 配方
     event.remove({ id: 'megacells:inscriber/accumulation_processor' }); 
      // 移除 无限水 配方
@@ -212,7 +214,7 @@ ServerEvents.recipes(event => {
     // 移除 重型工程块 配方
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
     // 移除 共震工程块 配方
-    event.remove({ id: 'immersiveengineering:crafting/thermoelectric_generator' });
+    event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
     // 移除 玫瑰石英 配方
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 鱼大 配方
@@ -294,6 +296,8 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'compactmekanismmachinesplus:compact_thermoelectric_boiler' });
     // 移除 未过载电路板 配方
         event.remove({ id: 'ae2lt:inscriber/overload_circuit_board' });
+    // 移除 经验模坯 配方
+        event.remove({ id: 'mob_grinding_utils:recipe_mould_blank' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
     event.remove({ output: 'colors:black_sapling' });
@@ -431,6 +435,43 @@ event.shaped('powah:dry_ice', [
     '###'
 ], {
     '#': 'minecraft:blue_ice'
+});
+
+event.shaped(Item.of('minecraft:clay_ball', 4), [
+    '#'
+], {
+    '#': 'minecraft:clay'
+});
+
+event.shaped('skynh:honeycomb_mold', [
+    'AB'
+], {
+    'A': 'mob_grinding_utils:solid_xp_mould_blank',
+    'B': 'immersiveengineering:wirecutter'
+});
+
+event.shaped('mob_grinding_utils:solid_xp_mould_blank', [
+    '###',
+    '# #',
+    '###'
+], {
+    '#': 'minecraft:gold_nugget'
+});
+
+event.shaped(Item.of('minecraft:chest', 4), [
+    '###',
+    '# #',
+    '###'
+], {
+    '#': '#minecraft:logs'
+});
+
+event.shaped('minecraft:chest', [
+    '###',
+    '# #',
+    '###'
+], {
+    '#': '#minecraft:planks'
 });
 
 event.shaped('mekanismgenerators:solar_generator', [

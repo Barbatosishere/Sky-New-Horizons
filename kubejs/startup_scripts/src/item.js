@@ -22,6 +22,30 @@ StartupEvents.registry("item", event => {
     event.create("skynh:printed_energy_processor", "create:sequenced_assembly");       // penp
     // 计算处理器打印件
     event.create("skynh:printed_calculation_processor", "create:sequenced_assembly");  // pcp
+   //未过载的电路板
+   event.create("skynh:overload_circuit_board", "create:sequenced_assembly");
+    //累积处理器
+    event.create("skynh:accumulation_processor", "create:sequenced_assembly");
+    //工程处理器
+    event.create("skynh:engineering_processor", "create:sequenced_assembly");
+    //逻辑处理器
+    event.create("skynh:logic_processor", "create:sequenced_assembly");
+    //复杂链路处理器
+    event.create("skynh:complex_link_processor", "create:sequenced_assembly");
+    // 并发处理器
+    event.create("skynh:concurrent_processor", "create:sequenced_assembly");
+    // 多维展开处理器
+    event.create("skynh:multidimensional_expansion_processor", "create:sequenced_assembly");
+    // 全能链路处理器
+    event.create("skynh:omni_link_processor", "create:sequenced_assembly");
+    //量子处理器
+    event.create("skynh:quantum_processor", "create:sequenced_assembly");
+    // 能量处理器
+    event.create("skynh:energy_processor", "create:sequenced_assembly");
+    //运算处理器
+    event.create("skynh:calculation_processor", "create:sequenced_assembly");
+    //过载处理器
+    event.create("skynh:overload_processor", "create:sequenced_assembly");
     // 压缩铁半成品
     event.create("skynh:incomplete_compressed_iron", "create:sequenced_assembly");
     // 黑铁锭半成品
@@ -48,7 +72,6 @@ StartupEvents.registry("item", event => {
    event.create("draconicevolution:dragon_heart_left");
    // 龙之心右侧
    event.create("draconicevolution:dragon_heart_right");
-   //未过载的电路板
-   event.create("skynh:overload_circuit_board");
-
+   //蜜脾磨具
+   event.create("skynh:honeycomb_mold");
 });

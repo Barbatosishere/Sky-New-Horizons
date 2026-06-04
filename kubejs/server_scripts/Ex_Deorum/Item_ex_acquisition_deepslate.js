@@ -18,7 +18,8 @@ ServerEvents.recipes(event => {
         'minecraft:diamond',
         'minecraft:emerald',
         'minecraft:amethyst_shard',
-        'minecraft:coal'
+        'minecraft:coal',
+        'exdeorum:platinum_ore_chunk'
     ];
 
     const crushedDeepslate = 'exdeorum:crushed_deepslate';

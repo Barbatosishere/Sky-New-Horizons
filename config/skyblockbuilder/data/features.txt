@@ -134,6 +134,8 @@ geore:uraninite_geode
 geore:uranium_geode
 geore:vibranium_geode
 geore:zinc_geode
+ifmup:nether_shadow_ore_configured
+ifmup:unknown_block_configured
 immersiveengineering:bauxite
 immersiveengineering:deep_nickel
 immersiveengineering:lead

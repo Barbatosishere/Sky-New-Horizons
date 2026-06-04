@@ -50,6 +50,7 @@
 		"压缩筛子无法联动筛矿"
 	]
 	quest.46AD21F325EF59BF.quest_desc: ["空燃烧室可以通过右键烈焰人或烈焰人刷怪笼来获得燃烧室"]
+	quest.4F253D17B2F9A197.quest_subtitle: "mek 的机器可以使用红石发电"
 	quest.541E4393469FAC11.quest_desc: ["科技起源于锤子"]
 	quest.5997309D33B22401.quest_desc: ["你可以通过给魔灵全典重命名来保证束缚之书的NBT相同"]
 	quest.5AD1D84F1A40CF19.quest_desc: ["无中生有怎么能没有自动锤和自动筛呢"]

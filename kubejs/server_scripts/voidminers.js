@@ -36,4 +36,6 @@ ServerEvents.recipes(event => {
     addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:the_end');
     addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:the_nether');
 
+    //未知块
+    addMiner('ifmup:unknown_block', 3, 7, 'minecraft:the_end');
 });
