@@ -365,4 +365,10 @@ create.sequenced_assembly(
             create.pressing("minecraft:honeycomb", "minecraft:honeycomb")
         ]
     ).transitionalItem("minecraft:honeycomb").loops(1);
+
+    create.crushing('exdeorum:crushed_netherrack', 'minecraft:netherrack').processingTime(350);
+    create.crushing('exdeorum:crushed_end_stone', 'minecraft:end_stone').processingTime(350);
+    create.crushing('exdeorum:crushed_deepslate', 'minecraft:deepslate').processingTime(350);
+    create.crushing('exdeorum:crushed_blackstone', 'minecraft:blackstone').processingTime(350);
+
 });
