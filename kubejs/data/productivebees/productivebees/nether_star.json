@@ -3,7 +3,7 @@
   "secondaryColor": "#eadeff",
   "particleColor": "#f0da4c",
   "flowerBlock": "small_flowers",
-  "breedingItem": "minecraft:nether_star",
+  "breedingItem": "small_flowers",
   "breedingItemCount": 1,
   "selfbreed": false,
   "createComb": true,

@@ -37,7 +37,18 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34C660F98CEBDB97"]
+			id: "216AA7F640F8C3BB"
+			tasks: [{
+				id: "155ABEFD9160B8A8"
+				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
 		}
 	]
 }

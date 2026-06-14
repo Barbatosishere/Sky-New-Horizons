@@ -586,5 +586,41 @@
 			x: -10.0d
 			y: 2.0d
 		}
+		{
+			dependencies: [
+				"7A15580B2C3FA5F3"
+				"4896FE22E8F71EED"
+				"249360676DD0FFEF"
+			]
+			id: "2449AFF1734881BA"
+			tasks: [
+				{
+					id: "2D4D4A318CC1E179"
+					item: { count: 1, id: "teleportcakes:end_cake" }
+					type: "item"
+				}
+				{
+					id: "443FC6BE44230C28"
+					item: { count: 1, id: "exdeorum:end_cake" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4896FE22E8F71EED"
+				"249360676DD0FFEF"
+			]
+			id: "1B520A5C752C7893"
+			tasks: [{
+				id: "04822A193E1AEF7A"
+				item: { count: 1, id: "teleportcakes:nether_cake" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
 	]
 }

@@ -22,6 +22,8 @@ StartupEvents.registry("item", event => {
     event.create("skynh:printed_energy_processor", "create:sequenced_assembly");       // penp
     // 计算处理器打印件
     event.create("skynh:printed_calculation_processor", "create:sequenced_assembly");  // pcp
+    //ECO - SA 超导电路板
+    event.create("skynh:superconducting_processor", "create:sequenced_assembly");
    //未过载的电路板
    event.create("skynh:overload_circuit_board", "create:sequenced_assembly");
     //累积处理器
@@ -44,6 +46,8 @@ StartupEvents.registry("item", event => {
     event.create("skynh:energy_processor", "create:sequenced_assembly");
     //运算处理器
     event.create("skynh:calculation_processor", "create:sequenced_assembly");
+    // ECO - SA 超导处理器
+    event.create("skynh:superconducting_processor_print", "create:sequenced_assembly");
     //过载处理器
     event.create("skynh:overload_processor", "create:sequenced_assembly");
     // 压缩铁半成品
@@ -74,4 +78,5 @@ StartupEvents.registry("item", event => {
    event.create("draconicevolution:dragon_heart_right");
    //蜜脾磨具
    event.create("skynh:honeycomb_mold");
+   event.create("skynh:nitro_crystal_block_1");
 });

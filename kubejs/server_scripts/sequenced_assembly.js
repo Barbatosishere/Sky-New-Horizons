@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
     const pcp = 'skynh:printed_calculation_processor';
     const aeps = 'ae2:printed_silicon';
     const ae2lt = 'skynh:overload_circuit_board';
+    const spp = 'skynh:superconducting_processor_print';
 
     // ---------- 最终处理器常量 ----------
     const pep_clq = 'skynh:engineering_processor';
@@ -29,6 +30,7 @@ ServerEvents.recipes(event => {
     const penp_clq = 'skynh:energy_processor';
     const pcp_clq = 'skynh:calculation_processor';
     const ae2lt_clq = 'skynh:overload_processor';
+    const spp_clq = 'skynh:superconducting_processor';
 
 
     // -------------------- 第一组：基础材料 → 电路板打印件（保持原样）--------------------
@@ -139,6 +141,15 @@ ServerEvents.recipes(event => {
             create.pressing(olcp, olcp)
         ]
     ).transitionalItem(olcp).loops(3);
+
+        create.sequenced_assembly(
+        ["neoecoae:superconducting_processor_print"],
+        "neoecoae:energized_superconductive_ingot",
+        [
+            create.deploying(ae2lt, [ae2lt, 'neoecoae:superconducting_processor_press']).keepHeldItem(),
+            create.pressing(ae2lt, ae2lt)
+        ]
+    ).transitionalItem(ae2lt).loops(3);
 
      // -------------------- 第二组：电路板打印件 → 处理器（使用打印件作为中间物品） --------------------
     // 工程处理器
@@ -305,6 +316,20 @@ ServerEvents.recipes(event => {
             create.pressing("ae2lt:overload_circuit_board", ae2lt)
         ]
     ).transitionalItem(ae2lt).loops(1);
+
+    create.sequenced_assembly(
+        ["neoecoae:superconducting_processor"],
+        "neoecoae:superconducting_processor_print",
+        [
+            create.deploying(spp, [spp, aeps]),
+            create.filling(spp, [spp, Fluid.of('immersiveengineering:redstone_acid', 100)]),
+            create.pressing(spp, spp),
+            create.filling(spp, [spp, Fluid.of('immersiveengineering:redstone_acid', 100)]),
+            create.pressing(spp, spp),
+            create.filling(spp, [spp, Fluid.of('immersiveengineering:redstone_acid', 100)]),
+            create.pressing("neoecoae:superconducting_processor_print", spp)
+        ]
+    ).transitionalItem(spp).loops(1);
 
     // -------------------- 其他配方（压缩铁锭、工程块）保持不变 --------------------
     const incompleteIron = 'skynh:incomplete_compressed_iron'; 

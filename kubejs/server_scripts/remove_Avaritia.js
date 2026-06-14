@@ -33,15 +33,15 @@ ServerEvents.recipes(event => {
         type: 'avaritia:shaped_table',
         tier: 4,
         pattern: [
-            '         ',
-            ' ABBCBBA ',
-            ' BCCDCCB ',
-            ' BCCDCCB ',
-            ' BDDEDDB ',
-            ' BCCDCCB ',
-            ' BCCDCCB ',
-            ' ABBCBBA ',
-            '         '
+            'ABBBBBBBA',
+            'BACCDCCAB',
+            'BCCCDCCCB',
+            'BCCCDCCCB',
+            'BDDDEDDDB',
+            'BCCCDCCCB',
+            'BCCCDCCCB',
+            'BACCDCCAB',
+            'ABBBBBBBA'
         ],
         key: {
             A: { item: 'avaritia:infinity_catalyst' },
@@ -60,14 +60,14 @@ ServerEvents.recipes(event => {
         tier: 4,
         pattern: [
             '   C C   ',
-            ' ABBCBBA ',
-            ' BCCCCCB ',
-            ' BCCDCCB ',
-            ' BCDEDCB ',
-            ' BCCDCCB ',
-            ' BCCCCCB ',
-            ' ABBCBBA ',
-            '         '
+            '   C C   ',
+            'ABBBCBBBA',
+            'BCCCCCCCB',
+            'BCCCDCCCB',
+            'BCCDEDCCB',
+            'BCCCDCCCB',
+            'BCCCCCCCB',
+            'ABBBCBBBA'
         ],
         key: {
             A: { item: 'avaritia:infinity_catalyst' },

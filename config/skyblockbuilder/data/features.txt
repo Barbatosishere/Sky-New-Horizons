@@ -380,6 +380,10 @@ naturesaura:aura_mushroom
 naturesaura:crimson_aura_mushroom
 naturesaura:nether_wart_mushroom
 naturesaura:warped_aura_mushroom
+neoecoae:ore_aluminum
+neoecoae:ore_aluminum_small
+neoecoae:ore_tungsten
+neoecoae:ore_tungsten_small
 occultism:grove_underground
 occultism:ore_iesnium
 occultism:ore_silver

@@ -16,12 +16,11 @@
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
+			x: -9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
-				"4A343D1321E97A4D"
 				"6ECA51D9E07FDA71"
 				"415FA96E4BF44353"
 			]
@@ -278,18 +277,15 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4A343D1321E97A4D"
-				"65D3F033FAC9DE3D"
-			]
+			dependencies: ["65D3F033FAC9DE3D"]
 			id: "589E306C20B6FCDD"
 			tasks: [{
 				id: "5B48A8C94F3D9E39"
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 0.0d
+			x: -9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["589E306C20B6FCDD"]
@@ -312,7 +308,7 @@
 				}
 			]
 			x: -9.5d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["589E306C20B6FCDD"]
@@ -322,7 +318,7 @@
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -333,7 +329,7 @@
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 1.5d
 		}
 		{
@@ -344,11 +340,10 @@
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["4A343D1321E97A4D"]
 			id: "0B8A6343DF2D3C10"
 			tasks: [{
 				id: "10EC966D0AE50C38"
@@ -356,7 +351,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B8A6343DF2D3C10"]
@@ -367,7 +362,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1193F4998A5695BA"]
@@ -378,7 +373,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E6A464E8E37AD0F"]
@@ -389,7 +384,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["052C7ADCB0EA3854"]
@@ -400,7 +395,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1690C7ACBF31BB9C"]
@@ -411,7 +406,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4FE1495316A7CB09"]
@@ -422,13 +417,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"2F133A77ECD20971"
-				"4A343D1321E97A4D"
-			]
+			dependencies: ["2F133A77ECD20971"]
 			id: "39DFC4C568AF990A"
 			tasks: [
 				{
@@ -454,8 +446,8 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 3.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -505,7 +497,7 @@
 				item: { count: 1, id: "create_better_motors:andesite_alternator" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -8.0d
 			y: -3.0d
 		}
 		{
@@ -516,7 +508,7 @@
 				item: { count: 1, id: "create_better_motors:copper_alternator" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -527,7 +519,21 @@
 				item: { count: 1, id: "create_better_motors:brass_alternator" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5DC5F7170BDB0C13"
+				"485EA57551858700"
+			]
+			id: "07DCEC23D363F87B"
+			tasks: [{
+				id: "10386E187553AB13"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: -0.5d
 			y: -3.0d
 		}
 	]

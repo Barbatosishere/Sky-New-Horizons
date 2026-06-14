@@ -38,4 +38,7 @@ ServerEvents.recipes(event => {
 
     //未知块
     addMiner('ifmup:unknown_block', 3, 7, 'minecraft:the_end');
+
+    //粗暗影
+    addMiner('ifmup:raw_shadow', 3, 5, 'minecraft:the_nethe');
 });
