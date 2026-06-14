@@ -298,6 +298,8 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'ae2lt:inscriber/overload_circuit_board' });
     // 移除 经验模坯 配方
         event.remove({ id: 'mob_grinding_utils:recipe_mould_blank' });
+    // 移除 ECO - 集成工作站 配方
+        event.remove({ id: 'neoecoae:integrated_working_station' });
     // 移除 无用 配方
     event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
     event.remove({ output: 'colors:black_sapling' });
@@ -458,6 +460,14 @@ event.shaped('mob_grinding_utils:solid_xp_mould_blank', [
     '#': 'minecraft:gold_nugget'
 });
 
+event.shaped('skynh:nitro_crystal_block_1', [
+    '###',
+    '###',
+    '###'
+], {
+    '#': 'powah:nitro_crystal_block'
+});
+
 event.shaped(Item.of('minecraft:chest', 4), [
     '###',
     '# #',
@@ -518,7 +528,7 @@ event.shaped('extendedae:entro_seed', [
     D: 'pneumaticcraft:printed_circuit_board',
     E: 'occultism:soul_gem',
     F: 'apotheosis:mythic_material',
-    H: 'mekanism:block_refined_obsidian',
+    H: 'skynh:nitro_crystal_block_1',
     I: 'mekanism:pellet_antimatter',
     G: 'draconicevolution:small_chaos_frag' 
 });
@@ -545,6 +555,23 @@ event.shaped('extendedae:infinity_water_cell', [
     C: 'functionalstorage:fluid_1'
 });
    
+// ECO - 集成工作站
+event.shaped('neoecoae:integrated_working_station', [
+    'ABC',
+    'DEF',
+    'QBW'
+], {
+    A: 'ae2lt:lightning_assembly_chamber',
+    B: 'neoecoae:superconducting_processor',
+    C: 'advanced_ae:quantum_core',
+    D: 'ae2:cell_workbench',
+    E: 'neoecoae:aluminum_alloy_casing',
+    F: 'ae2:condenser',
+    Q: 'extendedae:ex_inscriber',
+    W: 'extendedae:ex_inscriber'
+
+}); 
+
    //离魂原石
 event.shaped('mysticalagriculture:soulstone_cobble', [
     'AB ',
@@ -588,7 +615,7 @@ event.shaped('pneumaticcraft:creative_compressor', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'pneumaticcraft:compressed_iron_block',  
     A: 'ae2:cell_component_256k',
-    C: 'avaritia:denser_neutron_compressor'            
+    C: 'avaritia:dense_neutron_compressor'            
 });
 // 创造模式压缩铁块
 event.shaped('pneumaticcraft:creative_compressed_iron_block', [
@@ -599,7 +626,7 @@ event.shaped('pneumaticcraft:creative_compressed_iron_block', [
     D: 'ae2omnicells:multidimensional_expansion_processor',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'ae2:cell_component_256k',
-    C: 'avaritia:denser_neutron_compressor'           
+    C: 'avaritia:dense_neutron_compressor'           
 });
 // 基础合成组件
 event.shaped('extendedcrafting:basic_component', [

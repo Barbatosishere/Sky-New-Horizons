@@ -187,6 +187,11 @@
     "milk_jar": true,
     "toaster": true
   },
+  "neoecoae": {
+    "eco_drive": true,
+    "eco_crafting_worker": true,
+    "eco_crafting_system": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,

@@ -2,7 +2,7 @@
   "primaryColor": "#ffadde",
   "secondaryColor": "#6b367c",
   "particleColor": "#fc9efa",
-  "flowerBlock": "small_flowers",
+  "flowerItem": "mekanism:pellet_antimatter" ,
   "breedingItem": "mekanism:pellet_antimatter",
   "breedingItemCount": 1,
   "selfbreed": false,

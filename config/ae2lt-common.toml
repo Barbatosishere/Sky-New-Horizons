@@ -80,6 +80,8 @@ configVersion = 2
 	# Default: 8
 	# Range: > 0
 	globalLightningBudgetPerTick = 8
+	#Controls whether overload TNT can consume a Lightning Collapse Matrix to drop a Mysterious Cell.
+	enableMysteriousCellEasterEgg = true
 
 	[network.overloadedController]
 		#Extra channels provided by each overloaded controller.

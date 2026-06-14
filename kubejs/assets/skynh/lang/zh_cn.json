@@ -35,6 +35,9 @@
     "item.skynh.mekanism_fragment_antimatter":"反物质碎片",
     "item.skynh.mekanism_small_antimatter":"小的反物质碎片",
     "item.skynh.mekanism_tiny_antimatter":"微小反物质球碎片",
-    "item.skynh.honeycomb_mold":"蜜脾磨具"
+    "item.skynh.honeycomb_mold":"蜜脾磨具",
+    "item.skynh.superconducting_processor_print":"ECO - SA 超导电路板(半成品)",
+    "item.skynh.superconducting_processor":"ECO - SA 超导处理器(半成品)",
+    "item.skynh.nitro_crystal_block_1":"压缩下界晶体块"
 }
     

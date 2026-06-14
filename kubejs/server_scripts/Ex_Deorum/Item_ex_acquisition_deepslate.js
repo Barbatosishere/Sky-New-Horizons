@@ -14,14 +14,10 @@ ServerEvents.recipes(event => {
         'exdeorum:iridium_ore_chunk',
         'exdeorum:osmium_ore_chunk',
         'exdeorum:uranium_ore_chunk',
-        'minecraft:lapis_lazuli',
-        'minecraft:diamond',
-        'minecraft:emerald',
-        'minecraft:amethyst_shard',
+        'exdeorum:platinum_ore_chunk',
         'minecraft:coal',
-        'exdeorum:platinum_ore_chunk'
+        'minecraft:amethyst_shard'
     ];
-
     const crushedDeepslate = 'exdeorum:crushed_deepslate';
 
         oreChunks.forEach(chunkId => {
@@ -30,42 +26,42 @@ ServerEvents.recipes(event => {
                 ingredient: { item: crushedDeepslate },
                 mesh: { item: 'exdeorum:string_mesh' },
                 result: { id: chunkId },
-                result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
+                result_amount: { type: 'minecraft:uniform', min: 0, max: 1 }
             });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
             mesh: { item: 'exdeorum:flint_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
             mesh: { item: 'exdeorum:iron_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 5 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
             mesh: { item: 'exdeorum:golden_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 8 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 6 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
             mesh: { item: 'exdeorum:diamond_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 10 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 9 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
             mesh: { item: 'exdeorum:netherite_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 14 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 12 }
         });
     });
 

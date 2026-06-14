@@ -263,7 +263,7 @@
 				item: { count: 1, id: "pneumaticcraft:charging_station" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -298,24 +298,17 @@
 				item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["630CBF708D1F5ACB"]
 			id: "0884E0968B95F102"
-			tasks: [
-				{
-					id: "0B987D5F6F07C8F8"
-					item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
-					type: "item"
-				}
-				{
-					id: "1FBB16CA7210709E"
-					item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B987D5F6F07C8F8"
+				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 1.0d
 		}
@@ -331,7 +324,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0884E0968B95F102"]
+			dependencies: ["2511453F89E7636F"]
 			id: "4419F45658AB7560"
 			tasks: [
 				{
@@ -370,7 +363,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -381,7 +374,7 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -392,8 +385,8 @@
 				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0CC7617504BF9DAE"]
@@ -403,7 +396,7 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -414,7 +407,18 @@
 				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_chamber_valve" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0884E0968B95F102"]
+			id: "2511453F89E7636F"
+			tasks: [{
+				id: "236B3CE1F916B0B6"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 2.5d
 			y: 1.0d
 		}
 	]

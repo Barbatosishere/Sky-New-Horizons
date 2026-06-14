@@ -169,5 +169,22 @@
 			x: -17.0d
 			y: -5.0d
 		}
+		{
+			dependencies: [
+				"73D80019407AEE79"
+				"07DCEC23D363F87B"
+				"00C7445C6FCDB83D"
+				"4C0DE74B3DB66744"
+			]
+			hide_dependency_lines: true
+			id: "2160139D7D3C0E8F"
+			tasks: [{
+				id: "3B22B7C26BE70DBE"
+				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
 	]
 }

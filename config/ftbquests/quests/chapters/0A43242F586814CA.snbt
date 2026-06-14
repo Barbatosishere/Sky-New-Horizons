@@ -43,8 +43,8 @@
 			dependencies: ["00ECFD9F5BA35B44"]
 			id: "1E57B4112EC72628"
 			tasks: [{
-				id: "7FB453B038E67376"
-				item: { count: 1, id: "occultism:otherworld_sapling" }
+				id: "1005F5C2C79F57CE"
+				item: { count: 1, id: "occultism:otherworld_sapling_natural" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -83,6 +83,7 @@
 				{
 					id: "549BE8F687B7F8D5"
 					item: { count: 1, id: "minecraft:candle" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -93,6 +94,12 @@
 				{
 					id: "73D0388F6332890C"
 					item: { count: 1, id: "occultism:large_candle" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "164A8C33BFCA8565"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
 			]

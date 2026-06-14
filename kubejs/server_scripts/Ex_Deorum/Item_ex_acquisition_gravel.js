@@ -14,12 +14,9 @@ ServerEvents.recipes(event => {
         'exdeorum:iridium_ore_chunk',
         'exdeorum:osmium_ore_chunk',
         'exdeorum:uranium_ore_chunk',
-        'minecraft:lapis_lazuli',
-        'minecraft:diamond',
-        'minecraft:emerald',
-        'minecraft:amethyst_shard',
+        'exdeorum:platinum_ore_chunk',
         'minecraft:coal',
-        'exdeorum:platinum_ore_chunk'
+        'minecraft:amethyst_shard'
     ];
 
     const gravel = 'minecraft:gravel';

@@ -225,5 +225,16 @@
 			x: -15.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7A15580B2C3FA5F3"]
+			id: "4896FE22E8F71EED"
+			tasks: [{
+				id: "271D570351AC2148"
+				item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
 	]
 }

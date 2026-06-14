@@ -68,4 +68,28 @@ ServerEvents.recipes(event => {
       { id: 'powah:dry_ice', count: 1 }
     ]
   })
+  event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'ae2:certus_quartz_dust', count: 1 },
+      { item: 'ae2:fluix_dust', count: 1 },
+      { item: 'neoecoae:energized_crystal_dust', count: 1 },
+      { tag: 'neoecoae:crystal_ingot_base', count: 1 }
+    ],
+    pressure: 10.0,
+    results: [
+      { id: 'neoecoae:crystal_ingot', count: 1 }
+    ]
+  })
+  event.recipes.pneumaticcraft.pressure_chamber({
+    inputs: [
+      { item: 'neoecoae:energized_fluix_crystal_dust', count: 1 },
+      { tag: 'c:dusts/aluminum', count: 1 },
+      { tag: 'c:silicon', count: 1 },
+      { tag: 'neoecoae:crystal_ingot_base', count: 1 },
+    ],
+    pressure: 10.0,
+    results: [
+      { id: 'neoecoae:energized_superconductive_ingot', count: 1 }
+    ]
+  })
 });

@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
             ingredient: { item: dust },
             mesh: { item: 'exdeorum:diamond_mesh' },
             result: { id: chunkId },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 8 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 9 }
         });
         event.custom({
             type: 'exdeorum:sieve',
@@ -63,35 +63,35 @@ ServerEvents.recipes(event => {
                 ingredient: { item: 'exdeorum:dust' },
                 mesh: { item: 'exdeorum:string_mesh' },
                 result: { id: 'minecraft:redstone' },
-                result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
+                result_amount: { type: 'minecraft:uniform', min: 0, max: 1 }
             });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: 'exdeorum:dust' },
             mesh: { item: 'exdeorum:flint_mesh' },
             result: { id: 'minecraft:redstone' },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: 'exdeorum:dust' },
             mesh: { item: 'exdeorum:iron_mesh' },
             result: { id: 'minecraft:redstone' },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 6 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: 'exdeorum:dust' },
             mesh: { item: 'exdeorum:golden_mesh' },
             result: { id: 'minecraft:redstone' },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 8 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 6 }
         });
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: 'exdeorum:dust' },
             mesh: { item: 'exdeorum:diamond_mesh' },
             result: { id: 'minecraft:redstone' },
-            result_amount: { type: 'minecraft:uniform', min: 0, max: 10 }
+            result_amount: { type: 'minecraft:uniform', min: 0, max: 8 }
         });
         event.custom({
             type: 'exdeorum:sieve',

@@ -93,18 +93,18 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6FFDBDD99E92AC26"]
+			dependencies: ["35AC0AFAFD1DE156"]
 			id: "1157EF7E0EFE52F1"
 			tasks: [{
 				id: "17E8D3BCE6132808"
 				item: { count: 1, id: "ae2:crafting_terminal" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -125,7 +125,7 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -136,7 +136,7 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				item: { count: 1, id: "ae2:cell_component_16k" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -169,7 +169,7 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -207,22 +207,19 @@
 				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"1157EF7E0EFE52F1"
-				"35AC0AFAFD1DE156"
-			]
+			dependencies: ["1157EF7E0EFE52F1"]
 			id: "4463B8AE269C3C97"
 			tasks: [{
 				id: "5CDE48129120286B"
 				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2A8DC76364F68700"]
@@ -257,7 +254,7 @@
 				item: { count: 1, id: "ae2:crafting_accelerator" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -272,10 +269,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"12C65130332FBF15"
-				"7CBCF5CD8B5AE894"
-			]
+			dependencies: ["12C65130332FBF15"]
 			id: "0FFE8882F4761548"
 			tasks: [
 				{
@@ -290,43 +284,33 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"0BB7B2C9900050EF"
-				"1F39CC76D9E74823"
-			]
-			id: "7CBCF5CD8B5AE894"
-			tasks: [
-				{
-					id: "386272C430732799"
-					item: { count: 1, id: "ae2:singularity" }
-					type: "item"
-				}
-				{
-					id: "7D80815A1E9174B8"
-					item: { count: 1, id: "ae2:matter_ball" }
-					type: "item"
-				}
-			]
-			x: 3.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: [
-				"0FFE8882F4761548"
-				"12C65130332FBF15"
+				"0BB7B2C9900050EF"
+				"304475AF71D88F91"
 			]
+			id: "7CBCF5CD8B5AE894"
+			tasks: [{
+				id: "7D80815A1E9174B8"
+				item: { count: 1, id: "ae2:matter_ball" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FFE8882F4761548"]
 			id: "7D3BC72A047A43F1"
 			tasks: [{
 				id: "52F122AF83AEF59A"
 				item: { count: 1, id: "extendedae_plus:wireless_transceiver" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7D3BC72A047A43F1"]
@@ -336,8 +320,8 @@
 				item: { count: 1, id: "extendedae_plus:channel_card" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["12C65130332FBF15"]
@@ -347,8 +331,8 @@
 				item: { count: 1, id: "ae2:wireless_booster" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			id: "0BB7B2C9900050EF"
@@ -357,7 +341,7 @@
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -368,8 +352,8 @@
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["35AC0AFAFD1DE156"]
@@ -411,7 +395,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0FFE8882F4761548"]
+			dependencies: [
+				"0FFE8882F4761548"
+				"71A0C821498ED6B5"
+			]
 			id: "7F4501CBD454D5E7"
 			tasks: [
 				{
@@ -426,8 +413,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -5.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0FE9A3C2081FD094"]
@@ -783,6 +770,20 @@
 			]
 			x: 2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0BB7B2C9900050EF"
+				"2E1D8940957769C3"
+			]
+			id: "71A0C821498ED6B5"
+			tasks: [{
+				id: "615550EA7813E311"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
 		}
 	]
 }
