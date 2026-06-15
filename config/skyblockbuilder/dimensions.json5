@@ -2,7 +2,7 @@
   "End": {
   
     // Should end use custom generation? [default: true]
-    "isCustom": true,
+    "isCustom": false,
     
     // Should the main island be generated as normal? [default: true]
     "keepMainIsland": true
@@ -47,6 +47,6 @@
     "centeredBiomes": [],
     
     // Should overworld use custom generation? [default: true]
-    "isCustom": false
+    "isCustom": true
   }
 }
