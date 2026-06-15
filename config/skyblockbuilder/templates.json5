@@ -60,9 +60,7 @@
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
-    "default": {
-      "margin": 1
-    }
+    "default": {}
   },
   
   // The list of templates being available. The first entry is the default template.

@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"avaritia:infinity_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:dragon_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"productivebees:advanced_oak_beehive"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":"minecraft:bee","type":"cy.jdkdigital.productivebees.common.crafting.ingredient.BeeIngredient","bookmarkType":"INGREDIENT"},
@@ -98,6 +99,5 @@
   {"ingredient":{"id":"geore:budding_zinc"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"geore:budding_sapphire"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"geore:budding_ruby"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"geore:budding_diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"geore:budding_copper"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"geore:budding_diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
