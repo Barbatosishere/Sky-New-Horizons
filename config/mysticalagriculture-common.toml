@@ -3,7 +3,7 @@
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.2
+	inferiumDropChance = 0
 	#The number of uses the basic Infusion Crystal should have.
 	# Default: 1000
 	# Range: > 10

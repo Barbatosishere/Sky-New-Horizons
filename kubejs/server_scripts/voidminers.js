@@ -37,8 +37,14 @@ ServerEvents.recipes(event => {
     addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:the_nether');
 
     //未知块
-    addMiner('ifmup:unknown_block', 3, 7, 'minecraft:the_end');
+    addMiner('ifmup:unknown_block', 3, 5, 'minecraft:the_end');
 
     //粗暗影
     addMiner('ifmup:raw_shadow', 3, 5, 'minecraft:the_nethe');
+
+    // 粗硅岩（等级3，权重10）
+    addMiner('mysticalagriculture:inferium_ore', 10, 3, 'minecraft:overworld');
+    addMiner('mysticalagriculture:deepslate_inferium_ore', 10, 3, 'minecraft:overworld');
+    addMiner('mysticalagradditions:end_inferium_ore', 10, 3, 'minecraft:the_end');
+    addMiner('mysticalagradditions:nether_inferium_ore', 10, 3, 'minecraft:the_nether');
 });

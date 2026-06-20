@@ -15,8 +15,11 @@ ServerEvents.recipes(event => {
             ingredient: { item: gravel },
             mesh: { item: 'exdeorum:iron_mesh' },
             result: { id: chunkId },
-            result_amount: 1,
-            chance: 0.12
+            result_amount: {                          
+        type: "minecraft:binomial",
+        n: 1.0,                               
+        p: 0.12                                 
+    }
         });
         
         event.custom({

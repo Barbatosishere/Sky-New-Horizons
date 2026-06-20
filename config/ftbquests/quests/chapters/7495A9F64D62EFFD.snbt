@@ -590,7 +590,6 @@
 			dependencies: [
 				"7A15580B2C3FA5F3"
 				"4896FE22E8F71EED"
-				"249360676DD0FFEF"
 			]
 			id: "2449AFF1734881BA"
 			tasks: [
@@ -609,10 +608,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4896FE22E8F71EED"
-				"249360676DD0FFEF"
-			]
+			dependencies: ["4896FE22E8F71EED"]
 			id: "1B520A5C752C7893"
 			tasks: [{
 				id: "04822A193E1AEF7A"

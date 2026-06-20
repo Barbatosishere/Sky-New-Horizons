@@ -1,70 +1,10 @@
 // 监听服务器配方加载事件
 ServerEvents.recipes(event => {
-
-   // 移除 Powah 熔炉发电机配方
-    event.remove({ id: 'powah:crafting/furnator_starter' });
-    event.remove({ id: 'powah:crafting/furnator_basic' });
-    event.remove({ id: 'powah:crafting/furnator_hardened' });
-    event.remove({ id: 'powah:crafting/furnator_blazing' });
-    event.remove({ id: 'powah:crafting/furnator_niotic' }); 
-    event.remove({ id: 'powah:crafting/furnator_spirited' });
-    event.remove({ id: 'powah:crafting/furnator_nitro' });
-    // 移除 Powah 热力  发电机 配方
-    event.remove({ id: 'powah:crafting/magmator_starter' });
-    event.remove({ id: 'powah:crafting/magmator_basic' });
-    event.remove({ id: 'powah:crafting/magmator_hardened' });
-    event.remove({ id: 'powah:crafting/magmator_blazing' });
-    event.remove({ id: 'powah:crafting/magmator_niotic' });
-    event.remove({ id: 'powah:crafting/magmator_spirited' });
-    event.remove({ id: 'powah:crafting/magmator_nitro' });
-    // 移除 Powah 岩浆发电机 配方
-    event.remove({ id: 'powah:crafting/thermo_generator_starter' });
-    event.remove({ id: 'powah:crafting/thermo_generator_basic' });
-    event.remove({ id: 'powah:crafting/thermo_generator_hardened' });
-    event.remove({ id: 'powah:crafting/thermo_generator_blazing' });
-    event.remove({ id: 'powah:crafting/thermo_generator_niotic' });
-    event.remove({ id: 'powah:crafting/thermo_generator_spirited' });
-    event.remove({ id: 'powah:crafting/thermo_generator_nitro' });
-    // 移除 Powah 太阳能发电机 配方
-    event.remove({ id: 'powah:crafting/solar_panel_starter' });
-    event.remove({ id: 'powah:crafting/solar_panel_basic' });
-    event.remove({ id: 'powah:crafting/solar_panel_hardened' });
-    event.remove({ id: 'powah:crafting/solar_panel_blazing' });
-    event.remove({ id: 'powah:crafting/solar_panel_niotic' });
-    event.remove({ id: 'powah:crafting/solar_panel_spirited' });
-    event.remove({ id: 'powah:crafting/solar_panel_nitro' });
-    // 移除 低端火力发电机 配方
-    event.remove({ id: 'industrialforegoing:pitiful_generator' });  
     // 移除 重复筛网 配方
     event.remove({ id: 'exdeorum:flint_mesh' }); 
     event.remove({ id: 'exdeorum:iron_mesh' }); 
     event.remove({ id: 'exdeorum:golden_mesh' }); 
     event.remove({ id: 'exdeorum:diamond_mesh' }); 
-    // 移除 吞噬万籁的寂静 配方
-    event.remove({ id: 'extendedae_plus:infinity_biginteger_cell' }); 
-    // 移除 燃气发电机 配方
-    event.remove({ id: 'mekanismgenerators:generator/gas_burning' }); 
-     // 移除 生物能发电机 配方
-    event.remove({ id: 'mekanismgenerators:generator/bio' }); 
-     // 移除 热力发电机 配方
-    event.remove({ id: 'mekanismgenerators:generator/heat' }); 
-    // 移除 MEK太阳能发电机 配方
-    event.remove({ id: 'mekanismgenerators:generator/solar' }); 
-    // 移除 斯特林发电机 配方
-    event.remove({ id: 'enderio:stirling_generator' }); 
-    // 移除 菌丝体熔炉发电机 配方
-    event.remove({ id: 'industrialforegoing:mycelial_furnace' }); 
-    // 移除 菌丝体粉红发电机 配方
-    event.remove({ id: 'industrialforegoing:mycelial_pink' }); 
-    // 移除 菌丝体冰霜发电机 配方
-    event.remove({ id: 'industrialforegoing:mycelial_frosty' });
-    // 移除 生物燃油发电机 配方
-    event.remove({ id: 'industrialforegoing:biofuel_generator' });
-    // 移除 横向流体储罐 配方
-    event.remove({ id: 'create_connected:crafting/kinetics/fluid_vessel' });
-    event.remove({ id: 'create_connected:crafting/kinetics/fluid_vessel_from_conversion' });
-    // 移除 强化组件：发电机 配方
-    event.remove({ id: 'ironfurnaces:augments/augment_generator' });
     // 移除 运算电路板 配方
     event.remove({ id: 'ae2:inscriber/calculation_processor_print' });
     // 移除 工程电路板 配方
@@ -158,10 +98,15 @@ ServerEvents.recipes(event => {
     // 移除 悖论无限电路 配方
     event.remove({ id: 'mekanism_extras:control_circuit/infused_infinite' });
     event.remove({ id: 'mekanism_extras:control_circuit/infinite' });
-   // 移除 强化黑曜石粉 配方
+    // 移除 强化黑曜石粉 配方
    event.remove({ id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust' });
+    // 移除 钢锭配方 配方
+   event.remove({ id: 'alltheores:arcfurnace/steel/ingot' });
+   event.remove({ id: 'alltheores:alloysmelter/steel/ingot' });
+   event.remove({ id: 'immersiveengineering:blastfurnace/steel' });
+   event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
     // 移除 富集辐光 配方
-        event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
+    event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
    // 移除 简陋机器框架 配方
    event.remove({ id: 'industrialforegoing:machine_frame_pity' });  
    // 移除 水晶矩阵锭 配方
@@ -198,11 +143,6 @@ ServerEvents.recipes(event => {
    event.remove({ id: 'minecraft:hopper' });
    // 移除 黄铜粉 配方
    event.remove({ id: 'alltheores:crafting/brass/alloy_blending_from_dust' });
-   // 移除 实体加速卡 配方
-   event.remove({ id: 'extendedae_plus:entity_speed_card_x16' });
-   event.remove({ id: 'extendedae_plus:entity_speed_card_x8' });
-   event.remove({ id: 'extendedae_plus:entity_speed_card_x4' });
-    event.remove({ id: 'extendedae_plus:entity_speed_card_x2' });
    // 移除 锻造模板 配方
     event.remove({ id: 'apotheosis:iron_upgrade_smithing_template' });
     event.remove({ id: 'apotheosis:gold_upgrade_smithing_template' });
@@ -219,8 +159,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/rose_quartz' });
     // 移除 鱼大 配方
     event.remove({ id: 'extendedae:fishbig' });
-    // 移除 动能接受器 配方
-    event.remove({ id: 'appliedcreate:kinetic_energy_acceptor' });
     // 移除 黄铜样板 配方
     event.remove({ id: 'appliedcreate:brass_pattern_provider' });
     // 移除 热传导发电机 配方
@@ -252,22 +190,6 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mysticalagriculture:essence/enderio/copper_alloy_ingot' });
     // 移除 导电合金 配方
         event.remove({ id: 'casting:mixer/conductive_alloy' });
-    // 移除 风力发电机 配方
-        event.remove({ id: 'makanismgenerators:generator/wind' });
-    // 移除 发电机 配方
-        event.remove({ id: 'integrateddynamics:crafting/coal_generator' });
-    // 移除 蜜蜂发电机 配方
-        event.remove({ id: 'productivebees:honey_generator' });
-    // 移除 原油发电机 配方
-        event.remove({ id: 'actuallyadditions:oil_generator' });
-    // 移除 热能发电机 配方
-        event.remove({ id: 'actuallyadditions:heat_collector' });
-    // 移除 煤炭发电机 配方
-        event.remove({ id: 'actuallyadditions:coal_generator' });
-    // 移除 砠叶发电机 配方
-        event.remove({ id: 'actuallyadditions:leaf_generator' });
-    // 移除 风力发电机 配方
-        event.remove({ id: 'mekanismgenerators:generator/wind' });
     // 移除 创造板条箱 配方
         event.remove({ id: 'avaritia:mek_creative_bin' });
     // 移除 创造流体储罐 配方
@@ -277,14 +199,7 @@ ServerEvents.recipes(event => {
     // 移除 创造能源原件 配方
         event.remove({ id: 'avaritia:ae2_creative_energy_cell' });
     // 移除 创造能源 配方
-        event.remove({ id: 'avaritia:eio_creative_power' });
-    // 移除 大型燃气发电机 配方
-        event.remove({ id: 'mekmm:large_gas_burning_generator' });
-    // 移除 大型热力发电机 配方
-        event.remove({ id: 'mekmm:large_heat_generator' });
-    // 移除 地热能发电单元 配方
-        event.remove({ id: 'mekanismgenerators:module_geothermal_generator_unit' });
-    // 移除 锇压缩机 配方
+        event.remove({ id: 'avaritia:eio_creative_power' });    // 移除 锇压缩机 配方
         event.remove({ id: 'mekanism:combiner' });
     // 移除 水槽 配方
         event.remove({ id: 'cookingforblockheads:sink' });
@@ -300,25 +215,6 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mob_grinding_utils:recipe_mould_blank' });
     // 移除 ECO - 集成工作站 配方
         event.remove({ id: 'neoecoae:integrated_working_station' });
-    // 移除 无用 配方
-    event.remove({ output: 'ironfurnaces:upgrade_allthemodium' });
-    event.remove({ output: 'colors:black_sapling' });
-    event.remove({ output: 'colors:blue_sapling' });
-    event.remove({ output: 'colors:brown_sapling' });
-    event.remove({ output: 'colors:cyan_sapling' });
-    event.remove({ output: 'colors:green_sapling' });
-    event.remove({ output: 'colors:light_blue_sapling' });
-    event.remove({ output: 'colors:light_gray_sapling' });
-    event.remove({ output: 'colors:lime_sapling' });
-    event.remove({ output: 'colors:magenta_sapling' });
-    event.remove({ output: 'colors:orange_sapling' });
-    event.remove({ output: 'colors:pink_sapling' });
-    event.remove({ output: 'colors:purple_sapling' });
-    event.remove({ output: 'colors:red_sapling' });
-    event.remove({ output: 'colors:white_sapling' });
-    event.remove({ output: 'colors:yellow_sapling' });
-    event.remove({ id: 'immersiveengineering:crafting/stick_iron' });
-    event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
