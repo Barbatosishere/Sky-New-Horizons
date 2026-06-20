@@ -5,7 +5,12 @@
 	group: "000258239E4546A8"
 	id: "53ECF85CF8E4BC12"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "21BA42B7486A328D"
+		linked_quest: "23F9B792F2D0E363"
+		x: -9.5d
+		y: -0.5d
+	}]
 	quests: [
 		{
 			id: "422376E3D9B9A48D"
@@ -144,17 +149,6 @@
 			]
 			x: -9.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["19C4A7FB335E6FD6"]
-			id: "23F9B792F2D0E363"
-			tasks: [{
-				id: "0C7FDDD6E060AD18"
-				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: -0.5d
 		}
 		{
 			id: "1B4C51310FB266DB"

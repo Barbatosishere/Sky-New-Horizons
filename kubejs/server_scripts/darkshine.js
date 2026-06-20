@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         entity_data: {
             data: {},
             display: "",
-            entity: { type: "minecraft:warden", type: "occultism:possessed_warden" }
+            entity: { type: "occultism:possessed_warden" }
         },
         output: { amount: 10, fluid: "ifmup:darkshine" },
         rarity: [

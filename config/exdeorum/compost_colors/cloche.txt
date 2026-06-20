@@ -1,0 +1,15 @@
+// Compost colors for cloche. You may add your own colors, change existing ones, or remove colors that aren't needed.
+end_upgrade, #c3c0bf
+fixed_speed_upgrade_1, #e3e0e8
+fixed_speed_upgrade_2, #e0daed
+fixed_speed_upgrade_3, #ddd6f0
+main_output_upgrade, #d2e3a4
+nether_upgrade, #d4b4af
+no_other_drops_upgrade, #f5a8a8
+no_seeds_upgrade, #eabfae
+overworld_upgrade, #c5ddde
+percentage_speed_upgrade_1, #e7e7dd
+percentage_speed_upgrade_2, #eae8d6
+percentage_speed_upgrade_3, #edeacf
+shears_upgrade, #ebd0ee
+twilight_forest_upgrade, #b9bcb4

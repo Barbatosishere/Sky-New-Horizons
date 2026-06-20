@@ -344,28 +344,6 @@
 			y: -9.0d
 		}
 		{
-			id: "615FBC261ED9BF6F"
-			tasks: [{
-				id: "3D61227F6EE53BE2"
-				item: { count: 1, id: "ifmup:nether_star_gear" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["1568E7F2719D7698"]
-			hide_dependency_lines: true
-			id: "204C19C0712714D1"
-			tasks: [{
-				id: "309496E825B75592"
-				item: { count: 1, id: "ifmup:star_ether_alloy_gear" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -12.0d
-		}
-		{
 			dependencies: ["5AA16C7A16D5D857"]
 			id: "6F4D862C411834FC"
 			tasks: [{
@@ -582,102 +560,6 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"615FBC261ED9BF6F"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "706214AEDFBDAFD0"
-			tasks: [{
-				id: "0E1AC5D4F6476273"
-				item: { components: { "titanium:augments": { Speed: 8.0f } }, count: 1, id: "ifmup:speed_addon_tier_7" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"615FBC261ED9BF6F"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "7C1B5E0309DDE926"
-			tasks: [{
-				id: "1A3C4422169717CE"
-				item: { components: { "titanium:augments": { Efficiency: 0.3f } }, count: 1, id: "ifmup:efficiency_addon_tier_7" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"615FBC261ED9BF6F"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "28D4FBF9C7D6DA0E"
-			tasks: [{
-				id: "478E4605A36DA526"
-				item: { components: { "titanium:augments": { Processing: 8.0f } }, count: 1, id: "ifmup:processing_addon_tier_7" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"204C19C0712714D1"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "78EA05B10E5F6248"
-			tasks: [{
-				id: "152C23ECAEDBE68F"
-				item: { components: { "titanium:augments": { Speed: 9.0f } }, count: 1, id: "ifmup:speed_addon_tier_8" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -12.0d
-		}
-		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"204C19C0712714D1"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "160D51176DBFF0FD"
-			tasks: [{
-				id: "539AAB59E227AE66"
-				item: { components: { "titanium:augments": { Processing: 9.0f } }, count: 1, id: "ifmup:processing_addon_tier_8" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -12.0d
-		}
-		{
-			dependencies: [
-				"68CA1B8D00BB329D"
-				"204C19C0712714D1"
-				"256B6EEB90AAD663"
-			]
-			hide_dependency_lines: true
-			id: "77E53906C115D2EB"
-			tasks: [{
-				id: "143526369DD3FDB2"
-				item: { components: { "titanium:augments": { Efficiency: 0.19999999f } }, count: 1, id: "ifmup:efficiency_addon_tier_8" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -12.0d
-		}
-		{
 			dependencies: ["08FD9B063BF1DEE0"]
 			id: "3B555C28EE3055EF"
 			tasks: [{
@@ -698,6 +580,17 @@
 			}]
 			x: 3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["19C4A7FB335E6FD6"]
+			id: "23F9B792F2D0E363"
+			tasks: [{
+				id: "0C7FDDD6E060AD18"
+				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 }

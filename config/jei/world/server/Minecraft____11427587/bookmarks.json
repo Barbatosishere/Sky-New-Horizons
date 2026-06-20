@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"exdeorum:iron_mesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exdeorum:oak_sieve"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

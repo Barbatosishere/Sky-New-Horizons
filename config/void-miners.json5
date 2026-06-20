@@ -3,7 +3,7 @@
   "MINER_CONFIGS": {
     "caerium": {
       "energyStorage": 6000000,
-      "duration": 500,
+      "duration": 357,
       "energyTick": 550,
       "modifiers": {
         "speed": {
@@ -25,7 +25,7 @@
     },
     "amethystine": {
       "energyStorage": 7000000,
-      "duration": 400,
+      "duration": 286,
       "energyTick": 600,
       "modifiers": {
         "speed": {
@@ -47,7 +47,7 @@
     },
     "rubetine": {
       "energyStorage": 1000000,
-      "duration": 1000,
+      "duration": 714,
       "energyTick": 300,
       "modifiers": {
         "speed": {
@@ -69,7 +69,7 @@
     },
     "verdium": {
       "energyStorage": 4000000,
-      "duration": 700,
+      "duration": 500,
       "energyTick": 450,
       "modifiers": {
         "speed": {
@@ -91,7 +91,7 @@
     },
     "rosarium": {
       "energyStorage": 8000000,
-      "duration": 300,
+      "duration": 214,
       "energyTick": 650,
       "modifiers": {
         "speed": {
@@ -113,7 +113,7 @@
     },
     "azurine": {
       "energyStorage": 5000000,
-      "duration": 600,
+      "duration": 429,
       "energyTick": 500,
       "modifiers": {
         "speed": {
@@ -135,7 +135,7 @@
     },
     "citrinetine": {
       "energyStorage": 3000000,
-      "duration": 800,
+      "duration": 571,
       "energyTick": 400,
       "modifiers": {
         "speed": {
@@ -157,7 +157,7 @@
     },
     "aurantium": {
       "energyStorage": 2000000,
-      "duration": 900,
+      "duration": 643,
       "energyTick": 350,
       "modifiers": {
         "speed": {
