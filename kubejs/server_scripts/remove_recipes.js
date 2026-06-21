@@ -102,6 +102,9 @@ ServerEvents.recipes(event => {
    event.remove({ id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust' });
    // 移除 铁棒 配方
    event.remove({ id: 'immersiveengineering:crafting/stick_iron' });
+   // 移除 瑞加方石粒 配方
+   event.remove({ id: 'create:crushing/tuff_recycling' });
+   event.remove({ id: 'create:crushing/tuff' });
     // 移除 钢锭配方 配方
    event.remove({ id: 'alltheores:arcfurnace/steel/ingot' });
    event.remove({ id: 'alltheores:alloysmelter/steel/ingot' });
