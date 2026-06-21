@@ -1,5 +1,12 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:flint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:polished_cut_tuff_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:tuff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_better_motors:reggarfonite_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_better_motors:raw_reggarfonite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_better_motors:reggarfonite_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_better_motors:reggarfonite_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:stick_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:dust_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -92,10 +99,5 @@
   {"ingredient":{"id":"industrialforegoing:mycelial_reactor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"industrialforegoing:biofuel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"industrialforegoing:bioreactor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanismgenerators:gas_burning_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:thermoelectric_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"draconicevolution:generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:dynamo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanismgenerators:wind_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"actuallyadditions:oil_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"mekanismgenerators:gas_burning_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
