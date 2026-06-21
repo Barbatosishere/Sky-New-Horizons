@@ -31,10 +31,10 @@ ServerEvents.recipes(event => {
     // 粗硅岩（末地，等级5，权重8）
     addMiner('mekanism_extras:raw_naquadah', 8, 5, 'minecraft:the_end');
 
-    // 粗硅岩（等级5，权重8）
-    addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:overworld');
-    addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:the_end');
-    addMiner('create_better_motors:raw_reggarfonite', 8, 5, 'minecraft:the_nether');
+    // 粗硅岩（等级3，权重8）
+    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:overworld');
+    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:the_end');
+    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:the_nether');
 
     //未知块
     addMiner('ifmup:unknown_block', 3, 5, 'minecraft:the_end');
