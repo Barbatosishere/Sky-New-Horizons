@@ -100,11 +100,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism_extras:control_circuit/infinite' });
     // 移除 强化黑曜石粉 配方
    event.remove({ id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust' });
+   // 移除 铁棒 配方
+   event.remove({ id: 'immersiveengineering:crafting/stick_iron' });
     // 移除 钢锭配方 配方
    event.remove({ id: 'alltheores:arcfurnace/steel/ingot' });
    event.remove({ id: 'alltheores:alloysmelter/steel/ingot' });
    event.remove({ id: 'immersiveengineering:blastfurnace/steel' });
-   event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
+   event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });                                  
     // 移除 富集辐光 配方
     event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
    // 移除 简陋机器框架 配方
