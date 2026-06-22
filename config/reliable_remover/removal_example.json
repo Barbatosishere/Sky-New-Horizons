@@ -102,7 +102,13 @@
             "ifmup:range_addon_tier_71",
             "ifmup:range_addon_tier_79",
             "ifmup:nether_star_gear",
-            "ifmup:star_ether_alloy_gear"
+            "ifmup:star_ether_alloy_gear",
+            "mysticalagriculture:neutronium_seeds",
+            "mysticalagriculture:neutronium_essence",
+            "mysticalagriculture:awakened_draconium_seeds",
+            "mysticalagriculture:awakened_draconium_essence",
+            "mysticalagriculture:dragon_egg_seeds",
+            "mysticalagriculture:dragon_egg_essence"
         ]
     }
 ]
