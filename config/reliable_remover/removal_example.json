@@ -108,7 +108,12 @@
             "mysticalagriculture:awakened_draconium_seeds",
             "mysticalagriculture:awakened_draconium_essence",
             "mysticalagriculture:dragon_egg_seeds",
-            "mysticalagriculture:dragon_egg_essence"
+            "mysticalagriculture:dragon_egg_essence",
+            "productivebees:elementium",
+            "ifmuop:shadow_plate",
+            "ifmuop:unknown_magic_plate",
+            "ifmuop:shadow_rose_plate",
+            "ifmuop:star_ether_alloy_plate"
         ]
     }
 ]

@@ -1,0 +1,24 @@
+#Maximum energy capacity of the Ender Flux Storage (FE)
+# Default: 64000000000
+# Range: 0 ~ 9223372036854775807
+enderCapacity = 64000000000
+#Default transfer limit of the Ender Flux Storage (FE/t)
+# Default: 640000000
+# Range: 0 ~ 9223372036854775807
+enderTransfer = 640000000
+#Maximum energy capacity of the Nether Flux Storage (FE)
+# Default: 8000000000
+# Range: 0 ~ 9223372036854775807
+netherCapacity = 8000000000
+#Default transfer limit of the Nether Flux Storage (FE/t)
+# Default: 80000000
+# Range: 0 ~ 9223372036854775807
+netherTransfer = 80000000
+#Default maximum FE capacity of the Flux FE Storage (FE)
+# Default: 1000000
+# Range: 0 ~ 9223372036854775807
+feStorageCapacity = 1000000
+#Default transfer limit of the Flux FE Storage (FE/t)
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+feStorageTransfer = 50000

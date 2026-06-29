@@ -33,6 +33,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:inscriber/calculation_processor' });
     // 移除 逻辑处理器 配方
     event.remove({ id: 'ae2:inscriber/engineering_processor' });
+    // 移除 ECO - SA 超导电路板 配方
+    event.remove({ id: 'neoecoae:inscriber/superconducting_processor_print' });
      // 移除 恩特罗种子 配方
     event.remove({ id: 'extendedae:entro_seed' });
     // 移除 运算压印模板 配方
@@ -63,10 +65,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extendedae:water_cell' });
     // 移除 无限圆石 配方
     event.remove({ id: 'extendedae:cobblestone_cell' });
-    // 移除 中子素种子 配方
-     event.remove({ output: 'mysticalagriculture:neutronium_seeds' });
-    // 移除 中子素颗粒 配方
-    event.remove({ id: 'mysticalagradditions:essence/neutron_nugget' });
     // 移除 红石酸桶 配方
     event.remove({ id: 'immersiveengineering:crafting/redstone_acid' });
     // 移除 充能红石水晶 配方
@@ -223,13 +221,13 @@ ServerEvents.recipes(event => {
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
-    event.remove({ output: 'cobblegengalore:block_gen_stone' });
-    event.remove({ output: 'cobblegengalore:block_gen_copper' });
-    event.remove({ output: 'cobblegengalore:block_gen_iron' });
-    event.remove({ output: 'cobblegengalore:block_gen_gold' });
-    event.remove({ output: 'cobblegengalore:block_gen_emerald' });
-    event.remove({ output: 'cobblegengalore:block_gen_diamond' });
-    event.remove({ output: 'cobblegengalore:block_gen_netherite' });
+    event.remove({ id: 'cobblegengalore:block_gen_stone' });
+    event.remove({ id: 'cobblegengalore:block_gen_copper' });
+    event.remove({ id: 'cobblegengalore:block_gen_iron' });
+    event.remove({ id: 'cobblegengalore:block_gen_gold' });
+    event.remove({ id: 'cobblegengalore:block_gen_emerald' });
+    event.remove({ id: 'cobblegengalore:block_gen_diamond' });
+    event.remove({ id: 'cobblegengalore:block_gen_netherite' });
 
 
     // --- 添加新的生成器配方（升级链：石头→铜→铁→金→绿宝石→钻石→下界合金）---
@@ -359,6 +357,15 @@ event.shaped('mob_grinding_utils:solid_xp_mould_blank', [
     '###'
 ], {
     '#': 'minecraft:gold_nugget'
+});
+
+event.shaped('enderio:enderman_head', [
+    '###',
+    '#A#',
+    '###'
+], {
+    '#': 'mysticalagriculture:enderman_essence',
+    'A': 'mysticalagriculture:blank_skull'
 });
 
 event.shaped('skynh:nitro_crystal_block_1', [

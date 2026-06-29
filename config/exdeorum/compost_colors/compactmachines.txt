@@ -1,0 +1,4 @@
+// Compost colors for compactmachines. You may add your own colors, change existing ones, or remove colors that aren't needed.
+enlarging_module, #d7ff
+personal_shrinking_device, #e3f8ff
+shrinking_module, #ff8e0b

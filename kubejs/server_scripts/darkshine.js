@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'ifmup:darkshine' });
     event.recipes.industrialforegoing.laser_drill_fluid({
         catalyst: { item: 'industrialforegoing:blue_laser_lens' },
         entity_data: {

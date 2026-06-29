@@ -1,6 +1,7 @@
 ae2:spatial_storage
 ars_nouveau:archwood_forest
 ars_nouveau:jar
+compactmachines:machine
 integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle

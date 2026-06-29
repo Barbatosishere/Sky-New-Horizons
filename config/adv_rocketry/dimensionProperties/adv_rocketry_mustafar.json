@@ -1,0 +1,121 @@
+{
+  "description": "The gravimetric duel between the gas giants Jestefad and Lefrani over Mustafar heated the planet\u0027s core, transforming the world into an imbalanced volcanic hellscape.",
+  "position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "gravitationalMultiplier": 0.9,
+  "earthRadiusMultiplier": 0.9,
+  "rotationAxis": {
+    "x": 0.2,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "parentDimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "priate"
+  },
+  "orbitAxis": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "orbitalDistanceToParent": 2.0,
+  "orbitalBaseOffsetDegrees": 0.0,
+  "dayTimeReference": {
+    "namespace": "adv_rocketry",
+    "path": "priate"
+  },
+  "radiationIntensity": 0.0,
+  "latitude_len": 400000,
+  "targetDayLength": 24000,
+  "atmosphereComposition": {
+    "nitrogen": {
+      "in_atm": 0.5,
+      "frozen_surface": 0.0,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    },
+    "co2": {
+      "in_atm": 0.02,
+      "frozen_surface": 0.0,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    },
+    "oxygen": {
+      "in_atm": 0.2,
+      "frozen_surface": 0.0,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    }
+  },
+  "baseEnergyGain": 0.2,
+  "canVisit": true,
+  "canGasMine": false,
+  "isKnown": false,
+  "dataRequiredForUnlock": 2000,
+  "artifactItem": null,
+  "customSeaFluid": {
+    "namespace": "minecraft",
+    "path": "lava"
+  },
+  "customSeaFluidLevel": 56,
+  "generateStructures": false,
+  "biomePreset": "volcanic.json",
+  "generateVolcanos": false,
+  "hasCustomSky": true,
+  "texture": {
+    "namespace": "adv_rocketry",
+    "path": "textures/planet/baked_volcanic-1.png"
+  },
+  "skyColor": {
+    "x": 0.45,
+    "y": 0.7,
+    "z": 1.0
+  },
+  "cloudValueOverwrite": 0.7,
+  "skyDarken": 0.7,
+  "cloudColor": {
+    "x": 0.25,
+    "y": 0.22,
+    "z": 0.2
+  },
+  "fogColor": {
+    "x": 0.7,
+    "y": 0.33,
+    "z": 0.25
+  },
+  "sunRiseColor": {
+    "x": 3.0,
+    "y": 1.6,
+    "z": 0.2
+  },
+  "reflectiveTextureTintColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "emissiveTextureTintColor": {
+    "x": 0.2,
+    "y": 0.2,
+    "z": 0.2
+  },
+  "emissiveLightColor": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "hasRingSystem": false,
+  "dayTime": 0.0,
+  "currentTemp": 300.0,
+  "name": "Mustafar",
+  "type": "PLANET",
+  "dimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "mustafar"
+  }
+}

@@ -1,0 +1,41 @@
+# Machine-related configuration options
+machine:
+  # Energy multiplier for machines (higher = more efficient)
+  energyMultiplier: 1.0
+
+  # Base energy capacity for machines in FE
+  baseEnergyCapacity: 10000
+
+  # Enable/disable specific machines
+  enableSmelter: true
+
+  enablePulverizer: true
+
+  enableCompressor: true
+
+  enableRefiner: true
+
+  enableInductionFurnace: true
+
+  enablePsionicant: true
+
+  enableBeacon: true
+
+  enableMobRipper: true
+
+  enableQuarry: true
+
+  enableEnchantmentFlusher: true
+
+  enableCondenser: true
+
+  enableFarmManager: true
+
+# Client-side configuration options
+client:
+  # Show machine info in HUD
+  showMachineHUD: true
+
+  # Show cable network info in HUD
+  showCableHUD: true
+
