@@ -2,7 +2,7 @@
 #Messages
 [Messages]
 	#Enable or disable update messages.
-	messages_enabled = true
+	messages_enabled = false
 
 #Accumulator
 [accumulator]

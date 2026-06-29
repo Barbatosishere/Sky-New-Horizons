@@ -150,6 +150,9 @@
   "ae2lt": {
     "lightning_collector": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -186,6 +189,10 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "compactmachines": {
+    "show_owner": false,
+    "bound_machine": true
   },
   "neoecoae": {
     "eco_drive": true,
@@ -257,6 +264,12 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "packaged_faa": {
+    "hephaestus.log": true,
+    "hephaestus.essences": true,
+    "hephaestus.enhancers": true,
+    "hephaestus.level": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

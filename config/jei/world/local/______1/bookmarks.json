@@ -1,3 +1,7 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"create:brass_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2lt:unoverloaded_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"neoecoae:superconducting_processor_print"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_better_motors:reggarfonite_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
