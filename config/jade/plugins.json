@@ -65,6 +65,9 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -148,7 +151,8 @@
     "wt_owner": true
   },
   "ae2lt": {
-    "lightning_collector": true
+    "lightning_collector": true,
+    "firmament_conversion_core": true
   },
   "enderio": {
     "soul_bound": true

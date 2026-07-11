@@ -1,0 +1,108 @@
+{
+  "description": "",
+  "position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "gravitationalMultiplier": 8.0,
+  "earthRadiusMultiplier": 3.0,
+  "rotationAxis": {
+    "x": 0.2,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "parentDimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "sun"
+  },
+  "orbitAxis": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "orbitalDistanceToParent": 8.0,
+  "orbitalBaseOffsetDegrees": 0.0,
+  "dayTimeReference": null,
+  "radiationIntensity": 0.0,
+  "latitude_len": 400000,
+  "targetDayLength": 24000,
+  "atmosphereComposition": {
+    "nitrogen": {
+      "in_atm": 0.10000000149011612,
+      "frozen_surface": 0.0,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    },
+    "hydrogen": {
+      "in_atm": 3.0,
+      "frozen_surface": 0.0,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    }
+  },
+  "baseEnergyGain": 0.0,
+  "canVisit": false,
+  "canGasMine": true,
+  "isKnown": false,
+  "dataRequiredForUnlock": 2000,
+  "artifactItem": null,
+  "customSeaFluid": null,
+  "customSeaFluidLevel": 0,
+  "generateStructures": false,
+  "biomePreset": null,
+  "generateVolcanos": false,
+  "hasCustomSky": true,
+  "texture": {
+    "namespace": "adv_rocketry",
+    "path": "textures/planet/baked_8k_saturn.png"
+  },
+  "skyColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "cloudValueOverwrite": -1.0,
+  "skyDarken": 0.0,
+  "cloudColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "fogColor": {
+    "x": 0.8,
+    "y": 0.9,
+    "z": 1.1
+  },
+  "sunRiseColor": {
+    "x": 3.0,
+    "y": 1.6,
+    "z": 0.2
+  },
+  "reflectiveTextureTintColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "emissiveTextureTintColor": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "emissiveLightColor": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "hasRingSystem": true,
+  "dayTime": 0.0,
+  "currentTemp": 300.0,
+  "name": "Saturn",
+  "type": "PLANET",
+  "dimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "saturn"
+  }
+}

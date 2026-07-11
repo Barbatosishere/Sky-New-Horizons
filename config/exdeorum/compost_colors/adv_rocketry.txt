@@ -1,0 +1,26 @@
+// Compost colors for adv_rocketry. You may add your own colors, change existing ones, or remove colors that aren't needed.
+asteroid_id_chip, #506580
+atm_analyzer, #dce3dc
+battery, #c5c6c8
+flight_speed_upgrade, #ffb2a2
+galaxy_database, #ff7a5b
+gravity_boots_upgrade, #73ed72
+item_data_storage, #fffff5
+jetpack, #9b9d7f
+legs_upgrade, #ffffff
+linker, #e8e4e3
+lora_module, #b8b8ae
+night_vision_upgrade, #9a706c
+planet_id_chip, #6eb670
+portable_pressure_tank_aluminum, #aec2bc
+portable_pressure_tank_steel, #8d7575
+radiation_shield, #bbb8b6
+satellite, #6686ed
+satellite_composition_scanner, #8e8e98
+satellite_id_chip, #69809b
+satellite_mass_scanner, #a8b29b
+satellite_optical_telescope, #757583
+space_boots, #5c5c5c
+space_chestplate, #afafb1
+space_helmet, #b8ab93
+space_leggings, #868686

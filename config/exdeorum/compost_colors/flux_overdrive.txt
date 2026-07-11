@@ -1,0 +1,5 @@
+// Compost colors for flux_overdrive. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ender_flux_core, #ffffff
+ender_flux_dust, #dcf0f0
+nether_flux_core, #ffffff
+nether_flux_dust, #d7d6d6

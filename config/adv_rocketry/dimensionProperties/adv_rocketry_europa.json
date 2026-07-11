@@ -1,0 +1,104 @@
+{
+  "description": "",
+  "position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "gravitationalMultiplier": 0.3,
+  "earthRadiusMultiplier": 0.5,
+  "rotationAxis": {
+    "x": 0.2,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "parentDimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "jupiter"
+  },
+  "orbitAxis": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "orbitalDistanceToParent": 0.02,
+  "orbitalBaseOffsetDegrees": 90.0,
+  "dayTimeReference": {
+    "namespace": "adv_rocketry",
+    "path": "sun"
+  },
+  "radiationIntensity": 0.0,
+  "latitude_len": 400000,
+  "targetDayLength": 24000,
+  "atmosphereComposition": {
+    "co2": {
+      "in_atm": 0.0,
+      "frozen_surface": 0.30000001192092896,
+      "frozen_deep_below_surface": 0.0,
+      "liquid": 0.0,
+      "worldGenSeaLevel": 0
+    }
+  },
+  "baseEnergyGain": 0.0,
+  "canVisit": true,
+  "canGasMine": false,
+  "isKnown": false,
+  "dataRequiredForUnlock": 2000,
+  "artifactItem": null,
+  "customSeaFluid": null,
+  "customSeaFluidLevel": 0,
+  "generateStructures": false,
+  "biomePreset": "moon.json",
+  "generateVolcanos": false,
+  "hasCustomSky": true,
+  "texture": {
+    "namespace": "adv_rocketry",
+    "path": "textures/planet/baked_europa.png"
+  },
+  "skyColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "cloudValueOverwrite": -1.0,
+  "skyDarken": 0.0,
+  "cloudColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "fogColor": {
+    "x": 0.8,
+    "y": 0.9,
+    "z": 1.1
+  },
+  "sunRiseColor": {
+    "x": 3.0,
+    "y": 1.6,
+    "z": 0.2
+  },
+  "reflectiveTextureTintColor": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "emissiveTextureTintColor": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "emissiveLightColor": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "hasRingSystem": false,
+  "dayTime": 0.0,
+  "currentTemp": 100.0,
+  "name": "Europa",
+  "type": "PLANET",
+  "dimensionId": {
+    "namespace": "adv_rocketry",
+    "path": "europa"
+  }
+}

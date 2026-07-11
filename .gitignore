@@ -1,2 +1,60 @@
+# IDE / Editor
+.idea/
+.vscode/
 
-.probe
+# Probe / Decompiler
+.probe/
+.mixin.out/
+
+# Minecraft runtime
+logs/
+crash-reports/
+debug/
+
+# Caches / Runtime generated
+CustomSkinLoader/
+dynamic-resource-pack-cache/
+ldlib2/
+local/
+moonlight-global-datapacks/
+natives-windows-x86_64/
+patchouli_books/
+schematics/
+screenshots/
+scripts/
+server-resource-packs/
+texturepacks/
+
+# User / Session data
+backups/
+blueprints/
+defaultconfigs/
+downloads/
+saves/
+shaderpacks/
+
+# Runtime markers / cache files
+.qmenu_opened.marker
+TrashSlotSaveState.json
+command_history.txt
+observable_announce
+patchouli_data.json
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+icon.png
+
+# Custom packs (generated)
+packmenu/
+tlm_custom_pack/
+
+# Mod launcher cache
+mods/.index/
+mods/META-INF/
+
+# JEI world-local data
+config/jei/world/
+
+# Ars Nouveau search index cache
+config/ars_nouveau/search_index/

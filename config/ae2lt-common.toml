@@ -1,7 +1,7 @@
 #Internal config schema version. Do not edit; used by the mod for upgrade migrations.
-# Default: 2
+# Default: 3
 # Range: > 1
-configVersion = 2
+configVersion = 3
 
 [lightningCollector]
 	#Cooldown in ticks after each captured lightning strike.
@@ -72,6 +72,8 @@ configVersion = 2
 [overloadTnt]
 	#Controls whether overload TNT can damage terrain with the custom blast task.
 	enableTerrainDamage = true
+	#Controls whether overload TNT can consume a Lightning Collapse Matrix to drop a Mysterious Cell.
+	enableMysteriousCellEasterEgg = true
 	#Maximum blocks processed per tick across all overload TNT tasks.
 	# Default: 2400
 	# Range: > 0
@@ -80,8 +82,20 @@ configVersion = 2
 	# Default: 8
 	# Range: > 0
 	globalLightningBudgetPerTick = 8
-	#Controls whether overload TNT can consume a Lightning Collapse Matrix to drop a Mysterious Cell.
-	enableMysteriousCellEasterEgg = true
+
+[floatingMatter]
+	#Whether a Silk Touch enchanted AE2 Annihilation Plane collects vanilla Shulker bullets
+	#that reach it, consuming the bullet and inserting one Floating Matter into the ME network.
+	#The bullet does not need to be shot down; reaching the plane is enough.
+	shulkerBulletCollection = true
+	#Blocks per tick that a dropped Floating Matter item rises.
+	# Default: 0.08
+	# Range: 0.001 ~ 2.0
+	riseSpeed = 0.08
+	#Floating Matter despawns once it climbs above this multiple of the world max build height.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	despawnHeightMultiplier = 2.0
 
 	[network.overloadedController]
 		#Extra channels provided by each overloaded controller.
@@ -100,6 +114,12 @@ configVersion = 2
 		# Default: 128
 		# Range: > 0
 		maxDistance = 128
+
+	[network.extendedPatternProvider]
+		#Number of 36-slot pattern pages in the Extended Overloaded Pattern Provider.
+		# Default: 4
+		# Range: 1 ~ 64
+		pages = 4
 
 [overloadProcessingFactory]
 	#Parallel operations provided by each Lightning Collapse Matrix.
@@ -158,3 +178,183 @@ configVersion = 2
 [pigmeeFumo]
 	#Controls whether players receive a Pigmee Fumo as a gift on their first login.
 	giftOnFirstJoin = true
+
+	[overloadArmor.movement]
+		#Master switch for phase flight.
+		phaseFlightEnabled = true
+		#Movement multiplier applied while phase flight is active.
+		# Default: 0.35
+		# Range: 0.0 ~ 4.0
+		phaseFlightSpeedMultiplier = 0.35
+
+	[overloadArmor.defense]
+		#Ticks between automatic status effect purification attempts.
+		# Default: 40
+		# Range: 1 ~ 72000
+		purificationPeriodTicks = 40
+		#Whether purification can remove beneficial effects.
+		purificationBeneficialEffects = false
+		#Whether purification can remove neutral effects.
+		purificationNeutralEffects = false
+		#Whether purification can remove harmful effects.
+		purificationHarmfulEffects = true
+
+	[overloadArmor.utility]
+		#Ticks between saturation sustain checks.
+		# Default: 20
+		# Range: 1 ~ 72000
+		saturationCheckIntervalTicks = 20
+		#Break-speed multiplier applied by underwater dig affinity.
+		# Default: 5.0
+		# Range: 1.0 ~ 64.0
+		underwaterDigMultiplier = 5.0
+		#Break-speed multiplier applied by airborne dig affinity.
+		# Default: 5.0
+		# Range: 1.0 ~ 64.0
+		airborneDigMultiplier = 5.0
+
+	[overloadArmor.lightningCosts]
+		#HV lightning consumed each tick by the active reach extension armor module.
+		# Default: 1
+		# Range: 0 ~ 9223372036854775807
+		passiveHvPerTick = 1
+		#HV lightning consumed each tick while creative flight is active.
+		# Default: 2
+		# Range: 0 ~ 9223372036854775807
+		flightHvPerTick = 2
+		#HV lightning consumed each tick while phase flight is active.
+		# Default: 8
+		# Range: 0 ~ 9223372036854775807
+		phaseFlightHvPerTick = 8
+
+	[overloadArmor.penalty]
+		#Ticks in the linear combo window for matrix and phase shield lightning cost scaling.
+		# Default: 200
+		# Range: 1 ~ 72000
+		shieldComboWindowTicks = 200
+		#Ticks in the linear combo window for undying FE and EHV cost scaling.
+		# Default: 200
+		# Range: 1 ~ 72000
+		undyingComboWindowTicks = 200
+
+	[railgun.damage]
+		#High Voltage beam damage per 2-tick settle.
+		# Default: 20
+		# Range: > 0
+		beamDamagePerSettle = 20
+		#High Voltage beam armor bypass (0.0 = fully blocked by armor, 1.0 = ignore armor).
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		beamBypass = 0.4
+		#Charge tier 1 base damage.
+		# Default: 100
+		# Range: > 0
+		baseDamageEhv1 = 100
+		#Charge tier 2 base damage.
+		# Default: 300
+		# Range: > 0
+		baseDamageEhv2 = 300
+		#Charge tier 3 (max) base damage.
+		# Default: 600
+		# Range: > 0
+		baseDamageEhv3 = 600
+		#Charged-shot armor bypass for all tiers (single dial — replaces per-tier 0.4/0.6/0.8).
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		chargedBypass = 0.8
+
+	[railgun.energy]
+		#FE energy consumed per beam settle.
+		# Default: 400
+		# Range: 0 ~ 9223372036854775807
+		beamFeCostPerSettle = 400
+		#FE energy consumed per tier-1 charged shot.
+		# Default: 8000
+		# Range: 0 ~ 9223372036854775807
+		feCostTier1 = 8000
+		#FE energy consumed per tier-2 charged shot.
+		# Default: 40000
+		# Range: 0 ~ 9223372036854775807
+		feCostTier2 = 40000
+		#FE energy consumed per tier-3 (max) charged shot.
+		# Default: 200000
+		# Range: 0 ~ 9223372036854775807
+		feCostTier3 = 200000
+		#HV beam consumes 1 HV every N settles (settle = 2 ticks). N=8 means ~1.25 HV/sec.
+		# Default: 8
+		# Range: 1 ~ 64
+		beamHvCostInterval = 8
+		#EHV consumed per tier-1 charged shot.
+		# Default: 32
+		# Range: 0 ~ 9223372036854775807
+		ehvCostTier1 = 32
+		#EHV consumed per tier-2 charged shot.
+		# Default: 96
+		# Range: 0 ~ 9223372036854775807
+		ehvCostTier2 = 96
+		#EHV consumed per tier-3 (max) charged shot.
+		# Default: 256
+		# Range: 0 ~ 9223372036854775807
+		ehvCostTier3 = 256
+		#Base FE stored in the railgun when no structural energy module is installed.
+		#Installing an energy module makes the railgun capacity equal to that module's capacity.
+		# Default: 1000000
+		# Range: 0 ~ 9223372036854775807
+		bufferCapacity = 1000000
+
+	[railgun.misc]
+		#Whether the railgun damages other players.
+		damagePlayers = true
+		#Whether paralysis applies to players.
+		paralysisOnPlayers = true
+
+	[railgun.terrain]
+		#Master switch for railgun terrain destruction.
+		#When false, no railgun shot can break blocks even if the item setting is ON.
+		enableTerrainDestruction = true
+		#Whether terrain destruction produces drops (drops auto-despawn after 60s).
+		dropItems = false
+		#Block break budget per tick across all railgun terrain jobs.
+		# Default: 200
+		# Range: 1 ~ 8192
+		blocksPerTick = 200
+
+	[railgun.overloadExecution]
+		#Master switch for the Overload Execution module (EHv3-charged forced-kill).
+		enabled = true
+		#Decay window in ticks. After this many ticks since the last hit, the recorded HP fully resets to current HP.
+		#Default 1200 = 60 seconds.
+		# Default: 1200
+		# Range: > 1
+		decayWindowTicks = 1200
+		#Decay curve exponent (slow-start, fast-finish). recovery_fraction = (elapsed / window)^power.
+		#  1.0 = linear
+		#  2.0 = quadratic (default — early ticks barely heal, last ticks restore fast)
+		#  3.0 = cubic (even slower start)
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		decayPower = 2.0
+		#Maximum number of targets whose recorded HP is kept simultaneously on a single railgun.
+		# Default: 8
+		# Range: 1 ~ 64
+		maxTracked = 8
+
+	[frequencyCard.cleanup]
+		#Controls whether invalid Overloaded Frequency Card wireless link records are cleaned up automatically.
+		enableAutoCleanup = true
+		#Seconds between cleanup passes for Overloaded Frequency Card wireless links.
+		# Default: 300
+		# Range: > 1
+		cleanupIntervalSeconds = 300
+		#Seconds an invalid Overloaded Frequency Card wireless link must remain invalid before removal.
+		# Default: 300
+		# Range: > 0
+		invalidCleanupDelaySeconds = 300
+		#Number of cleanup passes that must confirm an invalid Overloaded Frequency Card wireless link before removal.
+		# Default: 3
+		# Range: > 1
+		invalidCleanupRequiredChecks = 3
+		#Maximum Overloaded Frequency Card wireless links checked per cleanup pass.
+		# Default: 128
+		# Range: > 1
+		cleanupBatchSize = 128

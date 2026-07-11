@@ -1,6 +1,0 @@
-// Compost colors for touhou_little_mad. You may add your own colors, change existing ones, or remove colors that aren't needed.
-advancement_little_mad, #ffd6d0
-advancement_maid_gift, #ffa784
-advancement_maid_hurt_by_owner, #5c4140
-advancement_maid_hurt_owner, #ffd0ca
-advancement_maid_mad, #b87f7c

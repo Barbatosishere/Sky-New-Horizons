@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6DA0637AAAB84975"]
 			id: "00D62AF45A3E525E"
 			shape: "pentagon"
 			size: 2.0d
@@ -16,8 +17,8 @@
 				item: { count: 1, id: "productivebees:honey_treat" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -26,7 +27,6 @@
 				"12171F9C7F516BAC"
 				"753601178751E2DB"
 				"00D62AF45A3E525E"
-				"78A06FB988CD6EBD"
 			]
 			id: "79A2922165273A1D"
 			tasks: [{
@@ -34,8 +34,8 @@
 				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "18AB92E651785B27"
@@ -44,8 +44,8 @@
 				item: { count: 1, id: "productivebees:centrifuge" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "12171F9C7F516BAC"
@@ -54,8 +54,8 @@
 				item: { count: 1, id: "productivebees:feeder" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "753601178751E2DB"
@@ -64,8 +64,8 @@
 				item: { count: 1, id: "minecraft:sponge" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			id: "338DA020949420A8"
@@ -74,8 +74,8 @@
 				item: { count: 1, id: "productivebees:expansion_box_oak" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -100,8 +100,8 @@
 				item: { count: 1, id: "productivelib:upgrade_time" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3DCD018BB66E1F55"]
@@ -111,19 +111,19 @@
 				item: { count: 1, id: "productivelib:upgrade_time_2" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["58A47C907935C035"]
+			dependencies: ["6DA0637AAAB84975"]
 			id: "78A06FB988CD6EBD"
 			tasks: [{
 				id: "0CBDAEAE12B9480C"
 				item: { count: 1, id: "minecraft:beehive" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6DA0637AAAB84975"]
@@ -133,8 +133,8 @@
 				item: { count: 1, id: "productivebees:bee_cage" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			id: "6DA0637AAAB84975"
@@ -150,8 +150,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -4.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["479460BDC9CDC5AB"]
@@ -204,7 +204,7 @@
 				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -215,8 +215,8 @@
 				item: { count: 1, id: "productivelib:upgrade_range" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			id: "0471AC6173B69752"
@@ -225,8 +225,8 @@
 				item: { count: 1, id: "productivelib:upgrade_child" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["479460BDC9CDC5AB"]
@@ -237,7 +237,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3725753FB42D77C0"]
@@ -248,7 +248,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["479460BDC9CDC5AB"]
@@ -258,8 +258,8 @@
 				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 }

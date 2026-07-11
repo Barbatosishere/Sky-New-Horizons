@@ -417,13 +417,17 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0FE9A3C2081FD094"]
+			dependencies: [
+				"0FE9A3C2081FD094"
+				"33B7675FD67C067B"
+			]
 			id: "43484AD1CAF58AD2"
 			tasks: [{
 				icon: {
 					id: "ae2lt:damaged_budding_overload_crystal"
 				}
 				id: "196BC1B77FD61DF4"
+				observation_type: "block"
 				observe_type: 0
 				timer: 1L
 				to_observe: "ae2lt:damaged_budding_overload_crystal"
@@ -462,6 +466,7 @@
 					id: "ae2lt:flawless_budding_overload_crystal"
 				}
 				id: "28F5FC0A0FDBC588"
+				observation_type: "block"
 				observe_type: 0
 				timer: 1L
 				to_observe: "ae2lt:flawless_budding_overload_crystal"
