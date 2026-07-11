@@ -1,0 +1,33 @@
+filename = 'NeoEnchant-5.14.0.jar'
+name = 'Neo Enchant+'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.14.0'
+
+[download]
+hash = '345fbc340c7c2f65a11500896fbdb5b6338ea6388a9fb1dc6cffa2ce4c5f156c29b35f6c870ba1a1eca8ca6db715693451b8fabb577cdf57671c39a41319cc95'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BynmO8IO/versions/qmYh12Er/NeoEnchant-5.14.0.jar'
+
+[update.modrinth]
+mod-id = 'BynmO8IO'
+version = 'qmYh12Er'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nJLo0AtD'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 't2pMCVgG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'bHyNNNwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hwNDseBp'
+type = 'OPTIONAL'

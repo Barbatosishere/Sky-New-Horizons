@@ -1,0 +1,21 @@
+filename = 'potentials-neoforge-1.21-0.7.1.jar'
+name = 'Potentials'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.7.1'
+
+[download]
+hash = 'fe42e40aa1fec39a6e6d0e24ba54c994979868d77da4241fb629d3752a72c45b466a79889a15e9f6f1114c93e39ca74818622efc25f10af004bc54371db79362'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/J9pKOkxP/versions/EEjnSxLK/potentials-neoforge-1.21-0.7.1.jar'
+
+[update.modrinth]
+mod-id = 'J9pKOkxP'
+version = 'EEjnSxLK'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

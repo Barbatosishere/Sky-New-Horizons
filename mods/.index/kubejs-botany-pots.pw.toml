@@ -1,0 +1,25 @@
+filename = 'kjsbotanypots-1.3.2.jar'
+name = 'KubeJS Botany Pots'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kjsbotanypots-1.3.2.jar'
+
+[download]
+hash = '234cfbb095b83d78fb25e54571d72505d26a7b6b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7181867
+project-id = 832870
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '353928'
+type = 'REQUIRED'

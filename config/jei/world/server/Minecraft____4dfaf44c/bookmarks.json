@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mekanism:configurator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modularrouters:modular_router"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

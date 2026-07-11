@@ -1,0 +1,21 @@
+filename = 'ae2omnicells-1.21.1-neoforge-1.1.6.jar'
+name = 'AE Omni Cells'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.6-1.21.1-neoforge'
+
+[download]
+hash = '9ff93665640e82900cc0d6cba5fd94e02f1125160e8535d851513420fd37b9e136764cc8713ad5de7e18aedb21818a46fab6c285e577d153f677e535fc8ea7f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RYE1pYyr/versions/k444ySGT/ae2omnicells-1.21.1-neoforge-1.1.6.jar'
+
+[update.modrinth]
+mod-id = 'RYE1pYyr'
+version = 'k444ySGT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'mafglib-0.4.3+mc1.21.1.jar'
+name = 'MaFgLib'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.4.3+mc1.21.1'
+
+[download]
+hash = 'b28b0552022ba22a729c917b848d119b84236689b550b99ba1fe11f2353551abcd2d9e23b190689be82376a9b2a47ffc22cdb116f413d6f76a5d19f075a9e78d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SKI34J7B/versions/CgDQ0u0Q/mafglib-0.4.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'SKI34J7B'
+version = 'CgDQ0u0Q'

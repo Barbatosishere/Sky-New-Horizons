@@ -1,0 +1,18 @@
+filename = 'woodenhopper-neoforge-1.21.1-3.2.1.0.jar'
+name = 'Wooden Hopper'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.2.1.0'
+
+[download]
+hash = 'f1c79ca17f58fc289a323d691e30eef186dc3076b178d0fce508ce77f4625ba981c51c97244db7f418bd4fbb1c377d8983cf5bc23dc25807acc099fcd57c00ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VOUy9bAs/versions/iiDOYLIX/woodenhopper-neoforge-1.21.1-3.2.1.0.jar'
+
+[update.modrinth]
+mod-id = 'VOUy9bAs'
+version = 'iiDOYLIX'

@@ -1,0 +1,21 @@
+filename = 'death_muffler_fix 0.1.jar'
+name = 'Death Muffler Fix'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'death_muffler_fix 0.1.jar'
+
+[download]
+hash = 'cfbb138db35691831a84577a2c4f88462e7294da'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8330096
+project-id = 1589560
+
+[[x-prismlauncher-dependencies]]
+addonId = '254241'
+type = 'REQUIRED'

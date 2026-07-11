@@ -1,0 +1,18 @@
+filename = 'squatgrow-neoforge-21.1.3+mc1.21.1.jar'
+name = 'Squat Grow'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.3'
+
+[download]
+hash = 'c00a31e277ccedc6572e781430fb1085591694f203a3495278eabd5972744dfb263a35e34fca66c5448648fe5bb55170970c643a8ddefa495990ffeeb07101b3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b5JMdB5V/versions/RA624hFP/squatgrow-neoforge-21.1.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'b5JMdB5V'
+version = 'RA624hFP'

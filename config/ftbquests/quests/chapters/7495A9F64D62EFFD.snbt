@@ -134,7 +134,7 @@
 				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: 0.5d
 		}
 		{
@@ -182,7 +182,7 @@
 				item: { count: 1, id: "exdeorum:stone_hammer" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: 0.5d
 		}
 		{
@@ -204,7 +204,7 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -1.0d
 		}
 		{
@@ -227,7 +227,7 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -275,19 +275,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2248288B49BDAB94"]
-			id: "5C2D632DD660BB57"
-			tasks: [{
-				id: "53CA3C13A03F57E3"
-				item: { count: 1, id: "exdeorum:compressed_stone_hammer" }
-				type: "item"
-			}]
-			x: -13.0d
-			y: 2.0d
-		}
-		{
 			dependencies: [
-				"5C2D632DD660BB57"
 				"3B1C59905C00AD50"
 				"693D7F75926683F7"
 			]
@@ -309,8 +297,8 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: 3.5d
+			x: -13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["472EBC8A9F1E241F"]
@@ -320,8 +308,8 @@
 				item: { count: 1, id: "exdeorum:oak_compressed_sieve" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 3.5d
+			x: -12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3168AAB7EC4EB148"]
@@ -331,8 +319,8 @@
 				item: { count: 1, id: "exdeorum:compressed_cobblestone" }
 				type: "item"
 			}]
-			x: -14.5d
-			y: 3.5d
+			x: -15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3834B9CDCA404DE0"]
@@ -342,7 +330,7 @@
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -2.5d
 		}
 		{
@@ -353,7 +341,7 @@
 				item: { count: 1, id: "ironfurnaces:gold_furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -4.0d
 		}
 		{
@@ -364,7 +352,7 @@
 				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -5.5d
 		}
 		{
@@ -386,24 +374,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["472EBC8A9F1E241F"]
-			id: "69B0C1E15E8E360C"
-			tasks: [
-				{
-					id: "546D8812045C54D2"
-					item: { count: 1, id: "minecraft:soul_sand" }
-					type: "item"
-				}
-				{
-					id: "5097919CD97C1808"
-					item: { count: 1, id: "minecraft:quartz" }
-					type: "item"
-				}
-			]
-			x: -10.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["650103341EFA9014"]
 			id: "44CD967DA1341F93"
 			tasks: [{
@@ -422,7 +392,7 @@
 				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -7.0d
 		}
 		{
@@ -440,7 +410,7 @@
 				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.0d
 			y: -8.5d
 		}
 		{
@@ -451,7 +421,7 @@
 				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: -7.0d
 		}
 		{
@@ -462,8 +432,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
 				type: "item"
 			}]
-			x: -14.5d
-			y: 5.0d
+			x: -15.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2F0D5B6227150788"]
@@ -473,8 +443,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_copper" }
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.5d
+			x: -15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["37B3025E7FFB3A18"]
@@ -484,8 +454,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_iron" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: 6.5d
+			x: -13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["753D5389498DBC84"]
@@ -495,8 +465,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_gold" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 6.5d
+			x: -12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F249A4CC357F9D1"]
@@ -506,8 +476,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_emerald" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 6.5d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["527B0A250254C30A"]
@@ -517,8 +487,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_diamond" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1BBB365E7B4DCAB5"]
@@ -528,8 +498,8 @@
 				item: { count: 1, id: "cobblegengalore:block_gen_netherite" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["472EBC8A9F1E241F"]
@@ -539,7 +509,7 @@
 				item: { count: 1, id: "minecraft:end_stone" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: -1.0d
 		}
 		{
@@ -550,7 +520,7 @@
 				item: { count: 1, id: "xycraft_machines:extractor" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -1.0d
 		}
 		{
@@ -568,22 +538,18 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"472EBC8A9F1E241F"
-				"43484AD1CAF58AD2"
-				"7F4C49356FD693ED"
-			]
+			dependencies: ["472EBC8A9F1E241F"]
 			id: "33B7675FD67C067B"
 			tasks: [{
 				id: "1249BBFFEB46C8F8"
 				item: { count: 1, id: "minecraft:lightning_rod" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 2.0d
 		}
 		{
@@ -604,7 +570,7 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
+			x: -12.0d
 			y: -2.5d
 		}
 		{
@@ -615,8 +581,98 @@
 				item: { count: 1, id: "teleportcakes:nether_cake" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1BADA00A32875650"
+				"22424BA221B628A6"
+			]
+			id: "2F72B05EB37A124E"
+			tasks: [{
+				id: "349BA0C06BA603CE"
+				item: { count: 1, id: "exdeorum:mycelium_spores" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2F72B05EB37A124E"
+				"6092A51375869AFF"
+			]
+			id: "7644934CD9272BBD"
+			tasks: [{
+				id: "3C62079D662856C4"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1BADA00A32875650"
+				"7644934CD9272BBD"
+			]
+			id: "4C3034099432E0CB"
+			tasks: [{
+				id: "7F2BFB8B41CE72DD"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0844BBD0B7FE80B5"]
+			dependency_requirement: "one_completed"
+			id: "52FFC7BEA4C083EC"
+			tasks: [
+				{
+					id: "07BF3728282CBA59"
+					item: { count: 1, id: "exdeorum:porcelain_lava_bucket" }
+					type: "item"
+				}
+				{
+					id: "7C19A2A7169FF17C"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"472EBC8A9F1E241F"
+				"0F28E2C36BCDA932"
+			]
+			id: "0844BBD0B7FE80B5"
+			progression_mode: "linear"
+			tasks: [{
+				id: "141C2EE69A4E8296"
+				item: { count: 1, id: "exdeorum:porcelain_crucible" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6092A51375869AFF"
+				"472EBC8A9F1E241F"
+			]
+			id: "0F28E2C36BCDA932"
+			tasks: [{
+				id: "6A4E1E211946F907"
+				item: { count: 1, id: "minecraft:clay" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 3.5d
 		}
 	]
 }

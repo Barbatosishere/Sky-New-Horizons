@@ -1,3 +1,7 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"minecraft:rose_bush"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:moss_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:stack_upgrade_omega_tier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_omega_tier"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

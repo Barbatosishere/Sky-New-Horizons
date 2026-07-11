@@ -1,0 +1,18 @@
+filename = 'better_lib-neoforge-1.21.1-1.0.109.jar'
+name = 'Better Library'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.109'
+
+[download]
+hash = 'c645fc4915e71540ca8e3edd68fe270dcfc60d554f41529af06a5c499a02c623387feebb1319abd21fdae8146ec777718d870194dcd14ebb56adef66882eac2a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2x0ULgTj/versions/KANB3D2i/better_lib-neoforge-1.21.1-1.0.109.jar'
+
+[update.modrinth]
+mod-id = '2x0ULgTj'
+version = 'KANB3D2i'

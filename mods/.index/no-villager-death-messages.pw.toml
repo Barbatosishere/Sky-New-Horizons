@@ -1,0 +1,18 @@
+filename = 'novillagerdm-1.21.1-6.0.0.jar'
+name = 'No Villager Death Messages'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0.0'
+
+[download]
+hash = '9f1ef027cbc6d7f173c1209dc0efdf664e405b112e73558fe16db97e14a1470b0815288651bed881ba4b8bc54cff07d9d0456f096d5725cf5113b0ee4039c6f8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NEipHNYm/versions/aL4vZ1jM/novillagerdm-1.21.1-6.0.0.jar'
+
+[update.modrinth]
+mod-id = 'NEipHNYm'
+version = 'aL4vZ1jM'

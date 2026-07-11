@@ -1,0 +1,25 @@
+filename = 'createstockbridge-1.21.1-0.2.0.jar'
+name = 'Create Stock Bridge'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-0.2.0'
+
+[download]
+hash = '5c5bc8c077a2eb80fb7625f982c7ce77c79fd0db14b02f880fe66946863af7cf493d502497a74d9d9507d2402fb98f701b0a43cf29989850f3ca24274d4e3c36'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V7mbOBO4/versions/fLyIEPoj/createstockbridge-1.21.1-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'V7mbOBO4'
+version = 'fLyIEPoj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'REQUIRED'

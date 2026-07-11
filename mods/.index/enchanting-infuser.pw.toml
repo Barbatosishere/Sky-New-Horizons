@@ -1,0 +1,25 @@
+filename = 'EnchantingInfuser-v21.1.4-1.21.1-NeoForge.jar'
+name = 'Enchanting Infuser'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.1.4-1.21.1-NeoForge'
+
+[download]
+hash = '2f99f87e8ebfbbb19aeb3e92844e24cb0d6f88c5aadc146779963a1a3276f1212debfd7461c740f313991ee2fcfc5046f1199fc7611976d618c5b204ce60e295'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ePv85y52/versions/AoOYPAOZ/EnchantingInfuser-v21.1.4-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'ePv85y52'
+version = 'AoOYPAOZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'

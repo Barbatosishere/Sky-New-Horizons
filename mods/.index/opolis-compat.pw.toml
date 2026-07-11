@@ -1,0 +1,21 @@
+filename = 'bblcompat-1.21.1-5.6.8.jar'
+name = 'Opolis Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-5.6.8'
+
+[download]
+hash = 'e2bbd8e2c76a43505820dbac28e7c39f2b110fc8a6d33c603615d592b1a2288daf7a2c9535745903e224ae71cbdcbaaeee27123d6bf1d140ce490f6a840694e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HFF844hg/versions/ZCFtA61b/bblcompat-1.21.1-5.6.8.jar'
+
+[update.modrinth]
+mod-id = 'HFF844hg'
+version = 'ZCFtA61b'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tfpHINm8'
+type = 'REQUIRED'

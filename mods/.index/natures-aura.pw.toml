@@ -1,0 +1,25 @@
+filename = 'NaturesAura-41.9.jar'
+name = "Nature's Aura"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '41.9'
+
+[download]
+hash = 'd4653582b1e0c7f3dc633be74b14295c77e3738fc608ddfd582cb980d63e13af9249ef49d08abca21bc5a1ddaab4ad55dc66cfaa66747dbf6722f7b9824dff4b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4cJkN3aF/versions/MOS9yScP/NaturesAura-41.9.jar'
+
+[update.modrinth]
+mod-id = '4cJkN3aF'
+version = 'MOS9yScP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BaqCltvf'
+type = 'OPTIONAL'

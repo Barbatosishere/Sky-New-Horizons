@@ -1,0 +1,21 @@
+filename = 'exmachinis-deorum-1.21.1-4.0.3.jar'
+name = 'Ex Machinis: Divitiae Deorum'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.3'
+
+[download]
+hash = '468ec97a3f72e3d74775bb842c51204b66fb848f941408b5473f769219a27d35bd4ebba076c97cbaf0fdfe49147416c2a4c32d912f88a905b87ba9eb6e77dde4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/anSnGwH7/versions/R9odcpdP/exmachinis-deorum-1.21.1-4.0.3.jar'
+
+[update.modrinth]
+mod-id = 'anSnGwH7'
+version = 'R9odcpdP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'WP0FLyzv'
+type = 'REQUIRED'

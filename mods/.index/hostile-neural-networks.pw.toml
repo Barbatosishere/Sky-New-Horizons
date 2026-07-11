@@ -1,0 +1,25 @@
+filename = 'HostileNeuralNetworks-1.21.1-6.4.2.jar'
+name = 'Hostile Neural Networks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-6.4.2'
+
+[download]
+hash = '8b8ad3bc5d406042f61e80e2338503374cc069d5f58c7e8a8cb9e89083b0c111f94e8be1113554aec53ce78e3e4b204143b513b6f011029d5555aebd938c9f7a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6bLUlbZn/versions/CID2W1Pa/HostileNeuralNetworks-1.21.1-6.4.2.jar'
+
+[update.modrinth]
+mod-id = '6bLUlbZn'
+version = 'CID2W1Pa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tCkE8p2N'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'OPTIONAL'

@@ -18,4 +18,5 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.crushing(Item.of('minecraft:gravel', 9), 'exdeorum:compressed_andesite');
     event.recipes.mekanism.crushing(Item.of('minecraft:sand', 9), 'exdeorum:compressed_gravel');
     event.recipes.mekanism.crushing(Item.of('minecraft:red_sand', 9), 'exdeorum:compressed_netherrack');
+    event.recipes.mekanism.crushing(Item.of('ae2lt:firmament_dust'), 'naturesaura:sky_ingot');
 });

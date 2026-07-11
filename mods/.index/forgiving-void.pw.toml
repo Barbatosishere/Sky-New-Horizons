@@ -1,0 +1,21 @@
+filename = 'forgivingvoid-neoforge-1.21.1-21.1.7.jar'
+name = 'Forgiving Void'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forgivingvoid-neoforge-1.21.1-21.1.7.jar'
+
+[download]
+hash = 'bfcad985c5e335e2b712965c9b0d9028da01c845'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7966159
+project-id = 271009
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'REQUIRED'

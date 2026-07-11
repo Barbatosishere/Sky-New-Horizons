@@ -1,0 +1,37 @@
+filename = 'FluxNetworks-1.21.1-8.0.0.jar'
+name = 'Flux Networks'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Flux-Networks-1.21.1-8.0.0'
+
+[download]
+hash = '183342f454428084748f2784c8efd748664a9f9c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6089446
+project-id = 248020
+
+[[x-prismlauncher-dependencies]]
+addonId = '352491'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '890405'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'OPTIONAL'

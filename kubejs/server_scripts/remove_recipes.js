@@ -218,16 +218,19 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mob_grinding_utils:recipe_mould_blank' });
     // 移除 ECO - 集成工作站 配方
         event.remove({ id: 'neoecoae:integrated_working_station' });
+    //移除堆叠升级
+        event.remove({ id: 'sophisticatedstorage:stack_upgrade_omega_tier' });
+        event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_omega_tier' });
   
 
     // --- 移除所有原有生成器配方（按输出物品）---
-    event.remove({ id: 'cobblegengalore:block_gen_stone' });
-    event.remove({ id: 'cobblegengalore:block_gen_copper' });
-    event.remove({ id: 'cobblegengalore:block_gen_iron' });
-    event.remove({ id: 'cobblegengalore:block_gen_gold' });
-    event.remove({ id: 'cobblegengalore:block_gen_emerald' });
-    event.remove({ id: 'cobblegengalore:block_gen_diamond' });
-    event.remove({ id: 'cobblegengalore:block_gen_netherite' });
+    event.remove({  output: 'cobblegengalore:block_gen_stone' });
+    event.remove({  output: 'cobblegengalore:block_gen_copper' });
+    event.remove({  output: 'cobblegengalore:block_gen_iron' });
+    event.remove({  output: 'cobblegengalore:block_gen_gold' });
+    event.remove({  output: 'cobblegengalore:block_gen_emerald' });
+    event.remove({  output: 'cobblegengalore:block_gen_diamond' });
+    event.remove({  output: 'cobblegengalore:block_gen_netherite' });
 
 
     // --- 添加新的生成器配方（升级链：石头→铜→铁→金→绿宝石→钻石→下界合金）---

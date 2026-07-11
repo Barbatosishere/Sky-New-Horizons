@@ -1,0 +1,46 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/lostmyself8/Mekanism-MoreMachine/issues"
+license = "MIT"
+
+[[mods]]
+    modId = "mekmm"
+    version = "1.3.1"
+    displayName = "Mekanism: MoreMachine"
+    authors = "Lost Myself"
+    description = "Added more machines and factories to Mekanism."
+    logoFile = "logo.png"
+    displayURL = "https://github.com/lostmyself8/Mekanism-MoreMachine"
+    credits="Thank you to all those who have made any contributions to this mod"
+
+[[mixins]]
+    config = "mekmm.mixins.json"
+[[accessTransformers]]
+    file = "META-INF/accesstransformer.cfg"
+
+[[dependencies.mekmm]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."mekmm"]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21, 1.21.1]"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.mekmm]]
+    modId = "mekanism"
+    type = "required"
+    versionRange = "[10.7.17.83,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.mekmm]]
+    modId = "evolvedmekanism"
+    type = "optional"
+    ordering = "AFTER"
+    side = "BOTH"

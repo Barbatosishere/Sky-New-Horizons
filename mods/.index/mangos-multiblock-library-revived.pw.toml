@@ -1,0 +1,18 @@
+filename = 'mangomultiblock-1.21.1-3.0-release-NeoForge.jar'
+name = "Mango's MultiBlock Library Revived"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mangomultiblock-1.21.1-3.0-release-NeoForge'
+
+[download]
+hash = '6243f3a8e6b67a100b48196a859a1f7fd6b33fb4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7342473
+project-id = 1406189

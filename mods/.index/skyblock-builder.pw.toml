@@ -1,0 +1,29 @@
+filename = 'SkyblockBuilder-21.1.31.jar'
+name = 'Skyblock Builder'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '21.1.31'
+
+[download]
+hash = '92a10a3c8bf6bd73168054c20457fac205129d94fb75ef16609ab47fff0057790853290058fc058f211c95d29f217a0695036eb04c4b2e397baba1f4b8dfa5d9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/por2AZc5/versions/rjVhHP6u/SkyblockBuilder-21.1.31.jar'
+
+[update.modrinth]
+mod-id = 'por2AZc5'
+version = 'rjVhHP6u'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cGVpcVeo'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qEH6GYul'
+type = 'REQUIRED'

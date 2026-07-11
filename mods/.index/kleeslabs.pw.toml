@@ -1,0 +1,21 @@
+filename = 'kleeslabs-neoforge-1.21.1-21.1.11.jar'
+name = 'KleeSlabs'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kleeslabs-neoforge-1.21.1-21.1.11.jar'
+
+[download]
+hash = '6b357c38c09620d7494da94a03470d5fbb4eade6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8163148
+project-id = 241895
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'REQUIRED'

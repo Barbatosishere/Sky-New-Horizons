@@ -1,0 +1,25 @@
+filename = 'patternbetter-1.3.3-1.21.1.jar'
+name = 'patternbetter'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.3'
+
+[download]
+hash = 'b16638064854c49a5200d4d586d8b10acc70fd3361e5c38df53b59c6fdbbc004669c1584ba9c46e3d0560da16be91e086d3fe4467be1823521dc91b55add3d42'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/82cBe0sF/versions/lbeHFsG2/patternbetter-1.3.3-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '82cBe0sF'
+version = 'lbeHFsG2'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JiOqfoFM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'REQUIRED'

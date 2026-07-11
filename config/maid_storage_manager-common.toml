@@ -100,8 +100,6 @@ debug_msg = false
 	fast_path_schedule = false
 
 [ai]
-	#Allow Maid call AI two times when doing some request.
-	two_step_ai_response = true
 	#Enable function calls from this mod
 	functions = true
 

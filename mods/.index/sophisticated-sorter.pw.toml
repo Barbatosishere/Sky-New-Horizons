@@ -1,0 +1,18 @@
+filename = 'sophisticatedsorter-1.0.7.jar'
+name = 'SophisticatedSorter'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7'
+
+[download]
+hash = 'c8fcfb73b6466280339e5c3c0173c1bff6281f4689f487db09cd80bd3216dd4c3a84df2f95f5750b0fbeea3b56146b0c10cba66f3b3b1ab321554c4cd680e3a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2LPywrDb/versions/Vbt1mjHA/sophisticatedsorter-1.0.7.jar'
+
+[update.modrinth]
+mod-id = '2LPywrDb'
+version = 'Vbt1mjHA'

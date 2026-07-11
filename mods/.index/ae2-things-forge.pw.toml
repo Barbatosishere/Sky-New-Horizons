@@ -1,0 +1,21 @@
+filename = 'AE2-Things-1.4.2-beta.jar'
+name = 'AE2 Things [Forge]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'AE2 Things v1.4.2-beta'
+
+[download]
+hash = '593ad26ae4143f529a63cc63b96c6430ebba67c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5637783
+project-id = 609977
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'

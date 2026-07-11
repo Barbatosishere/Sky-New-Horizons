@@ -1,0 +1,25 @@
+filename = 'mekanism_ponders-1.0.3-1.21.1.jar'
+name = 'Mekanism: Ponders'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3-1.21.1'
+
+[download]
+hash = '6048d614c0cae1f7a31181bf5353436b96f8f70d9a281f717d6d3d438f497dcbbfb9fc2a18c4823ea347a41db9bbd478361ce4b2316f4ca46b9141e37cd1e6ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yriKr10n/versions/5RMWQ3C0/mekanism_ponders-1.0.3-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'yriKr10n'
+version = '5RMWQ3C0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ce6I4WUE'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OFVYKsAk'
+type = 'OPTIONAL'

@@ -1,0 +1,25 @@
+filename = 'casting-1.21.1-2.3.13.jar'
+name = 'Casting'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-2.3.13'
+
+[download]
+hash = '4119cc3f6e3737f42335c8b7caa229dea0b5dfef11838119f67e802f5ecfd73d2c984e3e585f432a0cae9c9b13c8be89069e128055bf2425b9289882eabdfca4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YadXQ97f/versions/mHE6wnd2/casting-1.21.1-2.3.13.jar'
+
+[update.modrinth]
+mod-id = 'YadXQ97f'
+version = 'mHE6wnd2'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tfpHINm8'
+type = 'REQUIRED'

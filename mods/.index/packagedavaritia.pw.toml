@@ -1,0 +1,33 @@
+filename = 'PackagedAvaritia-Re-1.21.1-3.0.1.5.jar'
+name = 'PackagedAvaritia'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-Re-3.0.1.5'
+
+[download]
+hash = '75850dfa2a089f9ff652e4579bff555fe71519b91a60c636cc6fd46a341ca7a4087e0da1f19ece86360163a27ca3a3896579d90d4cd7d94aecbed4e50499fc29'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aA94MQL4/versions/S3poB44N/PackagedAvaritia-Re-1.21.1-3.0.1.5.jar'
+
+[update.modrinth]
+mod-id = 'aA94MQL4'
+version = 'S3poB44N'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QeB3NRC5'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'j5gjLUvf'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ugIdhQx4'
+type = 'REQUIRED'

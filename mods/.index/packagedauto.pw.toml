@@ -1,0 +1,29 @@
+filename = 'PackagedAuto-1.21.1-4.0.8.21.jar'
+name = 'PackagedAuto'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-4.0.8.21'
+
+[download]
+hash = '96a730b8221e5e9eefa27fe78c429dc7efaeb5ccb6c7f39b122ad8a89549c353b883bad00190aa5beff5ebbc9a2494db3eee8883c1c4b6a98a83bba1337de627'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ugIdhQx4/versions/ErYy5Im9/PackagedAuto-1.21.1-4.0.8.21.jar'
+
+[update.modrinth]
+mod-id = 'ugIdhQx4'
+version = 'ErYy5Im9'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'dummmmmmy-1.21-2.0.12-neoforge.jar'
+name = 'MmmMmmMmmMmm'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-2.0.12-neoforge'
+
+[download]
+hash = '40ab2e23ddd8253dc2369654de3d95ddf16739a4a219040bff67c557b11a114d48fed7dc7dc9270040d357af7510fec0dd8600be1d421c50de7c2ff8e5b81982'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Adega8YN/versions/nnQq1ivl/dummmmmmy-1.21-2.0.12-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'Adega8YN'
+version = 'nnQq1ivl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'

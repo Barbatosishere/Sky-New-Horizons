@@ -1,0 +1,25 @@
+filename = 'simplemagnets-1.1.12c-neoforge-mc1.21.jar'
+name = 'Simple Magnets'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.12c-neoforge-mc1.21'
+
+[download]
+hash = '8bf6f1928aef3ccbd0289f24397655b38c4e07f1d261a4e6d94057ef982705227df947b021981e26249d21d1f734507a792c94270a3ee065530d598a5d261c00'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YyNQVpOu/versions/Rh4OaF2U/simplemagnets-1.1.12c-neoforge-mc1.21.jar'
+
+[update.modrinth]
+mod-id = 'YyNQVpOu'
+version = 'Rh4OaF2U'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LN9BxssP'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOUBggPv'
+type = 'REQUIRED'

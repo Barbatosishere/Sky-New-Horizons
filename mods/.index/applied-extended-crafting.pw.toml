@@ -1,0 +1,25 @@
+filename = 'applied_extended_crafting-1.1.2.jar'
+name = 'Applied Extended Crafting'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2'
+
+[download]
+hash = 'dc8708d97b641fa2a8251acb568d4aa246278b7557fe443c045e1396472302c05aab2b376af1a90e2d11b046f2be8c159479ef374c50e2cdca6905f1b94981b3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/g2V0EJdS/versions/u74BawQ2/applied_extended_crafting-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'g2V0EJdS'
+version = 'u74BawQ2'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5JMG1gql'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'REQUIRED'

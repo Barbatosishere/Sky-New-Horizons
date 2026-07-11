@@ -1,0 +1,33 @@
+filename = 'MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar'
+name = 'MaidUseHandCrank'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6.2'
+
+[download]
+hash = 'fe494ede9d041351f24ffb74ea30365ad0a7d5d3e93eaa855c7cdd90b0d079e530ae705f406e6b2cfc35d1d9f1e9c41c86036a0857318009b9e20ed229be172e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kVNtrRcL/versions/Qu15bii2/MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kVNtrRcL'
+version = 'Qu15bii2'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Vg5TIO6d'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R0bDWFAW'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

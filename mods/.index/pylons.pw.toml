@@ -1,0 +1,18 @@
+filename = 'pylons-1.21.1-5.4.2.jar'
+name = 'Pylons'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.4.2'
+
+[download]
+hash = 'd3d2fa3e54cb7272ace62ab4719f86d8338daa2f41e4686cff9892e9abfe43f794bee14153596d8b076bbd7850aee79702f1b7638fe6b2322ec1d0b56d1c9a73'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/A82glthi/versions/FD2dgDdO/pylons-1.21.1-5.4.2.jar'
+
+[update.modrinth]
+mod-id = 'A82glthi'
+version = 'FD2dgDdO'

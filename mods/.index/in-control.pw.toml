@@ -1,0 +1,25 @@
+filename = 'incontrol-1.21-10.2.6.jar'
+name = 'In Control!'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'InControl - 1.21-10.2.6'
+
+[download]
+hash = '8b25ac143e5c2392336d0f899160bdfe1ee3d1a5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7436215
+project-id = 257356
+
+[[x-prismlauncher-dependencies]]
+addonId = '269024'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'OPTIONAL'

@@ -36,6 +36,7 @@
 	quest.1DCB5D53228EB9D4.quest_desc: ["在机械动力序列装配的界面中,如果右下角有1/x的标志,则代表你可以使用滚轮进行翻页"]
 	quest.21EF3E4919BD509C.quest_subtitle: "应该不会有人这么倒霉吧,不会吧不会吧(偷笑ing)"
 	quest.21EF3E4919BD509C.title: "免费树苗"
+	quest.22424BA221B628A6.quest_subtitle: "将树苗或食物右键木桶，进度满后可获得泥土"
 	quest.23F71D49F30BCCCB.quest_desc: [""]
 	quest.23F71D49F30BCCCB.quest_subtitle: "欢迎来到SkyNH"
 	quest.23F9B792F2D0E363.quest_subtitle: "通过特定群系以及环境可以获得"
@@ -65,6 +66,7 @@
 	quest.6F866C802BAABD06.quest_desc: ["除反应堆外的发电机全部无法合成"]
 	quest.6FFDBDD99E92AC26.quest_subtitle: "使用存储总线可以让AE读取到精妙箱子和抽屉内的物品"
 	quest.73D80019407AEE79.quest_desc: ["出于某种考量(不想吃裂变燃料)现在再处理裂变燃料可以用于裂变燃料循环"]
+	quest.7644934CD9272BBD.quest_subtitle: "使用巫水获得第一块灵魂沙后可以通过批量缠魂获得大量灵魂沙"
 	quest.79D266AEF1EAF4C9.quest_desc: ["闪电科技的闪电分为极高压闪电(自然闪电)与人工闪电(高压闪电)"]
 	quest.79D266AEF1EAF4C9.title: "闪电科技相关"
 	task.062729D6EFF120F9.title: "JEI相关"

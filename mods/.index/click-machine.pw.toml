@@ -1,0 +1,21 @@
+filename = 'ClickMachine-1.21.1-9.0.1.jar'
+name = 'Click Machine'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ClickMachine-1.21.1-9.0.1.jar'
+
+[download]
+hash = '336cd6baaf1d9de113fc1b5780db790a549ac466'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6751569
+project-id = 298275
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'

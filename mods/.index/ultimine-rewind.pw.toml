@@ -1,0 +1,18 @@
+filename = 'ultimine_rewind-1.21.1-2.0.0.jar'
+name = 'Ultimine Rewind'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-2.0.0'
+
+[download]
+hash = '6e41584fb12585e6c58a78fd12799b9de70716ec2a1778e4781dc2dc9dc3db24e793dc31620109727538c636a88d0e27b751493b319f5db3786739098694a338'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FTUEqY9e/versions/PTb17CRD/ultimine_rewind-1.21.1-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'FTUEqY9e'
+version = 'PTb17CRD'

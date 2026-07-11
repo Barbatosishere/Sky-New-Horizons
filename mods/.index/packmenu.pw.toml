@@ -1,0 +1,21 @@
+filename = 'PackMenu-1.21.1-7.0.4.jar'
+name = 'PackMenu'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PackMenu-1.21.1-7.0.4.jar'
+
+[download]
+hash = 'c54b788cf7fd6700efe8881e0bdf1b5dfaaba433'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6751519
+project-id = 358191
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'occultism_kubejs-1.21.1-neoforge-1.11.0.jar'
+name = 'Occultism KubeJS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-neoforge-1.11.0'
+
+[download]
+hash = 'fce7abb0e7606965161bd4a98d38e84c5a7aedc064cc394aa9183efa4b7fde3f7ed0745a856729eaa304ff1f9160d4efb4a9b717847d1989def6e8efe3543fb1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u5J68aYW/versions/785rsUjd/occultism_kubejs-1.21.1-neoforge-1.11.0.jar'
+
+[update.modrinth]
+mod-id = 'u5J68aYW'
+version = '785rsUjd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sbJh4AZw'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'REQUIRED'

@@ -1,0 +1,27 @@
+filename = 'createjeicompat-1.0.2.jar'
+name = 'Create JEI Compat'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = '35b6b68858cd033bad2f7f796d0ccf2c1caed5198457e0ee0fa634b3bdaac169f7b89bbd87cce7f2eb5178f5562a41fa201fa00874a1cb864f4d28f9d86e75af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1fkSpqmV/versions/GJ7IAX1H/createjeicompat-1.0.2.jar'
+
+[update.modrinth]
+mod-id = '1fkSpqmV'
+version = 'GJ7IAX1H'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'REQUIRED'
+version = 'YAcQ6elZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'n7NADxiG'

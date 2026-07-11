@@ -1,0 +1,45 @@
+filename = 'CustomMachineryMekanism-1.21.1-1.4.16.jar'
+name = 'Custom Machinery Mekanism'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.4.16'
+
+[download]
+hash = '092e7f77033ba7fdac0f95fa4709cd1ccc65dd0a43b931c10c7ddfec8d60bce6b74acf60a57e09da18a2501007815a93a0eae9f67541dd5f4acfebb0ad9cda55'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VFxg3xmP/versions/Ui7de88C/CustomMachineryMekanism-1.21.1-1.4.16.jar'
+
+[update.modrinth]
+mod-id = 'VFxg3xmP'
+version = 'Ui7de88C'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Eyw0UxEx'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ce6I4WUE'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xg35A4rS'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OrB5XFtI'
+type = 'REQUIRED'

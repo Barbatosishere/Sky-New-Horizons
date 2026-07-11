@@ -1,0 +1,21 @@
+filename = 'PickleTweaks-1.21.1-9.0.7.jar'
+name = 'Pickle Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '9.0.7'
+
+[download]
+hash = '92eac358f8b6554cbf3e2939e09683feaf1010a1d03a34f44a50f6dcc7f8ba345b04614ef4de118bd85fa5c672e249edcc3cf5c237a53f8745622de500625d9f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/J868sgbE/versions/pFjsKGQZ/PickleTweaks-1.21.1-9.0.7.jar'
+
+[update.modrinth]
+mod-id = 'J868sgbE'
+version = 'pFjsKGQZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Rw1NrDzF'
+type = 'REQUIRED'
