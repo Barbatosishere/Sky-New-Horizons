@@ -1,0 +1,15 @@
+{
+  "primaryColor": "#c4a5d4",
+  "secondaryColor": "#e0c8f0",
+  "particleColor": "#f0e0ff",
+  "flowerBlock": "occultism:iesnium_block",
+  "breedingItem": "occultism:iesnium_block",
+  "breedingItemCount": 1,
+  "selfbreed": false,
+  "createComb": true,
+  "waterproof": true,
+  "fireproof": true,
+  "speed": 3.5,
+  "attack": 6,
+  "size": 0.55
+}

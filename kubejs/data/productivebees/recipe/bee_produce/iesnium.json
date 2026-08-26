@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "productivebees:iesnium",
+  "results": [
+    {
+      "item": {
+        "type": "productivebees:component",
+        "components": {
+          "productivebees:bee_type": "productivebees:iesnium"
+        },
+        "items": "productivebees:configurable_honeycomb"
+      }
+    }
+  ]
+}
