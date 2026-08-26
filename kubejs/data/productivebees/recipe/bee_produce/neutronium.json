@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "productivebees:neutronium",
+  "results": [
+    {
+      "item": {
+        "type": "productivebees:component",
+        "components": {
+          "productivebees:bee_type": "productivebees:neutronium"
+        },
+        "items": "productivebees:configurable_honeycomb"
+      }
+    }
+  ]
+}
