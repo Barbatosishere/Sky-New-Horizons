@@ -1,10 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4D3C56242A07859D"
+	filename: "4d3c56242a07859d"
 	group: "1AC48EC46342DE27"
 	id: "4D3C56242A07859D"
+	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -36,6 +39,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5CA25B1745E85D27"]
 			id: "38521A248FAE29D4"
 			tasks: [{
 				id: "7E9BE3039795FF21"
@@ -43,7 +47,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0DF04869DC8607E4"]
@@ -53,8 +57,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["73364B56D2705ACC"]
@@ -116,8 +120,170 @@
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73364B56D2705ACC"]
+			id: "038B81912865A971"
+			tasks: [
+				{
+					id: "412B4DFFD2863A45"
+					type: "checkmark"
+				}
+				{
+					id: "258D122FA9D2C056"
+					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E2BE61BA1621FA4"
+					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "020F0FBE52CF158F"
+					item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29113107DE8249EC"
+					item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4E6A01BE142C0A5A"
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "5CA25B1745E85D27"
+			tasks: [{
+				id: "18D4F649137D7F58"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CA25B1745E85D27"]
+			id: "4A06D15E880CF4AE"
+			tasks: [{
+				id: "72150255775EEF49"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A06D15E880CF4AE"]
+			id: "1F9B4CD77DC86F48"
+			tasks: [{
+				id: "7722D6A60369981D"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65E7CC2BB891B8C8"]
+			id: "5C838F9D31E0F932"
+			tasks: [{
+				id: "1E529B38282DBBE4"
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C838F9D31E0F932"]
+			id: "5250ECAAB1F4DD96"
+			tasks: [{
+				id: "0B0393A923DBBD96"
+				item: { count: 1, id: "ars_nouveau:relay" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65E7CC2BB891B8C8"
+				"5C838F9D31E0F932"
+			]
+			id: "63243036BE5E1800"
+			rewards: [
+				{
+					count: 128
+					id: "43B984390498EF15"
+					item: {
+						count: 1
+						id: "ae2:fluix_smart_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "2B9EFD4A6F1011FE"
+					item: {
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					id: "2FE417BDEF28FA14"
+					item: {
+						count: 1
+						id: "ae2:terminal"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "488D1567FF87628A"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_4k"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE598E4E054065E"
+					item: {
+						count: 1
+						id: "ae2:storage_bus"
+					}
+					type: "item"
+				}
+				{
+					id: "4497C561EDEC1001"
+					item: {
+						count: 1
+						id: "ae2lt:pigmee_fumo"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79CBD3F0E453487E"
+				item: { count: 1, id: "arseng:source_acceptor" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
 		}
 	]
 }

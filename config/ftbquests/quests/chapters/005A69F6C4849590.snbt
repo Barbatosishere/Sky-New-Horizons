@@ -1,10 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "005A69F6C4849590"
+	filename: "005a69f6c4849590"
 	group: "000258239E4546A8"
 	id: "005A69F6C4849590"
+	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -267,18 +270,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D16BB9EA27EB6CA"]
-			id: "6F31EEACCDDBF0EA"
-			tasks: [{
-				id: "016F6447E149415D"
-				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "5ACD7392576E33A9"
@@ -322,6 +314,7 @@
 		}
 		{
 			dependencies: ["256B6EEB90AAD663"]
+			hide_dependency_lines: true
 			id: "65334803866E4ACC"
 			tasks: [{
 				id: "6D746783D267FB45"
@@ -591,6 +584,20 @@
 			}]
 			x: 4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"349D6C5887FB98DB"
+				"7D16BB9EA27EB6CA"
+			]
+			id: "4E163F3C6CA6A9B1"
+			tasks: [{
+				id: "5F3F77E7265E253B"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 }

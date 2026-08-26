@@ -4,7 +4,10 @@
 	filename: "pw"
 	group: "000258239E4546A8"
 	id: "26D433730743E32D"
+	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -181,6 +184,7 @@
 		}
 		{
 			dependencies: ["12D24C1DB4D1DADB"]
+			hide_until_deps_complete: true
 			id: "57675F639CB0B09E"
 			tasks: [{
 				id: "386E7BB256459E7B"

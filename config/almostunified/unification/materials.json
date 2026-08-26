@@ -2,6 +2,7 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
+    "crafttweaker",
     "create",
     "immersiveengineering",
     "mekanism"

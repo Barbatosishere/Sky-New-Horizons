@@ -1,16 +1,18 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "42604EE01DB41046"
+	filename: "42604ee01db41046"
 	group: "000258239E4546A8"
 	hide_quest_until_deps_visible: true
 	id: "42604EE01DB41046"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "4A343D1321E97A4D"
-			invisible: true
 			tasks: [{
 				id: "204315A59F762108"
 				item: { count: 1, id: "createaddition:alternator" }
@@ -20,10 +22,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"6ECA51D9E07FDA71"
-				"415FA96E4BF44353"
-			]
+			dependencies: ["6ECA51D9E07FDA71"]
 			id: "29935427DB4FF88F"
 			tasks: [{
 				count: 36L
@@ -47,7 +46,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7ABBD4F708AE94AF"]
+			dependencies: [
+				"7ABBD4F708AE94AF"
+				"3332F64FBE62C152"
+			]
 			id: "50C8CB8941720B28"
 			tasks: [
 				{
@@ -141,7 +143,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5C1BCC42EDC47773"]
+			dependencies: [
+				"5C1BCC42EDC47773"
+				"415FA96E4BF44353"
+			]
 			dependency_requirement: "one_completed"
 			id: "3C2DED6565238341"
 			tasks: [{
@@ -243,40 +248,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"383FDC8612A0B026"
-				"7ABBD4F708AE94AF"
-			]
-			id: "5DC5F7170BDB0C13"
-			tasks: [
-				{
-					count: 60L
-					id: "1AA843566634FA54"
-					item: { count: 1, id: "mekanism:sps_casing" }
-					type: "item"
-				}
-				{
-					count: 123L
-					id: "127068998A6F8E97"
-					item: { count: 1, id: "mekanism:structural_glass" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7338DF3BCCE5C1A6"
-					item: { count: 1, id: "mekanism:sps_port" }
-					type: "item"
-				}
-				{
-					id: "06E68065371B85A1"
-					item: { count: 1, id: "mekanism:supercharged_coil" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["65D3F033FAC9DE3D"]
 			id: "589E306C20B6FCDD"
 			tasks: [{
@@ -285,7 +256,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["589E306C20B6FCDD"]
@@ -308,7 +279,7 @@
 				}
 			]
 			x: -9.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["589E306C20B6FCDD"]
@@ -319,7 +290,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C56E0B0387606BE"]
@@ -330,7 +301,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["280B6C826986156E"]
@@ -341,82 +312,6 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 1.5d
-		}
-		{
-			id: "0B8A6343DF2D3C10"
-			tasks: [{
-				id: "10EC966D0AE50C38"
-				item: { count: 1, id: "powah:energy_cell_starter" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0B8A6343DF2D3C10"]
-			id: "1193F4998A5695BA"
-			tasks: [{
-				id: "2480CD18FE0F16EF"
-				item: { count: 1, id: "powah:energy_cell_basic" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1193F4998A5695BA"]
-			id: "1E6A464E8E37AD0F"
-			tasks: [{
-				id: "7BBD2E73A71AB6C0"
-				item: { count: 1, id: "powah:energy_cell_hardened" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1E6A464E8E37AD0F"]
-			id: "052C7ADCB0EA3854"
-			tasks: [{
-				id: "5164607F88B67085"
-				item: { count: 1, id: "powah:energy_cell_blazing" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["052C7ADCB0EA3854"]
-			id: "1690C7ACBF31BB9C"
-			tasks: [{
-				id: "747CB89AD72F0CCA"
-				item: { count: 1, id: "powah:energy_cell_niotic" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1690C7ACBF31BB9C"]
-			id: "4FE1495316A7CB09"
-			tasks: [{
-				id: "11173054D32A07F9"
-				item: { count: 1, id: "powah:energy_cell_spirited" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4FE1495316A7CB09"]
-			id: "709B21A2FA195BFC"
-			tasks: [{
-				id: "638F65DF9010E3D5"
-				item: { count: 1, id: "powah:energy_cell_nitro" }
-				type: "item"
-			}]
-			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -523,18 +418,36 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"5DC5F7170BDB0C13"
-				"485EA57551858700"
-			]
-			id: "07DCEC23D363F87B"
+			id: "11E35200F888F08E"
 			tasks: [{
-				id: "10386E187553AB13"
-				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				id: "5DA617823C061774"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["300A2582C1B3905A"]
+			id: "36027E0A998D1ADC"
+			tasks: [{
+				id: "54C894562B3C732C"
+				item: { count: 1, id: "flux_overdrive:nether_flux_storage" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36027E0A998D1ADC"]
+			id: "7BCEC29863D8E111"
+			tasks: [{
+				id: "47BBBB8836142957"
+				item: { count: 1, id: "flux_overdrive:ender_flux_storage" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 }

@@ -1,0 +1,134 @@
+{
+  "ALLOW_TICK_ACCELERATION": true,
+  "ALWAYS_DAY_DIMENSIONS": [
+    "jamd:mining"
+  ],
+  "SOLAR_CONFIGS": {
+    "aurantium": {
+      "energyStorage": 10000000,
+      "energyGenerationPerTick": 40,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.17
+        },
+        "efficiency": {
+          "efficiency": 1.17,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "amethystine": {
+      "energyStorage": 320000000,
+      "energyGenerationPerTick": 1280,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.27
+        },
+        "efficiency": {
+          "efficiency": 1.27,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "azurine": {
+      "energyStorage": 80000000,
+      "energyGenerationPerTick": 320,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.23
+        },
+        "efficiency": {
+          "efficiency": 1.23,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "ultimate": {
+      "energyStorage": 2147483647,
+      "energyGenerationPerTick": 5120,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.35
+        },
+        "efficiency": {
+          "efficiency": 1.35,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "citrinetine": {
+      "energyStorage": 20000000,
+      "energyGenerationPerTick": 80,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.19
+        },
+        "efficiency": {
+          "efficiency": 1.19,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "verdium": {
+      "energyStorage": 40000000,
+      "energyGenerationPerTick": 160,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.21
+        },
+        "efficiency": {
+          "efficiency": 1.21,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "rosarium": {
+      "energyStorage": 640000000,
+      "energyGenerationPerTick": 2560,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.29
+        },
+        "efficiency": {
+          "efficiency": 1.29,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "rubetine": {
+      "energyStorage": 5000000,
+      "energyGenerationPerTick": 20,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.15
+        },
+        "efficiency": {
+          "efficiency": 1.15,
+          "weatherResistance": 1.0
+        }
+      }
+    },
+    "caerium": {
+      "energyStorage": 160000000,
+      "energyGenerationPerTick": 640,
+      "modifiers": {
+        "weather_resistance": {
+          "efficiency": 1.0,
+          "weatherResistance": 1.25
+        },
+        "efficiency": {
+          "efficiency": 1.25,
+          "weatherResistance": 1.0
+        }
+      }
+    }
+  }
+}

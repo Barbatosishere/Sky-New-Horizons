@@ -4,10 +4,14 @@
 	filename: "ae"
 	group: "20FF5607464679D6"
 	id: "38CC25ACF2113F4E"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1BADA00A32875650"]
 			id: "38728D46D03F0054"
 			rewards: [{
 				id: "3394099E3E4E562F"
@@ -119,6 +123,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["38728D46D03F0054"]
+			hide_dependency_lines: true
 			id: "304475AF71D88F91"
 			tasks: [{
 				id: "6CEB620C17D4EF99"

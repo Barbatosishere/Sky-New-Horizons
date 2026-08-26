@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "73cca3aa9ffebeaf"
+	group: "00687B1484DEC638"
+	id: "73CCA3AA9FFEBEAF"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "42F308A47DF797AC"
+			rewards: [{
+				id: "6875DFCC3CE188E9"
+				item: {
+					components: {
+						"patchouli:book": "naturesaura:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "775096A8226BE78E"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42F308A47DF797AC"]
+			id: "7FF7F153FE2A4596"
+			tasks: [
+				{
+					id: "2964B3FAE8B03F80"
+					item: { count: 1, id: "naturesaura:gold_leaf" }
+					type: "item"
+				}
+				{
+					id: "1D8FB01921E23953"
+					item: { count: 1, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF7F153FE2A4596"]
+			id: "4E4DE8CE3C8EAB71"
+			tasks: [{
+				id: "471A5F29838E6312"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DF11FBB8C8105CD"]
+			id: "0AE522611598D805"
+			tasks: [{
+				id: "14918D6AAE0B3870"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE522611598D805"]
+			id: "1BBA8C615EA658AE"
+			tasks: [
+				{
+					id: "04BE3B783D1024F7"
+					item: { count: 1, id: "naturesaura:infused_iron" }
+					type: "item"
+				}
+				{
+					id: "7F82F73127FCDD64"
+					item: { count: 1, id: "naturesaura:tainted_gold" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E4DE8CE3C8EAB71"]
+			id: "5DF11FBB8C8105CD"
+			tasks: [
+				{
+					id: "37F651C6794221BC"
+					item: { count: 1, id: "naturesaura:token_joy" }
+					type: "item"
+				}
+				{
+					id: "3E0BFBDC936450C8"
+					item: { count: 1, id: "naturesaura:token_fear" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2525D51A43F5013C"
+					item: { count: 1, id: "naturesaura:token_anger" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C29B7169D5B84EB"
+					item: { count: 1, id: "naturesaura:token_sorrow" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DF11FBB8C8105CD"
+				"0AE522611598D805"
+			]
+			id: "297C3923647DE205"
+			tasks: [{
+				id: "7BE8DA8229B0B30D"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5DF11FBB8C8105CD"
+				"0AE522611598D805"
+			]
+			id: "0C7A50260300F009"
+			tasks: [{
+				id: "445304FDDF770C92"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0C7A50260300F009"
+				"4114E23DD4124E41"
+			]
+			id: "74C441EF7CD94501"
+			tasks: [{
+				id: "77448989E9F84258"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1BBA8C615EA658AE"
+				"61E4995B70528374"
+			]
+			id: "4114E23DD4124E41"
+			tasks: [{
+				id: "092B75B8E3CEA569"
+				item: { count: 1, id: "naturesaura:calling_spirit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B597C6A9045D265"]
+			id: "61E4995B70528374"
+			tasks: [
+				{
+					id: "299146517AB20FD7"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+					type: "item"
+				}
+				{
+					id: "718A68C166F720BA"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "330503FF1AE452C2"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "7B597C6A9045D265"
+			tasks: [{
+				id: "4A40E06A78473D63"
+				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0C7A50260300F009"
+				"4114E23DD4124E41"
+			]
+			id: "4BF07A5F1B2DD550"
+			tasks: [
+				{
+					id: "02C6932FF689858F"
+					item: { count: 1, id: "naturesaura:token_euphoria" }
+					type: "item"
+				}
+				{
+					id: "263480111DDF67EB"
+					item: { count: 1, id: "naturesaura:token_terror" }
+					type: "item"
+				}
+				{
+					id: "5A9BD58B124BDD5D"
+					item: { count: 1, id: "naturesaura:token_rage" }
+					type: "item"
+				}
+				{
+					id: "3817B32AE9BAF68C"
+					item: { count: 1, id: "naturesaura:token_grief" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"74C441EF7CD94501"
+				"0AE522611598D805"
+			]
+			id: "31BEFCD58C92E591"
+			tasks: [{
+				id: "3AE413B650032F71"
+				item: { count: 1, id: "naturesaura:conversion_catalyst" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,10 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "53626F8368F4177F"
+	filename: "53626f8368f4177f"
 	group: "00687B1484DEC638"
 	id: "53626F8368F4177F"
+	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -90,7 +93,7 @@
 			id: "5FD50672CA517046"
 			tasks: [{
 				id: "4A7879167FC5EE3D"
-				item: { count: 1, id: "apotheosis:common_material" }
+				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -101,7 +104,7 @@
 			id: "0F5C9909B7350459"
 			tasks: [{
 				id: "266DC32DDF5DEEE1"
-				item: { count: 1, id: "apotheosis:uncommon_material" }
+				item: { count: 1, id: "apotheosis:timeworn_fabric" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -112,7 +115,7 @@
 			id: "23C8064B2DAEA040"
 			tasks: [{
 				id: "013F595C89C08BEC"
-				item: { count: 1, id: "apotheosis:rare_material" }
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -123,7 +126,7 @@
 			id: "516F44FE1C9F6F55"
 			tasks: [{
 				id: "7DBA0504316200CD"
-				item: { count: 1, id: "apotheosis:epic_material" }
+				item: { count: 1, id: "apotheosis:arcane_sands" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -134,7 +137,7 @@
 			id: "06D2F948F60C66D1"
 			tasks: [{
 				id: "30D5EF2CA5C927E3"
-				item: { count: 1, id: "apotheosis:mythic_material" }
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
 			x: -4.5d

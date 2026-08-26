@@ -72,8 +72,6 @@ configVersion = 3
 [overloadTnt]
 	#Controls whether overload TNT can damage terrain with the custom blast task.
 	enableTerrainDamage = true
-	#Controls whether overload TNT can consume a Lightning Collapse Matrix to drop a Mysterious Cell.
-	enableMysteriousCellEasterEgg = true
 	#Maximum blocks processed per tick across all overload TNT tasks.
 	# Default: 2400
 	# Range: > 0
@@ -120,6 +118,12 @@ configVersion = 3
 		# Default: 4
 		# Range: 1 ~ 64
 		pages = 4
+
+	[network.batchDispatch]
+		#Block ids whose single-target pushBatch calls are capped at 1024 copies.
+		#Matches both batch-provider blocks and physical machines targeted by overloaded providers.
+		#Supports '*' and '?' wildcards; exact ids and namespace:* use constant-time lookup.
+		copyLimitedBlocks = ["neoecoae:crafting_pattern_bus", "sophisticated*:*"]
 
 [overloadProcessingFactory]
 	#Parallel operations provided by each Lightning Collapse Matrix.
@@ -180,12 +184,17 @@ configVersion = 3
 	giftOnFirstJoin = true
 
 	[overloadArmor.movement]
-		#Master switch for phase flight.
+		#Server master switch for the phase module's no-clip mode. Creative flight and movement guards remain available.
 		phaseFlightEnabled = true
 		#Movement multiplier applied while phase flight is active.
 		# Default: 0.35
 		# Range: 0.0 ~ 4.0
 		phaseFlightSpeedMultiplier = 0.35
+		#Server policy for the phase-lock module's external-teleport protection.
+		#ignore-all: disable teleport protection entirely.
+		#ignore-command: allow player-self commands and permission-level-2 management commands; block other external teleports.
+		#ignore-none: allow player-self commands only; block every external teleport source.
+		phaseLockTeleportMode = "ignore-command"
 
 	[overloadArmor.defense]
 		#Ticks between automatic status effect purification attempts.
@@ -228,7 +237,7 @@ configVersion = 3
 		phaseFlightHvPerTick = 8
 
 	[overloadArmor.penalty]
-		#Ticks in the linear combo window for matrix and phase shield lightning cost scaling.
+		#Ticks in the linear combo window for matrix shield lightning cost scaling.
 		# Default: 200
 		# Range: 1 ~ 72000
 		shieldComboWindowTicks = 200
@@ -358,3 +367,15 @@ configVersion = 3
 		# Default: 128
 		# Range: > 1
 		cleanupBatchSize = 128
+
+[easterEgg]
+	#Enables easter eggs.
+	enabled = true
+	#Easter egg item id.
+	eastereggitem = "ae2lt:lightning_collapse_matrix"
+	#Easter egg weight.
+	# Default: 50
+	# Range: 0 ~ 10000
+	eastereggweight = 50
+	#Easter egg weights. Format: item_id=weight.
+	eastereggweights = ["avaritia:infinity_ingot=1200", "mekanism_extras:qio_drive_singularity=1200", "modern_industrialization:quantum_upgrade=1200", "bigreactors:inanite_block=776", "draconicevolution:chaotic_core=760", "occultism:celestial_chalice=744", "appflux:core_256m=460", "advanced_ae:data_entangler=455", "advanced_ae:quantum_multi_threader=445", "megacells:cell_component_256m=440", "ae2omnicells:quantum_omni_cell_component_256m=435", "mekanism_extras:infinite_induction_cell=415", "mekanism_extras:infinite_induction_provider=415", "mekanism:pellet_antimatter=252", "mekanism_extras:infinite_control_circuit=240", "ars_nouveau:wilden_tribute=204", "minecraft:elytra=138", "minecraft:heavy_core=132", "minecraft:dragon_head=114", "ae2:256k_crafting_storage=98", "mekanism:ultimate_induction_cell=76", "mekanism:ultimate_induction_provider=76", "pneumaticcraft:micromissiles=72", "minecraft:dragon_egg=54", "minecraft:heart_of_the_sea=40", "minecraft:echo_shard=36", "minecraft:nether_star=32", "minecraft:torchflower=8", "minecraft:recovery_compass=7", "minecraft:slime_ball=4"]

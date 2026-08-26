@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "Barbatosishere",
-      "uniqueId": "f1daa915-2501-4e99-9d0b-4b03a10f48f7"
-    },
-    "time": 1781070045317,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/6krjuzoV0G"
-    }
-  }
-]
+[]

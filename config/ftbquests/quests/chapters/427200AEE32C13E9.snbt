@@ -1,20 +1,24 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "427200AEE32C13E9"
+	filename: "427200aee32c13e9"
 	group: "00687B1484DEC638"
 	id: "427200AEE32C13E9"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1BADA00A32875650"]
 			id: "3FF84E0D27F7B881"
 			tasks: [{
 				id: "5AA9A74209A64864"
 				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
 				type: "item"
 			}]
-			x: -13.5d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -28,7 +32,7 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -1.0d
 		}
 		{
@@ -39,7 +43,7 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -50,7 +54,7 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: 0.5d
 		}
 		{
@@ -61,7 +65,7 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -72,7 +76,7 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -86,7 +90,7 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -97,8 +101,8 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.5d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C276EEC1080223"]
@@ -108,7 +112,7 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_seed_base" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
@@ -126,7 +130,7 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -150,7 +154,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -166,7 +170,7 @@
 				item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: -1.0d
 		}
 		{
@@ -177,7 +181,7 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -191,7 +195,7 @@
 				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -205,7 +209,7 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_gemstone" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -219,7 +223,7 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_gemstone" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -233,7 +237,7 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_gemstone" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -247,7 +251,7 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_gemstone" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -261,7 +265,7 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_gemstone" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 2.0d
 		}
 		{
@@ -275,7 +279,7 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_gemstone" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 2.0d
 		}
 		{
@@ -286,21 +290,18 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_gemstone" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"19C276EEC1080223"
-				"6E6125BA2BD95141"
-			]
+			dependencies: ["1BE6A4DA7F315BF1"]
 			id: "7C8AF5B55EACBB79"
 			tasks: [{
 				id: "64C051C7EE6BF2CC"
 				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -311,7 +312,7 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -325,7 +326,7 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_block" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: -2.5d
 		}
 		{

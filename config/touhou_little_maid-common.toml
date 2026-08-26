@@ -16,7 +16,7 @@
 	#The max range of maid work mode
 	# Default: 12
 	# Range: 3 ~ 64
-	MaidWorkRange = 24
+	MaidWorkRange = 64
 	#The max range of maid idle mode
 	# Default: 6
 	# Range: 3 ~ 32
@@ -33,7 +33,7 @@
 	#The max range of maid's bow attack
 	# Default: 48
 	# Range: 8 ~ 192
-	BowRange = 48
+	BowRange = 192
 	#The max range of maid's crossbow attack
 	# Default: 64
 	# Range: 8 ~ 192

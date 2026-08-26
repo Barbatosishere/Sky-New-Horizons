@@ -34,6 +34,10 @@ ars_nouveau:natural_flourishing_tree
 ars_nouveau:natural_vexing_tree
 ars_nouveau:patch_berry
 ars_nouveau:vexing_tree
+bigreactors:anglesite_ore
+bigreactors:benitoite_ore
+bigreactors:yellorite_deepslate_ore
+bigreactors:yellorite_ore
 create:striated_ores_nether
 create:striated_ores_overworld
 create:zinc_ore
@@ -134,6 +138,8 @@ mekanism_extras:ore_naquadah_middle
 mekanism_extras:ore_naquadah_middle_retrogen
 mekanism_extras:ore_naquadah_small
 mekanism_extras:ore_naquadah_small_retrogen
+mekmm:ore_silver_large
+mekmm:ore_silver_small
 minecraft:acacia
 minecraft:amethyst_geode
 minecraft:azalea_tree
@@ -396,6 +402,10 @@ waystones:blackstone_waystone
 waystones:deepslate_waystone
 waystones:end_stone_waystone
 waystones:mossy_waystone
+waystones:mud_bricks_waystone
+waystones:prismarine_waystone
+waystones:purpur_waystone
+waystones:red_nether_bricks_waystone
 waystones:sandy_waystone
 waystones:waystone
 xycraft_world:ore_aluminum

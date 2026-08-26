@@ -15,6 +15,6 @@ chickenNestRange = 8
 #The maximum amount of animals (per type) until the feeding trough stops feeding.
 feedingTroughMaxAnimals = 24
 #List of default presets to disable.
-disabledDefaultPresets = []
+disabledDefaultPresets = ["byg", "biomeswevegone", "pamhc2crops", "pamhc2trees", "croptopia", "thermal", "tropicraft", "betterendforge", "betternether", "simplefarming", "biomesoplenty", "twilightforest", "theabyss", "outer_end", "buzzier_bees", "mynethersdelight", "extradelight"]
 #The chance to get a bonus crop when using Green Fertilizer.
 fertilizerBonusCropChance = 1.0

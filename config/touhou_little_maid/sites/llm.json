@@ -17,10 +17,10 @@
   "deepseek": {
     "id": "deepseek",
     "api_type": "openai",
-    "enabled": false,
+    "enabled": true,
     "icon": "touhou_little_maid:textures/gui/ai_chat/deepseek.png",
     "url": "https://api.deepseek.com/chat/completions",
-    "secret_key": "",
+    "secret_key": "sk-dce8f35cb1e74773bd8d6f024d2af362",
     "headers": {},
     "has_thinking_field": true,
     "models": [
@@ -138,7 +138,7 @@
   "player2": {
     "id": "player2",
     "api_type": "openai",
-    "enabled": true,
+    "enabled": false,
     "icon": "touhou_little_maid:textures/gui/ai_chat/player2.png",
     "url": "http://127.0.0.1:4315/v1/chat/completions",
     "secret_key": "",

@@ -2,10 +2,24 @@
 	autofocus_id: "7414833959AADDBA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "7495A9F64D62EFFD"
+	filename: "7495a9f64d62effd"
 	group: "6E5CC43D1068B7FA"
 	id: "7495A9F64D62EFFD"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:52ffc7bea4c083ec"
+			reveal_on_hover: 0b
+			source: "q:a4f7488d5a0d21c"
+		}
+		{
+			dependency: "q:2f72b05eb37a124e"
+			reveal_on_hover: 0b
+			source: "q:a4f7488d5a0d21c"
+		}
+	]
 	quest_links: [ ]
 	quests: [
 		{
@@ -650,6 +664,7 @@
 				"472EBC8A9F1E241F"
 				"0F28E2C36BCDA932"
 			]
+			hide_dependency_lines: true
 			id: "0844BBD0B7FE80B5"
 			progression_mode: "linear"
 			tasks: [{
@@ -665,6 +680,7 @@
 				"6092A51375869AFF"
 				"472EBC8A9F1E241F"
 			]
+			hide_dependency_lines: true
 			id: "0F28E2C36BCDA932"
 			tasks: [{
 				id: "6A4E1E211946F907"
@@ -673,6 +689,46 @@
 			}]
 			x: -22.5d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"22424BA221B628A6"
+				"1BADA00A32875650"
+			]
+			hide_dependency_lines: true
+			id: "372A909374BB8DF5"
+			tasks: [{
+				id: "558AE6905F035D54"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["372A909374BB8DF5"]
+			id: "626AA4BFB7C37317"
+			tasks: [{
+				id: "7D594D60A1555696"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"52FFC7BEA4C083EC"
+				"2F72B05EB37A124E"
+			]
+			id: "0A4F7488D5A0D21C"
+			tasks: [{
+				id: "094422C832A9F188"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 5.0d
 		}
 	]
 }

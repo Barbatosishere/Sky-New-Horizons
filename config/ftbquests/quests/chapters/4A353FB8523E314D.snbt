@@ -1,14 +1,17 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4A353FB8523E314D"
+	filename: "4a353fb8523e314d"
 	group: "000258239E4546A8"
 	id: "4A353FB8523E314D"
+	images: [ ]
 	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["69B8CB7BA89738A2"]
+			dependencies: ["3AAB2D0C105BB596"]
 			id: "34C660F98CEBDB97"
 			tasks: [{
 				id: "10AEB85EFE0B3B1F"
@@ -25,7 +28,7 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 1.0d
 		}
 		{
@@ -36,8 +39,8 @@
 				item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["34C660F98CEBDB97"]
@@ -47,8 +50,97 @@
 				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
 				type: "item"
 			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"216AA7F640F8C3BB"
+				"6057573567BF6E9B"
+			]
+			hide_dependency_lines: true
+			id: "26606F3F6D8C0554"
+			tasks: [{
+				id: "474CBA13B0BE0A05"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69B8CB7BA89738A2"]
+			id: "3AAB2D0C105BB596"
+			tasks: [{
+				id: "26140A10488A5522"
+				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34C660F98CEBDB97"]
+			id: "2B668F9C01E38F32"
+			tasks: [{
+				id: "7875794CFA84924E"
+				item: { count: 1, id: "actuallyadditions:enori_crystal" }
+				type: "item"
+			}]
 			x: -4.5d
-			y: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2B668F9C01E38F32"
+				"216AA7F640F8C3BB"
+			]
+			id: "68363994EEFE0BC9"
+			tasks: [{
+				id: "301DABD1E6FF7213"
+				item: { count: 1, id: "actuallyadditions:basic_coil" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68363994EEFE0BC9"]
+			id: "387C78FCE3F71E13"
+			tasks: [{
+				id: "6ADC6AE02E26FAC8"
+				item: { count: 1, id: "actuallyadditions:advanced_coil" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"387C78FCE3F71E13"
+				"216AA7F640F8C3BB"
+				"2B668F9C01E38F32"
+			]
+			hide_dependency_lines: true
+			id: "5F75F918193495B6"
+			tasks: [{
+				id: "657A1CEA2D7ADD85"
+				item: { count: 1, id: "actuallyadditions:single_battery" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F75F918193495B6"]
+			id: "6057573567BF6E9B"
+			tasks: [{
+				id: "71C42846217E9B99"
+				item: { count: 1, id: "actuallyadditions:double_battery" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 }

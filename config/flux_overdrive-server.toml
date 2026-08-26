@@ -22,3 +22,17 @@ feStorageCapacity = 1000000
 # Default: 50000
 # Range: 0 ~ 9223372036854775807
 feStorageTransfer = 50000
+#Connection range of the Flux Auto Link Crystal (blocks)
+# Default: 16
+# Range: 1 ~ 64
+autoLinkRadius = 16
+#Cooldown between redstone-triggered scans (ticks)
+# Default: 20
+# Range: 0 ~ 200
+autoLinkScanCooldown = 20
+#Maximum number of targets stored by one link crystal
+# Default: 256
+# Range: 1 ~ 1024
+maxCrystalLinks = 256
+#Block IDs ignored by the Flux Auto Link Crystal (for example: minecraft:furnace)
+autoLinkBlockBlacklist = ["ae2:pattern_provider", "advanced_ae:small_adv_pattern_provider", "extendedae:ex_pattern_provider_part", "appflux:flux_accessor", "extendedae:ex_pattern_provider", "ae2:cable_pattern_provider", "advanced_ae:small_adv_pattern_provider_part", "appflux:flux_accessor_part"]

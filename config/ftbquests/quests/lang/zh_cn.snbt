@@ -2,6 +2,7 @@
 	chapter.005A69F6C4849590.title: "工业先锋"
 	chapter.0A43242F586814CA.title: "神秘学"
 	chapter.10B223B63CD7238B.title: "PIP"
+	chapter.123A0C2FA41C48B0.title: "深度怪物学习"
 	chapter.17CC7D5FE3221067.title: "MEK"
 	chapter.25F3933907A5B535.title: "沉浸工程"
 	chapter.26D433730743E32D.title: "pow"
@@ -19,6 +20,7 @@
 	chapter.6BAF3B045FC426FF.title: "机械动力"
 	chapter.6C002AC620B9741C.title: "高级AE"
 	chapter.6F4F46D545235F56.title: "存储"
+	chapter.73CCA3AA9FFEBEAF.title: "自然灵气"
 	chapter.7495A9F64D62EFFD.title: "开始"
 	chapter.7CF0048144F2E450.title: "提示"
 	chapter_group.000258239E4546A8.title: "电力初期"
@@ -27,56 +29,92 @@
 	chapter_group.20FF5607464679D6.title: "科技爆发"
 	chapter_group.47195CDC51A7AF94.title: "科技大爆炸"
 	chapter_group.6E5CC43D1068B7FA.title: "原始时代"
+	quest.038B81912865A971.quest_desc: [
+		"推荐火山魔源通道与生死魔源通道"
+		"火山魔源通道通过燃烧周围一格内的可燃掉落物或基座上的可燃物产生魔源，个人推荐烧烈焰至高木"
+		"生死魔源通道吸收半径十五格内的生物繁殖或死亡产出魔源，同时，它会加速范围内幼年生物25秒成长时间并产生魔源"
+		"农业魔源通道会吸收以自身为圆心十五格半径的球内，任意作物或树苗自然生长时产出的魔源，魔法植物的生长会提供额外的魔源"
+		"炼金魔源通道通过消耗相邻药水罐中的药水产生魔源，药水的复杂度会影响产出的魔源，同时，同一药水的增强版提供的魔源相较于延长版更多，可以使用药水混合器混合药水产出更多魔源"
+		"菌丝魔源通道类似于火山魔源通道，不同的是菌丝魔源通道消耗的是食物，或许可以配合农业魔源通道"
+	]
+	quest.038B81912865A971.title: "可用的魔源来源"
 	quest.132F8C9AE956C2B3.title: "筛网"
+	quest.147AE6CBF4F27591.quest_desc: ["出于某种考量(不想吃裂变燃料)现在再处理裂变燃料可以用于裂变燃料循环"]
 	quest.17FFFCE4D4A6FDFE.quest_desc: [
 		"横向流体储罐无法合成"
 		"不要想着无烈焰蛋糕还能获得满级锅炉了"
 	]
+	quest.1A4F774D58551BD0.title: "斯特里格的高等束缚"
 	quest.1DAE0AF54DB41D0A.quest_desc: ["移除了几乎所有单方块发电机"]
 	quest.1DCB5D53228EB9D4.quest_desc: ["在机械动力序列装配的界面中,如果右下角有1/x的标志,则代表你可以使用滚轮进行翻页"]
+	quest.1DD14A0C665DCBCF.title: "阿维亚圆环"
 	quest.21EF3E4919BD509C.quest_subtitle: "应该不会有人这么倒霉吧,不会吧不会吧(偷笑ing)"
 	quest.21EF3E4919BD509C.title: "免费树苗"
 	quest.22424BA221B628A6.quest_subtitle: "将树苗或食物右键木桶，进度满后可获得泥土"
 	quest.23F71D49F30BCCCB.quest_desc: [""]
 	quest.23F71D49F30BCCCB.quest_subtitle: "欢迎来到SkyNH"
 	quest.23F9B792F2D0E363.quest_subtitle: "通过特定群系以及环境可以获得"
+	quest.2972C8E7F6333337.title: "法特玛的犒灵引召"
+	quest.2B8A138BD6C73515.title: "欧菲克斯呼唤"
 	quest.2DB8BBA73384AEC8.quest_desc: ["抽屉模组标志建筑:抽屉墙"]
+	quest.2EB3FC90E990F035.quest_desc: [
+		"{image:quest_enhance:textures/ftb/clipboard_1785164769228.png width:199 height:89 align:center fit:true}"
+		"{@pagebreak}"
+	]
+	quest.2F5A949A0D03EA3E.title: "奥杜斯的无羁召灵"
 	quest.32104B6A986596BE.title: "免费的女仆，记得用心培养哦"
 	quest.33B7675FD67C067B.quest_desc: ["使用避雷针在雷雨天引雷，这是进入闪电科技的前置"]
+	quest.3BA8F6C215B4AD8C.title: "坎达尔的无羁召唤"
 	quest.43484AD1CAF58AD2.title: "观察损坏的过载水晶母岩"
+	quest.45404906E1979281.title: "塞维拉永囚咒"
 	quest.45826155E316B365.quest_subtitle: "如果你选择了创建属于自己的空岛后请不要随便退出，否则会情况你的背包全部物品"
 	quest.45826155E316B365.title: "关于团队"
+	quest.45D864F4DD49CA46.title: "伊哈根奴役术"
 	quest.4670E1B423528CF0.quest_desc: [
 		"以右键的筛子为中心的5*5的所有筛子可以一起联动筛矿"
 		"压缩筛子无法联动筛矿"
 	]
 	quest.46AD21F325EF59BF.quest_desc: ["空燃烧室可以通过右键烈焰人或烈焰人刷怪笼来获得燃烧室"]
+	quest.4896FE22E8F71EED.quest_subtitle: "动物获取，击败传送门后会奖励动物"
+	quest.4896FE22E8F71EED.title: "获取动物"
+	quest.4E64C565082FAD9E.title: "罗纳扎通灵术"
+	quest.4F253D17B2F9A197.quest_desc: [""]
 	quest.4F253D17B2F9A197.quest_subtitle: "mek 的机器可以使用红石发电"
 	quest.541E4393469FAC11.quest_desc: ["科技起源于锤子"]
+	quest.55900768A0F5575C.title: "提比拉引招术"
 	quest.5997309D33B22401.quest_desc: ["你可以通过给魔灵全典重命名来保证束缚之书的NBT相同"]
 	quest.5AD1D84F1A40CF19.quest_desc: ["无中生有怎么能没有自动锤和自动筛呢"]
 	quest.5BE1F21E473B24AC.title: "偷天换日，去地狱摸个刷怪笼回来吧"
+	quest.5E76F86D7961877B.quest_desc: ["数据中心是一个7x7x7的空心多方块结构，底为黑曜石，其余位置使用黑色染色玻璃，竹方块需要放置在第二层"]
 	quest.60061317A2C3B716.quest_desc: [
 		"EAEP的实体加速器无法合成"
 		"吞噬万籁无法合成"
 	]
+	quest.60DA7537E739CC80.title: "希奥弗伦斯敕令术"
+	quest.626AA4BFB7C37317.quest_subtitle: "地狱为空域，但是堡垒正常刷新"
+	quest.626AA4BFB7C37317.title: "偷天换日"
+	quest.6ADC1363BB053660.title: "修菲斯旳倒转之塔"
 	quest.6D059F5F027E4A27.quest_subtitle: "如何你是多人游玩但是想分开发展可以按 > 创建队伍，获得一个你创建的队伍的专属空岛"
 	quest.6D059F5F027E4A27.title: "一些提示"
+	quest.6E6EE87768E3DF9F.quest_desc: ["使用屠刀击杀动物(如猪、牛、绵羊、马和羊驼)来得到动物油脂。"]
 	quest.6F2AD98706485DBB.quest_desc: ["所有使用基础框架的发电机无法合成"]
 	quest.6F866C802BAABD06.quest_desc: ["除反应堆外的发电机全部无法合成"]
 	quest.6FFDBDD99E92AC26.quest_subtitle: "使用存储总线可以让AE读取到精妙箱子和抽屉内的物品"
-	quest.73D80019407AEE79.quest_desc: ["出于某种考量(不想吃裂变燃料)现在再处理裂变燃料可以用于裂变燃料循环"]
+	quest.73D80019407AEE79.quest_desc: [""]
 	quest.7644934CD9272BBD.quest_subtitle: "使用巫水获得第一块灵魂沙后可以通过批量缠魂获得大量灵魂沙"
+	quest.76BA626EF2870646.title: "埃兹维斯的灵体驱策"
 	quest.79D266AEF1EAF4C9.quest_desc: ["闪电科技的闪电分为极高压闪电(自然闪电)与人工闪电(高压闪电)"]
 	quest.79D266AEF1EAF4C9.title: "闪电科技相关"
 	task.062729D6EFF120F9.title: "JEI相关"
 	task.088368C7282EC90F.title: "无中生有相关"
 	task.1590F55B33633BDF.title: "MEK相关"
 	task.160A26AD432001BC.title: "应力源"
+	task.23B47130E53F04FC.title: "裂变燃料"
 	task.4B950DA7A78C757B.title: "Powah相关"
 	task.4E9A8B4488604417.title: "神秘学相关"
 	task.537990D147E467DC.title: "一些提示"
 	task.5B518137CF8C5FD5.title: "一切的开始"
 	task.6D08F8C7DACF6B01.title: "工业先锋相关"
 	task.6EC0A3CBD4A13609.title: "EAEP相关"
+	task.73D0388F6332890C.title: "Any #occultism:candles"
 }

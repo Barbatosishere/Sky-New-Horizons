@@ -1,17 +1,14 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ae_6C002AC620B9741C"
+	filename: "ae_6c002ac620b9741c"
 	group: "47195CDC51A7AF94"
 	id: "6C002AC620B9741C"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [
-		{
-			id: "0D7C6D9F119DBD77"
-			linked_quest: "226AD6B7C47E7285"
-			x: -18.5d
-			y: -0.5d
-		}
 		{
 			id: "383ABC38E869B722"
 			linked_quest: "06D2F948F60C66D1"
@@ -60,19 +57,25 @@
 			x: -17.0d
 			y: -3.5d
 		}
+		{
+			id: "056CD5D650CFF707"
+			linked_quest: "2EB3FC90E990F035"
+			x: -18.5d
+			y: -0.5d
+		}
 	]
 	quests: [
 		{
 			dependencies: [
 				"06D2F948F60C66D1"
 				"349D6C5887FB98DB"
-				"226AD6B7C47E7285"
 				"1562F83A5B6901AC"
 				"135651607B2A4CA5"
 				"2511453F89E7636F"
 				"07DCEC23D363F87B"
 				"2160139D7D3C0E8F"
 				"57675F639CB0B09E"
+				"2EB3FC90E990F035"
 			]
 			id: "68813500A5F18B83"
 			tasks: [{
@@ -283,6 +286,7 @@
 		}
 		{
 			dependencies: ["249360676DD0FFEF"]
+			hide_dependent_lines: true
 			id: "6E6F60CBB1E1EEB7"
 			tasks: [{
 				id: "5B2736A1128C6AB6"

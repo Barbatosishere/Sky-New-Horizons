@@ -20,8 +20,42 @@
 	largeHeatGenerationFluidRate = 10
 
 #Settings for configuring Large Gas-Burning Generators
-[gas_generator]
+[large_gas_generator]
 	#The capacity in mB of the chemical tank in the Large Gas-Burning Generator.
 	# Default: 180000
 	# Range: 1 ~ 9223372036854775807
 	tankCapacity = 180000
+
+#Settings for configuring Large Wind Generators
+[large_wind_generator]
+	#Minimum energy generation in Joules/t that the Large Wind Generator can produce.
+	# Default: 2250000
+	# Range: 0 ~ 9223372036854775807
+	generationMin = 2250000
+	#Maximum energy generation in Joules/t that the Large Wind Generator can produce.
+	# Default: 3750000
+	# Range: 0 ~ 9223372036854775807
+	generationMax = 3750000
+
+#Settings for configuring Solar Heat Generators
+[solar_heat_generator]
+	#Temperature in Kelvin where coolant heat transfer starts.
+	# Default: 1400.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	targetConversionTemperature = 1400.0
+	#Temperature in Kelvin where the generation thermal factor reaches one.
+	# Default: 242820.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	ratedGenerationTemperature = 242820.0
+	#Temperature in Kelvin where reflector durability starts being consumed.
+	# Default: 50000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	reflectorDamageThreshold = 50000.0
+	#Reflector durability consumed each tick per Kelvin above the reflector damage threshold.
+	# Default: 5.0E-7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	reflectorDamageRate = 5.0E-7
+	#Heat gained per tick from each reflector at full sun.
+	# Default: 15.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	heatGainPerReflector = 15.0

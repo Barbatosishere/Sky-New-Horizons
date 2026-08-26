@@ -19,6 +19,8 @@
 	autoClimbLadder = false
 	#This option will disable step assist added by other mods.
 	disableStepAssist = false
+	#This option makes sprinting stop when the sprint key is released or sprinting is toggled off.
+	reactiveSprintKey = false
 
 [recipeBook]
 	#This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.
@@ -95,5 +97,5 @@
 	noOffhandUseWithFood = false
 	#This prevents fireworks from being launched from your offhand if you are wearing an Elytra, unless you're flying.
 	noOffhandFireworksWithElytra = true
-	#This prevents sweet berries from being placed unless the player is holding shift or placing them on dirt or farmland.
-	berryPlacementRequiresShiftOrDirt = false
+	#This prevents sweet berries from being placed unless the player is holding shift.
+	berryPlacementRequiresShift = false

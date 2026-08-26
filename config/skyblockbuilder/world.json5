@@ -35,6 +35,12 @@
     }
   },
   
+  // EXPERIMENTAL - needs proper testing!
+  // Each team will get its own main dimension. Requires Infiniverse to be installed
+  // - https://www.curseforge.com/minecraft/mc-mods/infiniverse
+  // - https://modrinth.com/mod/infiniverse
+  "dimensionPerTeam": false,
+  
   // Distance between islands in overworld [default: 8192]
   // Range: 64 - 29999900
   "islandDistance": 8192,

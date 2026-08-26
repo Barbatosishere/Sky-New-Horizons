@@ -4,7 +4,10 @@
 	filename: "mek"
 	group: "20FF5607464679D6"
 	id: "17CC7D5FE3221067"
+	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [
 		{
 			id: "697DF8A42EB7F40C"
@@ -18,9 +21,16 @@
 			x: -18.5d
 			y: 5.5d
 		}
+		{
+			id: "2A3493F01218DB59"
+			linked_quest: "50C8CB8941720B28"
+			x: -3.5d
+			y: 10.0d
+		}
 	]
 	quests: [
 		{
+			dependencies: ["0F3EC20AFBDCD92D"]
 			id: "4F253D17B2F9A197"
 			tasks: [{
 				id: "3D9929795E65CD5C"
@@ -56,7 +66,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4F253D17B2F9A197"]
+			dependencies: ["6D21D3E6EEEC4921"]
 			id: "0F3EC20AFBDCD92D"
 			tasks: [
 				{
@@ -91,7 +101,6 @@
 		{
 			dependencies: [
 				"524C4C03642C0ACE"
-				"75B09A3A85B4E778"
 				"51CEAB092DBBDF47"
 				"077920A2A8495EC4"
 			]
@@ -823,12 +832,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: [
-				"4A079FB7CFDB0898"
-				"21C98CFF7720F5D0"
-				"0CADEAB58FE47DB4"
-				"485EA57551858700"
-			]
+			dependencies: ["50C8CB8941720B28"]
 			id: "73D80019407AEE79"
 			tasks: [
 				{
@@ -837,13 +841,85 @@
 					type: "item"
 				}
 				{
-					id: "7B3731813763E830"
-					item: { count: 1, id: "mekanism:reprocessed_fissile_fragment" }
+					id: "447D0A6AA6F9A38A"
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 			]
 			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"383FDC8612A0B026"
+				"7ABBD4F708AE94AF"
+				"73D80019407AEE79"
+			]
+			id: "5DC5F7170BDB0C13"
+			tasks: [
+				{
+					count: 60L
+					id: "1AA843566634FA54"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "127068998A6F8E97"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7338DF3BCCE5C1A6"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "06E68065371B85A1"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5DC5F7170BDB0C13"]
+			id: "07DCEC23D363F87B"
+			tasks: [{
+				id: "10386E187553AB13"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"4A079FB7CFDB0898"
+				"21C98CFF7720F5D0"
+				"0CADEAB58FE47DB4"
+				"485EA57551858700"
+			]
+			id: "3332F64FBE62C152"
+			tasks: [{
+				id: "23B47130E53F04FC"
+				type: "checkmark"
+			}]
+			x: -3.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["73D80019407AEE79"]
+			id: "147AE6CBF4F27591"
+			tasks: [{
+				id: "3AB0363568304309"
+				item: { count: 1, id: "mekanism:reprocessed_fissile_fragment" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
 		}
 	]
 }

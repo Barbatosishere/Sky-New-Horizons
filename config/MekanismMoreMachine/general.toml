@@ -19,15 +19,15 @@ wirelessChargingStationChargingRate = 100000
 #Wireless Transmission Station Max Output Rate
 [wireless_transmission_station_max_output_rate]
 	#Set the maximum energy transmission rate during wireless transmission
-	# Default: 100000
+	# Default: 10000000
 	# Range: 1 ~ 9223372036854775807
 	energyRate = 100000
 	#Set the maximum fluids transmission rate during wireless transmission
-	# Default: 1000
+	# Default: 10000
 	# Range: > 1
 	fluidsRate = 1000
 	#Set the maximum chemicals transmission rate during wireless transmission
-	# Default: 4000
+	# Default: 40000
 	# Range: 1 ~ 9223372036854775807
 	chemicalsRate = 4000
 	#Set the maximum items transmission rate during wireless transmission

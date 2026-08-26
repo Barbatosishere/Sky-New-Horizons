@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "123a0c2fa41c48b0"
+	group: "00687B1484DEC638"
+	id: "123A0C2FA41C48B0"
+	images: [ ]
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16BFE2DC7E82DEE5"
+			tasks: [
+				{
+					id: "6A0554CFDF923E6E"
+					item: { count: 1, id: "hostilenetworks:deep_learner" }
+					type: "item"
+				}
+				{
+					id: "534249FD0830C8A3"
+					item: { count: 1, id: "hostilenetworks:blank_data_model" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "5119AD4FEAF820BF"
+			tasks: [
+				{
+					id: "1BCECC87E58CCCFC"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					id: "3E99BB2B024A2382"
+					item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "46F837E6934BC69E"
+			tasks: [{
+				id: "5DA23FDFEBC8B2C3"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "0EBE929E1D6D8247"
+			tasks: [
+				{
+					id: "2751B60B1E9554AF"
+					item: { count: 1, id: "extrahnn:merger_camera" }
+					type: "item"
+				}
+				{
+					id: "4C80FCB116A88DD6"
+					item: { count: 1, id: "extrahnn:blank_extra_data_model" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "7930A1D6CB441B45"
+			tasks: [{
+				id: "366B35A9F332CC57"
+				item: { count: 1, id: "extrahnn:simulator_modeling" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5119AD4FEAF820BF"]
+			id: "78C6D8B5785255E8"
+			tasks: [{
+				id: "3DDF562E2CC9BCE0"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5119AD4FEAF820BF"]
+			id: "3B62280FAEBCFA84"
+			tasks: [{
+				id: "5AF03CFDFB07D1F2"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5119AD4FEAF820BF"]
+			id: "109E8DECB3AB5544"
+			tasks: [{
+				id: "7C826DA689528965"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5119AD4FEAF820BF"]
+			id: "5A225F410BD3994B"
+			tasks: [{
+				id: "11DAFEB022360465"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v4" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46F837E6934BC69E"]
+			id: "410AEDA0467CEEF2"
+			tasks: [{
+				id: "1C7E743B963000BE"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46F837E6934BC69E"]
+			id: "1C4F19327BEBB1C0"
+			tasks: [{
+				id: "19BAD2D704870725"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v2" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46F837E6934BC69E"]
+			id: "0418DAA559573AC2"
+			tasks: [{
+				id: "635CDF6FF29D2AE8"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v3" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46F837E6934BC69E"]
+			id: "6364355FB3D78119"
+			tasks: [{
+				id: "14AB15878A65E2C1"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v4" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "47AAE79EA7B56DCB"
+			tasks: [{
+				id: "74B773571B27D63F"
+				item: { count: 1, id: "extrahnn:upgrade_speed" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "4981C32E8A9E6666"
+			tasks: [{
+				id: "2659D46D44A042DB"
+				item: { count: 1, id: "extrahnn:upgrade_module_stack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16BFE2DC7E82DEE5"]
+			id: "2519EC44C0D4E0DB"
+			tasks: [{
+				id: "6692912E93FC7EC2"
+				item: { count: 1, id: "extrahnn:upgrade_data_kill" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5119AD4FEAF820BF"]
+			id: "5E76F86D7961877B"
+			tasks: [
+				{
+					id: "41D3CAF5A837AE4A"
+					item: { count: 1, id: "hostilenetworks:data_center" }
+					type: "item"
+				}
+				{
+					id: "65C4A14A6F006387"
+					item: { count: 1, id: "hostilenetworks:data_center_io_port" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

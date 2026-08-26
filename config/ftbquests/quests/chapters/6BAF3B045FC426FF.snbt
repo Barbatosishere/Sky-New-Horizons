@@ -1,10 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "6BAF3B045FC426FF"
+	filename: "6baf3b045fc426ff"
 	group: "1AC48EC46342DE27"
 	id: "6BAF3B045FC426FF"
+	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,7 +54,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A1F5C235ED85C87"]
@@ -62,7 +65,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["41E9ECF26F8CCA16"]
@@ -73,7 +76,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["41E9ECF26F8CCA16"]
@@ -96,7 +99,7 @@
 				}
 			]
 			x: -8.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["52CB19F18D84BFA7"]
@@ -588,7 +591,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.5d
+			y: 4.0d
 		}
 	]
 }
