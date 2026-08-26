@@ -1,3 +1,10 @@
+// jei_hide/hide_lowtier_generators.js
+// ─────────────────────────────────────────────────────────
+// 来自原 client_scripts/hide_items.js
+// 在 JEI/REI/EMI 中隐藏 ~120 个低阶/低性价比发电机（powah、工业先锋、mekanismgenerators、
+// ifmup、mekmm、productivebees、justdirethings 等跨 20+ mod）。
+// 玩家可手动在客户端 JEI 设置中恢复。
+// ─────────────────────────────────────────────────────────
 
 const ITEMS_TO_HIDE = [
     "powah:furnator_starter",

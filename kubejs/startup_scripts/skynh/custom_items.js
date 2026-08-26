@@ -1,3 +1,10 @@
+// skynh/custom_items.js
+// ─────────────────────────────────────────────────────────
+// 来自原 startup_scripts/src/item.js（仅 skynh: 部分）
+// 注册 skynh 整合包自定义物品：处理器打印件、处理器、压缩铁/工程块/石英/黑铁锭/玫瑰石英
+// 中间物品、蜂窝模具、硝基水晶块等约 40 项。
+// ─────────────────────────────────────────────────────────
+
 // ========== 物品注册 ==========
 StartupEvents.registry("item", event => {
     // 工程处理器打印件
@@ -66,16 +73,6 @@ StartupEvents.registry("item", event => {
     event.create("skynh:incomplete_resonanz_engineering", "create:sequenced_assembly");
      // 玫瑰石英半成品
     event.create("skynh:incomplete_rose_quartz", "create:sequenced_assembly");
-     // 反物质球碎片
-    event.create("mek:mekanism_fragment_antimatter");
-     // 小的反物质球碎片
-    event.create("mek:mekanism_small_antimatter");
-     // 微小反物质球碎片
-    event.create("mek:mekanism_tiny_antimatter");
-    // 龙之心左侧
-   event.create("draconicevolution:dragon_heart_left");
-   // 龙之心右侧
-   event.create("draconicevolution:dragon_heart_right");
    //蜜脾磨具
    event.create("skynh:honeycomb_mold");
    event.create("skynh:nitro_crystal_block_1");
