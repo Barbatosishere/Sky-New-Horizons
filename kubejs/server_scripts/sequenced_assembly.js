@@ -137,10 +137,10 @@ ServerEvents.recipes(event => {
         ["ae2lt:unoverloaded_circuit_board"],
         "ae2lt:overload_crystal",
         [
-            create.deploying(olcp, [olcp, 'ae2lt:overload_inscriber_press']).keepHeldItem(),
-            create.pressing(olcp, olcp)
+            create.deploying(ae2lt, [ae2lt, 'ae2lt:overload_inscriber_press']).keepHeldItem(),
+            create.pressing(ae2lt, ae2lt)
         ]
-    ).transitionalItem(olcp).loops(3);
+    ).transitionalItem(ae2lt).loops(3);
 
         create.sequenced_assembly(
         ["neoecoae:superconducting_processor_print"],
@@ -391,9 +391,5 @@ create.sequenced_assembly(
         ]
     ).transitionalItem("minecraft:honeycomb").loops(1);
 
-    create.crushing('exdeorum:crushed_netherrack', 'minecraft:netherrack').processingTime(350);
-    create.crushing('exdeorum:crushed_end_stone', 'minecraft:end_stone').processingTime(350);
-    create.crushing('exdeorum:crushed_deepslate', 'minecraft:deepslate').processingTime(350);
-    create.crushing('exdeorum:crushed_blackstone', 'minecraft:blackstone').processingTime(350);
 
 });

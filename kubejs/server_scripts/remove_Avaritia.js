@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         type: 'avaritia:shaped_table',
         tier: 4,
         pattern: [
-            'AAAAAAAAA',
+            'IAAAAAAAJ',
             'ABCCCCCBA',
             'ABCCCCCBA',
             'ABCCCCCBA',
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             'ABBBBBBBA',
             'ABEFGFHBA',
             'ABEFGFHBA',
-            'AAAAAAAAA'
+            'JAAAAAAAI'
         ],
         key: {
             A: { item: 'mekanism_extras:naquadah_reactor_casing' },
@@ -22,7 +22,9 @@ ServerEvents.recipes(event => {
             E: { item: 'mekanism_extras:infinite_induction_cell' },
             F: { item: 'mekanism_extras:infinite_fluid_tank' },
             G: { item: 'mekanism_extras:infinite_chemical_tank' },
-            H: { item: 'mekanism_extras:infinite_induction_provider' }
+            H: { item: 'mekanism_extras:infinite_induction_provider' },
+            I: { item: 'extendedae_plus:xbai' },
+            J: { item: 'extendedae_plus:c-h716' }
         },
         result: { id: 'mekanism:creative_bin' },
         show_notification: true
@@ -138,4 +140,37 @@ ServerEvents.recipes(event => {
         result: { id: 'enderio:creative_power' },
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_power');
+
+event.custom({
+    type: 'avaritia:shaped_table',
+    tier: 4,
+    pattern: [
+        'L ABCDE L',
+        '  ABCDE  ',
+        '  ABCDE  ',
+        '  ABCDE  ',
+        'KKKKMKKKK',
+        '  FGHIJ  ',
+        '  FGHIJ  ',
+        '  FGHIJ  ',
+        'L FGHIJ L'
+    ],
+    key: {
+        A: { item: 'appliedcreate:stress_storage_cell_256m' },
+        B: { item: 'megacells:source_storage_cell_256m' },
+        C: { item: 'megacells:chemical_storage_cell_256m' },
+        D: { item: 'megacells:fluid_storage_cell_256m' },
+        E: { item: 'megacells:item_storage_cell_256m' },
+        F: { item: 'appflux:fe_256m_cell' },
+        G: { item: 'appliedpneumatics:air_cell_256m' },
+        H: { item: 'ae2omnicells:quantum_omni_cell_256m' },
+        I: { item: 'ae2omnicells:complex_omni_cell_256m' },
+        J: { item: 'ae2omnicells:omni_cell_256m' },
+        K: { item: 'minecraft:netherite_block' },
+        L: { item: 'extendedae_plus:oblivion_singularity' },
+        M: { item: 'extendedae_plus:infinity_core' }
+    },
+    result: { id: 'extendedae_plus:infinity_biginteger_cell', count: 1 },
+    show_notification: true
+}).id('kubejs:infinity_crafting/infinity_biginteger_cell');
 });

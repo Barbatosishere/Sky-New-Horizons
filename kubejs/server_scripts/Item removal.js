@@ -115,7 +115,10 @@ const ITEMS_TO_REMOVE = [
     "ifmup:shadow_rose_plate",
     "ifmup:star_ether_alloy_plate",
     "sophisticatedstorage:stack_upgrade_omega_tier",
-    "sophisticatedbackpacks:stack_upgrade_omega_tier"
+    "sophisticatedbackpacks:stack_upgrade_omega_tier",
+    "justdirethings:generatort1",
+    "justdirethings:generatorfluidt1",
+    "justdirethings:pocket_generator"
 ];
 
 ServerEvents.recipes(event => {

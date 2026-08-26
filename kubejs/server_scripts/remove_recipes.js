@@ -35,6 +35,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:inscriber/engineering_processor' });
     // 移除 ECO - SA 超导电路板 配方
     event.remove({ id: 'neoecoae:inscriber/superconducting_processor_print' });
+    // 移除 ECO - SA 超导处理器 配方
+    event.remove({ id: 'neoecoae:inscriber/superconducting_processor' });
      // 移除 恩特罗种子 配方
     event.remove({ id: 'extendedae:entro_seed' });
     // 移除 运算压印模板 配方
@@ -106,8 +108,9 @@ ServerEvents.recipes(event => {
     // 移除 钢锭配方 配方
    event.remove({ id: 'alltheores:arcfurnace/steel/ingot' });
    event.remove({ id: 'alltheores:alloysmelter/steel/ingot' });
-   event.remove({ id: 'immersiveengineering:blastfurnace/steel' });
-   event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });                                  
+   event.remove({ id: 'alltheores:crafting/steel/alloy_blending_from_dust' });
+   event.remove({ id: 'createnuclear:mixing/steel' });  
+   event.remove({ id: 'alltheores:alloy_smelting/steel_ingot' });                                
     // 移除 富集辐光 配方
     event.remove({ id: 'mekanism_extras:chemical_conversion/radiance/from_dust' });
    // 移除 简陋机器框架 配方
@@ -218,10 +221,22 @@ ServerEvents.recipes(event => {
         event.remove({ id: 'mob_grinding_utils:recipe_mould_blank' });
     // 移除 ECO - 集成工作站 配方
         event.remove({ id: 'neoecoae:integrated_working_station' });
-    //移除堆叠升级
-        event.remove({ id: 'sophisticatedstorage:stack_upgrade_omega_tier' });
-        event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_omega_tier' });
+    // 移除 冶金灌注机 配方
+        event.remove({ id: 'mekanism:metallurgic_infuser' });
+    // 移除 种植站 配方
+        event.remove({ id: 'mekmm:planting_station' });
+    // 移除 魔灵同调宝石（灵火） 配方
+        event.remove({ id: 'occultism:spirit_fire/spirit_attuned_gem' });
+    // 移除 过载合金锭粗胚 配方
+        event.remove({ id: 'entangled:block' });
+        
   
+
+    // 移除 Quark 木质蜂箱/扩容盒 配方（无对应木材）
+    event.remove({ output: 'productivebees:advanced_quark_blossom_beehive' });
+    event.remove({ output: 'productivebees:expansion_box_quark_blossom' });
+    event.remove({ output: 'productivebees:advanced_quark_azalea_beehive' });
+    event.remove({ output: 'productivebees:expansion_box_quark_azalea' });
 
     // --- 移除所有原有生成器配方（按输出物品）---
     event.remove({  output: 'cobblegengalore:block_gen_stone' });
@@ -395,6 +410,16 @@ event.shaped('minecraft:chest', [
     '#': '#minecraft:planks'
 });
 
+event.shaped('mekanism:metallurgic_infuser', [
+    'ABA',
+    'CDC',
+    'ABA'
+], {
+    A: 'minecraft:iron_ingot',
+    B: 'minecraft:furnace',  
+    C: 'minecraft:redstone',
+    D: 'mekanism:steel_casing'
+});
 event.shaped('mekanismgenerators:solar_generator', [
     'DDD',
     'B B',
@@ -437,22 +462,27 @@ event.shaped('extendedae:entro_seed', [
     B: 'industrialforegoing:machine_frame_advanced',
     C: 'mysticalagradditions:insanium_gemstone', 
     D: 'pneumaticcraft:printed_circuit_board',
-    E: 'occultism:soul_gem',
+    E: 'occultism:trinity_gem',
     F: 'apotheosis:mythic_material',
     H: 'skynh:nitro_crystal_block_1',
     I: 'mekanism:pellet_antimatter',
     G: 'draconicevolution:small_chaos_frag' 
 });
+
+    event.blasting('alltheores:platinum_ingot', 'create:crushed_raw_platinum')
+    .xp(0.7)
+    .cookingTime(100);
+
 // 无限圆石
 event.shaped('extendedae:infinity_cobblestone_cell', [
     'DAD',
     'BCB',
     'DAD'
 ], {
-    D: 'ae2omnicells:multidimensional_expansion_processor',  
     B: 'minecraft:water_bucket',                               
     C: 'minecraft:lava_bucket',
-    A: 'ae2:cell_component_256k'     
+    A: 'ae2:cell_component_256k',
+    D: 'ae2omnicells:multidimensional_expansion_processor'  
 }); 
    // 无限水
 event.shaped('extendedae:infinity_water_cell', [
@@ -460,12 +490,22 @@ event.shaped('extendedae:infinity_water_cell', [
     'BCB',
     'DAD'
 ], {
-    D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'functionalstorage:water_generator_upgrade',
     A: 'ae2:cell_component_256k',
-    C: 'functionalstorage:fluid_1'
+    C: 'functionalstorage:fluid_1',
+    D: 'ae2omnicells:multidimensional_expansion_processor'
 });
-   
+   // 纠缠方块
+event.shaped('entangled:block', [
+    'ABA',
+    'DCD',
+    'ABA'
+], {
+    A: 'advanced_ae:shattered_singularity',
+    B: 'ae2:dense_energy_cell',
+    C: 'ae2omnicells:quantum_omni_cell_component_256k',
+    D: 'ae2omnicells:multidimensional_expansion_processor'
+});
 // ECO - 集成工作站
 event.shaped('neoecoae:integrated_working_station', [
     'ABC',
@@ -493,18 +533,6 @@ event.shaped('mysticalagriculture:soulstone_cobble', [
     A: 'minecraft:cobblestone'
 });
    
-   //地热能发电单元
-event.shaped('mysticalagriculture:soulstone_cobble', [
-    'ABA',
-    'ACA',
-    'DDD'
-], {
-    A: 'mekanism:alloy_reinforced',
-    B: 'minecraft:lava_bucket',
-    C: 'mekanism:module_base',
-    D: 'mekanism:pellet_polonium'
-});
-   
    //融合机
 event.shaped('mekanism:combiner', [
     'ABA',
@@ -523,10 +551,10 @@ event.shaped('pneumaticcraft:creative_compressor', [
     'BCB',
     'DAD'
 ], {
-    D: 'ae2omnicells:multidimensional_expansion_processor',
     B: 'pneumaticcraft:compressed_iron_block',  
     A: 'ae2:cell_component_256k',
-    C: 'avaritia:dense_neutron_compressor'            
+    C: 'avaritia:dense_neutron_compressor',
+    D: 'ae2omnicells:multidimensional_expansion_processor'      
 });
 // 创造模式压缩铁块
 event.shaped('pneumaticcraft:creative_compressed_iron_block', [
@@ -534,10 +562,10 @@ event.shaped('pneumaticcraft:creative_compressed_iron_block', [
     'BCB',
     'DAD'
 ], {
-    D: 'ae2omnicells:multidimensional_expansion_processor',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'ae2:cell_component_256k',
-    C: 'avaritia:dense_neutron_compressor'           
+    C: 'avaritia:dense_neutron_compressor',
+    D: 'ae2omnicells:multidimensional_expansion_processor'
 });
 // 基础合成组件
 event.shaped('extendedcrafting:basic_component', [
@@ -545,11 +573,11 @@ event.shaped('extendedcrafting:basic_component', [
     'BCB',
     'DAD'
 ], {
-    D: 'ae2:cell_component_4k',
     E: 'create:whisk',   
     B: 'pneumaticcraft:compressed_iron_block',
     A: 'create:propeller',
-    C: 'extendedcrafting:black_iron_slate'           
+    C: 'extendedcrafting:black_iron_slate',
+    D: 'ae2:cell_component_4k'
 });
 // 高级合成组件
 event.shaped('extendedcrafting:advanced_component', [
@@ -557,10 +585,10 @@ event.shaped('extendedcrafting:advanced_component', [
     'ACA',
     'DBD'
 ], {
-    D: 'ae2:cell_component_16k',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'immersiveengineering:storage_electrum',
-    C: 'extendedcrafting:basic_component'           
+    C: 'extendedcrafting:basic_component',
+    D: 'ae2:cell_component_16k'
 });
 // 精英合成组件
 event.shaped('extendedcrafting:elite_component', [
@@ -568,10 +596,10 @@ event.shaped('extendedcrafting:elite_component', [
     'ACA',
     'DBD'
 ], {
-    D: 'ae2:cell_component_64k',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'avaritia:diamond_lattice',
-    C: 'extendedcrafting:advanced_component'           
+    C: 'extendedcrafting:advanced_component',
+    D: 'ae2:cell_component_64k'
 });
 // 终极合成组件
 event.shaped('extendedcrafting:ultimate_component', [
@@ -579,10 +607,10 @@ event.shaped('extendedcrafting:ultimate_component', [
     'ACA',
     'DBD'
 ], {
-    D: 'ae2:cell_component_256k',
     A: 'pneumaticcraft:compressed_iron_block',   
     B: 'extendedae:entro_ingot',
-    C: 'extendedcrafting:elite_component'           
+    C: 'extendedcrafting:elite_component',
+    D: 'ae2:cell_component_256k'
 });    
 // 铁漏斗
 event.shaped('minecraft:hopper', [
@@ -596,12 +624,12 @@ event.shaped('minecraft:hopper', [
 // 锻造模板 铁升级
 event.shaped('apotheosis:iron_upgrade_smithing_template', [
     ' A ',
-    'BDB',
-    'BDB'
+    'BCB',
+    'BCB'
 ], {
     A: 'apotheosis:common_material',   
     B: 'minecraft:iron_ingot' ,
-    D:'apotheosis:gem_fused_slate' 
+    C:'apotheosis:gem_fused_slate' 
 });   
 // 锻造模板 金升级
 event.shaped('apotheosis:gold_upgrade_smithing_template', [

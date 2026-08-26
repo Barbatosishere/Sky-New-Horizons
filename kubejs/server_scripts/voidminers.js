@@ -1,50 +1,47 @@
+// server_scripts/voidminers.js
 ServerEvents.recipes(event => {
-    const JsonObject = Java.loadClass('com.google.gson.JsonObject');
-    const JFloat = Java.loadClass('java.lang.Float');
-    const JInt = Java.loadClass('java.lang.Integer');
+    /**
+     * 添加虚空矿机配方
+     * @param {string} item - 物品ID（如 'minecraft:diamond'）
+     * @param {number} weight - 权重（浮点数）
+     * @param {number} minTier - 最低矿机等级（整数，默认1）
+     * @param {string} dimension - 维度（默认 'minecraft:overworld'）
+     */
+    const addMiner = (item, weight, minTier = 1, dimension = 'minecraft:overworld') => {
+        const recipe = {
+            type: 'voidminers:miner',
+            allowHigherTiers: true,
+            dimension: dimension,
+            minTier: minTier,
+            item: { id: item },   // 关键修正：必须使用对象
+            weight: weight
+        };
 
-    const addMiner = (item, weight, minTier, dimension) => {
-        let tier = minTier || 1;
-        let dim = dimension || 'minecraft:overworld';
-
-        let json = new JsonObject();
-        json.addProperty("type", "voidminers:miner");
-        json.addProperty("allowHigherTiers", true);
-        json.addProperty("dimension", dim);
-        json.addProperty("minTier", new JInt(tier));
-
-        let outputJson = new JsonObject();
-        let stackJson = new JsonObject();
-        stackJson.addProperty("id", item);
-        outputJson.add("stack", stackJson);
-        outputJson.addProperty("weight", new JFloat(weight));
-
-        json.add("output", outputJson);
-
-        let recipeId = `kubejs:voidminers/${item.replace(':', '_')}_${dim.split(':')[1]}`;
-        event.custom(json).id(recipeId);
+        const recipeId = `kubejs:voidminers/${item.replace(':', '_')}_${dimension.split(':')[1]}`;
+        event.custom(recipe).id(recipeId);
     };
 
-    // 粗艾瑟金属（下界，等级4，权重5）
-    addMiner('occultism:raw_iesnium', 5, 4, 'minecraft:the_nether');
+    // ---- 以下为所有配方 ----
+    // 粗艾瑟金属（下界，等级3，权重5）
+    addMiner('occultism:raw_iesnium', 5, 3, 'minecraft:the_nether');
 
     // 粗硅岩（末地，等级5，权重8）
     addMiner('mekanism_extras:raw_naquadah', 8, 5, 'minecraft:the_end');
 
-    // 粗硅岩（等级3，权重8）
-    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:overworld');
-    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:the_end');
-    addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:the_nether');
+    // 粗瑞加方石（等级1，权重10，三个维度）
+    addMiner('create_better_motors:raw_reggarfonite', 10, 1, 'minecraft:overworld');
+    addMiner('create_better_motors:raw_reggarfonite', 10, 1, 'minecraft:the_end');
+    addMiner('create_better_motors:raw_reggarfonite', 10, 1, 'minecraft:the_nether');
 
-    //未知块
-    addMiner('ifmup:unknown_block', 3, 5, 'minecraft:the_end');
+    // 未知块（末地，等级3，权重3）
+    addMiner('ifmup:unknown_block', 3, 3, 'minecraft:the_end');
 
-    //粗暗影
-    addMiner('ifmup:raw_shadow', 3, 5, 'minecraft:the_nethe');
+    // 粗暗影（下界，等级3，权重3）
+    addMiner('ifmup:raw_shadow', 3, 3, 'minecraft:the_nether');
 
-    // 粗硅岩（等级3，权重10）
-    addMiner('mysticalagriculture:inferium_ore', 10, 3, 'minecraft:overworld');
-    addMiner('mysticalagriculture:deepslate_inferium_ore', 10, 3, 'minecraft:overworld');
-    addMiner('mysticalagradditions:end_inferium_ore', 10, 3, 'minecraft:the_end');
-    addMiner('mysticalagradditions:nether_inferium_ore', 10, 3, 'minecraft:the_nether');
+    // 精华矿（等级1，权重10）
+    addMiner('mysticalagriculture:inferium_ore', 10, 1, 'minecraft:overworld');
+    addMiner('mysticalagriculture:deepslate_inferium_ore', 10, 1, 'minecraft:overworld');
+    addMiner('mysticalagradditions:end_inferium_ore', 10, 1, 'minecraft:the_end');
+    addMiner('mysticalagradditions:nether_inferium_ore', 10, 1, 'minecraft:the_nether');
 });
