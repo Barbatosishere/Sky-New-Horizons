@@ -5,7 +5,8 @@
 // 板类统一策略：任意板材/金属板都接受以下任一"板类磨具"：
 //   - casting:plate_mold               （通用板模）
 //   - immersiveengineering:mold_plate  （IE 板模）
-//   - ae2:calculation_processor_press  （AE2 计算压印模板）
+// 注意：金属板一律不允许用 AE 物品压制（ae2:calculation_processor_press 仅限其
+// 原生印刷用途，见 jar 的 compat/ae2 配方）。
 // 背景：mekmm 自带的 IE 兼容配方只认 ie:mold_plate（11 种金属板），
 // 原 kubejs 配方只认 casting:plate_mold / calc_press（黄铜、金、瑞加方石板），
 // 导致同一机器上不同板材磨具不通用。此文件以矩阵补全两种方向。
@@ -14,10 +15,9 @@
 
 ServerEvents.recipes(event => {
 
-    // ─── 磨具（[物品 id, 命名用短键]）───
+    // ─── 磨具（[物品 id, 命名用短键]）：仅通用/IE 两种板模 ───
     const MOLD_PLATE_MOLD = ['casting:plate_mold',              'plate_mold'];
     const MOLD_IE_PLATE   = ['immersiveengineering:mold_plate', 'ie_plate_mold'];
-    const MOLD_CALC_PRESS = ['ae2:calculation_processor_press', 'calc_press'];
 
     // ─── Create 系板材：jar 无任何原生配方，三种磨具全部补上 ───
     const SHEETS = [
@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
         ['create_better_motors:reggarfonite_gem', 'create_better_motors:reggarfonite_sheet']
     ];
 
-    // ─── IE 兼容金属板：mekmm 数据包已有 ie:mold_plate 版本，只补缺的两种磨具 ───
-    const IE_MOLDS = [MOLD_PLATE_MOLD, MOLD_CALC_PRESS];
+    // ─── IE 兼容金属板：mekmm 数据包已有 ie:mold_plate 版本，只补 casting:plate_mold ───
+    const IE_MOLDS = [MOLD_PLATE_MOLD];
     const IE_PLATES = [
         ['#c:ingots/aluminum',   'immersiveengineering:plate_aluminum'],
         ['#c:ingots/constantan', 'immersiveengineering:plate_constantan'],
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         }
     };
 
-    addStampers(SHEETS, [MOLD_PLATE_MOLD, MOLD_IE_PLATE, MOLD_CALC_PRESS]);
+    addStampers(SHEETS, [MOLD_PLATE_MOLD, MOLD_IE_PLATE]);
     addStampers(IE_PLATES, IE_MOLDS);
 
     // ─── 未过载电路板：保持原样（仅 ae2lt:overload_inscriber_press） ───
