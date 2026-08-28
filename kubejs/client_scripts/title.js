@@ -10,7 +10,15 @@
 //     并用 try/catch 兜底，失败只打日志不崩游戏
 // ─────────────────────────────────────────────────────────
 const TITLE = 'SkyNH 0.3.7-beta';
-const osName = java.lang.System.getProperty('os.name', '').toLowerCase();
+
+// KubeJS Rhino 未暴露裸 java 包，必须走 Java.loadClass（与 sieve_moss_flowers.js 等一致）
+let osName = '';
+try {
+    osName = Java.loadClass('java.lang.System').getProperty('os.name', '').toLowerCase();
+} catch (err) {
+    // 检测失败时 osName 保持空串 → 走下方安全分支（主线程投递，全平台可用）
+    console.warn('[title.js] cannot detect OS: ' + err);
+}
 
 if (osName.includes('win')) {
     Client.setTitle(TITLE);
