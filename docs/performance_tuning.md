@@ -20,13 +20,13 @@
 
 - `renderDistance=10`
 - `simulationDistance=8`
-- `maxFps=144`
+- `maxFps=260`（Minecraft 视频设置中的“无限制”档位）
 - `renderClouds="false"`
 - `entityShadows=false`
 - `particles=0`
 - `enableVsync=false`
 
-渲染距离主要影响客户端区块渲染，模拟距离会影响实体、方块实体和自动化区域的活动范围。若显示器刷新率高于 144 Hz，可以在游戏内逐步提高 FPS 上限；若更重视功耗和温度，可继续降低上限。
+渲染距离主要影响客户端区块渲染，模拟距离会影响实体、方块实体和自动化区域的活动范围。FPS 不设置上限时，显卡可能持续满载；如果出现温度、功耗或画面撕裂问题，可在游戏内改为接近显示器刷新率的固定值。
 
 ### Sodium Extra 调试显示
 
