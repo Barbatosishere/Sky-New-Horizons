@@ -77,7 +77,7 @@
     "prevent_shaders": false,
     "panini_projection": false,
     "panini_projection_strength": 25,
-    "steady_debug_hud": true,
-    "steady_debug_hud_refresh_interval": 1
+    "steady_debug_hud": false,
+    "steady_debug_hud_refresh_interval": 20
   }
 }

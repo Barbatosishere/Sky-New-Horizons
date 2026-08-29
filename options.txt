@@ -3,7 +3,7 @@ ao:true
 biomeBlendRadius:2
 enableVsync:false
 entityDistanceScaling:1.0
-entityShadows:true
+entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.0
@@ -16,14 +16,14 @@ fullscreen:false
 gamma:0.5
 graphicsMode:1
 guiScale:3
-maxFps:260
+maxFps:144
 mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"true"
-renderDistance:12
-simulationDistance:12
+renderClouds:"false"
+renderDistance:10
+simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
