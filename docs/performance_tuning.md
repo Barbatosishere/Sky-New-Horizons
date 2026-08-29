@@ -23,7 +23,7 @@
 - `maxFps=260`（Minecraft 视频设置中的“无限制”档位）
 - `renderClouds="false"`
 - `entityShadows=false`
-- `particles=0`
+- `particles=0`（Minecraft 的全部粒子；低配档会改为 `2`，即最少）
 - `enableVsync=false`
 
 渲染距离主要影响客户端区块渲染，模拟距离会影响实体、方块实体和自动化区域的活动范围。FPS 不设置上限时，显卡可能持续满载；如果出现温度、功耗或画面撕裂问题，可在游戏内改为接近显示器刷新率的固定值。
@@ -95,3 +95,40 @@
 4. 探索新区域时的世界生成。
 
 不要仅凭启动成功判断优化有效；重点确认配方、机械结构、网络更新和区块生成没有异常。
+
+## 按硬件选择性能档位
+
+仓库提供了可回滚的手动档位，位置为 `profiles/performance/`：
+
+| 档位 | 适合系统内存 | Java 初始/最大堆 | 渲染/模拟距离 | FPS 默认值 | 光影 |
+|---|---|---:|---:|---:|---|
+| `low` | 8–12 GB | 2/4 GB | 6/4 | 60 | 关闭 |
+| `medium` | 16 GB | 4/8 GB | 8/6 | 144 | 关闭 |
+| `high` | 32 GB 以上 | 6/12 GB | 10/8 | 260（无限制） | 默认关闭 |
+
+应用档位前必须退出游戏：
+
+```powershell
+Set-Location 'D:\MC\PrismLauncher_minecraft\Sky New Horizons\.minecraft\profiles\performance'
+.\apply-performance-profile.ps1 low
+.\apply-performance-profile.ps1 medium
+.\apply-performance-profile.ps1 high
+```
+
+恢复最近一次备份：
+
+```powershell
+.\restore-performance-profile.ps1
+```
+
+档位脚本只修改白名单中的 `options.txt` 视频键、Iris 的 `enableShaders` 和实例内存值，并将原文件保存到带时间戳的本地备份目录。不会覆盖按键、资源包、存档、服务器列表或其他模组配置。
+
+### 硬件瓶颈不是同一个维度
+
+- GPU/显存不足时，优先选择 `low` 或 `medium`、关闭光影、降低渲染距离和粒子。
+- CPU 单核性能不足时，降低 `simulationDistance` 并减少 FTB Chunks 强制加载、Create 机械网络和 AE2/Mekanism/SFM 高并发自动化；加大 Java 堆不能解决 Tick 瓶颈。
+- 系统只有 8 GB 内存时，不要把 Java 最大堆设置为 8 GB；必须给 Windows、驱动和后台程序留出余量。
+- 16 GB 系统不建议沿用当前 12 GB 最大堆；32 GB 以上通常 10–12 GB 已足够，除非实际出现内存不足。
+- FPS 上限应结合显示器刷新率和温度调整。`maxFps=260` 是无限制档位，不代表所有电脑都应使用它。
+
+`simulationDistance` 会改变实体、方块实体、农场和自动化的活动范围，因此它是“模拟/游戏行为”选项，不应在游戏运行中自动切换。光影主要取决于 GPU 和显存，也不应仅根据系统内存自动启用。
