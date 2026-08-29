@@ -1,0 +1,34 @@
+{
+  "profile": "high",
+  "label": "高配",
+  "description": "适合 32 GB 以上系统内存和中高端独显；保留较远视距并允许无限 FPS。",
+  "hardware": {
+    "systemRamGb": "32+",
+    "gpuVramGb": "8+",
+    "cpu": "8 cores or more"
+  },
+  "memory": {
+    "minMemAllocMb": 6144,
+    "maxMemAllocMb": 12288
+  },
+  "options": {
+    "renderDistance": 10,
+    "simulationDistance": 8,
+    "maxFps": 260,
+    "graphicsMode": 1,
+    "renderClouds": false,
+    "entityShadows": false,
+    "particles": 0,
+    "entityDistanceScaling": 1.0,
+    "mipmapLevels": 4,
+    "biomeBlendRadius": 2
+  },
+  "iris": {
+    "enableShaders": false
+  },
+  "notes": [
+    "maxFps=260 是 Minecraft 的无限制档位；如果显卡持续满载，可手动改成显示器刷新率附近的值。",
+    "光影主要取决于 GPU 和显存，不会因为系统内存足够而自动启用。",
+    "高档也不建议默认启用 Ultra 光影或把 Java 堆提高到 16 GB。"
+  ]
+}

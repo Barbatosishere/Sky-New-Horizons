@@ -1,0 +1,34 @@
+{
+  "profile": "low",
+  "label": "低配",
+  "description": "适合 8–12 GB 系统内存、核显或低端独显；优先稳定帧时间和较低功耗。",
+  "hardware": {
+    "systemRamGb": "8-12",
+    "gpuVramGb": "0-4",
+    "cpu": "4 cores or more"
+  },
+  "memory": {
+    "minMemAllocMb": 2048,
+    "maxMemAllocMb": 4096
+  },
+  "options": {
+    "renderDistance": 6,
+    "simulationDistance": 4,
+    "maxFps": 60,
+    "graphicsMode": 0,
+    "renderClouds": false,
+    "entityShadows": false,
+    "particles": 2,
+    "entityDistanceScaling": 0.5,
+    "mipmapLevels": 2,
+    "biomeBlendRadius": 0
+  },
+  "iris": {
+    "enableShaders": false
+  },
+  "notes": [
+    "8 GB 物理内存不要把 Java 最大堆设置为 8 GB；必须给 Windows 和后台程序留出余量。",
+    "建议减少 FTB Chunks 强制加载区块，并避免让高并发自动化长期运行。",
+    "simulationDistance=4 会缩小实体、方块实体和自动化的活动范围。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "profile": "medium",
+  "label": "平衡",
+  "description": "适合 16 GB 系统内存和中端独显；平衡画质、帧率和自动化活动范围。",
+  "hardware": {
+    "systemRamGb": "16",
+    "gpuVramGb": "4-6",
+    "cpu": "6 cores or more"
+  },
+  "memory": {
+    "minMemAllocMb": 4096,
+    "maxMemAllocMb": 8192
+  },
+  "options": {
+    "renderDistance": 8,
+    "simulationDistance": 6,
+    "maxFps": 144,
+    "graphicsMode": 1,
+    "renderClouds": false,
+    "entityShadows": false,
+    "particles": 2,
+    "entityDistanceScaling": 0.75,
+    "mipmapLevels": 4,
+    "biomeBlendRadius": 1
+  },
+  "iris": {
+    "enableShaders": false
+  },
+  "notes": [
+    "16 GB 系统不建议使用 12 GB 以上 Java 最大堆。",
+    "可在确认显卡和显存余量后单独测试 Complementary 的 Potato 或 Very Low 档光影。",
+    "simulationDistance=6 仍会影响远处机器、实体和农场的活动范围。"
+  ]
+}
