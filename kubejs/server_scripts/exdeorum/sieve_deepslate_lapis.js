@@ -1,3 +1,4 @@
+// server_scripts/exdeorum/sieve_deepslate_lapis.js
 ServerEvents.recipes(event => {
     const oreChunks = [
         'minecraft:lapis_lazuli',
@@ -9,6 +10,7 @@ ServerEvents.recipes(event => {
 
     oreChunks.forEach(chunkId => {    
         
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -21,6 +23,7 @@ ServerEvents.recipes(event => {
     }
         });
 
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -29,6 +32,7 @@ ServerEvents.recipes(event => {
             result_amount: { min: 0, max: 2 }
         });
 
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -37,6 +41,7 @@ ServerEvents.recipes(event => {
             result_amount: { min: 0, max: 4 }
         });
 
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },

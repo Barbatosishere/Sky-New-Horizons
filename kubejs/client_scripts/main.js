@@ -1,3 +1,2 @@
-// Visit the wiki for more info - https://kubejs.com/
+// client_scripts/main.js
 console.info('Hello, World! (Loaded client example script)')
-

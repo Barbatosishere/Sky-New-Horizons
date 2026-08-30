@@ -1,9 +1,6 @@
-// cookingforblockheads/sink.js
-// ─────────────────────────────────────────────────────────
-// 水槽（cookingforblockheads:sink）合成
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/cookingforblockheads/sink.js
 ServerEvents.recipes(event => {
+    // ae2:spatial_io_port → cookingforblockheads:sink
     event.shaped('cookingforblockheads:sink', [
         'DAD',
         'BCB',

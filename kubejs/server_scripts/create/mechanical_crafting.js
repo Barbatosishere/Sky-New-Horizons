@@ -1,12 +1,7 @@
-// create/mechanical_crafting.js
-// ─────────────────────────────────────────────────────────
-// Create Mechanical Crafting 配方：
-//   - Extended Crafting 4 个工作台（basic/advanced/elite/ultimate）
-//   - appliedcreate:brass_pattern_provider（AE-free 版本）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/create/mechanical_crafting.js
 ServerEvents.recipes(event => {
-    // ─── Extended Crafting 工作台 ───
+
+    // extendedcrafting:basic_table → extendedcrafting:black_iron_block  [create.mechanical_crafting]
     event.recipes.create.mechanical_crafting('extendedcrafting:basic_table', [
         'AAAAA',
         'ABCBA',
@@ -22,6 +17,7 @@ ServerEvents.recipes(event => {
         F: 'minecraft:iron_block'
     });
 
+    // extendedcrafting:advanced_table → extendedcrafting:black_iron_block  [create.mechanical_crafting]
     event.recipes.create.mechanical_crafting('extendedcrafting:advanced_table', [
         'AAAAA',
         'ABCBA',
@@ -37,6 +33,7 @@ ServerEvents.recipes(event => {
         F: 'minecraft:gold_block'
     });
 
+    // extendedcrafting:elite_table → extendedcrafting:black_iron_block  [create.mechanical_crafting]
     event.recipes.create.mechanical_crafting('extendedcrafting:elite_table', [
         'AAAAA',
         'ABCBA',
@@ -52,6 +49,7 @@ ServerEvents.recipes(event => {
         F: 'minecraft:diamond_block'
     });
 
+    // extendedcrafting:ultimate_table → extendedcrafting:black_iron_block  [create.mechanical_crafting]
     event.recipes.create.mechanical_crafting('extendedcrafting:ultimate_table', [
         'AAAAA',
         'ABCBA',
@@ -67,8 +65,7 @@ ServerEvents.recipes(event => {
         F: 'minecraft:emerald_block'
     });
 
-    // ─── appliedcreate:brass_pattern_provider（AE-free 替代）───
-    // 原版用 ae2:pattern_provider，现改用 Create 自身 + extendedcrafting 物料
+    // appliedcreate:brass_pattern_provider → create:brass_ingot  [create.mechanical_crafting]
     event.recipes.create.mechanical_crafting('appliedcreate:brass_pattern_provider', [
         'AAA',
         'ACA',

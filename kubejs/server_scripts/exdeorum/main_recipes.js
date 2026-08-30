@@ -1,10 +1,10 @@
-// 监听服务器配方加载事件
+// server_scripts/exdeorum/main_recipes.js
 ServerEvents.recipes(event => {
-    // ========== 活化水晶碎片（使用沙子） ==========
+
     const sandResultId = 'mysticalagriculture:prosperity_shard';
     const sandIngredient = 'minecraft:sand';
 
-    // 铁筛网 2%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: sandIngredient },
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 金筛网 5%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: sandIngredient },
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 钻石筛网 8%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: sandIngredient },
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 下界合金筛网 10%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: sandIngredient },
@@ -56,11 +56,10 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 磊岩（使用末地石） ==========
     const kivResultId = 'xycraft_world:kivi';
     const kivIngredient = 'exdeorum:crushed_end_stone';
 
-    // 铁筛网 5%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: kivIngredient },
@@ -73,7 +72,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 金筛网 8%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: kivIngredient },
@@ -86,7 +85,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 钻石筛网 10%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: kivIngredient },
@@ -99,7 +98,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 下界合金筛网 15%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: kivIngredient },
@@ -112,8 +111,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 门瑞欧树苗（使用泥土） ==========
-    // 线筛网 5% 获得门瑞欧树苗
+    // ? → integrateddynamics:menril_sapling  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: 'minecraft:dirt' },
@@ -126,8 +124,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 火把花（使用泥土） ==========
-    // 线筛网 5% 获得门瑞欧树苗
+    // ? → minecraft:torchflower_seeds  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: 'minecraft:dirt' },
@@ -140,8 +137,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 瓶子草（使用泥土） ==========
-    // 线筛网 5% 获得门瑞欧树苗
+    // ? → minecraft:pitcher_pod  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: 'minecraft:dirt' },
@@ -154,11 +150,10 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 高魂粉（使用粉碎下界岩） ==========
     const souliumDustId = 'mysticalagriculture:soulium_dust';
     const crushedNetherrack = 'exdeorum:crushed_netherrack';
 
-    // 铁筛网 5%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: crushedNetherrack },
@@ -171,7 +166,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 金筛网 8%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: crushedNetherrack },
@@ -184,7 +179,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 钻石筛网 10%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: crushedNetherrack },
@@ -197,7 +192,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // 下界合金筛网 15%
+    // ? → ?  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: crushedNetherrack },
@@ -209,7 +204,8 @@ ServerEvents.recipes(event => {
             p: 0.15
         }
     });
-    // ========== 幽匿感测体（使用粉碎末地石） ==========
+
+    // ? → minecraft:sculk_sensor  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: 'exdeorum:crushed_end_stone' },
@@ -222,7 +218,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ========== 龙之心左半部分 ==========
+    // ? → draconicevolution:dragon_heart_left  [sieve]
 event.custom({
     type: 'exdeorum:sieve',
     ingredient: { item: 'minecraft:dragon_egg' },
@@ -235,7 +231,7 @@ event.custom({
     }
 });
 
-// ========== 龙之心右半部分 ==========
+    // ? → draconicevolution:dragon_heart_right  [sieve]
 event.custom({
     type: 'exdeorum:sieve',
     ingredient: { item: 'minecraft:dragon_egg' },
@@ -248,7 +244,7 @@ event.custom({
     }
 });
 
-// ========== 龙息 ==========
+    // ? → minecraft:dragon_breath  [sieve]
 event.custom({
     type: 'exdeorum:sieve',
     ingredient: { item: 'minecraft:dragon_egg' },
@@ -261,7 +257,7 @@ event.custom({
     }
 });
 
-// ========== 龙尘（数量随机） ==========
+    // ? → draconicevolution:draconium_dust  [sieve]
 event.custom({
     type: 'exdeorum:sieve',
     ingredient: { item: 'minecraft:dragon_egg' },

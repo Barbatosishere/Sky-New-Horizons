@@ -1,9 +1,6 @@
-// extendedae/entro_seed.js
-// ─────────────────────────────────────────────────────────
-// 恩特罗种子（extendedae:entro_seed）合成配方
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/extendedae/entro_seed.js
 ServerEvents.recipes(event => {
+    // ars_nouveau:wilden_tribute → extendedae:entro_seed
     event.shaped('extendedae:entro_seed', [
         'ABC',
         'DEF',

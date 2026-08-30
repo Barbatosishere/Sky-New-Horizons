@@ -1,10 +1,6 @@
-// enderio/enderman_head.js
-// ─────────────────────────────────────────────────────────
-// 末影人头（enderio:enderman_head）合成配方
-// 配合 ../enderio/mob_drops.js 中的掉落规则
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/enderio/enderman_head.js
 ServerEvents.recipes(event => {
+    // mysticalagriculture:enderman_essence → enderio:enderman_head
     event.shaped('enderio:enderman_head', [
         '###',
         '#A#',

@@ -1,9 +1,4 @@
-// xycraft_machines/extractor.js
-// ─────────────────────────────────────────────────────────
-// 来自原 extractor.js
-// xycraft_machines:extractor 单配方：EMP 晶块 + 黑曜石 → fluxnetworks:flux_dust
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/xycraft_machines/extractor.js
 ServerEvents.recipes((allthemods) => {
   function extractor({ output, target, adjacent, catalyst, directions, ticks, waterlogged }) {
     let recipe = {

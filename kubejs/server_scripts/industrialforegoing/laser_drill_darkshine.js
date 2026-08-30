@@ -1,4 +1,6 @@
+// server_scripts/industrialforegoing/laser_drill_darkshine.js
 ServerEvents.recipes(event => {
+    // industrialforegoing:blue_laser_lens → ?  [industrialforegoing.laser_drill_fluid]
     event.recipes.industrialforegoing.laser_drill_fluid({
         catalyst: { item: 'industrialforegoing:blue_laser_lens' },
         entity_data: {

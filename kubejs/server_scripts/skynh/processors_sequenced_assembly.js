@@ -1,8 +1,7 @@
-// 服务器配方事件监听器 - 用于添加自定义的 Create 序列装配配方
+// server_scripts/skynh/processors_sequenced_assembly.js
 ServerEvents.recipes(event => {
     const {create} = event.recipes
 
-    // ---------- 电路板打印件常量 ----------
     const pep = 'skynh:printed_engineering_processor';
     const plp = 'skynh:printed_logic_processor';
     const clcp = 'skynh:complex_link_circuit_print';
@@ -18,7 +17,6 @@ ServerEvents.recipes(event => {
     const ae2lt = 'skynh:overload_circuit_board';
     const spp = 'skynh:superconducting_processor_print';
 
-    // ---------- 最终处理器常量 ----------
     const pep_clq = 'skynh:engineering_processor';
     const plp_clq = 'skynh:logic_processor';
     const clcp_clq = 'skynh:complex_link_processor';
@@ -32,8 +30,6 @@ ServerEvents.recipes(event => {
     const ae2lt_clq = 'skynh:overload_processor';
     const spp_clq = 'skynh:superconducting_processor';
 
-
-    // -------------------- 第一组：基础材料 → 电路板打印件（保持原样）--------------------
     create.sequenced_assembly(
         ["ae2:printed_engineering_processor"],
         "minecraft:diamond",
@@ -151,8 +147,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(ae2lt).loops(3);
 
-     // -------------------- 第二组：电路板打印件 → 处理器（使用打印件作为中间物品） --------------------
-    // 工程处理器
     create.sequenced_assembly(
         ["ae2:engineering_processor"],
         "ae2:printed_engineering_processor",
@@ -167,7 +161,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(pep).loops(1);
 
-    // 逻辑处理器
     create.sequenced_assembly(
         ["ae2:logic_processor"],
         "ae2:printed_logic_processor",
@@ -182,7 +175,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(plp).loops(1);
 
-    // 计算处理器
     create.sequenced_assembly(
         ["ae2:calculation_processor"],
         "ae2:printed_calculation_processor",
@@ -197,7 +189,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(pcp).loops(1);
 
-    // 能量处理器
     create.sequenced_assembly(
         ["appflux:energy_processor"],
         "appflux:printed_energy_processor",
@@ -212,7 +203,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(penp).loops(1);
 
-    // 复杂链路处理器
     create.sequenced_assembly(
         ["ae2omnicells:complex_link_processor"],
         "ae2omnicells:complex_link_circuit_print",
@@ -227,7 +217,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(clcp).loops(1);
 
-    // 并发处理器
     create.sequenced_assembly(
         ["extendedae:concurrent_processor"],
         "extendedae:concurrent_processor_print",
@@ -242,7 +231,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(cpp).loops(1);
 
-    // 多维展开处理器
     create.sequenced_assembly(
         ["ae2omnicells:multidimensional_expansion_processor"],
         "ae2omnicells:multidimensional_expansion_circuit_print",
@@ -257,7 +245,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(mecp).loops(1);
 
-    // 全能链路处理器
     create.sequenced_assembly(
         ["ae2omnicells:omni_link_processor"],
         "ae2omnicells:omni_link_circuit_print",
@@ -272,7 +259,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(olcp).loops(1);
 
-    // 累积处理器
     create.sequenced_assembly(
         ["megacells:accumulation_processor"],
         "megacells:printed_accumulation_processor",
@@ -287,7 +273,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(pap).loops(1);
 
-    // 量子处理器
     create.sequenced_assembly(
         ["advanced_ae:quantum_processor"],
         "advanced_ae:printed_quantum_processor",
@@ -302,7 +287,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(pqp).loops(1);
 
-    // 过载处理器
     create.sequenced_assembly(
         ["ae2lt:overload_processor"],
         "ae2lt:overload_circuit_board",
@@ -331,7 +315,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(spp).loops(1);
 
-    // -------------------- 其他配方（压缩铁锭、工程块）保持不变 --------------------
     const incompleteIron = 'skynh:incomplete_compressed_iron'; 
     create.sequenced_assembly(
         ["pneumaticcraft:ingot_iron_compressed"],

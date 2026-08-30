@@ -1,9 +1,6 @@
-// powah/dry_ice.js
-// ─────────────────────────────────────────────────────────
-// 干冰（powah:dry_ice）合成（蓝冰×9）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/powah/dry_ice.js
 ServerEvents.recipes(event => {
+    // minecraft:blue_ice → powah:dry_ice
     event.shaped('powah:dry_ice', [
         '###',
         '###',

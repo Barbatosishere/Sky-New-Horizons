@@ -1,4 +1,6 @@
+// server_scripts/exdeorum/sieve_deepslate.js
 ServerEvents.recipes(event => {
+    // 移除类型 exdeorum:sieve 的全部配方
     event.remove({ type: 'exdeorum:sieve', input: 'exdeorum:crushed_deepslate' });
 
     const oreChunks = [
@@ -21,6 +23,7 @@ ServerEvents.recipes(event => {
     const crushedDeepslate = 'exdeorum:crushed_deepslate';
 
         oreChunks.forEach(chunkId => {
+    // ? → ?  [sieve]
             event.custom({
                 type: 'exdeorum:sieve',
                 ingredient: { item: crushedDeepslate },
@@ -28,6 +31,7 @@ ServerEvents.recipes(event => {
                 result: { id: chunkId },
                 result_amount: { type: 'minecraft:uniform', min: 0, max: 1 }
             });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -35,6 +39,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -42,6 +47,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -49,6 +55,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 6 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -56,6 +63,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 9 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -67,6 +75,7 @@ ServerEvents.recipes(event => {
 
     const deepslateMeshes = ['exdeorum:iron_mesh', 'exdeorum:golden_mesh', 'exdeorum:diamond_mesh', 'exdeorum:netherite_mesh'];
     deepslateMeshes.forEach(meshId => {
+    // ? → exdeorum:deepslate_pebble  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },
@@ -78,6 +87,7 @@ ServerEvents.recipes(event => {
 
     const pebbles = ['exdeorum:calcite_pebble', 'exdeorum:basalt_pebble', 'exdeorum:tuff_pebble'];
     pebbles.forEach(id => {
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: crushedDeepslate },

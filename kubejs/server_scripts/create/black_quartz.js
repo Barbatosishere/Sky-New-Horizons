@@ -1,9 +1,8 @@
-// 黑铁锭与焦黑石英的自动化配方（无需自定义物品）
+// server_scripts/create/black_quartz.js
 ServerEvents.recipes(event => {
     const { create } = event.recipes;
     const blackDye = 'minecraft:black_dye';
 
-    // ---------- 黑铁锭：三次部署黑色染料 + 冲压铁块 ----------
     create.sequenced_assembly(
         'extendedcrafting:black_iron_ingot',   // 最终产物
         'minecraft:iron_block',                 // 原料
@@ -15,7 +14,6 @@ ServerEvents.recipes(event => {
     .transitionalItem('minecraft:iron_block')   // 中间物品直接用铁块
     .loops(3);
 
-    // ---------- 焦黑石英：三次部署黑色染料 + 冲压石英 ----------
     create.sequenced_assembly(
         'actuallyadditions:black_quartz',
         'minecraft:quartz',

@@ -392,12 +392,6 @@ productivebees:stone_nest
 productivebees:sugar_cane_nest
 productivebees:warped_fungus_bees
 productivebees:warped_fungus_bees_grown
-quark:ancient_tree
-quark:blue_blossom
-quark:lavender_blossom
-quark:orange_blossom
-quark:red_blossom
-quark:yellow_blossom
 waystones:blackstone_waystone
 waystones:deepslate_waystone
 waystones:end_stone_waystone

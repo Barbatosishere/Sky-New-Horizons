@@ -1,12 +1,9 @@
-// avaritia/sculk_crafting_table.js
-// ─────────────────────────────────────────────────────────
-// 幽匿工作台（avaritia:sculk_crafting_table）
-// 移除原版 + Extended Crafting 5x5 shaped_table 重新定义
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/avaritia/sculk_crafting_table.js
 ServerEvents.recipes(event => {
+    // 移除配方 avaritia:sculk_crafting_table
     event.remove({ id: 'avaritia:sculk_crafting_table' });
 
+    // avaritia:sculk_crafting_table → minecraft:sculk_shrieker  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('avaritia:sculk_crafting_table', [
         'AAAAA',
         'ABBBA',

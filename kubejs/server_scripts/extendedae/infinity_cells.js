@@ -1,11 +1,7 @@
-// extendedae/infinity_cells.js
-// ─────────────────────────────────────────────────────────
-// extendedae 无限圆石/无限水 cell 配方
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/extendedae/infinity_cells.js
 ServerEvents.recipes(event => {
 
-    // 无限圆石
+    // minecraft:water_bucket → extendedae:infinity_cobblestone_cell
     event.shaped('extendedae:infinity_cobblestone_cell', [
         'DAD',
         'BCB',
@@ -17,7 +13,7 @@ ServerEvents.recipes(event => {
         D: 'ae2omnicells:multidimensional_expansion_processor'
     });
 
-    // 无限水
+    // functionalstorage:water_generator_upgrade → extendedae:infinity_water_cell
     event.shaped('extendedae:infinity_water_cell', [
         'DAD',
         'BCB',

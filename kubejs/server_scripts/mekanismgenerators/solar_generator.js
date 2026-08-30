@@ -1,9 +1,6 @@
-// mekanismgenerators/solar_generator.js
-// ─────────────────────────────────────────────────────────
-// 太阳能发电机（mekanismgenerators:solar_generator）合成配方
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekanismgenerators/solar_generator.js
 ServerEvents.recipes(event => {
+    // mekanismgenerators:solar_panel → mekanismgenerators:solar_generator
     event.shaped('mekanismgenerators:solar_generator', [
         'DDD',
         'B B',

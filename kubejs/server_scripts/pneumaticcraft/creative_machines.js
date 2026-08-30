@@ -1,10 +1,7 @@
-// pneumaticcraft/creative_machines.js
-// ─────────────────────────────────────────────────────────
-// 创造模式压缩机 / 创造模式压缩铁块
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/pneumaticcraft/creative_machines.js
 ServerEvents.recipes(event => {
-    // 创造模式压缩机
+
+    // pneumaticcraft:compressed_iron_block → pneumaticcraft:creative_compressor
     event.shaped('pneumaticcraft:creative_compressor', [
         'DAD',
         'BCB',
@@ -16,7 +13,7 @@ ServerEvents.recipes(event => {
         D: 'ae2omnicells:multidimensional_expansion_processor'
     });
 
-    // 创造模式压缩铁块
+    // pneumaticcraft:compressed_iron_block → pneumaticcraft:creative_compressed_iron_block
     event.shaped('pneumaticcraft:creative_compressed_iron_block', [
         'DAD',
         'BCB',

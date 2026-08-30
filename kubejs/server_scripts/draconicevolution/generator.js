@@ -1,8 +1,5 @@
-// draconicevolution/generator.js
-// ─────────────────────────────────────────────────────────
-// 移除 draconicevolution 自带的 generator
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/draconicevolution/generator.js
 ServerEvents.recipes(event => {
+    // 移除配方 draconicevolution:generator
     event.remove({ id: 'draconicevolution:generator' });
 });

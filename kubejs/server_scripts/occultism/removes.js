@@ -1,8 +1,5 @@
-// occultism/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除魔灵同调宝石（灵火）原配方（玩家通过其他途径获得）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/occultism/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 occultism:spirit_fire/spirit_attuned_gem
     event.remove({ id: 'occultism:spirit_fire/spirit_attuned_gem' });
 });

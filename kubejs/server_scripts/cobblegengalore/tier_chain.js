@@ -1,21 +1,22 @@
-// cobblegengalore/tier_chain.js
-// ─────────────────────────────────────────────────────────
-// 方块生成器（cobblegengalore:block_gen_*）升级链
-//   stone → copper → iron → gold → emerald → diamond → netherite
-// 同一文件保持 remove + add 共址，确保 add 在 remove 之后。
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/cobblegengalore/tier_chain.js
 ServerEvents.recipes(event => {
-    // 移除所有原有生成器配方
+
+    // 移除输出 cobblegengalore:block_gen_stone 的配方
     event.remove({ output: 'cobblegengalore:block_gen_stone' });
+    // 移除输出 cobblegengalore:block_gen_copper 的配方
     event.remove({ output: 'cobblegengalore:block_gen_copper' });
+    // 移除输出 cobblegengalore:block_gen_iron 的配方
     event.remove({ output: 'cobblegengalore:block_gen_iron' });
+    // 移除输出 cobblegengalore:block_gen_gold 的配方
     event.remove({ output: 'cobblegengalore:block_gen_gold' });
+    // 移除输出 cobblegengalore:block_gen_emerald 的配方
     event.remove({ output: 'cobblegengalore:block_gen_emerald' });
+    // 移除输出 cobblegengalore:block_gen_diamond 的配方
     event.remove({ output: 'cobblegengalore:block_gen_diamond' });
+    // 移除输出 cobblegengalore:block_gen_netherite 的配方
     event.remove({ output: 'cobblegengalore:block_gen_netherite' });
 
-    // 石头生成器
+    // exdeorum:compressed_cobblestone → cobblegengalore:block_gen_stone
     event.shaped('cobblegengalore:block_gen_stone', [
         '###',
         '# #',
@@ -24,7 +25,7 @@ ServerEvents.recipes(event => {
         '#': 'exdeorum:compressed_cobblestone'
     });
 
-    // 铜生成器（需要石头生成器）
+    // minecraft:copper_block → cobblegengalore:block_gen_copper
     event.shaped('cobblegengalore:block_gen_copper', [
         'DDD',
         'BAB',
@@ -35,7 +36,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:copper_ingot'
     });
 
-    // 铁生成器（需要铜生成器）
+    // minecraft:iron_block → cobblegengalore:block_gen_iron
     event.shaped('cobblegengalore:block_gen_iron', [
         'DDD',
         'BAB',
@@ -46,7 +47,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:iron_ingot'
     });
 
-    // 金生成器（需要铁生成器）
+    // minecraft:gold_block → cobblegengalore:block_gen_gold
     event.shaped('cobblegengalore:block_gen_gold', [
         'DDD',
         'BAB',
@@ -57,7 +58,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:gold_ingot'
     });
 
-    // 绿宝石生成器（需要金生成器）
+    // minecraft:emerald_block → cobblegengalore:block_gen_emerald
     event.shaped('cobblegengalore:block_gen_emerald', [
         'DDD',
         'BAB',
@@ -68,7 +69,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:emerald'
     });
 
-    // 钻石生成器（需要绿宝石生成器）
+    // minecraft:diamond_block → cobblegengalore:block_gen_diamond
     event.shaped('cobblegengalore:block_gen_diamond', [
         'DDD',
         'BAB',
@@ -79,7 +80,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:diamond'
     });
 
-    // 下界合金生成器（需要钻石生成器）
+    // minecraft:netherite_block → cobblegengalore:block_gen_netherite
     event.shaped('cobblegengalore:block_gen_netherite', [
         'DDD',
         'BAB',

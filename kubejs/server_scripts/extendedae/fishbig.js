@@ -1,9 +1,6 @@
-// extendedae/fishbig.js
-// ─────────────────────────────────────────────────────────
-// 鱼大（extendedae:fishbig）合成配方 - 终极创造方块组合
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/extendedae/fishbig.js
 ServerEvents.recipes(event => {
+    // pneumaticcraft:creative_compressed_iron_block → extendedae:fishbig
     event.shaped('extendedae:fishbig', [
         'ABC',
         'DEF',

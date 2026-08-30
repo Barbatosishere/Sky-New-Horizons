@@ -1,8 +1,4 @@
-// create/blasting.js
-// ─────────────────────────────────────────────────────────
-// alltheores:platinum_ingot 来自 create:crushed_raw_platinum（高炉）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/create/blasting.js
 ServerEvents.recipes(event => {
     event.blasting('alltheores:platinum_ingot', 'create:crushed_raw_platinum')
         .xp(0.7)

@@ -1,5 +1,7 @@
+// server_scripts/mekanism/antiprotonic_circuits.js
 ServerEvents.recipes(event => {
-    // 钢锭 + 反物质 → 基础控制电路
+
+    // mekanism:basic_control_circuit → immersiveengineering:ingot_steel  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism:basic_control_circuit' },
         item_input: { item: 'immersiveengineering:ingot_steel'  },
@@ -7,7 +9,7 @@ ServerEvents.recipes(event => {
         duration: 200
     });
 
-    // 基础控制电路 + 反物质 → 高级控制电路
+    // mekanism:advanced_control_circuit → mekanism:basic_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism:advanced_control_circuit' },
         item_input: { item: 'mekanism:basic_control_circuit' },
@@ -15,7 +17,7 @@ ServerEvents.recipes(event => {
         duration: 400
     });
 
-    // 高级控制电路 + 反物质 → 精英控制电路
+    // mekanism:elite_control_circuit → mekanism:advanced_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism:elite_control_circuit' },
         item_input: { item: 'mekanism:advanced_control_circuit' },
@@ -23,7 +25,7 @@ ServerEvents.recipes(event => {
         duration: 600
     });
 
-    // 精英控制电路 + 反物质 → 终极控制电路
+    // mekanism:ultimate_control_circuit → mekanism:elite_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism:ultimate_control_circuit' },
         item_input: { item: 'mekanism:elite_control_circuit' },
@@ -31,7 +33,7 @@ ServerEvents.recipes(event => {
         duration: 800
     });
 
-    // 终极控制电路 + 反物质 → 绝对控制电路
+    // mekanism_extras:absolute_control_circuit → mekanism:ultimate_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism_extras:absolute_control_circuit' },
         item_input: { item: 'mekanism:ultimate_control_circuit' },
@@ -39,7 +41,7 @@ ServerEvents.recipes(event => {
         duration: 1000
     });
 
-    // 绝对控制电路 + 反物质 → 至尊控制电路
+    // mekanism_extras:supreme_control_circuit → mekanism_extras:absolute_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism_extras:supreme_control_circuit' },
         item_input: { item: 'mekanism_extras:absolute_control_circuit' },
@@ -47,7 +49,7 @@ ServerEvents.recipes(event => {
         duration: 1200
     });
 
-    // 至尊控制电路 + 反物质 → 寰宇支配电路
+    // mekanism_extras:cosmic_control_circuit → mekanism_extras:supreme_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism_extras:cosmic_control_circuit' },
         item_input: { item: 'mekanism_extras:supreme_control_circuit' },
@@ -55,7 +57,7 @@ ServerEvents.recipes(event => {
         duration: 1600
     });
 
-    // 寰宇支配电路 + 反物质 → 悖论无限电路
+    // mekanism_extras:infinite_control_circuit → mekanism_extras:cosmic_control_circuit  [mekanism.nucleosynthesizing]
     event.recipes.mekanism.nucleosynthesizing({
         output: { id: 'mekanism_extras:infinite_control_circuit' },
         item_input: { item: 'mekanism_extras:cosmic_control_circuit' },

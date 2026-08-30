@@ -1,18 +1,13 @@
-// mekanism/machines.js
-// ─────────────────────────────────────────────────────────
-// Mekanism 机器配方：
-//   - 冶金灌注机（metallurgic_infuser） - 重新配方
-//   - 融合机（combiner） - 重新配方
-//   - 纸板箱（cardboard_box） - 简化配方
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekanism/machines.js
 ServerEvents.recipes(event => {
-    // 移除原版冶金灌注机配方
+
+    // 移除配方 mekanism:metallurgic_infuser
     event.remove({ id: 'mekanism:metallurgic_infuser' });
-    // 移除原版融合机配方
+
+    // 移除配方 mekanism:combiner
     event.remove({ id: 'mekanism:combiner' });
 
-    // 冶金灌注机
+    // minecraft:iron_ingot → mekanism:metallurgic_infuser
     event.shaped('mekanism:metallurgic_infuser', [
         'ABA',
         'CDC',
@@ -24,7 +19,7 @@ ServerEvents.recipes(event => {
         D: 'mekanism:steel_casing'
     });
 
-    // 融合机
+    // mekanism:alloy_atomic → mekanism:combiner
     event.shaped('mekanism:combiner', [
         'ABA',
         'CDC',
@@ -36,7 +31,7 @@ ServerEvents.recipes(event => {
         D: 'mekanism:steel_casing'
     });
 
-    // 纸板箱简化配方
+    // minecraft:paper → mekanism:cardboard_box
     event.shaped('mekanism:cardboard_box', [
         'AAA',
         'A A',

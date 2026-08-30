@@ -1,9 +1,4 @@
-// exdeorum/budding_geore_loot.js
-// ─────────────────────────────────────────────────────────
-// LootJS: 给 geore 模组的所有萌芽块（budding）添加 exdeorum:stone_pebble 掉落。
-// 原文件 budding_geore.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/exdeorum/budding_geore_loot.js
 LootJS.modifiers((event) => {
   const materials = [
     "coal",

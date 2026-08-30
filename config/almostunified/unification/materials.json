@@ -36,7 +36,19 @@
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
-  "ignored_recipe_ids": [],
+  "ignored_recipe_ids": [
+    "mekmm:compat/immersiveengineering/stamper/iron_plate",
+    "mekmm:compat/immersiveengineering/stamper/gold_plate",
+    "mekmm:compat/immersiveengineering/stamper/copper_plate",
+    "mekmm:compat/immersiveengineering/stamper/aluminum_plate",
+    "mekmm:compat/immersiveengineering/stamper/constantan_plate",
+    "mekmm:compat/immersiveengineering/stamper/electrum_plate",
+    "mekmm:compat/immersiveengineering/stamper/lead_plate",
+    "mekmm:compat/immersiveengineering/stamper/nickel_plate",
+    "mekmm:compat/immersiveengineering/stamper/silver_plate",
+    "mekmm:compat/immersiveengineering/stamper/steel_plate",
+    "mekmm:compat/immersiveengineering/stamper/uranium_plate"
+  ],
   "recipe_viewer_hiding": true,
   "loot_unification": false,
   "ignored_loot_tables": []

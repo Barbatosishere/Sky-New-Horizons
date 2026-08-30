@@ -1,8 +1,5 @@
-// entangled/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除纠缠方块原版（被自定义配方替代）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/entangled/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 entangled:block
     event.remove({ id: 'entangled:block' });
 });

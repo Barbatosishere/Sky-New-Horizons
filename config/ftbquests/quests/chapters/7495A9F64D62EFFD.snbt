@@ -19,8 +19,28 @@
 			reveal_on_hover: 0b
 			source: "q:a4f7488d5a0d21c"
 		}
+		{
+			dependency: "l:178074e314e66fc8"
+			reveal_on_hover: 0b
+			source: "q:1b520a5c752c7893"
+		}
+		{
+			dependency: "l:178074e314e66fc8"
+			reveal_on_hover: 0b
+			source: "q:2449aff1734881ba"
+		}
+		{
+			dependency: "q:7a15580b2c3fa5f3"
+			reveal_on_hover: 0b
+			source: "l:178074e314e66fc8"
+		}
 	]
-	quest_links: [ ]
+	quest_links: [{
+		id: "178074E314E66FC8"
+		linked_quest: "4896FE22E8F71EED"
+		x: -9.0d
+		y: -1.0d
+	}]
 	quests: [
 		{
 			id: "21EF3E4919BD509C"
@@ -729,6 +749,19 @@
 			}]
 			x: -22.5d
 			y: 5.0d
+		}
+		{
+			id: "110AAED954C6E823"
+			tasks: [{
+				id: "3790C35A02560B2E"
+				observation_type: "block_tag"
+				observe_type: 1
+				timer: 1L
+				to_observe: "beehives"
+				type: "observation"
+			}]
+			x: -22.5d
+			y: -1.0d
 		}
 	]
 }

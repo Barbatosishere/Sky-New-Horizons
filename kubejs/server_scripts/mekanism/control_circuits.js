@@ -1,24 +1,26 @@
-// mekanism/control_circuits.js
-// ─────────────────────────────────────────────────────────
-// 控制电路配方：移除原版冶金灌注配方 + 重新用 Extended Crafting
-// shaped_table 配方实现（mekanism:*_control_circuit）。
-// 同样的 control_circuit 还有 mekanism_extras:absolute/supreme/cosmic/infinite，
-// 详见 ../mekanism_extras/control_circuits_advanced.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekanism/control_circuits.js
 ServerEvents.recipes(event => {
-    // -------- 移除原版冶金灌注/控制电路配方 --------
+
+    // 移除配方 mekanism:metallurgic_infusing/alloy/infused
     event.remove({ id: 'mekanism:metallurgic_infusing/alloy/infused' });
+    // 移除配方 mekanism:metallurgic_infusing/alloy/reinforced
     event.remove({ id: 'mekanism:metallurgic_infusing/alloy/reinforced' });
+    // 移除配方 mekanism:control_circuit/basic
     event.remove({ id: 'mekanism:control_circuit/basic' });
+    // 移除配方 mekanism:control_circuit/infused_advanced
     event.remove({ id: 'mekanism:control_circuit/infused_advanced' });
+    // 移除配方 mekanism:control_circuit/advanced
     event.remove({ id: 'mekanism:control_circuit/advanced' });
+    // 移除配方 mekanism:control_circuit/infused_elite
     event.remove({ id: 'mekanism:control_circuit/infused_elite' });
+    // 移除配方 mekanism:control_circuit/elite
     event.remove({ id: 'mekanism:control_circuit/elite' });
+    // 移除配方 mekanism:control_circuit/infused_ultimate
     event.remove({ id: 'mekanism:control_circuit/infused_ultimate' });
+    // 移除配方 mekanism:control_circuit/ultimate
     event.remove({ id: 'mekanism:control_circuit/ultimate' });
 
-    // -------- 基础控制电路 --------
+    // mekanism:basic_control_circuit → create:electron_tube  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('mekanism:basic_control_circuit', [
         'ABA',
         'DED',
@@ -32,7 +34,7 @@ ServerEvents.recipes(event => {
         W: 'create:propeller'
     });
 
-    // -------- 高级控制电路 --------
+    // mekanism:advanced_control_circuit → mekanism:alloy_infused  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('mekanism:advanced_control_circuit', [
         'CCCCC',
         'CDDDC',
@@ -45,7 +47,7 @@ ServerEvents.recipes(event => {
         E: 'minecraft:redstone_block'
     });
 
-    // -------- 精英控制电路 --------
+    // mekanism:elite_control_circuit → mekanism:alloy_reinforced  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('mekanism:elite_control_circuit', [
         'CCCCC',
         'CDDDC',
@@ -58,7 +60,7 @@ ServerEvents.recipes(event => {
         E: 'minecraft:redstone_block'
     });
 
-    // -------- 终极控制电路 --------
+    // mekanism:ultimate_control_circuit → mekanism:alloy_atomic  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('mekanism:ultimate_control_circuit', [
         'CCCCC',
         'CDDDC',

@@ -1,9 +1,7 @@
-// mekmm/large_generators.js
-// ─────────────────────────────────────────────────────────
-// 移除 mekmm 自带的 2 个大型发电机
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekmm/large_generators.js
 ServerEvents.recipes(event => {
+    // 移除配方 mekmm:large_gas_burning_generator
     event.remove({ id: 'mekmm:large_gas_burning_generator' });
+    // 移除配方 mekmm:large_heat_generator
     event.remove({ id: 'mekmm:large_heat_generator' });
 });

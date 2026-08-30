@@ -1,12 +1,6 @@
-// mekanism/compressing.js
-// ─────────────────────────────────────────────────────────
-// Mekanism 压缩（compressing）配方 - 来自原 mek/mek_recipe_compress.js
-//   - 黄铜锭 → 黄铜板
-//   - 锌锭 → 锌板
-//   - 雷加方石宝石 → 雷加方石板
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekanism/compressing.js
 ServerEvents.recipes(event => {
+    // create:brass_ingot → create:brass_sheet  [compressing]
     event.custom({
         type: 'mekanism:compressing',
         item_input: {
@@ -22,6 +16,7 @@ ServerEvents.recipes(event => {
         duration: 200                     
     });
 
+    // create:zinc_ingot → createaddition:zinc_sheet  [compressing]
     event.custom({
         type: 'mekanism:compressing',
         item_input: {
@@ -37,6 +32,7 @@ ServerEvents.recipes(event => {
         duration: 200                     
     });
 
+    // create_better_motors:reggarfonite_gem → create_better_motors:reggarfonite_sheet  [compressing]
     event.custom({
         type: 'mekanism:compressing',
         item_input: {

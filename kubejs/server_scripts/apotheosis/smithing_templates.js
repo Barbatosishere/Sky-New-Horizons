@@ -1,11 +1,7 @@
-// apotheosis/smithing_templates.js
-// ─────────────────────────────────────────────────────────
-// Apotheosis 锻造模板：铁 → 金 → 钻石 → 下界升级
-// 配合 ../apotheosis/removes.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/apotheosis/smithing_templates.js
 ServerEvents.recipes(event => {
-    // 锻造模板 铁升级
+
+    // apotheosis:common_material → apotheosis:iron_upgrade_smithing_template
     event.shaped('apotheosis:iron_upgrade_smithing_template', [
         ' A ',
         'BCB',
@@ -16,7 +12,7 @@ ServerEvents.recipes(event => {
         C: 'apotheosis:gem_fused_slate'
     });
 
-    // 锻造模板 金升级
+    // apotheosis:uncommon_material → apotheosis:gold_upgrade_smithing_template
     event.shaped('apotheosis:gold_upgrade_smithing_template', [
         ' A ',
         'BCB',
@@ -28,7 +24,7 @@ ServerEvents.recipes(event => {
         D: 'apotheosis:gem_fused_slate'
     });
 
-    // 锻造模板 钻石升级
+    // apotheosis:rare_material → apotheosis:diamond_upgrade_smithing_template
     event.shaped('apotheosis:diamond_upgrade_smithing_template', [
         ' A ',
         'BCB',
@@ -40,7 +36,7 @@ ServerEvents.recipes(event => {
         D: 'apotheosis:gem_fused_slate'
     });
 
-    // 锻造模板 下界升级
+    // apotheosis:epic_material → minecraft:netherite_upgrade_smithing_template
     event.shaped('minecraft:netherite_upgrade_smithing_template', [
         ' A ',
         'BCB',

@@ -1,16 +1,15 @@
-// extendedcrafting/components.js
-// ─────────────────────────────────────────────────────────
-// Extended Crafting 4 个合成组件（basic/advanced/elite/ultimate）
-// 同一文件保持 remove + add 共址。
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/extendedcrafting/components.js
 ServerEvents.recipes(event => {
+    // 移除配方 extendedcrafting:basic_component
     event.remove({ id: 'extendedcrafting:basic_component' });
+    // 移除配方 extendedcrafting:advanced_component
     event.remove({ id: 'extendedcrafting:advanced_component' });
+    // 移除配方 extendedcrafting:elite_component
     event.remove({ id: 'extendedcrafting:elite_component' });
+    // 移除配方 extendedcrafting:ultimate_component
     event.remove({ id: 'extendedcrafting:ultimate_component' });
 
-    // 基础合成组件
+    // create:whisk → extendedcrafting:basic_component
     event.shaped('extendedcrafting:basic_component', [
         'DED',
         'BCB',
@@ -23,7 +22,7 @@ ServerEvents.recipes(event => {
         D: 'ae2:cell_component_4k'
     });
 
-    // 高级合成组件
+    // pneumaticcraft:compressed_iron_block → extendedcrafting:advanced_component
     event.shaped('extendedcrafting:advanced_component', [
         'DBD',
         'ACA',
@@ -35,7 +34,7 @@ ServerEvents.recipes(event => {
         D: 'ae2:cell_component_16k'
     });
 
-    // 精英合成组件
+    // pneumaticcraft:compressed_iron_block → extendedcrafting:elite_component
     event.shaped('extendedcrafting:elite_component', [
         'DBD',
         'ACA',
@@ -47,7 +46,7 @@ ServerEvents.recipes(event => {
         D: 'ae2:cell_component_64k'
     });
 
-    // 终极合成组件
+    // pneumaticcraft:compressed_iron_block → extendedcrafting:ultimate_component
     event.shaped('extendedcrafting:ultimate_component', [
         'DBD',
         'ACA',

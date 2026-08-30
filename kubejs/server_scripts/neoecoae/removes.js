@@ -1,12 +1,7 @@
-// neoecoae/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除 neoecoae 超导电路板/处理器、集成工作站
-// 替代方案：超导 → skynh/processors_sequenced_assembly.js
-//           工作站 → neoecoae/integrated_working_station.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/neoecoae/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 neoecoae:inscriber/superconducting_processor_print
     event.remove({ id: 'neoecoae:inscriber/superconducting_processor_print' });
+    // 移除配方 neoecoae:inscriber/superconducting_processor
     event.remove({ id: 'neoecoae:inscriber/superconducting_processor' });
-    event.remove({ id: 'neoecoae:integrated_working_station' });
 });

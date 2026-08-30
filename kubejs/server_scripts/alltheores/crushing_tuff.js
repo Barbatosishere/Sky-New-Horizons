@@ -1,9 +1,7 @@
-// alltheores/crushing_tuff.js
-// ─────────────────────────────────────────────────────────
-// 移除 Create 的 tuff 粉碎配方（玩家通过其他途径获得）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/alltheores/crushing_tuff.js
 ServerEvents.recipes(event => {
+    // 移除配方 create:crushing/tuff_recycling
     event.remove({ id: 'create:crushing/tuff_recycling' });
+    // 移除配方 create:crushing/tuff
     event.remove({ id: 'create:crushing/tuff' });
 });

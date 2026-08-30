@@ -1,18 +1,18 @@
-// avaritia/creative_items.js
-// ─────────────────────────────────────────────────────────
-// 创造模式物品的 Extended Crafting shaped_table 配方（来自原 remove_Avaritia.js）
-// 同时移除原 remove_recipes.js 中相关 avaritia:mek_creative_* 配方。
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/avaritia/creative_items.js
 ServerEvents.recipes(event => {
-    // 移除原版 avaritia 创造物品配方
+
+    // 移除配方 avaritia:mek_creative_bin
     event.remove({ id: 'avaritia:mek_creative_bin' });
+    // 移除配方 avaritia:mek_creative_fluid_tank
     event.remove({ id: 'avaritia:mek_creative_fluid_tank' });
+    // 移除配方 avaritia:mek_creative_chemical_tank
     event.remove({ id: 'avaritia:mek_creative_chemical_tank' });
+    // 移除配方 avaritia:ae2_creative_energy_cell
     event.remove({ id: 'avaritia:ae2_creative_energy_cell' });
+    // 移除配方 avaritia:eio_creative_power
     event.remove({ id: 'avaritia:eio_creative_power' });
 
-    // 创造箱柜
+    // ? → ?  [shaped_table]
     event.custom({
         type: 'avaritia:shaped_table',
         tier: 4,
@@ -36,14 +36,14 @@ ServerEvents.recipes(event => {
             F: { item: 'mekanism_extras:infinite_fluid_tank' },
             G: { item: 'mekanism_extras:infinite_chemical_tank' },
             H: { item: 'mekanism_extras:infinite_induction_provider' },
-            I: { item: 'avaritia:infinity' },
-            J: { item: 'avaritia:infinity' }
+            I: { item: 'extendedae_plus:xbai' },
+            J: { item: 'extendedae_plus:c-h716' }
         },
         result: { id: 'mekanism:creative_bin' },
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_bin');
 
-    // 创造流体储罐
+    // ? → ?  [shaped_table]
     event.custom({
         type: 'avaritia:shaped_table',
         tier: 4,
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_fluid_tank');
 
-    // 创造化学品储罐
+    // ? → ?  [shaped_table]
     event.custom({
         type: 'avaritia:shaped_table',
         tier: 4,
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_chemical_tank');
 
-    // 创造能源元件
+    // ? → ?  [shaped_table]
     event.custom({
         type: 'avaritia:shaped_table',
         tier: 4,
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_energy_cell');
 
-    // 创造能源
+    // ? → ?  [shaped_table]
     event.custom({
         type: 'avaritia:shaped_table',
         tier: 4,
@@ -153,4 +153,38 @@ ServerEvents.recipes(event => {
         result: { id: 'enderio:creative_power' },
         show_notification: true
     }).id('kubejs:infinity_crafting/creative_power');
+
+    // ? → ?  [shaped_table]
+    event.custom({
+    type: 'avaritia:shaped_table',
+    tier: 4,
+    pattern: [
+        'L ABCDE L',
+        '  ABCDE  ',
+        '  ABCDE  ',
+        '  ABCDE  ',
+        'KKKKMKKKK',
+        '  FGHIJ  ',
+        '  FGHIJ  ',
+        '  FGHIJ  ',
+        'L FGHIJ L'
+    ],
+    key: {
+        A: { item: 'appliedcreate:stress_storage_cell_256m' },
+        B: { item: 'megacells:source_storage_cell_256m' },
+        C: { item: 'megacells:chemical_storage_cell_256m' },
+        D: { item: 'megacells:fluid_storage_cell_256m' },
+        E: { item: 'megacells:item_storage_cell_256m' },
+        F: { item: 'appflux:fe_256m_cell' },
+        G: { item: 'appliedpneumatics:air_cell_256m' },
+        H: { item: 'ae2omnicells:quantum_omni_cell_256m' },
+        I: { item: 'ae2omnicells:complex_omni_cell_256m' },
+        J: { item: 'ae2omnicells:omni_cell_256m' },
+        K: { item: 'minecraft:netherite_block' },
+        L: { item: 'extendedae_plus:oblivion_singularity' },
+        M: { item: 'extendedae_plus:infinity_core' }
+    },
+    result: { id: 'extendedae_plus:infinity_biginteger_cell', count: 1 },
+    show_notification: true
+}).id('kubejs:infinity_crafting/infinity_biginteger_cell');
 });

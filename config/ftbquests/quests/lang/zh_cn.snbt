@@ -6,6 +6,7 @@
 	chapter.17CC7D5FE3221067.title: "MEK"
 	chapter.25F3933907A5B535.title: "沉浸工程"
 	chapter.26D433730743E32D.title: "pow"
+	chapter.2F21DD5EBC0BE7B4.title: "ECO"
 	chapter.36F02267B95F5444.title: "资源蜜蜂"
 	chapter.38CC25ACF2113F4E.title: "AE"
 	chapter.42604EE01DB41046.title: "电力"
@@ -38,6 +39,7 @@
 		"菌丝魔源通道类似于火山魔源通道，不同的是菌丝魔源通道消耗的是食物，或许可以配合农业魔源通道"
 	]
 	quest.038B81912865A971.title: "可用的魔源来源"
+	quest.12B534FF54982A03.title: "海德林诱惑术"
 	quest.132F8C9AE956C2B3.title: "筛网"
 	quest.147AE6CBF4F27591.quest_desc: ["出于某种考量(不想吃裂变燃料)现在再处理裂变燃料可以用于裂变燃料循环"]
 	quest.17FFFCE4D4A6FDFE.quest_desc: [
@@ -114,6 +116,7 @@
 	task.4E9A8B4488604417.title: "神秘学相关"
 	task.537990D147E467DC.title: "一些提示"
 	task.5B518137CF8C5FD5.title: "一切的开始"
+	task.68D88CD8095E9467.title: "1"
 	task.6D08F8C7DACF6B01.title: "工业先锋相关"
 	task.6EC0A3CBD4A13609.title: "EAEP相关"
 	task.73D0388F6332890C.title: "Any #occultism:candles"

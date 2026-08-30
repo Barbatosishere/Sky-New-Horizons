@@ -1,10 +1,4 @@
-// mekanism/combining.js
-// ─────────────────────────────────────────────────────────
-// Mekanism Combining 配方（8 阶控制电路） - 来自原 mek/mek_recipe_fusion.js
-// 与 ../mekanism/control_circuits.js（shaped_table 配方）配合：
-//   shaped_table 是手工合成路径；combining 是机器批量生产路径。
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mekanism/combining.js
 ServerEvents.recipes(event => {
   event.recipes.mekanismCombining
   ('mekanism:basic_control_circuit',

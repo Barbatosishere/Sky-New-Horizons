@@ -1,12 +1,9 @@
-// industrialforegoing/machine_frame_pity.js
-// ─────────────────────────────────────────────────────────
-// 简陋机器框架（industrialforegoing:machine_frame_pity）
-// 移除原版 + Extended Crafting 5x5 shaped_table 重新定义
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/industrialforegoing/machine_frame_pity.js
 ServerEvents.recipes(event => {
+    // 移除配方 industrialforegoing:machine_frame_pity
     event.remove({ id: 'industrialforegoing:machine_frame_pity' });
 
+    // industrialforegoing:machine_frame_pity → pneumaticcraft:compressed_iron_block  [extendedcrafting.shaped_table]
     event.recipes.extendedcrafting.shaped_table('industrialforegoing:machine_frame_pity', [
         'AAAAA',
         'ABBBA',

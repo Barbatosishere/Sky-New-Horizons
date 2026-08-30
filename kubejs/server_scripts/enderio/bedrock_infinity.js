@@ -1,11 +1,8 @@
-// enderio/bedrock_infinity.js
-// ─────────────────────────────────────────────────────────
-// 来自原 bedrock_infinity.js
-// 替换 enderio:fire_crafting：infinity 粉/可疑种子 → 基岩（3 维度）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/enderio/bedrock_infinity.js
 ServerEvents.recipes(event => {
+    // 移除类型 enderio:fire_crafting 的全部配方
     event.remove({ type: 'enderio:fire_crafting' });
+    // ? → enderio:grains_of_infinity  [fire_crafting]
     event.custom({
         type: 'enderio:fire_crafting',
         base_blocks: ['minecraft:bedrock'],

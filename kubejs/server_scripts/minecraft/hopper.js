@@ -1,12 +1,9 @@
-// minecraft/hopper.js
-// ─────────────────────────────────────────────────────────
-// 漏斗（minecraft:hopper）合成配方
-// 移除原版 + 用 woodenhopper 替代
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/minecraft/hopper.js
 ServerEvents.recipes(event => {
+    // 移除配方 minecraft:hopper
     event.remove({ id: 'minecraft:hopper' });
 
+    // minecraft:iron_ingot → minecraft:hopper
     event.shaped('minecraft:hopper', [
         'A A',
         'ABA',

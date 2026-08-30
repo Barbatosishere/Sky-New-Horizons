@@ -1,8 +1,4 @@
-// powah/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除 powah 自带的发电机（furnator/magmator/thermo/solar × 7 阶 = 28 个）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/powah/removes.js
 ServerEvents.recipes(event => {
     const TYPES = ['furnator', 'magmator', 'thermo_generator', 'solar_panel'];
     const TIERS = ['starter', 'basic', 'hardened', 'blazing', 'niotic', 'spirited', 'nitro'];

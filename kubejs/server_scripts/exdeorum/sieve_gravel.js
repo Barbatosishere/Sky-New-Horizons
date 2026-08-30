@@ -1,4 +1,6 @@
+// server_scripts/exdeorum/sieve_gravel.js
 ServerEvents.recipes(event => {
+    // 移除类型 exdeorum:sieve 的全部配方
     event.remove({ type: 'exdeorum:sieve', input: 'minecraft:gravel' });
 
     const oreChunks = [
@@ -22,6 +24,7 @@ ServerEvents.recipes(event => {
     const gravel = 'minecraft:gravel';
 
         oreChunks.forEach(chunkId => {
+    // ? → ?  [sieve]
             event.custom({
                 type: 'exdeorum:sieve',
                 ingredient: { item: gravel },
@@ -29,6 +32,7 @@ ServerEvents.recipes(event => {
                 result: { id: chunkId },
                 result_amount: { type: 'minecraft:uniform', min: 0, max: 1 }
             });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -36,6 +40,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 2 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -43,6 +48,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 4 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -50,6 +56,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 6 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -57,6 +64,7 @@ ServerEvents.recipes(event => {
             result: { id: chunkId },
             result_amount: { type: 'minecraft:uniform', min: 0, max: 8 }
         });
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -66,6 +74,7 @@ ServerEvents.recipes(event => {
         });
     });
 
+    // ? → exdeorum:stone_pebble  [sieve]
     event.custom({
         type: 'exdeorum:sieve',
         ingredient: { item: gravel },
@@ -76,6 +85,7 @@ ServerEvents.recipes(event => {
 
     const stoneMeshes = ['exdeorum:flint_mesh', 'exdeorum:iron_mesh', 'exdeorum:golden_mesh'];
     stoneMeshes.forEach(meshId => {
+    // ? → exdeorum:stone_pebble  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -87,6 +97,7 @@ ServerEvents.recipes(event => {
 
     const deepslateMeshes = ['exdeorum:iron_mesh', 'exdeorum:golden_mesh', 'exdeorum:diamond_mesh', 'exdeorum:netherite_mesh'];
     deepslateMeshes.forEach(meshId => {
+    // ? → exdeorum:deepslate_pebble  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -98,6 +109,7 @@ ServerEvents.recipes(event => {
 
     const flintMeshes = ['exdeorum:string_mesh', 'exdeorum:flint_mesh', 'exdeorum:iron_mesh', 'exdeorum:golden_mesh', 'exdeorum:diamond_mesh'];
     flintMeshes.forEach(meshId => {
+    // ? → minecraft:flint  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -109,6 +121,7 @@ ServerEvents.recipes(event => {
 
     const pebbles = ['exdeorum:andesite_pebble', 'exdeorum:granite_pebble', 'exdeorum:diorite_pebble', 'minecraft:pointed_dripstone'];
     pebbles.forEach(id => {
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },

@@ -1,14 +1,7 @@
-// skynh/derived_items.js
-// ─────────────────────────────────────────────────────────
-// 自定义中间物品配方：
-//   - skynh:honeycomb_mold        (经验模坯 → 蜂窝模具)
-//   - skynh:nitro_crystal_block_1 (蓝冰×9 → 硝基水晶块)
-//   - ae2lt:moakiee_fumo          (ae2lt 系列装饰物)
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/skynh/derived_items.js
 ServerEvents.recipes(event => {
 
-    // 经验模坯 → 蜂窝模具（用线钳切）
+    // mob_grinding_utils:solid_xp_mould_blank → skynh:honeycomb_mold
     event.shaped('skynh:honeycomb_mold', [
         'AB'
     ], {
@@ -16,7 +9,7 @@ ServerEvents.recipes(event => {
         B: 'immersiveengineering:wirecutter'
     });
 
-    // 硝基水晶块
+    // powah:nitro_crystal_block → skynh:nitro_crystal_block_1
     event.shaped('skynh:nitro_crystal_block_1', [
         '###',
         '###',
@@ -25,7 +18,7 @@ ServerEvents.recipes(event => {
         '#': 'powah:nitro_crystal_block'
     });
 
-    // MOAKIEE 装饰物
+    // ae2lt:thunderstorm_condensate → ae2lt:moakiee_fumo
     event.shaped('ae2lt:moakiee_fumo', [
         'ABC',
         'DEF',

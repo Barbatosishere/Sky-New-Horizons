@@ -1,3 +1,4 @@
+// server_scripts/exdeorum/sieve_gravel_lapis.js
 ServerEvents.recipes(event => {
 
     const oreChunks = [
@@ -10,6 +11,7 @@ ServerEvents.recipes(event => {
 
     oreChunks.forEach(chunkId => {     
         
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -22,6 +24,7 @@ ServerEvents.recipes(event => {
     }
         });
         
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -30,6 +33,7 @@ ServerEvents.recipes(event => {
             result_amount: { min: 0, max: 2 }
         });
         
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },
@@ -38,6 +42,7 @@ ServerEvents.recipes(event => {
             result_amount: { min: 0, max: 4 }
         });
         
+    // ? → ?  [sieve]
         event.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: gravel },

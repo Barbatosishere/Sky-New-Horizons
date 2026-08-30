@@ -8,7 +8,12 @@
 	order_index: 3
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
+	quest_links: [{
+		id: "4C8E27453C515DA4"
+		linked_quest: "6DA0637AAAB84975"
+		x: -9.0d
+		y: 4.0d
+	}]
 	quests: [
 		{
 			id: "59FD81B974398990"
@@ -674,6 +679,16 @@
 			}]
 			x: -9.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["0743A2B5898DA2A1"]
+			id: "12B534FF54982A03"
+			tasks: [{
+				id: "68D88CD8095E9467"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.5d
 		}
 	]
 }

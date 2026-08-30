@@ -1,11 +1,4 @@
-// jei_hide/hide_lowtier_generators.js
-// ─────────────────────────────────────────────────────────
-// 来自原 client_scripts/hide_items.js
-// 在 JEI/REI/EMI 中隐藏 ~120 个低阶/低性价比发电机（powah、工业先锋、mekanismgenerators、
-// ifmup、mekmm、productivebees、justdirethings 等跨 20+ mod）。
-// 玩家可手动在客户端 JEI 设置中恢复。
-// ─────────────────────────────────────────────────────────
-
+// client_scripts/jei_hide/hide_lowtier_generators.js
 const ITEMS_TO_HIDE = [
     "powah:furnator_starter",
     "powah:furnator_basic",
@@ -40,7 +33,6 @@ const ITEMS_TO_HIDE = [
     "enderio_evolution:basic_infinity_generator",
     "enderio_evolution:crystalline_infinity_generator",
     "enderio_evolution:stellar_infinity_generator",
-    "extendedae_plus:infinity_biginteger_cell",
     "mekanismgenerators:wind_generator",
     "enderio:stirling_generator",
     "industrialforegoing:mycelial_furnace",
@@ -124,10 +116,6 @@ const ITEMS_TO_HIDE = [
     "ifmup:star_ether_alloy_plate",
     "sophisticatedstorage:stack_upgrade_omega_tier",
     "sophisticatedbackpacks:stack_upgrade_omega_tier",
-    "productivebees:advanced_quark_blossom_beehive",
-    "productivebees:expansion_box_quark_blossom",
-    "productivebees:advanced_quark_azalea_beehive",
-    "productivebees:expansion_box_quark_azalea",
     "justdirethings:generatort1",
     "justdirethings:generatorfluidt1",
     "justdirethings:pocket_generator",

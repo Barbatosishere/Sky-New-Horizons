@@ -1,8 +1,5 @@
-// enderio/obsidian_dust.js
-// ─────────────────────────────────────────────────────────
-// 移除 Ender IO 制作黑曜石粉末原配方（玩家通过其他途径获得）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/enderio/obsidian_dust.js
 ServerEvents.recipes(event => {
+    // 移除配方 enderio:sag_milling/obsidian
     event.remove({ id: 'enderio:sag_milling/obsidian' });
 });

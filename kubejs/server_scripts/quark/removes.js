@@ -1,8 +1,5 @@
-// quark/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除铁漏斗配方（玩家通过自定义配方获得）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/quark/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 quark:tweaks/crafting/utility/misc/easy_hopper
     event.remove({ id: 'quark:tweaks/crafting/utility/misc/easy_hopper' });
 });

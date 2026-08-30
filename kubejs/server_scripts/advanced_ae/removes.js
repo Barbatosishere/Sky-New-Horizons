@@ -1,10 +1,7 @@
-// advanced_ae/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除 advanced_ae 量子处理器
-// 替代方案见 skynh/processors_sequenced_assembly.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/advanced_ae/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 advanced_ae:quantum_processor_print
     event.remove({ id: 'advanced_ae:quantum_processor_print' });
+    // 移除配方 advanced_ae:quantum_processor
     event.remove({ id: 'advanced_ae:quantum_processor' });
 });

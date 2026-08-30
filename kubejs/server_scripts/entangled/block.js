@@ -1,9 +1,6 @@
-// entangled/block.js
-// ─────────────────────────────────────────────────────────
-// 纠缠方块（entangled:block）合成
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/entangled/block.js
 ServerEvents.recipes(event => {
+    // advanced_ae:shattered_singularity → entangled:block
     event.shaped('entangled:block', [
         'ABA',
         'DCD',

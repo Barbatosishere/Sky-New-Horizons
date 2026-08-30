@@ -1,10 +1,6 @@
-// industrialforegoing/plastic_swap.js
-// ─────────────────────────────────────────────────────────
-// 工业先锋 plastic <-> 气动工艺 plastic 互换（这一半）
-// 配套：../pneumaticcraft/plastic_swap.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/industrialforegoing/plastic_swap.js
 ServerEvents.recipes(event => {
+    // pneumaticcraft:plastic → industrialforegoing:plastic
     event.shaped('industrialforegoing:plastic', [
         'A'
     ], {

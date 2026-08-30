@@ -1,9 +1,7 @@
-// mysticalagriculture/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除 copper_alloy 相关配方（被自定义配方替代）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mysticalagriculture/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 mysticalagriculture:copper_alloy
     event.remove({ id: 'mysticalagriculture:copper_alloy' });
+    // 移除配方 mysticalagriculture:essence/enderio/copper_alloy_ingot
     event.remove({ id: 'mysticalagriculture:essence/enderio/copper_alloy_ingot' });
 });

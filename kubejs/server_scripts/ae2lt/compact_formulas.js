@@ -1,5 +1,7 @@
+// server_scripts/ae2lt/compact_formulas.js
 ServerEvents.recipes(event => {
-    // 配方1：紧凑型聚变反应堆
+
+    // ? → compactmekanismmachinesplus:compact_fusion_reactor  [lightning_assembly]
     event.custom({
         type: 'ae2lt:lightning_assembly',
         priority: 0,
@@ -16,7 +18,7 @@ ServerEvents.recipes(event => {
         lightningTier: 'extreme_high_voltage'
     });
 
-    // 配方2：紧凑型 SPS
+    // ? → compactmekanismmachinesplus:compact_sps  [lightning_assembly]
     event.custom({
         type: 'ae2lt:lightning_assembly',
         priority: 0,
@@ -32,7 +34,7 @@ ServerEvents.recipes(event => {
         lightningTier: 'extreme_high_voltage'
     });
 
-    // 配方3：紧凑型热电锅炉
+    // ? → compactmekanismmachinesplus:compact_thermoelectric_boiler  [lightning_assembly]
     event.custom({
         type: 'ae2lt:lightning_assembly',
         priority: 0,

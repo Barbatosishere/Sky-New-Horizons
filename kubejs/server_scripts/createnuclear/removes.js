@@ -1,8 +1,5 @@
-// createnuclear/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除 createnuclear 自带的钢配方（与 alltheores 重复）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/createnuclear/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 createnuclear:mixing/steel
     event.remove({ id: 'createnuclear:mixing/steel' });
 });

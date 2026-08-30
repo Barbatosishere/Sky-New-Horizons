@@ -1,9 +1,6 @@
-// mob_grinding_utils/mould_blank.js
-// ─────────────────────────────────────────────────────────
-// 经验模坯（mob_grinding_utils:solid_xp_mould_blank）合成
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mob_grinding_utils/mould_blank.js
 ServerEvents.recipes(event => {
+    // minecraft:gold_nugget → mob_grinding_utils:solid_xp_mould_blank
     event.shaped('mob_grinding_utils:solid_xp_mould_blank', [
         '###',
         '# #',

@@ -1,4 +1,6 @@
+// server_scripts/pneumaticcraft/pressure_chamber.js
 ServerEvents.recipes(event => {
+    // draconicevolution:large_chaos_frag → mysticalagradditions:insanium_essence  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'draconicevolution:large_chaos_frag', count: 6 },
@@ -12,6 +14,7 @@ ServerEvents.recipes(event => {
     ]
   })
 
+    // draconicevolution:medium_chaos_frag → mysticalagradditions:insanium_essence  [pneumaticcraft.pressure_chamber]
    event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'draconicevolution:medium_chaos_frag', count: 6 },
@@ -25,6 +28,7 @@ ServerEvents.recipes(event => {
     ]
   })
 
+    // draconicevolution:small_chaos_frag → mysticalagradditions:insanium_essence  [pneumaticcraft.pressure_chamber]
    event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'draconicevolution:small_chaos_frag', count: 6 },
@@ -37,6 +41,7 @@ ServerEvents.recipes(event => {
       { id: 'draconicevolution:medium_chaos_frag', count: 1 }
     ]
   })
+    // mekanism:reprocessed_fissile_fragment → mekanism:pellet_antimatter  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'mekanism:reprocessed_fissile_fragment', count: 1 },
@@ -49,6 +54,7 @@ ServerEvents.recipes(event => {
       { id: 'draconicevolution:small_chaos_frag', count: 1 }
     ]
   })
+    // draconicevolution:dragon_heart_left → draconicevolution:dragon_heart_right  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'draconicevolution:dragon_heart_left', count: 1 },
@@ -59,6 +65,7 @@ ServerEvents.recipes(event => {
       { id: 'draconicevolution:dragon_heart', count: 1 }
     ]
   })
+    // minecraft:blue_ice → powah:dry_ice  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'minecraft:blue_ice', count: 4 }
@@ -68,6 +75,7 @@ ServerEvents.recipes(event => {
       { id: 'powah:dry_ice', count: 1 }
     ]
   })
+    // ae2:certus_quartz_dust → ae2:fluix_dust  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'ae2:certus_quartz_dust', count: 1 },
@@ -80,6 +88,7 @@ ServerEvents.recipes(event => {
       { id: 'neoecoae:crystal_ingot', count: 1 }
     ]
   })
+    // neoecoae:energized_fluix_crystal_dust → c:dusts/aluminum  [pneumaticcraft.pressure_chamber]
   event.recipes.pneumaticcraft.pressure_chamber({
     inputs: [
       { item: 'neoecoae:energized_fluix_crystal_dust', count: 1 },
@@ -90,27 +99,6 @@ ServerEvents.recipes(event => {
     pressure: 10.0,
     results: [
       { id: 'neoecoae:energized_superconductive_ingot', count: 1 }
-    ]
-  })
-  event.recipes.pneumaticcraft.pressure_chamber({
-    inputs: [
-      { item: 'extendedae_plus:infinity_core', count: 1 },
-      { item: 'extendedae_plus:oblivion_singularity', count: 4 },
-      { item: 'minecraft:netherite_block', count: 8 },
-      { item: 'appliedcreate:stress_storage_cell_256m', count: 5 },
-      { item: 'megacells:source_storage_cell_256m', count: 5 },
-      { item: 'megacells:chemical_storage_cell_256m', count: 5 },
-      { item: 'megacells:fluid_storage_cell_256m', count: 5 },
-      { item: 'megacells:item_storage_cell_256m', count: 5 },
-      { item: 'appflux:fe_256m_cell', count: 5 },
-      { item: 'appliedpneumatics:air_cell_256m', count: 5 },
-      { item: 'ae2omnicells:quantum_omni_cell_256m', count: 5 },
-      { item: 'ae2omnicells:complex_omni_cell_256m', count: 5 },
-      { item: 'ae2omnicells:omni_cell_256m', count: 5 }
-    ],
-    pressure: 19.0,
-    results: [
-      { id: 'extendedae_plus:infinity_biginteger_cell', count: 1 }
     ]
   })
 });

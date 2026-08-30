@@ -1,9 +1,6 @@
-// mysticalagriculture/copper_alloy.js
-// ─────────────────────────────────────────────────────────
-// 离魂原石（mysticalagriculture:soulstone_cobble）合成配方
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/mysticalagriculture/copper_alloy.js
 ServerEvents.recipes(event => {
+    // mysticalagriculture:soulium_dust → mysticalagriculture:soulstone_cobble
     event.shaped('mysticalagriculture:soulstone_cobble', [
         'AB ',
         '   ',

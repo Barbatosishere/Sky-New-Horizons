@@ -1,8 +1,5 @@
-// cookingforblockheads/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除水槽原版配方（被自定义配方替代）
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/cookingforblockheads/removes.js
 ServerEvents.recipes(event => {
+    // 移除配方 cookingforblockheads:sink
     event.remove({ id: 'cookingforblockheads:sink' });
 });

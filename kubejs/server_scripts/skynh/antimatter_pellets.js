@@ -1,12 +1,7 @@
-// skynh/antimatter_pellets.js
-// ─────────────────────────────────────────────────────────
-// 反物质梯度（mek: 命名空间）合成链：
-//   tiny → small → fragment → pellet_antimatter
-// 注：这些物品的纹理在 assets/mek/textures/item/ 下。
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/skynh/antimatter_pellets.js
 ServerEvents.recipes(event => {
 
+    // mek:mekanism_fragment_antimatter → mekanism:pellet_antimatter
     event.shaped('mekanism:pellet_antimatter', [
         '###',
         '###',
@@ -15,6 +10,7 @@ ServerEvents.recipes(event => {
         '#': 'mek:mekanism_fragment_antimatter'
     });
 
+    // mek:mekanism_small_antimatter → mek:mekanism_fragment_antimatter
     event.shaped('mek:mekanism_fragment_antimatter', [
         '###',
         '###',
@@ -23,6 +19,7 @@ ServerEvents.recipes(event => {
         '#': 'mek:mekanism_small_antimatter'
     });
 
+    // mek:mekanism_tiny_antimatter → mek:mekanism_small_antimatter
     event.shaped('mek:mekanism_small_antimatter', [
         '###',
         '###',

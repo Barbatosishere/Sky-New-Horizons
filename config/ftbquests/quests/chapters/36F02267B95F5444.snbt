@@ -140,6 +140,11 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"12B534FF54982A03"
+				"110AAED954C6E823"
+			]
+			dependency_requirement: "one_completed"
 			id: "6DA0637AAAB84975"
 			tasks: [
 				{

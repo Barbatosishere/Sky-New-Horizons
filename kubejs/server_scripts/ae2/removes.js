@@ -1,24 +1,28 @@
-// ae2/removes.js
-// ─────────────────────────────────────────────────────────
-// 移除原版 AE2 印刷件 / 处理器 / 压印模板配方
-// 替代方案见 skynh/processors_sequenced_assembly.js
-// ─────────────────────────────────────────────────────────
-
+// server_scripts/ae2/removes.js
 ServerEvents.recipes(event => {
-    // 印刷件
+
+    // 移除配方 ae2:inscriber/calculation_processor_print
     event.remove({ id: 'ae2:inscriber/calculation_processor_print' });
+    // 移除配方 ae2:inscriber/engineering_processor_print
     event.remove({ id: 'ae2:inscriber/engineering_processor_print' });
+    // 移除配方 ae2:inscriber/logic_processor_print
     event.remove({ id: 'ae2:inscriber/logic_processor_print' });
+    // 移除配方 ae2:inscriber/silicon_print
     event.remove({ id: 'ae2:inscriber/silicon_print' });
 
-    // 处理器
+    // 移除配方 ae2:inscriber/logic_processor
     event.remove({ id: 'ae2:inscriber/logic_processor' });
+    // 移除配方 ae2:inscriber/calculation_processor
     event.remove({ id: 'ae2:inscriber/calculation_processor' });
+    // 移除配方 ae2:inscriber/engineering_processor
     event.remove({ id: 'ae2:inscriber/engineering_processor' });
 
-    // 压印模板
+    // 移除配方 ae2:inscriber/calculation_processor_press
     event.remove({ id: 'ae2:inscriber/calculation_processor_press' });
+    // 移除配方 ae2:inscriber/engineering_processor_press
     event.remove({ id: 'ae2:inscriber/engineering_processor_press' });
+    // 移除配方 ae2:inscriber/logic_processor_press
     event.remove({ id: 'ae2:inscriber/logic_processor_press' });
+    // 移除配方 ae2:inscriber/silicon_press
     event.remove({ id: 'ae2:inscriber/silicon_press' });
 });
