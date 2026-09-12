@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     ], {
         B: 'pneumaticcraft:compressed_iron_block',
         A: 'ae2:cell_component_256k',
-        C: 'avaritia:dense_neutron_compressor',
+        C: 'avaritia:denser_neutron_compressor',
         D: 'ae2omnicells:multidimensional_expansion_processor'
     });
 
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'pneumaticcraft:compressed_iron_block',
         B: 'ae2:cell_component_256k',
-        C: 'avaritia:dense_neutron_compressor',
+        C: 'avaritia:denser_neutron_compressor',
         D: 'ae2omnicells:multidimensional_expansion_processor'
     });
 });

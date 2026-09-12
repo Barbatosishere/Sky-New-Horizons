@@ -51,6 +51,8 @@ draconicevolution:end_draconium_ore
 draconicevolution:nether_draconium_ore
 draconicevolution:overworld_draconium_ore
 enchantplus:seiors_oblivion
+enderio_evolution:silver_ore
+enderio_evolution:silver_ore_buried
 farmersdelight:patch_brown_mushroom_colony
 farmersdelight:patch_red_mushroom_colony
 farmersdelight:patch_sandy_shrub

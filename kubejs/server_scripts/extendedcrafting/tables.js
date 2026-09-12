@@ -8,4 +8,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extendedcrafting:elite_table' });
     // 移除配方 extendedcrafting:ultimate_table
     event.remove({ id: 'extendedcrafting:ultimate_table' });
+    // 移除配方 extendedcrafting:compression_table
+    event.remove({ id: 'extendedcrafting:compressor' });
 });

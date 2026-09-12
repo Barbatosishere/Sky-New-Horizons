@@ -5,3 +5,17 @@
 	enableFluidCustomFrequency = true
 	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
 	enableChemicalCustomFrequency = true
+
+[Optimization]
+	#Max sleep ticks for Item Conduits when empty/full.
+	# Default: 40
+	# Range: 1 ~ 1200
+	itemMaxSleep = 40
+	#Max sleep ticks for Fluid Conduits when empty/full.
+	# Default: 40
+	# Range: 1 ~ 1200
+	fluidMaxSleep = 40
+	#Max sleep ticks for Chemical Conduits when empty/full.
+	# Default: 40
+	# Range: 1 ~ 1200
+	chemicalMaxSleep = 40

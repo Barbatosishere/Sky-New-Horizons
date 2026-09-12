@@ -120,7 +120,27 @@ const ITEMS_TO_HIDE = [
     "justdirethings:generatorfluidt1",
     "justdirethings:pocket_generator",
     "mysticalagriculture:copper_alloy_seeds" ,
-    "mysticalagriculture:copper_alloy_essence"
+    "mysticalagriculture:copper_alloy_essence",
+    "extendedcrafting:bronze",
+    "extendedcrafting:electrum",
+    "extendedcrafting:invar",
+    "extendedcrafting:steel",
+    "extendedcrafting:lapis_lazuli",
+    "extendedcrafting:emerald",
+    "extendedcrafting:coal",
+    "extendedcrafting:redstone",
+    "extendedcrafting:aluminum",
+    "extendedcrafting:silver",
+    "extendedcrafting:tin",
+    "extendedcrafting:diamond",
+    "extendedcrafting:platinum",
+    "extendedcrafting:copper",
+    "extendedcrafting:iron",
+    "extendedcrafting:lead",
+    "extendedcrafting:nickel",
+    "extendedcrafting:gold",
+    "extendedcrafting:glowstone",
+    "extendedcrafting:ultimate_singularity"
 ];
 
 RecipeViewerEvents.removeEntries('item', event => {

@@ -67,6 +67,11 @@
   "waystones": {
     "waystone": true
   },
+  "jdte": {
+    "advanced_energy_transmitter_status": true,
+    "installed_upgrades": true,
+    "mineral_extractor_status": true
+  },
   "appliedcreate": {
     "grid_node_state": true,
     "power_storage": true
@@ -259,9 +264,6 @@
     "maid": true,
     "shrine_lamp": true
   },
-  "quark": {
-    "oretoise_eating_cooldown": true
-  },
   "gravestone": {
     "grave": true
   },
@@ -290,11 +292,17 @@
   "modularrouters": {
     "router": true
   },
+  "enderio_evolution": {
+    "capacitor_bank_render": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "enderio_conduit_opt": {
     "item_conduit_info": true
+  },
+  "useless_mod": {
+    "advanced_alloy_furnace_tasks": true
   },
   "packaged_faa": {
     "hephaestus.log": true,

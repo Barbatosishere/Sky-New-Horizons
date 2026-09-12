@@ -11,7 +11,11 @@
                 ingredient: { item: crushedNetherrack },
                 mesh: { item: 'exdeorum:string_mesh' },
                 result: { id: chunkId },
-                result_amount: { min: 0, max: 1 }
+            result_amount: {                          
+        type: "minecraft:binomial",
+        n: 1.0,                               
+        p: 0.12                                 
+    }
             });
 
     // ? → ?  [sieve]
@@ -29,7 +33,7 @@
         ingredient: { item: crushedNetherrack },
         mesh: { item: 'exdeorum:iron_mesh' },
         result: { id: chunkId },
-        result_amount: { min: 0, max: 4 }   
+        result_amount: { min: 0, max: 3 }   
     });
 
     // ? → ?  [sieve]
@@ -38,7 +42,7 @@
         ingredient: { item: crushedNetherrack },
         mesh: { item: 'exdeorum:golden_mesh' },
         result: { id: chunkId },
-        result_amount:{ min: 0, max: 6 } 
+        result_amount:{ min: 0, max: 4 } 
     });
 
     // ? → ?  [sieve]
@@ -47,7 +51,7 @@
         ingredient: { item: crushedNetherrack },
         mesh: { item: 'exdeorum:diamond_mesh' },
         result: { id: chunkId },
-        result_amount: { min: 0, max: 8 }   
+        result_amount: { min: 0, max: 6 }   
       });
 
     // ? → ?  [sieve]
@@ -56,7 +60,7 @@
         ingredient: { item: crushedNetherrack },
         mesh: { item: 'exdeorum:netherite_mesh' },
         result: { id: chunkId },
-        result_amount: { min: 0, max: 12 } 
+        result_amount: { min: 0, max: 8 } 
     });
     })
     });

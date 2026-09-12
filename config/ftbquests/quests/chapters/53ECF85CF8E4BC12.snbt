@@ -420,5 +420,16 @@
 			x: 2.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["2511453F89E7636F"]
+			id: "2DF0B755369BB962"
+			tasks: [{
+				id: "4499A989B14667FD"
+				item: { count: 1, id: "pneumaticcraft:drone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
 	]
 }

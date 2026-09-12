@@ -1,5 +1,5 @@
 // client_scripts/title.js
-const TITLE = 'SkyNH 0.3.7-beta';
+const TITLE = 'SkyNH 0.3.7';
 
 let osName = '';
 try {
