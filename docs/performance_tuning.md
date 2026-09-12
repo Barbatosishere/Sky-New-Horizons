@@ -12,7 +12,7 @@
 - `MaxMemAlloc=12288`（12 GiB）
 - `JvmArgs=` 保持为空
 
-本机物理内存约 32 GiB，因此 12 GiB 最大堆可以为 Windows、显卡和其他程序保留余量。没有把其他实例的 ZGC、`AlwaysPreTouch` 或长串 GC 参数复制到这个 NeoForge 实例；Java 21 默认 G1GC 是更保守的兼容选择。
+不要把最小堆留在 8 MB，也不要把最大堆提到 16 GiB。8 MB 初始堆会在启动后反复扩容；16 GiB 最大堆会挤占 Windows、显卡驱动和其他程序。本机物理内存约 32 GiB 时，6/12 GiB 与 `profiles/performance/high.json` 一致。没有把其他实例的 ZGC、`AlwaysPreTouch` 或长串 GC 参数复制到这个 NeoForge 实例；Java 21 默认 G1GC 是更保守的兼容选择。
 
 ### 客户端档位
 
@@ -68,11 +68,15 @@
 
 ### Dynamic FPS
 
-主要降低失焦或后台运行时的 FPS、功耗和发热，不会提升前台游戏性能。适合笔记本或经常切出游戏的场景。
+当前已加入 `dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar`。它降低失焦、最小化或后台运行时的 CPU/GPU 占用，不会提高前台 FPS。Cloth Config 已安装，可在游戏内改配置。
 
 ### Clumps
 
-只有存在高产经验农场、经验球数量很多时才值得测试；否则收益有限。
+当前已加入 `Clumps-neoforge-1.21.1-19.0.0.1.jar`。它合并经验球，适合刷怪塔和经验农场；不是通用 TPS 优化。
+
+### ServerCore
+
+当前已加入 `servercore-neoforge-1.5.19+1.21.1.jar`。先保持默认配置。不要启用实体激活范围、自动降低视距/模拟距离、刷怪上限或村民 tick 限制，这些会改变 Create、AE2、Mekanism 和 FTB Chunks 强制加载区域的行为。
 
 ### Chunky
 

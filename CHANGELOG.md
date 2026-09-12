@@ -1,16 +1,35 @@
 # Sky New Horizons - 更新日志
 
-> 当前版本：**SkyNH 0.3.8-beta**  
+> 当前版本：**SkyNH 0.3.9-beta**  
 > Minecraft 版本：1.21.1 (NeoForge)  
 > 仓库：[Barbatosishere/Sky-New-Horizons](https://github.com/Barbatosishere/Sky-New-Horizons)
+
+---
+
+## v0.3.9-beta (2026-09-12)
+
+### ⚙️ 启动与仓库
+- Prism Launcher `instance.cfg` 内存改为 `MinMemAlloc=6144`、`MaxMemAlloc=12288`，与 high 档文档一致；不再使用 8 MB 初始堆 / 16 GiB 最大堆
+- `.gitignore` 增加 `.zcode/`、`nul`、`IntelliJ IDEA*/`、`*.bak`
+- 删除 IDE 缓存、空 `nul` 文件、配置 `.bak`，以及已卸载 Mod 的残留配置（Advanced Rocketry、CC: Tweaked、CCCBridge、JAMD、Extended Compressor、Re-Endergy、KEnergy、Lingua Peripherals、Title Changer、Default World Type、Reliable Recipes、Better Advanced Tooltips、libIPN、Fabric Indigo）
+
+### 🚀 性能 Mod
+- 新增 Dynamic FPS `3.11.4`（客户端后台降载）
+- 新增 Clumps `19.0.0.1`（经验球合并）
+- 新增 ServerCore `1.5.19+1.21.1`（服务端默认优化；不启用会改变游戏规则的动态距离/实体限制）
+
+### 📜 当前配方状态（与 0.3.8 日志对账）
+- `mekmm/stamper_recipes.js` 当前是 5 组板材 × 2 种模具（金/铁用原版锭，黄铜、铜、reggarfonite），不是 19 条 IE 板完整表
+- ECO 集成工作站配方已恢复到 `kubejs/server_scripts/ECO/aeintegrated_working_station.js`
+- `productivebees/removes.js` 已从工作区删除，只保留 `honey_generator.js`
 
 ---
 
 ## v0.3.8-beta (2026-08-30)
 
 ### 🐛 Bug 修复
-- **修复 mekmm CNC 压模机 19 条板类压模配方 ReferenceError**：覆盖 `kubejs/server_scripts/mekmm/stamper_recipes.js` 为完整版本，金板严格使用 `minecraft:gold_ingot`（不再因 c:ingots/gold 标签被 AlmostUnified 改写为 brass_ingot），铁板/金板严格使用 minecraft 原版锭，其余 9 种金属板使用 `#c:ingots/*` 标签
-- **移除 ECO 集成工作站**（`neoecoae:integrated_working_station`）：删除 `kubejs/server_scripts/neoecoae/integrated_working_station.js` 配方文件及 `removes.js` 中对应 `event.remove` 调用
+- **修复 mekmm CNC 压模机配方 ReferenceError**：`stamper_recipes.js` 金板/铁板使用 `minecraft:gold_ingot` / `minecraft:iron_ingot`，避免 AlmostUnified 把金锭标签改写成黄铜
+- **当时移除 ECO 集成工作站**（`neoecoae:integrated_working_station`）：删除旧 `neoecoae/integrated_working_station.js` 及对应 `event.remove`。该配方在后续工作中已改放到 `ECO/aeintegrated_working_station.js`
 - **修复 `extendedae_plus:infinity_biginteger_cell` 配方**：用 avaritia `infinity_crafting`（4×4 超维工作台）重写，输入 5 大类 256m 存储元件 + netherite_block + oblivion_singularity + infinity_core，输出 `extendedae_plus:infinity_biginteger_cell ×1`
 - **`productivebees/removes.js` 清理 4 个不存在物品的 event.remove 警告**（quark 系列蜂箱/扩展箱）
 - **JEI 取消隐藏** `extendedae_plus:infinity_biginteger_cell`（从 `hide_lowtier_generators.js` 移除）
@@ -238,6 +257,7 @@
 
 | 版本         | 日期         | 主要变更                              |
 |------------|------------|-----------------------------------|
+| 0.3.9-beta | 2026-09-12 | 修正 Java 内存、清理卸载残留、加入 Dynamic FPS / Clumps / ServerCore |
 | 0.3.8-beta | 2026-08-30 | 修复 mekmm 压模 ReferenceError、移除 ECO 集成工作站、重写 ExtendedAE+ infinity 配方、注释清理 |
 | 0.3.7-beta | 2026-08-06 | 大量 Mod 更新/新增、配方重做、中子素蜜蜂、任务更新 |
 | 0.3.6      | 2026-06-29 | Apotheosis 附魔兼容、EnderIO 配置、Mod 更新 |

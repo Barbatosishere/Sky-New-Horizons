@@ -1,6 +1,12 @@
 # IDE / Editor
 .idea/
 .vscode/
+.zcode/
+nul
+IntelliJ IDEA*/
+
+# Config backups
+*.bak
 
 # Probe / Decompiler
 .probe/
