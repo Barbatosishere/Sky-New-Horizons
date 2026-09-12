@@ -76,7 +76,7 @@
 
 ### ServerCore
 
-当前已加入 `servercore-neoforge-1.5.19+1.21.1.jar`。先保持默认配置。不要启用实体激活范围、自动降低视距/模拟距离、刷怪上限或村民 tick 限制，这些会改变 Create、AE2、Mekanism 和 FTB Chunks 强制加载区域的行为。
+已从 `mods/` 移除。默认配置几乎没有可感知收益；实体激活范围、动态视距/模拟距离、刷怪上限或村民 tick 限制会改变 Create、AE2、Mekanism 和 FTB Chunks 强制加载区域的行为，不适合本包。
 
 ### Chunky
 

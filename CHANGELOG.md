@@ -12,11 +12,13 @@
 - Prism Launcher `instance.cfg` 内存改为 `MinMemAlloc=6144`、`MaxMemAlloc=12288`，与 high 档文档一致；不再使用 8 MB 初始堆 / 16 GiB 最大堆
 - `.gitignore` 增加 `.zcode/`、`nul`、`IntelliJ IDEA*/`、`*.bak`
 - 删除 IDE 缓存、空 `nul` 文件、配置 `.bak`，以及已卸载 Mod 的残留配置（Advanced Rocketry、CC: Tweaked、CCCBridge、JAMD、Extended Compressor、Re-Endergy、KEnergy、Lingua Peripherals、Title Changer、Default World Type、Reliable Recipes、Better Advanced Tooltips、libIPN、Fabric Indigo）
+- 二轮清扫：删除 Avaritia Expand 残留配置及 Advanced Rocketry / CC: Tweaked / KEnergy / Lingua Peripherals / Re-Endergy 的 Ex Deorum 堆肥颜色表（对应 Mod 均已卸载）
+- `.packignore` 补充 `.cache`、`.gitignore`、`crash-reports`、`ldlib2`、`logs`、`spark`、`texturepacks`、`patchouli_data.json`，导出整合包时自动排除
 
 ### 🚀 性能 Mod
 - 新增 Dynamic FPS `3.11.4`（客户端后台降载）
 - 新增 Clumps `19.0.0.1`（经验球合并）
-- 新增 ServerCore `1.5.19+1.21.1`（服务端默认优化；不启用会改变游戏规则的动态距离/实体限制）
+- 已移除 ServerCore：默认配置对当前包没有可感知收益，行为改变选项又不适合 Create / AE2 / Mekanism / FTB Chunks
 
 ### 📜 当前配方状态（与 0.3.8 日志对账）
 - `mekmm/stamper_recipes.js` 当前是 5 组板材 × 2 种模具（金/铁用原版锭，黄铜、铜、reggarfonite），不是 19 条 IE 板完整表
@@ -257,7 +259,7 @@
 
 | 版本         | 日期         | 主要变更                              |
 |------------|------------|-----------------------------------|
-| 0.3.9-beta | 2026-09-12 | 修正 Java 内存、清理卸载残留、加入 Dynamic FPS / Clumps / ServerCore |
+| 0.3.9-beta | 2026-09-12 | 修正 Java 内存、清理卸载残留、加入 Dynamic FPS / Clumps，移除无收益的 ServerCore |
 | 0.3.8-beta | 2026-08-30 | 修复 mekmm 压模 ReferenceError、移除 ECO 集成工作站、重写 ExtendedAE+ infinity 配方、注释清理 |
 | 0.3.7-beta | 2026-08-06 | 大量 Mod 更新/新增、配方重做、中子素蜜蜂、任务更新 |
 | 0.3.6      | 2026-06-29 | Apotheosis 附魔兼容、EnderIO 配置、Mod 更新 |
