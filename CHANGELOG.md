@@ -6,54 +6,7 @@
 
 ---
 
-## v0.3.7 (2026-08-06 — 2026-09-12)
-
-### ⚙️ 启动与仓库
-- Prism Launcher `instance.cfg` 内存改为 `MinMemAlloc=6144`、`MaxMemAlloc=12288`，与 high 档文档一致；不再使用 8 MB 初始堆 / 16 GiB 最大堆
-- `.gitignore` 增加 `.zcode/`、`nul`、`IntelliJ IDEA*/`、`*.bak`
-- 删除 IDE 缓存、空 `nul` 文件、配置 `.bak`，以及已卸载 Mod 的残留配置（Advanced Rocketry、CC: Tweaked、CCCBridge、JAMD、Extended Compressor、Re-Endergy、KEnergy、Lingua Peripherals、Title Changer、Default World Type、Reliable Recipes、Better Advanced Tooltips、libIPN、Fabric Indigo）
-- 二轮清扫：删除 Avaritia Expand 残留配置及 Advanced Rocketry / CC: Tweaked / KEnergy / Lingua Peripherals / Re-Endergy 的 Ex Deorum 堆肥颜色表（对应 Mod 均已卸载）
-- `.packignore` 补充 `.cache`、`.gitignore`、`crash-reports`、`ldlib2`、`logs`、`spark`、`texturepacks`、`patchouli_data.json`，导出整合包时自动排除
-
-### 🚀 性能 Mod
-- 新增 Dynamic FPS `3.11.4`（客户端后台降载）
-- 新增 Clumps `19.0.0.1`（经验球合并）
-- 已移除 ServerCore：默认配置对当前包没有可感知收益，行为改变选项又不适合 Create / AE2 / Mekanism / FTB Chunks
-
-### 📜 当前配方状态（与 2026-08-30 记录对账）
-- `mekmm/stamper_recipes.js` 当前是 5 组板材 × 2 种模具（金/铁用原版锭，黄铜、铜、reggarfonite），不是 19 条 IE 板完整表
-- ECO 集成工作站配方已恢复到 `kubejs/server_scripts/ECO/aeintegrated_working_station.js`
-- `productivebees/removes.js` 已从工作区删除，只保留 `honey_generator.js`
-
----
-
-**📅 2026-08-30 更新**
-
-### 🐛 Bug 修复
-- **修复 mekmm CNC 压模机配方 ReferenceError**：`stamper_recipes.js` 金板/铁板使用 `minecraft:gold_ingot` / `minecraft:iron_ingot`，避免 AlmostUnified 把金锭标签改写成黄铜
-- **当时移除 ECO 集成工作站**（`neoecoae:integrated_working_station`）：删除旧 `neoecoae/integrated_working_station.js` 及对应 `event.remove`。该配方在后续工作中已改放到 `ECO/aeintegrated_working_station.js`
-- **修复 `extendedae_plus:infinity_biginteger_cell` 配方**：用 avaritia `infinity_crafting`（4×4 超维工作台）重写，输入 5 大类 256m 存储元件 + netherite_block + oblivion_singularity + infinity_core，输出 `extendedae_plus:infinity_biginteger_cell ×1`
-- **`productivebees/removes.js` 清理 4 个不存在物品的 event.remove 警告**（quark 系列蜂箱/扩展箱）
-- **JEI 取消隐藏** `extendedae_plus:infinity_biginteger_cell`（从 `hide_lowtier_generators.js` 移除）
-- **修复 `voidminers/miner_recipes.js`**：移除多余的 `JsonObject` 包装，将 `the_nethe` 拼写错误修正为 `the_nether`
-
-### 📜 KubeJS 配方调整
-- pneumaticcraft/pressure_chamber.js 增补混沌碎片、超导晶体等压力室配方
-- 几乎所有 `kubejs/server_scripts/` 与 `kubejs/client_scripts/` 注释清理：删除冗余历史注释，按 "X → Y" 翻译风格重写
-- `config/almostunified/unification/materials.json` 新增 11 条 mekmm IE 板兼容配方 ignore ID，防止 AlmostUnified 改写
-- 删除过时的 `config/exdeorum/compost_colors/quark.txt` 和 `config/quark-common.toml`
-
-### ⚙️ 配置调整
-- 更新 FTB Quests 章节与中文语言文件
-- 更新 FTBChunks、JEI 排序、PacketFixer、Sodium Extra、SkyblockBuilder 等配置
-
-### 📋 任务系统
-- 更新若干 FTBQuests 章节与中文语言文件
-- 调整任务图标/触发器配置
-
----
-
-**📅 2026-08-06 更新**
+## v0.3.7 (2026-09-12)
 
 ### 🔧 Mod 更新与新增
 - **批量更新 Mod**（60+ 个），主要包括：
@@ -80,50 +33,69 @@
   - 产出中子素蜂窝，离心可获得中子碎片 (1-5个)
   - 具有凋零效果被动攻击，防火防水
 
+### 🚀 性能 Mod
+- 新增 Dynamic FPS `3.11.4`（客户端后台降载）
+- 新增 Clumps `19.0.0.1`（经验球合并）
+- 移除 ServerCore：默认配置对当前包没有可感知收益，行为改变选项又不适合 Create / AE2 / Mekanism / FTB Chunks
+
+### ⚙️ 启动与仓库
+- Prism Launcher `instance.cfg` 内存改为 `MinMemAlloc=6144`、`MaxMemAlloc=12288`，与 high 档文档一致；不再使用 8 MB 初始堆 / 16 GiB 最大堆
+- `.gitignore` 增加 `.zcode/`、`nul`、`IntelliJ IDEA*/`、`*.bak`
+- 删除 IDE 缓存、空 `nul` 文件、配置 `.bak`，以及已卸载 Mod 的残留配置（Advanced Rocketry、CC: Tweaked、CCCBridge、JAMD、Extended Compressor、Re-Endergy、KEnergy、Lingua Peripherals、Title Changer、Default World Type、Reliable Recipes、Better Advanced Tooltips、libIPN、Fabric Indigo、Avaritia Expand 及其堆肥颜色表）
+- `.packignore` 补充 `.cache`、`.gitignore`、`crash-reports`、`ldlib2`、`logs`、`spark`、`texturepacks`、`patchouli_data.json`，导出整合包时自动排除
+
+### 🐛 Bug 修复
+- **修复 mekmm CNC 压模机配方 ReferenceError**：`stamper_recipes.js` 金板/铁板使用 `minecraft:gold_ingot` / `minecraft:iron_ingot`，避免 AlmostUnified 把金锭标签改写成黄铜；当前压模表为 5 组板材 × 2 种模具（金/铁、黄铜、铜、reggarfonite）
+- **ECO 集成工作站**（`neoecoae:integrated_working_station`）：移除旧配方与脚本，新配方改放到 `kubejs/server_scripts/ECO/aeintegrated_working_station.js`
+- **修复 `extendedae_plus:infinity_biginteger_cell` 配方**：用 avaritia `infinity_crafting`（4×4 超维工作台）重写，输入 5 大类 256m 存储元件 + netherite_block + oblivion_singularity + infinity_core，输出 ×1
+- **JEI 取消隐藏** `extendedae_plus:infinity_biginteger_cell`
+- **修复 `voidminers/miner_recipes.js`**：移除多余的 `JsonObject` 包装，将 `the_nethe` 拼写错误修正为 `the_nether`
+- **删除 `productivebees/removes.js`**：先清理 4 个不存在物品的 quark 蜂箱/扩展箱 event.remove 警告，随后整个文件移除，仅保留 `honey_generator.js`
+
 ### 📜 KubeJS 配方调整
 - **新增配方**：
   - 重载合金毛坯 (ae2lt:overload_alloy_blank)：使用末影之眼、紫水晶碎片、红石、天空之锭、熵之锭、增强红石锭
   - 冶金灌注机 (mekanism:metallurgic_infuser)：使用铁锭、熔炉、红石、钢壳
   - 种植站 (mekmm:planting_station)：通过工业先锋溶解室制作，使用暗耀流体
-  - 铂锭冶炼：Create 粉碎铂矿可通过 blasting 获得
-  - Create 水洗粉碎铂矿配方
+  - 铂锭冶炼：Create 粉碎铂矿可通过 blasting 获得；新增水洗粉碎铂矿配方
+  - pneumaticcraft 压力室增补混沌碎片、超导晶体等配方
 - **移除配方**：
-  - 移除 ECO 超频处理器合成配方
-  - 移除冶金灌注机、种植站原始配方
-  - 移除灵魂火灵魂调谐宝石配方（改为其他获取方式）
-  - 移除重载合金毛坯、Entangled 方块原始配方
-  - 移除 Quark 木质蜂箱/扩展箱配方（无对应木材）
-  - 移除 JustDireThings T1 发电机相关物品
-  - 调整钢铁配方：移除 CreateNuclear 和 ATO 冶炼配方，新增其他途径
+  - ECO 超频处理器合成配方
+  - 冶金灌注机、种植站原始配方
+  - 灵魂火灵魂调谐宝石配方（改为其他获取方式）
+  - 重载合金毛坯、Entangled 方块原始配方
+  - Quark 木质蜂箱/扩展箱配方（无对应木材）
+  - JustDireThings T1 发电机相关物品
+  - 钢铁配方：移除 CreateNuclear 和 ATO 冶炼配方，新增其他途径
 - **配方修改**：
   - 熵之种子配方中灵魂宝石改为三位一体宝石 (trinity_gem)
 - **修复**：
-  - 修复序列组装中过载压印模板的变量引用错误
+  - 序列组装中过载压印模板的变量引用错误
+- 几乎所有 `kubejs/server_scripts/` 与 `kubejs/client_scripts/` 注释清理：删除冗余历史注释，按 "X → Y" 翻译风格重写
 
 ### ⛏️ 虚空采矿机调整
 - 粗艾瑟金属 (Iesnium) 采集等级从 4 降至 3
 - 调整部分矿物采集参数
 
-### 📋 任务系统更新
-- 更新大量 FTBQuests 任务章节配置（20+ 章节）
-- 新增 2 个任务章节
-- 更新任务中文语言文件
-- 更新 FTB 任务数据与客户端配置
+### 📋 任务系统
+- 更新大量 FTBQuests 任务章节配置（20+ 章节），新增 2 个任务章节
+- 更新任务中文语言文件、FTB 任务数据与客户端配置
+- 调整任务图标/触发器配置
 
 ### ⚙️ 配置调整
-- 更新 ae2lt、Avaritia、Flux Overdrive、Dummmmmmy 等 Mod 配置
+- 更新 ae2lt、Avaritia、Flux Overdrive、Dummmmmmy、Explorer's Compass、FarmingForBlockheads、PacketFixer、Sodium Extra、SkyblockBuilder 等 Mod 配置
 - 更新 Apotheosis 名称生成配置
-- 更新 Explorer's Compass、FarmingForBlockheads 配置
-- 新增 EnderIO Conduit Optimizer、EnderIO Evolution、CCCbridge 等配置
-- 新增 JustDireThings、Lingua Peripherals、MBD2、ItemCollectors 等 Mod 配置
+- 新增 EnderIO Conduit Optimizer、EnderIO Evolution、CCCbridge、JustDireThings、Lingua Peripherals、MBD2、ItemCollectors 等 Mod 配置
 - 更新 Compost Colors 新增 Mod 兼容（ComputerCraft、JustDireThings、LinguaPeripherals、MBD2）
 - 更新 JEI、Jade 排序与插件配置
 - 更新 FTBChunks 小地图配置
+- `config/almostunified/unification/materials.json` 新增 11 条 mekmm IE 板兼容配方 ignore ID，防止 AlmostUnified 改写
+- 删除过时的 `config/exdeorum/compost_colors/quark.txt` 和 `config/quark-common.toml`
 
 ### 🎨 资源包与其他
 - 更新中文语言资源包
 - 新增 IntegratedTerminals KubeJS 资源
-- 新增 ae2lt 数据包（中子素energized crystal 过载处理配方）
+- 新增 ae2lt 数据包（中子素 energized crystal 过载处理配方）
 
 ---
 
@@ -259,7 +231,7 @@
 
 | 版本         | 日期         | 主要变更                              |
 |------------|------------|-----------------------------------|
-| 0.3.7 | 2026-08-06 — 09-12 | Mod 批量更新、中子素蜜蜂、KubeJS 配方修复（mekmm/ECO/ExtendedAE+）、内存修正、性能调整与残留清理 |
+| 0.3.7 | 2026-09-12 | Mod 批量更新、中子素蜜蜂、KubeJS 配方修复（mekmm/ECO/ExtendedAE+）、内存修正、性能调整与残留清理 |
 | 0.3.6      | 2026-06-29 | Apotheosis 附魔兼容、EnderIO 配置、Mod 更新 |
 | 0.3.5      | 2026-06-22 | 禁用 BotanyPots 种子掉落、JEI 书签优化       |
 | 0.3.4      | 2026-06-21 | FTBChunks 实体图标、关闭 DE 着色器          |
