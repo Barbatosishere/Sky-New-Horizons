@@ -1,12 +1,12 @@
 # Sky New Horizons - 更新日志
 
-> 当前版本：**SkyNH 0.3.9-beta**  
+> 当前版本：**SkyNH 0.3.7**  
 > Minecraft 版本：1.21.1 (NeoForge)  
 > 仓库：[Barbatosishere/Sky-New-Horizons](https://github.com/Barbatosishere/Sky-New-Horizons)
 
 ---
 
-## v0.3.9-beta (2026-09-12)
+## v0.3.7 (2026-08-06 — 2026-09-12)
 
 ### ⚙️ 启动与仓库
 - Prism Launcher `instance.cfg` 内存改为 `MinMemAlloc=6144`、`MaxMemAlloc=12288`，与 high 档文档一致；不再使用 8 MB 初始堆 / 16 GiB 最大堆
@@ -20,14 +20,14 @@
 - 新增 Clumps `19.0.0.1`（经验球合并）
 - 已移除 ServerCore：默认配置对当前包没有可感知收益，行为改变选项又不适合 Create / AE2 / Mekanism / FTB Chunks
 
-### 📜 当前配方状态（与 0.3.8 日志对账）
+### 📜 当前配方状态（与 2026-08-30 记录对账）
 - `mekmm/stamper_recipes.js` 当前是 5 组板材 × 2 种模具（金/铁用原版锭，黄铜、铜、reggarfonite），不是 19 条 IE 板完整表
 - ECO 集成工作站配方已恢复到 `kubejs/server_scripts/ECO/aeintegrated_working_station.js`
 - `productivebees/removes.js` 已从工作区删除，只保留 `honey_generator.js`
 
 ---
 
-## v0.3.8-beta (2026-08-30)
+**📅 2026-08-30 更新**
 
 ### 🐛 Bug 修复
 - **修复 mekmm CNC 压模机配方 ReferenceError**：`stamper_recipes.js` 金板/铁板使用 `minecraft:gold_ingot` / `minecraft:iron_ingot`，避免 AlmostUnified 把金锭标签改写成黄铜
@@ -53,7 +53,7 @@
 
 ---
 
-## v0.3.7-beta (2026-08-06)
+**📅 2026-08-06 更新**
 
 ### 🔧 Mod 更新与新增
 - **批量更新 Mod**（60+ 个），主要包括：
@@ -259,9 +259,7 @@
 
 | 版本         | 日期         | 主要变更                              |
 |------------|------------|-----------------------------------|
-| 0.3.9-beta | 2026-09-12 | 修正 Java 内存、清理卸载残留、加入 Dynamic FPS / Clumps，移除无收益的 ServerCore |
-| 0.3.8-beta | 2026-08-30 | 修复 mekmm 压模 ReferenceError、移除 ECO 集成工作站、重写 ExtendedAE+ infinity 配方、注释清理 |
-| 0.3.7-beta | 2026-08-06 | 大量 Mod 更新/新增、配方重做、中子素蜜蜂、任务更新 |
+| 0.3.7 | 2026-08-06 — 09-12 | Mod 批量更新、中子素蜜蜂、KubeJS 配方修复（mekmm/ECO/ExtendedAE+）、内存修正、性能调整与残留清理 |
 | 0.3.6      | 2026-06-29 | Apotheosis 附魔兼容、EnderIO 配置、Mod 更新 |
 | 0.3.5      | 2026-06-22 | 禁用 BotanyPots 种子掉落、JEI 书签优化       |
 | 0.3.4      | 2026-06-21 | FTBChunks 实体图标、关闭 DE 着色器          |
