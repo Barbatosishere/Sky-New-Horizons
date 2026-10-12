@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "003B48A4848F382C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6CC4D64F87F53421"
@@ -30,6 +31,7 @@
 		{
 			dependencies: ["003B48A4848F382C"]
 			id: "73364B56D2705ACC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "19541F9C97DB363A"
 				item: { count: 1, id: "ars_nouveau:source_gem" }
@@ -41,6 +43,7 @@
 		{
 			dependencies: ["5CA25B1745E85D27"]
 			id: "38521A248FAE29D4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7E9BE3039795FF21"
 				item: { count: 1, id: "ars_nouveau:scribes_table" }
@@ -52,6 +55,7 @@
 		{
 			dependencies: ["0DF04869DC8607E4"]
 			id: "5B02260B0E9B0F3A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "11FC0CDDF568C2F5"
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
@@ -63,6 +67,7 @@
 		{
 			dependencies: ["73364B56D2705ACC"]
 			id: "0757F5BE8C9BF94E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77F619C5F565C798"
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
@@ -74,6 +79,7 @@
 		{
 			dependencies: ["0757F5BE8C9BF94E"]
 			id: "27AA81F8A3ECA17A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 8L
 				id: "22BEF7BE90C7B319"
@@ -86,6 +92,7 @@
 		{
 			dependencies: ["27AA81F8A3ECA17A"]
 			id: "65E7CC2BB891B8C8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "18BB27896CAAC07D"
@@ -104,6 +111,7 @@
 		{
 			dependencies: ["27AA81F8A3ECA17A"]
 			id: "0DF04869DC8607E4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "158813713BEE6588"
 				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
@@ -115,6 +123,7 @@
 		{
 			dependencies: ["5B02260B0E9B0F3A"]
 			id: "1562F83A5B6901AC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2524E8DEF718148F"
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
@@ -126,6 +135,7 @@
 		{
 			dependencies: ["73364B56D2705ACC"]
 			id: "038B81912865A971"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "412B4DFFD2863A45"
@@ -167,6 +177,7 @@
 		}
 		{
 			id: "5CA25B1745E85D27"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "18D4F649137D7F58"
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
@@ -178,6 +189,7 @@
 		{
 			dependencies: ["5CA25B1745E85D27"]
 			id: "4A06D15E880CF4AE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "72150255775EEF49"
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
@@ -189,6 +201,7 @@
 		{
 			dependencies: ["4A06D15E880CF4AE"]
 			id: "1F9B4CD77DC86F48"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7722D6A60369981D"
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
@@ -200,6 +213,7 @@
 		{
 			dependencies: ["65E7CC2BB891B8C8"]
 			id: "5C838F9D31E0F932"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1E529B38282DBBE4"
 				item: { count: 1, id: "ars_nouveau:dominion_wand" }
@@ -211,6 +225,7 @@
 		{
 			dependencies: ["5C838F9D31E0F932"]
 			id: "5250ECAAB1F4DD96"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B0393A923DBBD96"
 				item: { count: 1, id: "ars_nouveau:relay" }
@@ -225,6 +240,7 @@
 				"5C838F9D31E0F932"
 			]
 			id: "63243036BE5E1800"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 128

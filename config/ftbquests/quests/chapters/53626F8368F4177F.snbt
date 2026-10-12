@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "6CB78571D73B6326"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 2L
 				id: "3A8855E40697D9D3"
@@ -24,6 +25,7 @@
 		{
 			dependencies: ["6CB78571D73B6326"]
 			id: "3CCF235055DB20C9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "24FC393ABCFC48A7"
 				item: { count: 1, id: "apotheosis:salvaging_table" }
@@ -38,6 +40,7 @@
 				"5FD50672CA517046"
 			]
 			id: "5E80B5F4855A92AB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B3C0F513A489A00"
 				item: { count: 1, id: "apotheosis:iron_upgrade_smithing_template" }
@@ -52,6 +55,7 @@
 				"0F5C9909B7350459"
 			]
 			id: "474FC5E9DC48F312"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6F6D48C4A0A1E74F"
 				item: { count: 1, id: "apotheosis:gold_upgrade_smithing_template" }
@@ -66,6 +70,7 @@
 				"23C8064B2DAEA040"
 			]
 			id: "0A3A8BBCA1094C50"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1507DC8311CFF6A5"
 				item: { count: 1, id: "apotheosis:diamond_upgrade_smithing_template" }
@@ -80,6 +85,7 @@
 				"516F44FE1C9F6F55"
 			]
 			id: "7A4067BA75315E48"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "341CFE2B068C36EC"
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
@@ -91,6 +97,7 @@
 		{
 			dependencies: ["3CCF235055DB20C9"]
 			id: "5FD50672CA517046"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A7879167FC5EE3D"
 				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
@@ -102,6 +109,7 @@
 		{
 			dependencies: ["5FD50672CA517046"]
 			id: "0F5C9909B7350459"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "266DC32DDF5DEEE1"
 				item: { count: 1, id: "apotheosis:timeworn_fabric" }
@@ -113,6 +121,7 @@
 		{
 			dependencies: ["0F5C9909B7350459"]
 			id: "23C8064B2DAEA040"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "013F595C89C08BEC"
 				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
@@ -124,6 +133,7 @@
 		{
 			dependencies: ["23C8064B2DAEA040"]
 			id: "516F44FE1C9F6F55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7DBA0504316200CD"
 				item: { count: 1, id: "apotheosis:arcane_sands" }
@@ -135,6 +145,7 @@
 		{
 			dependencies: ["516F44FE1C9F6F55"]
 			id: "06D2F948F60C66D1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "30D5EF2CA5C927E3"
 				item: { count: 1, id: "apotheosis:godforged_pearl" }
@@ -146,6 +157,7 @@
 		{
 			dependencies: ["63AE24D98543F689"]
 			id: "384B5ADAE9A9D0EC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2C1D90DC8487871E"
 				item: { count: 1, id: "mob_grinding_utils:saw" }
@@ -156,6 +168,7 @@
 		}
 		{
 			id: "63AE24D98543F689"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "189F8EB80E707F30"
 				item: { count: 1, id: "mob_grinding_utils:spikes" }
@@ -166,6 +179,7 @@
 		}
 		{
 			id: "671D301AF9AC3BCD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "207D9491778A626D"
 				item: { count: 1, id: "mob_grinding_utils:fan" }
@@ -176,6 +190,7 @@
 		}
 		{
 			id: "5BE1F21E473B24AC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "269CDD8B8A6F1794"
 				item: { count: 1, id: "mekanism:cardboard_box" }
@@ -187,6 +202,7 @@
 		{
 			dependencies: ["6CB78571D73B6326"]
 			id: "3F7CA77E56BA0753"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "37F1E235E574E1A6"
 				item: { count: 1, id: "apotheosis:simple_reforging_table" }
@@ -198,6 +214,7 @@
 		{
 			dependencies: ["3F7CA77E56BA0753"]
 			id: "57CBF46CB300BA20"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0999D8596BF964C0"
 				item: { count: 1, id: "apotheosis:reforging_table" }
@@ -209,6 +226,7 @@
 		{
 			dependencies: ["06D2F948F60C66D1"]
 			id: "68B15C15DED87B98"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0075A002E7ACF3B3"
 				item: { count: 1, id: "apotheosis:augmenting_table" }
@@ -220,6 +238,7 @@
 		{
 			dependencies: ["6CB78571D73B6326"]
 			id: "71C3D6F547C07064"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1B33C6FA9D5C0134"
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
@@ -231,6 +250,7 @@
 		{
 			dependencies: ["7A15580B2C3FA5F3"]
 			id: "4896FE22E8F71EED"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "271D570351AC2148"
 				item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }

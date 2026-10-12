@@ -1,0 +1,5 @@
+// Compost colors for pipez_optimizer. You may add your own colors, change existing ones, or remove colors that aren't needed.
+atm_upgrade, #b2c81e
+stellar_upgrade, #d7e6a5
+unobtainium_upgrade, #75379e
+vibranium_upgrade, #759a84

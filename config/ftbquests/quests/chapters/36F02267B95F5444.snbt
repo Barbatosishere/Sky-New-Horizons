@@ -13,6 +13,7 @@
 		{
 			dependencies: ["6DA0637AAAB84975"]
 			id: "00D62AF45A3E525E"
+			quest_enhance_disable_scroll_paging: false
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -32,6 +33,7 @@
 				"00D62AF45A3E525E"
 			]
 			id: "79A2922165273A1D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1CD8BEDFA6CAB09A"
 				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
@@ -42,6 +44,7 @@
 		}
 		{
 			id: "18AB92E651785B27"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "708C507BD876638D"
 				item: { count: 1, id: "productivebees:centrifuge" }
@@ -52,6 +55,7 @@
 		}
 		{
 			id: "12171F9C7F516BAC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "20A2EA186B10388C"
 				item: { count: 1, id: "productivebees:feeder" }
@@ -62,6 +66,7 @@
 		}
 		{
 			id: "753601178751E2DB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "181077A715979E8F"
 				item: { count: 1, id: "minecraft:sponge" }
@@ -72,6 +77,7 @@
 		}
 		{
 			id: "338DA020949420A8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "663FD188BAB7704B"
 				item: { count: 1, id: "productivebees:expansion_box_oak" }
@@ -87,6 +93,7 @@
 				"0471AC6173B69752"
 			]
 			id: "479460BDC9CDC5AB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3C099792A51EB155"
 				item: { count: 1, id: "productivelib:upgrade_base" }
@@ -98,6 +105,7 @@
 		{
 			dependencies: ["479460BDC9CDC5AB"]
 			id: "3DCD018BB66E1F55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "78849C5E5BD875B9"
 				item: { count: 1, id: "productivelib:upgrade_time" }
@@ -109,6 +117,7 @@
 		{
 			dependencies: ["3DCD018BB66E1F55"]
 			id: "6FE5F03C39ACE8EE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6469AF80D73BE47A"
 				item: { count: 1, id: "productivelib:upgrade_time_2" }
@@ -120,6 +129,7 @@
 		{
 			dependencies: ["6DA0637AAAB84975"]
 			id: "78A06FB988CD6EBD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0CBDAEAE12B9480C"
 				item: { count: 1, id: "minecraft:beehive" }
@@ -131,6 +141,7 @@
 		{
 			dependencies: ["6DA0637AAAB84975"]
 			id: "58A47C907935C035"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0CF74E479929D019"
 				item: { count: 1, id: "productivebees:bee_cage" }
@@ -142,10 +153,11 @@
 		{
 			dependencies: [
 				"12B534FF54982A03"
-				"110AAED954C6E823"
+				"3D384AC724005F89"
 			]
 			dependency_requirement: "one_completed"
 			id: "6DA0637AAAB84975"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5D690A96E448EA97"
@@ -164,6 +176,7 @@
 		{
 			dependencies: ["479460BDC9CDC5AB"]
 			id: "714DF3731BB5894E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "648E3927B08AC754"
 				item: { count: 1, id: "productivelib:upgrade_productivity" }
@@ -175,6 +188,7 @@
 		{
 			dependencies: ["714DF3731BB5894E"]
 			id: "6598CFA09B99CC34"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4296EB1CF005A51C"
 				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
@@ -186,6 +200,7 @@
 		{
 			dependencies: ["6598CFA09B99CC34"]
 			id: "126D869E67DFDAEF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2B2894D9EAA2A6A7"
 				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
@@ -197,6 +212,7 @@
 		{
 			dependencies: ["126D869E67DFDAEF"]
 			id: "5171C1A6B5F317FE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "410C5A34B9E8EC1A"
 				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
@@ -207,6 +223,7 @@
 		}
 		{
 			id: "7952902D5E221184"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3FBB16F206BA26B0"
 				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
@@ -218,6 +235,7 @@
 		{
 			dependencies: ["479460BDC9CDC5AB"]
 			id: "44EBBFD5D7A8E094"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "69F4894319924AF1"
 				item: { count: 1, id: "productivelib:upgrade_range" }
@@ -228,6 +246,7 @@
 		}
 		{
 			id: "0471AC6173B69752"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "254020915ED3B222"
 				item: { count: 1, id: "productivelib:upgrade_child" }
@@ -239,6 +258,7 @@
 		{
 			dependencies: ["479460BDC9CDC5AB"]
 			id: "3725753FB42D77C0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "401A8B83E3D0A101"
 				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
@@ -250,6 +270,7 @@
 		{
 			dependencies: ["3725753FB42D77C0"]
 			id: "72EB5600AE2D1E7C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1B46A81FA90059A7"
 				item: { count: 1, id: "productivelib:upgrade_simulator" }
@@ -261,12 +282,30 @@
 		{
 			dependencies: ["479460BDC9CDC5AB"]
 			id: "3536495E3213B590"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "32673D9A4D6C56D7"
 				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
 			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "3D384AC724005F89"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				icon: {
+					id: "minecraft:bee_nest"
+				}
+				id: "46DB7C83144A983B"
+				observation_type: "block_tag"
+				observe_type: 1
+				timer: 1L
+				to_observe: "beehives"
+				type: "observation"
+			}]
+			x: 1.5d
 			y: 0.0d
 		}
 	]

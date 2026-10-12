@@ -47,4 +47,10 @@ ServerEvents.recipes(event => {
     event.recipes.casting.solidifier(ex, '900x casting:molten_black_quartz', 'geore:budding_black_quartz')
     // geore:budding_uraninite → ?  [casting.solidifier]
     event.recipes.casting.solidifier(ex , '900x casting:molten_budding_uraninite', 'geore:budding_uraninite')
+    // geore:budding_uranium → ?  [casting.solidifier]
+    event.recipes.casting.solidifier(ex, '900x allthemodium:molten_allthemodium', 'geore:budding_allthemodium')
+    // geore:budding_black_quartz → ?  [casting.solidifier]
+    event.recipes.casting.solidifier(ex, '900x allthemodium:molten_vibranium', 'geore:budding_vibranium')
+    // geore:budding_uraninite → ?  [casting.solidifier]
+    event.recipes.casting.solidifier(ex , '900x allthemodium:molten_unobtainium', 'geore:budding_unobtainium')
 })

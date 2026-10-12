@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' });
     // 移除配方 immersiveengineering:crafting/resonanz_engineering
     event.remove({ id: 'immersiveengineering:crafting/resonanz_engineering' });
-    // 移除配方 immersiveengineering:thermoelectric_generator
-    event.remove({ id: 'immersiveengineering:thermoelectric_generator' });
+    event.remove({ id: 'immersiveengineering:crafting/thermoelectric_generator' });
+    // 移除配方 immersiveengineering:crafting/resonanz_engineering
+    event.remove({ id: 'alltheores:alloysmelter/invar/ingot' });
+    event.remove({ id: 'alltheores:arcfurnace/invar/ingot' });
+    event.remove({ id: 'alltheores:crafting/invar/alloy_blending_from_dust' });
 });

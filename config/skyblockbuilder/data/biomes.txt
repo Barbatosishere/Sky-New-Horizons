@@ -1,7 +1,17 @@
 ae2:spatial_storage
+allthemodium:basalt_deltas
+allthemodium:crimson_forest
+allthemodium:desert
+allthemodium:desert_hills
+allthemodium:mining
+allthemodium:soul_sand_valley
+allthemodium:the_beyond
+allthemodium:the_other
+allthemodium:warped_forest
 ars_nouveau:archwood_forest
 ars_nouveau:jar
 compactmachines:machine
+createnuclear:irradiated_land
 integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle

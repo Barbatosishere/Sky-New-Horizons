@@ -9,10 +9,10 @@ ServerEvents.recipes(event => {
             minTier: minTier,
             dimension: dimension,
             allowHigherTiers: true
-        }).id(`kubejs:voidminers/${item.replace(':', '_')}_${dimension.split(':')[1]}`);
+        }).id(`kubejs:voidminers/${item.replace(':', '_')}_${dimension.split(':')[1]}_tier_${minTier}`);
     };
 
-    addMiner('occultism:raw_iesnium', 5, 4, 'minecraft:the_nether');
+    addMiner('occultism:raw_iesnium', 5, 3, 'minecraft:the_nether');
     addMiner('mekanism_extras:raw_naquadah', 8, 5, 'minecraft:the_end');
     addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:overworld');
     addMiner('create_better_motors:raw_reggarfonite', 8, 3, 'minecraft:the_end');
@@ -23,4 +23,19 @@ ServerEvents.recipes(event => {
     addMiner('mysticalagriculture:deepslate_inferium_ore', 10, 3, 'minecraft:overworld');
     addMiner('mysticalagradditions:end_inferium_ore', 10, 3, 'minecraft:the_end');
     addMiner('mysticalagradditions:nether_inferium_ore', 10, 3, 'minecraft:the_nether');
+    addMiner('allthemodium:allthemodium_ore', 8, 3, 'minecraft:overworld');
+    addMiner('allthemodium:allthemodium_ore', 8, 3, 'minecraft:the_end');
+    addMiner('allthemodium:allthemodium_ore', 8, 3, 'minecraft:the_nether');
+    addMiner('allthemodium:vibranium_ore', 8, 5, 'minecraft:overworld');
+    addMiner('allthemodium:allthemodium_ore', 8, 5, 'minecraft:the_end');
+    addMiner('allthemodium:allthemodium_ore', 8, 5, 'minecraft:the_nether');
+    addMiner('allthemodium:unobtainium_ore', 8, 7, 'minecraft:overworld');
+    addMiner('allthemodium:unobtainium_ore', 8, 7, 'minecraft:the_end');
+    addMiner('allthemodium:unobtainium_ore', 8, 7, 'minecraft:the_nether');
+    addMiner('astralsorcery:aquamarine_shale', 6, 7, 'minecraft:overworld');
+    addMiner('astralsorcery:aquamarine_shale', 6, 7, 'minecraft:the_end');
+    addMiner('astralsorcery:aquamarine_shale', 6, 7, 'minecraft:the_nether');
+    addMiner('astralsorcery:rock_crystal_ore', 3, 7, 'minecraft:overworld');
+    addMiner('astralsorcery:rock_crystal_ore', 3, 7, 'minecraft:the_end');
+    addMiner('astralsorcery:rock_crystal_ore', 3, 7, 'minecraft:the_nether');
 });

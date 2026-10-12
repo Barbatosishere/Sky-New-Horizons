@@ -32,6 +32,7 @@
 		{
 			dependencies: ["0F3EC20AFBDCD92D"]
 			id: "4F253D17B2F9A197"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3D9929795E65CD5C"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
@@ -46,6 +47,7 @@
 				"216AA7F640F8C3BB"
 			]
 			id: "3B82F302F2F03EA4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1B8ED17F43C6307D"
 				item: { count: 1, id: "mekanism:alloy_infused" }
@@ -57,6 +59,7 @@
 		{
 			dependencies: ["57100D21107D54FB"]
 			id: "2F133A77ECD20971"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "503CF5E9A2790E05"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
@@ -68,6 +71,7 @@
 		{
 			dependencies: ["6D21D3E6EEEC4921"]
 			id: "0F3EC20AFBDCD92D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "7124B0D3D8E86FB0"
@@ -90,6 +94,7 @@
 				"2F133A77ECD20971"
 			]
 			id: "51CEAB092DBBDF47"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5818E944CEA5E94D"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
@@ -105,6 +110,7 @@
 				"077920A2A8495EC4"
 			]
 			id: "55EEEBDCD2EA1167"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "19BA1E0D72F8F655"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
@@ -120,6 +126,7 @@
 				"077920A2A8495EC4"
 			]
 			id: "5FFBDEDA176C55A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "556F440088190CA9"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
@@ -134,6 +141,7 @@
 				"36B54C1A8476B53B"
 			]
 			id: "524C4C03642C0ACE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7BED38C072158416"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
@@ -145,6 +153,7 @@
 		{
 			dependencies: ["524C4C03642C0ACE"]
 			id: "5CCA17C76663B82F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5FB41C3307FB90C7"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
@@ -156,6 +165,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "5063F3A5CAEA9B50"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "54701BBA8782DEF9"
@@ -177,6 +187,7 @@
 				"51CEAB092DBBDF47"
 			]
 			id: "41BFC94C57C70FF1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1EE1BB326833FDCF"
 				item: { count: 1, id: "mekanism:purification_chamber" }
@@ -188,6 +199,7 @@
 		{
 			dependencies: ["51CEAB092DBBDF47"]
 			id: "24C1E8FA20620530"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77A33182D893F6E8"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
@@ -198,6 +210,7 @@
 		}
 		{
 			id: "67059933B56ADBCC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "60425DEA1231EC68"
 				item: { count: 1, id: "mekanism:configurator" }
@@ -212,6 +225,7 @@
 				"56B111C7705C8A1D"
 			]
 			id: "4F78E432E510449A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "56765A95867255BF"
@@ -234,6 +248,7 @@
 				"3B82F302F2F03EA4"
 			]
 			id: "58FFBAA1E061012A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "373C67A00B50A81D"
@@ -256,6 +271,7 @@
 				"524C4C03642C0ACE"
 			]
 			id: "504BCD6FA69B1B71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "746C671CBB06BCD2"
@@ -278,6 +294,7 @@
 				"5CCA17C76663B82F"
 			]
 			id: "42093F6802F31B69"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5E961F82AE43C508"
@@ -296,6 +313,7 @@
 		{
 			dependencies: ["5FFBDEDA176C55A3"]
 			id: "0CADEAB58FE47DB4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52DEA47201996B22"
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
@@ -307,6 +325,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "0AB04C88CC36BF4B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6635F14037D90A77"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
@@ -318,6 +337,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "16EB40459801BEB9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1B5E52227682A813"
 				item: { count: 1, id: "mekanism:chemical_oxidizer" }
@@ -329,6 +349,7 @@
 		{
 			dependencies: ["5FFBDEDA176C55A3"]
 			id: "21C98CFF7720F5D0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2A1E251E1EC05BBD"
 				item: { count: 1, id: "mekanism:chemical_infuser" }
@@ -340,6 +361,7 @@
 		{
 			dependencies: ["5FFBDEDA176C55A3"]
 			id: "4A079FB7CFDB0898"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "34895AF300D7392B"
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
@@ -351,6 +373,7 @@
 		{
 			dependencies: ["5FFBDEDA176C55A3"]
 			id: "485EA57551858700"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7B4F4E56691C1DCB"
 				item: { count: 1, id: "mekanism:chemical_crystallizer" }
@@ -362,6 +385,7 @@
 		{
 			dependencies: ["3B82F302F2F03EA4"]
 			id: "6A8CAF8158B5E374"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "50F71DC72020D43B"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
@@ -373,6 +397,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "50ABD795E4B874FC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4292C46292A38C95"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
@@ -384,6 +409,7 @@
 		{
 			dependencies: ["55EEEBDCD2EA1167"]
 			id: "1399CF16745C2BA9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3FC05D501C58CF13"
 				item: { count: 1, id: "mekanism:solar_neutron_activator" }
@@ -395,6 +421,7 @@
 		{
 			dependencies: ["3B82F302F2F03EA4"]
 			id: "720C0093AD128415"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "55C992CA4D9E67D3"
 				item: { count: 1, id: "mekanism:resistive_heater" }
@@ -406,6 +433,7 @@
 		{
 			dependencies: ["55EEEBDCD2EA1167"]
 			id: "332F9F4C2293F2F6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "57202920CA0F6341"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
@@ -417,6 +445,7 @@
 		{
 			dependencies: ["5CCA17C76663B82F"]
 			id: "3BC45E192D0E71B0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3158872FD17E00DF"
 				item: { count: 1, id: "mekanism_extras:alloy_radiance" }
@@ -428,6 +457,7 @@
 		{
 			dependencies: ["3BC45E192D0E71B0"]
 			id: "6B345225CA149894"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "02B5966EA75E29B1"
 				item: { count: 1, id: "mekanism_extras:alloy_thermonuclear" }
@@ -439,6 +469,7 @@
 		{
 			dependencies: ["6B345225CA149894"]
 			id: "43FF30F750597FD1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1BFB7B959D931CCE"
 				item: { count: 1, id: "mekanism_extras:alloy_shining" }
@@ -450,6 +481,7 @@
 		{
 			dependencies: ["43FF30F750597FD1"]
 			id: "230E9F362EF68A1E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7C912B56EF055787"
 				item: { count: 1, id: "mekanism_extras:alloy_spectrum" }
@@ -464,6 +496,7 @@
 				"3BC45E192D0E71B0"
 			]
 			id: "390557B7AA82FCEB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A24563522B8EBD2"
 				item: { count: 1, id: "mekanism_extras:absolute_control_circuit" }
@@ -478,6 +511,7 @@
 				"390557B7AA82FCEB"
 			]
 			id: "25B0C5A1441BB736"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "70E01EA2F19FE20C"
 				item: { count: 1, id: "mekanism_extras:supreme_control_circuit" }
@@ -492,6 +526,7 @@
 				"25B0C5A1441BB736"
 			]
 			id: "1F30E104DAFBCC08"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "75C3BF2754928AC1"
 				item: { count: 1, id: "mekanism_extras:cosmic_control_circuit" }
@@ -506,6 +541,7 @@
 				"230E9F362EF68A1E"
 			]
 			id: "1A30884D75AEB083"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "23BAAB6B78941F43"
 				item: { count: 1, id: "mekanism_extras:infinite_control_circuit" }
@@ -521,6 +557,7 @@
 				"42093F6802F31B69"
 			]
 			id: "6EB83CCB701F6CF8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "664C24F8685E93AA"
@@ -543,6 +580,7 @@
 				"6EB83CCB701F6CF8"
 			]
 			id: "10AEF454094F3BB8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "4283C96251F697F9"
@@ -565,6 +603,7 @@
 				"10AEF454094F3BB8"
 			]
 			id: "6B522200C0906931"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "612EF0C4B22A33C7"
@@ -587,6 +626,7 @@
 				"6B522200C0906931"
 			]
 			id: "17796DE739150C61"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "1C949E8E8AC8CD05"
@@ -605,6 +645,7 @@
 		{
 			dependencies: ["3B82F302F2F03EA4"]
 			id: "56B111C7705C8A1D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2E999A10C82ABBCF"
 				item: { count: 1, id: "mekanism:energy_tablet" }
@@ -616,6 +657,7 @@
 		{
 			dependencies: ["56B111C7705C8A1D"]
 			id: "724F4AFC3C16ACB7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0A01D90AC185982F"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
@@ -630,6 +672,7 @@
 				"3B82F302F2F03EA4"
 			]
 			id: "386ED7D08DA4F8C9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D4B5B30C983AA65"
 				item: { count: 1, id: "mekanism:advanced_energy_cube" }
@@ -644,6 +687,7 @@
 				"386ED7D08DA4F8C9"
 			]
 			id: "3C3BB5E263C7989E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "62D74C3FFF58781A"
 				item: { count: 1, id: "mekanism:elite_energy_cube" }
@@ -658,6 +702,7 @@
 				"3C3BB5E263C7989E"
 			]
 			id: "2911FB9A72E5054F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7B9E658087BAFC67"
 				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
@@ -672,6 +717,7 @@
 				"2911FB9A72E5054F"
 			]
 			id: "100E9415C8C2509F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "254E7FCC3035B75D"
 				item: { count: 1, id: "mekanism_extras:absolute_energy_cube" }
@@ -686,6 +732,7 @@
 				"100E9415C8C2509F"
 			]
 			id: "24050D4C1537231F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2237C506732DA796"
 				item: { count: 1, id: "mekanism_extras:supreme_energy_cube" }
@@ -700,6 +747,7 @@
 				"24050D4C1537231F"
 			]
 			id: "2FB833D7AB8F5658"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0418876BC91475AA"
 				item: { count: 1, id: "mekanism_extras:cosmic_energy_cube" }
@@ -714,6 +762,7 @@
 				"2FB833D7AB8F5658"
 			]
 			id: "2D810FFCE1DE26D5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5BF2802F6E07C531"
 				item: { count: 1, id: "mekanism_extras:infinite_energy_cube" }
@@ -725,6 +774,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "6DA871E54BF0A335"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3AEA435AB6E817A8"
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
@@ -739,6 +789,7 @@
 				"51CEAB092DBBDF47"
 			]
 			id: "1B017B7AA9466745"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0CDA6CBB63B5E81A"
 				item: { count: 1, id: "mekanism:advanced_tier_installer" }
@@ -753,6 +804,7 @@
 				"55EEEBDCD2EA1167"
 			]
 			id: "07E34E2A38BD5332"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "175416B21AE39510"
 				item: { count: 1, id: "mekanism:elite_tier_installer" }
@@ -767,6 +819,7 @@
 				"5FFBDEDA176C55A3"
 			]
 			id: "679710174F0C0DF6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2793855C497496DA"
 				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
@@ -781,6 +834,7 @@
 				"390557B7AA82FCEB"
 			]
 			id: "6058533EA914E47C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1171DFF2FCA9472F"
 				item: { count: 1, id: "mekanism_extras:absolute_tier_installer" }
@@ -795,6 +849,7 @@
 				"25B0C5A1441BB736"
 			]
 			id: "6A0A0981AA7AD064"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2A6E9C732EE70DF8"
 				item: { count: 1, id: "mekanism_extras:supreme_tier_installer" }
@@ -809,6 +864,7 @@
 				"1F30E104DAFBCC08"
 			]
 			id: "7660BCDADEC33087"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4F8E7E7EB3C9F898"
 				item: { count: 1, id: "mekanism_extras:cosmic_tier_installer" }
@@ -823,6 +879,7 @@
 				"1A30884D75AEB083"
 			]
 			id: "072F03F31D8C0908"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "156F9D77895588B1"
 				item: { count: 1, id: "mekanism_extras:infinite_tier_installer" }
@@ -834,6 +891,7 @@
 		{
 			dependencies: ["50C8CB8941720B28"]
 			id: "73D80019407AEE79"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "611FEB1FEEE1C641"
@@ -856,6 +914,7 @@
 				"73D80019407AEE79"
 			]
 			id: "5DC5F7170BDB0C13"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 60L
@@ -887,6 +946,7 @@
 		{
 			dependencies: ["5DC5F7170BDB0C13"]
 			id: "07DCEC23D363F87B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "10386E187553AB13"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
@@ -903,6 +963,7 @@
 				"485EA57551858700"
 			]
 			id: "3332F64FBE62C152"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "23B47130E53F04FC"
 				type: "checkmark"
@@ -913,6 +974,7 @@
 		{
 			dependencies: ["73D80019407AEE79"]
 			id: "147AE6CBF4F27591"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3AB0363568304309"
 				item: { count: 1, id: "mekanism:reprocessed_fissile_fragment" }

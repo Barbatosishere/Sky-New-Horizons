@@ -17,6 +17,7 @@
 	quests: [
 		{
 			id: "59FD81B974398990"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "346D92ACF1EDC35C"
 				item: {
@@ -36,6 +37,7 @@
 		{
 			dependencies: ["59FD81B974398990"]
 			id: "00ECFD9F5BA35B44"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "64F2E98BFA15A4EB"
 				item: { count: 1, id: "occultism:datura" }
@@ -47,6 +49,7 @@
 		{
 			dependencies: ["00ECFD9F5BA35B44"]
 			id: "7BC1E4FE4F40FF6C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3743010E066A575B"
 				item: { count: 1, id: "occultism:otherstone" }
@@ -58,6 +61,7 @@
 		{
 			dependencies: ["00ECFD9F5BA35B44"]
 			id: "1E57B4112EC72628"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1005F5C2C79F57CE"
 				item: { count: 1, id: "occultism:otherworld_sapling_natural" }
@@ -74,6 +78,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "090A3C5D06D4BD7A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "02571BD876AD0B36"
@@ -98,6 +103,7 @@
 		{
 			dependencies: ["59FD81B974398990"]
 			id: "7D1D322022D4BB80"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6061470C29D23521"
 				item: { count: 1, id: "occultism:dictionary_of_spirits" }
@@ -109,6 +115,7 @@
 		{
 			dependencies: ["4E64C565082FAD9E"]
 			id: "2EB3FC90E990F035"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4BF51750BA3CD23A"
 				item: { count: 1, id: "occultism:trinity_gem" }
@@ -120,6 +127,7 @@
 		{
 			dependencies: ["090A3C5D06D4BD7A"]
 			id: "0743A2B5898DA2A1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6CA45CCC9970EDBB"
@@ -138,6 +146,7 @@
 		{
 			dependencies: ["0743A2B5898DA2A1"]
 			id: "1DD14A0C665DCBCF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "039659B9BC8C5BD7"
 				type: "checkmark"
@@ -148,6 +157,7 @@
 		{
 			dependencies: ["1DD14A0C665DCBCF"]
 			id: "294ECF393BC29BF9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "644D2D32B8B556B9"
 				item: { count: 1, id: "occultism:crushed_calcite" }
@@ -159,6 +169,7 @@
 		{
 			dependencies: ["294ECF393BC29BF9"]
 			id: "42B35509A4CB32C8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "194BD48527670C2E"
 				item: { count: 1, id: "occultism:chalk_light_gray" }
@@ -170,6 +181,7 @@
 		{
 			dependencies: ["0743A2B5898DA2A1"]
 			id: "76BA626EF2870646"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "777EDA6485E34D4D"
 				type: "checkmark"
@@ -180,6 +192,7 @@
 		{
 			dependencies: ["76BA626EF2870646"]
 			id: "3FEAD7F1CB188CBC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6F0D6E57832DA6B7"
 				item: { count: 1, id: "occultism:research_fragment_dust" }
@@ -191,6 +204,7 @@
 		{
 			dependencies: ["3FEAD7F1CB188CBC"]
 			id: "64907B01EB40806B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "546EF909D8B0B8A1"
 				item: { count: 1, id: "occultism:chalk_lime" }
@@ -206,6 +220,7 @@
 			]
 			hide_dependency_lines: true
 			id: "45D864F4DD49CA46"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "060107B960E825BB"
 				type: "checkmark"
@@ -216,6 +231,7 @@
 		{
 			dependencies: ["45D864F4DD49CA46"]
 			id: "752140B98A39DE76"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "27F27FAFA041B3AC"
 				item: { count: 1, id: "occultism:cursed_honey" }
@@ -227,6 +243,7 @@
 		{
 			dependencies: ["752140B98A39DE76"]
 			id: "25E851A4C617B58B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "503202949148BB90"
 				item: { count: 1, id: "occultism:chalk_orange" }
@@ -238,6 +255,7 @@
 		{
 			dependencies: ["1DD14A0C665DCBCF"]
 			id: "580057AB93853D79"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "799969C0DD4EF6E3"
 				item: { count: 1, id: "occultism:crushed_end_stone" }
@@ -249,6 +267,7 @@
 		{
 			dependencies: ["580057AB93853D79"]
 			id: "727A13A4C8E0C137"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "16448AAE274090AD"
 				item: { count: 1, id: "occultism:chalk_purple" }
@@ -260,6 +279,7 @@
 		{
 			dependencies: ["76BA626EF2870646"]
 			id: "09BBAF0C6BC80A32"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1268B2C4E7840FA7"
 				item: { count: 1, id: "occultism:nature_paste" }
@@ -271,6 +291,7 @@
 		{
 			dependencies: ["09BBAF0C6BC80A32"]
 			id: "1F25B68EB2DD1BAA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "212CA4E553257C8F"
 				item: { count: 1, id: "occultism:chalk_green" }
@@ -288,6 +309,7 @@
 			]
 			hide_dependency_lines: true
 			id: "1A4F774D58551BD0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0840E55328A04363"
 				type: "checkmark"
@@ -298,6 +320,7 @@
 		{
 			dependencies: ["1A4F774D58551BD0"]
 			id: "4E55C3CF5695E410"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52747AF19E75339E"
 				item: { count: 1, id: "occultism:gray_paste" }
@@ -309,6 +332,7 @@
 		{
 			dependencies: ["4E55C3CF5695E410"]
 			id: "40ED8512A1C1B75B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "29B72FFFFA7480A2"
 				item: { count: 1, id: "occultism:chalk_gray" }
@@ -325,6 +349,7 @@
 			]
 			hide_dependency_lines: true
 			id: "2B8A138BD6C73515"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "646AC5ADF9192BF9"
 				type: "checkmark"
@@ -335,6 +360,7 @@
 		{
 			dependencies: ["2B8A138BD6C73515"]
 			id: "6E1C9662B74967BD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "14A01F354228FDF3"
@@ -358,6 +384,7 @@
 		{
 			dependencies: ["6E1C9662B74967BD"]
 			id: "7D3D15B8AF782E17"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "49BA5C60239A6099"
 				item: { count: 1, id: "occultism:chalk_light_blue" }
@@ -375,6 +402,7 @@
 			]
 			hide_dependency_lines: true
 			id: "3BA8F6C215B4AD8C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3EDD5B6DA4723181"
 				type: "checkmark"
@@ -385,6 +413,7 @@
 		{
 			dependencies: ["3BA8F6C215B4AD8C"]
 			id: "5B51E809C9576115"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "46FE7BEDB3143E11"
 				item: { components: { "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_afrit\"}", "minecraft:lore": ["{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_afrit.tooltip\"}"] }, count: 1, id: "occultism:afrit_essence" }
@@ -396,6 +425,7 @@
 		{
 			dependencies: ["5B51E809C9576115"]
 			id: "4FE7DD93C5A3C12D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6ADE6C8BB5B31E51"
 				item: { count: 1, id: "occultism:chalk_red" }
@@ -415,6 +445,7 @@
 			]
 			hide_dependency_lines: true
 			id: "45404906E1979281"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4EED3F3C516D0019"
 				type: "checkmark"
@@ -425,6 +456,7 @@
 		{
 			dependencies: ["45404906E1979281"]
 			id: "38E2F19266DDB01D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0BCBD09836412D54"
 				item: { count: 1, id: "occultism:witherite_dust" }
@@ -436,6 +468,7 @@
 		{
 			dependencies: ["38E2F19266DDB01D"]
 			id: "0A5DE5C4DC093B48"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "15718FC5693DEFF6"
 				item: { count: 1, id: "occultism:chalk_black" }
@@ -454,6 +487,7 @@
 			]
 			hide_dependency_lines: true
 			id: "55900768A0F5575C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "652CAEA8714F025F"
 				type: "checkmark"
@@ -472,6 +506,7 @@
 			]
 			hide_dependency_lines: true
 			id: "60DA7537E739CC80"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "33753350B10E75E2"
 				type: "checkmark"
@@ -482,6 +517,7 @@
 		{
 			dependencies: ["60DA7537E739CC80"]
 			id: "09EAE970150EBE55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "17C277C80F9C5FCB"
 				item: { count: 1, id: "occultism:cruelty_essence" }
@@ -493,6 +529,7 @@
 		{
 			dependencies: ["09EAE970150EBE55"]
 			id: "7AB97FBAFFF532A0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "76C88EC0AC11849D"
 				item: { count: 1, id: "occultism:chalk_brown" }
@@ -504,6 +541,7 @@
 		{
 			dependencies: ["55900768A0F5575C"]
 			id: "5866CA9FD458D248"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12880B1E495ED22F"
 				item: { count: 1, id: "occultism:marid_essence" }
@@ -515,6 +553,7 @@
 		{
 			dependencies: ["5866CA9FD458D248"]
 			id: "068C50D25DC3900F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "30EAC1EE545937E5"
 				item: { count: 1, id: "occultism:chalk_blue" }
@@ -534,6 +573,7 @@
 			]
 			hide_dependency_lines: true
 			id: "2972C8E7F6333337"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52BBDCF73C94FA19"
 				type: "checkmark"
@@ -553,6 +593,7 @@
 			]
 			hide_dependency_lines: true
 			id: "6ADC1363BB053660"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "18CC4356398B5E3E"
 				type: "checkmark"
@@ -569,6 +610,7 @@
 			]
 			hide_dependency_lines: true
 			id: "2F5A949A0D03EA3E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4DA44FA13797EAB5"
 				type: "checkmark"
@@ -579,6 +621,7 @@
 		{
 			dependencies: ["2972C8E7F6333337"]
 			id: "07BD075599D3E810"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0A87C243FB03C80B"
 				item: { count: 1, id: "occultism:echo_dust" }
@@ -590,6 +633,7 @@
 		{
 			dependencies: ["07BD075599D3E810"]
 			id: "777A330C6C9D7064"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0C8FDA40FAAF6DCA"
 				item: { count: 1, id: "occultism:chalk_cyan" }
@@ -601,6 +645,7 @@
 		{
 			dependencies: ["6ADC1363BB053660"]
 			id: "57E36CD6B53B298A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5A5822FA3F422E20"
 				item: { count: 1, id: "occultism:dragonyst_dust" }
@@ -612,6 +657,7 @@
 		{
 			dependencies: ["57E36CD6B53B298A"]
 			id: "39C3ECF913EF04CA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "488298C7694C8B3A"
 				item: { count: 1, id: "occultism:chalk_magenta" }
@@ -623,6 +669,7 @@
 		{
 			dependencies: ["2F5A949A0D03EA3E"]
 			id: "0E8AD8141600C325"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0132BE481F009AD2"
 				item: { count: 1, id: "occultism:demonic_meat" }
@@ -634,6 +681,7 @@
 		{
 			dependencies: ["0E8AD8141600C325"]
 			id: "3362A7F25306ACAC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6EE4BA46D1660900"
 				item: { count: 1, id: "occultism:chalk_pink" }
@@ -653,6 +701,7 @@
 			]
 			hide_dependency_lines: true
 			id: "4E64C565082FAD9E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2F025CE3BA48CBCF"
 				type: "checkmark"
@@ -663,6 +712,7 @@
 		{
 			dependencies: ["16BA615430A9F0DD"]
 			id: "6E6EE87768E3DF9F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "50C7B4C7DCE576AE"
 				item: { count: 1, id: "occultism:tallow" }
@@ -673,6 +723,7 @@
 		}
 		{
 			id: "16BA615430A9F0DD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5E9837930E2C4F46"
 				item: { count: 1, id: "occultism:butcher_knife" }
@@ -684,6 +735,7 @@
 		{
 			dependencies: ["0743A2B5898DA2A1"]
 			id: "12B534FF54982A03"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "68D88CD8095E9467"
 				type: "checkmark"

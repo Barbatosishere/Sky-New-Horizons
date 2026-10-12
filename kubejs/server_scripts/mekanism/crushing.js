@@ -2,8 +2,6 @@
 ServerEvents.recipes(event => {
     // exdeorum:crushed_netherrack → minecraft:netherrack  [mekanism.crushing]
     event.recipes.mekanism.crushing('exdeorum:crushed_netherrack', 'minecraft:netherrack');
-    // minecraft:red_sand → minecraft:netherrack  [mekanism.crushing]
-    event.recipes.mekanism.crushing('minecraft:red_sand', 'minecraft:netherrack');
     // exdeorum:crushed_end_stone → minecraft:end_stone  [mekanism.crushing]
     event.recipes.mekanism.crushing('exdeorum:crushed_end_stone', 'minecraft:end_stone');
     // exdeorum:crushed_deepslate → minecraft:deepslate  [mekanism.crushing]
@@ -36,8 +34,6 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.crushing(Item.of('minecraft:gravel', 9), 'exdeorum:compressed_andesite');
     // minecraft:sand → exdeorum:compressed_gravel  [mekanism.crushing]
     event.recipes.mekanism.crushing(Item.of('minecraft:sand', 9), 'exdeorum:compressed_gravel');
-    // minecraft:red_sand → exdeorum:compressed_netherrack  [mekanism.crushing]
-    event.recipes.mekanism.crushing(Item.of('minecraft:red_sand', 9), 'exdeorum:compressed_netherrack');
     // ae2lt:firmament_dust → naturesaura:sky_ingot  [mekanism.crushing]
     event.recipes.mekanism.crushing(Item.of('ae2lt:firmament_dust'), 'naturesaura:sky_ingot');
 });

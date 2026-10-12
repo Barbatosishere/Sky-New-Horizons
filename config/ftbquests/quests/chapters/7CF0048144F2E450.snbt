@@ -7,11 +7,16 @@
 	images: [ ]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: "q:3416514d8798fe93"
+		reveal_on_hover: 0b
+		source: "q:3599fd377271b8f9"
+	}]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "23F71D49F30BCCCB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5B518137CF8C5FD5"
 				type: "checkmark"
@@ -22,6 +27,7 @@
 		{
 			dependencies: ["23F71D49F30BCCCB"]
 			id: "6D059F5F027E4A27"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "537990D147E467DC"
 				type: "checkmark"
@@ -32,6 +38,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "60061317A2C3B716"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6EC0A3CBD4A13609"
 				type: "checkmark"
@@ -42,6 +49,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "6F866C802BAABD06"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4B950DA7A78C757B"
 				type: "checkmark"
@@ -52,6 +60,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "1DAE0AF54DB41D0A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1590F55B33633BDF"
 				type: "checkmark"
@@ -62,6 +71,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "5997309D33B22401"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4E9A8B4488604417"
 				type: "checkmark"
@@ -72,6 +82,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "4670E1B423528CF0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "088368C7282EC90F"
 				type: "checkmark"
@@ -82,6 +93,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "6F2AD98706485DBB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6D08F8C7DACF6B01"
 				type: "checkmark"
@@ -92,6 +104,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "1DCB5D53228EB9D4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "062729D6EFF120F9"
 				type: "checkmark"
@@ -102,6 +115,7 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "45826155E316B365"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "712F77718D3F3E04"
 				type: "checkmark"
@@ -112,12 +126,44 @@
 		{
 			dependencies: ["6D059F5F027E4A27"]
 			id: "79D266AEF1EAF4C9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "56E44AAF92F912F3"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["23F71D49F30BCCCB"]
+			id: "3416514D8798FE93"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7371400A5DB4DA85"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3416514D8798FE93"]
+			id: "3599FD377271B8F9"
+			invisible: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "29C0319E12058ED5"
+				item: {
+					count: 1
+					id: "useless_mod:ae2_gift_package"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "698A23AB2306E504"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
 		}
 	]
 }

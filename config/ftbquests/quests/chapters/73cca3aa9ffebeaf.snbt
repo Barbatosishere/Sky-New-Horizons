@@ -5,13 +5,14 @@
 	group: "00687B1484DEC638"
 	id: "73CCA3AA9FFEBEAF"
 	images: [ ]
-	order_index: 6
+	order_index: 7
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "42F308A47DF797AC"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "6875DFCC3CE188E9"
 				item: {
@@ -34,6 +35,7 @@
 		{
 			dependencies: ["42F308A47DF797AC"]
 			id: "7FF7F153FE2A4596"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2964B3FAE8B03F80"
@@ -52,6 +54,7 @@
 		{
 			dependencies: ["7FF7F153FE2A4596"]
 			id: "4E4DE8CE3C8EAB71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "471A5F29838E6312"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -63,6 +66,7 @@
 		{
 			dependencies: ["5DF11FBB8C8105CD"]
 			id: "0AE522611598D805"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "14918D6AAE0B3870"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -74,6 +78,7 @@
 		{
 			dependencies: ["0AE522611598D805"]
 			id: "1BBA8C615EA658AE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "04BE3B783D1024F7"
@@ -92,6 +97,7 @@
 		{
 			dependencies: ["4E4DE8CE3C8EAB71"]
 			id: "5DF11FBB8C8105CD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "37F651C6794221BC"
@@ -126,6 +132,7 @@
 				"0AE522611598D805"
 			]
 			id: "297C3923647DE205"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7BE8DA8229B0B30D"
 				item: { count: 1, id: "naturesaura:crushing_catalyst" }
@@ -140,6 +147,7 @@
 				"0AE522611598D805"
 			]
 			id: "0C7A50260300F009"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "445304FDDF770C92"
 				item: { count: 1, id: "naturesaura:offering_table" }
@@ -154,6 +162,7 @@
 				"4114E23DD4124E41"
 			]
 			id: "74C441EF7CD94501"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77448989E9F84258"
 				item: { count: 1, id: "naturesaura:sky_ingot" }
@@ -168,6 +177,7 @@
 				"61E4995B70528374"
 			]
 			id: "4114E23DD4124E41"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "092B75B8E3CEA569"
 				item: { count: 1, id: "naturesaura:calling_spirit" }
@@ -179,6 +189,7 @@
 		{
 			dependencies: ["7B597C6A9045D265"]
 			id: "61E4995B70528374"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "299146517AB20FD7"
@@ -203,6 +214,7 @@
 		}
 		{
 			id: "7B597C6A9045D265"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A40E06A78473D63"
 				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
@@ -217,6 +229,7 @@
 				"4114E23DD4124E41"
 			]
 			id: "4BF07A5F1B2DD550"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "02C6932FF689858F"
@@ -248,6 +261,7 @@
 				"0AE522611598D805"
 			]
 			id: "31BEFCD58C92E591"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3AE413B650032F71"
 				item: { count: 1, id: "naturesaura:conversion_catalyst" }

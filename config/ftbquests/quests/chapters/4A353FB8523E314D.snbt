@@ -13,6 +13,7 @@
 		{
 			dependencies: ["3AAB2D0C105BB596"]
 			id: "34C660F98CEBDB97"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "10AEB85EFE0B3B1F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
@@ -23,6 +24,7 @@
 		}
 		{
 			id: "69B8CB7BA89738A2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "33BA3C039252D399"
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["34C660F98CEBDB97"]
 			id: "36B54C1A8476B53B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "01E8036E774B1B99"
 				item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
@@ -45,6 +48,7 @@
 		{
 			dependencies: ["34C660F98CEBDB97"]
 			id: "216AA7F640F8C3BB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "155ABEFD9160B8A8"
 				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
@@ -60,6 +64,7 @@
 			]
 			hide_dependency_lines: true
 			id: "26606F3F6D8C0554"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "474CBA13B0BE0A05"
 				item: { count: 1, id: "actuallyadditions:empowerer" }
@@ -71,6 +76,7 @@
 		{
 			dependencies: ["69B8CB7BA89738A2"]
 			id: "3AAB2D0C105BB596"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "26140A10488A5522"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
@@ -82,6 +88,7 @@
 		{
 			dependencies: ["34C660F98CEBDB97"]
 			id: "2B668F9C01E38F32"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7875794CFA84924E"
 				item: { count: 1, id: "actuallyadditions:enori_crystal" }
@@ -96,6 +103,7 @@
 				"216AA7F640F8C3BB"
 			]
 			id: "68363994EEFE0BC9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "301DABD1E6FF7213"
 				item: { count: 1, id: "actuallyadditions:basic_coil" }
@@ -107,6 +115,7 @@
 		{
 			dependencies: ["68363994EEFE0BC9"]
 			id: "387C78FCE3F71E13"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6ADC6AE02E26FAC8"
 				item: { count: 1, id: "actuallyadditions:advanced_coil" }
@@ -123,6 +132,7 @@
 			]
 			hide_dependency_lines: true
 			id: "5F75F918193495B6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "657A1CEA2D7ADD85"
 				item: { count: 1, id: "actuallyadditions:single_battery" }
@@ -134,6 +144,7 @@
 		{
 			dependencies: ["5F75F918193495B6"]
 			id: "6057573567BF6E9B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "71C42846217E9B99"
 				item: { count: 1, id: "actuallyadditions:double_battery" }

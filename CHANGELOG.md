@@ -1,10 +1,47 @@
 # Sky New Horizons - 更新日志
 
-> 当前版本：**SkyNH 0.3.7**  
-> Minecraft 版本：1.21.1 (NeoForge)  
+> 当前版本：**SkyNH 0.3.8**
+> Minecraft 版本：1.21.1 (NeoForge)
+> NeoForge 版本：21.1.251
 > 仓库：[Barbatosishere/Sky-New-Horizons](https://github.com/Barbatosishere/Sky-New-Horizons)
 
 ---
+
+## v0.3.8 (2026-10-12)
+
+本版本整合了此前 0.3.8/0.3.9 beta 阶段的改动，重点更新模组依赖、KubeJS 配方和任务配置，并完成一次全项目静态自检。
+
+### 🔧 Mod 与运行环境
+- NeoForge 更新至 `21.1.251`，Minecraft 仍为 `1.21.1`，Java 要求仍为 21。
+- 批量更新 AE2、Apotheosis、Ars Nouveau、Create、FTB、Mekanism、ProductiveBees、Sophisticated、Void Miners 等模组。
+- 新增或启用 Astral Sorcery、Productive Bees Genesis、AppliedAs、Compact Extreme Reactors、Pipez Optimizer、ObserverLib 等组件。
+- GeOre 固定为 `6.2.3`，与 Growth Accelerator Tiers `2.0.0` 的 Mixin 目标保持兼容。
+- 清理旧版本模组 JAR、卸载残留配置、备份文件和运行缓存，保留当前实例所需内容。
+
+### 📜 KubeJS 与配方
+- KubeJS 目录整理为 startup、client、server 三类脚本；当前共 126 个 JavaScript 文件。
+- 新增 ProductiveBees Genesis、JDTE、MekMM、Void Miners 等配方兼容脚本。
+- Void Miners 新增矿物产出配置，覆盖维度、最低等级、权重和高等级继承，共 27 条唯一配方。
+- 修复 Powah、Mekanism Generators、Iron Furnaces、IFMUP、Create Connected、EnderIO Evolution 等配方移除 ID，清理无效 `event.remove`。
+- 修复 ProductiveBees 蜂种、Astral Sorcery 矿物、Avaritia、ExtendedAE、Casting、筛网和机械合成相关配方。
+- 清理已删除脚本、重复配方和历史注释，统一脚本目录和命名。
+
+### 📋 任务、配置与资源
+- 更新 FTB Quests 章节、任务依赖、奖励和中文语言数据，补充新增模组的任务内容。
+- 更新 SkyblockBuilder、JEI、Jade、Iris、JDTE、ProductiveBees、Useless Mod 等配置。
+- 更新中文语言资源包、自定义纹理和 KubeJS 数据包；补充新增模组的默认配置文件。
+- 增加性能档位脚本和低 / 中 / 高三档配置，统一实例内存建议为 6–12 GiB。
+
+### ✅ 自检结果
+- 126 个 KubeJS 文件通过语法检查；startup、client、server 脚本加载均为 0 errors / 0 warnings。
+- 配方重载结果为新增 875、移除 619、失败 0。
+- 373 个模组档案通过压缩完整性、依赖和 Java 21 字节码检查。
+- TOML、JSON、JSON5、SNBT 和 FTB Quests 数据均通过静态解析。
+
+### ⚠️ 已知问题
+- 上游模组配方仍会产生约 94 条回退 WARN，涉及 Create Nuclear、Useless Mod、Metal Barrels、Avaritia、Casting 等，不影响 KubeJS 脚本加载。
+- 性能档位应用脚本在 Windows 反斜杠路径下可能漏检正在运行的游戏，应用档位前应先完全退出游戏。
+- `skyblockbuilder/templates/islands/template.nbt` 为未启用模板，存在调色板索引越界；默认模板不受影响。
 
 ## v0.3.7 (2026-09-12)
 
@@ -51,6 +88,25 @@
 - **JEI 取消隐藏** `extendedae_plus:infinity_biginteger_cell`
 - **修复 `voidminers/miner_recipes.js`**：移除多余的 `JsonObject` 包装，将 `the_nethe` 拼写错误修正为 `the_nether`
 - **删除 `productivebees/removes.js`**：先清理 4 个不存在物品的 quark 蜂箱/扩展箱 event.remove 警告，随后整个文件移除，仅保留 `honey_generator.js`
+- **修复超导印刷电路序列装配**：印刷电路配方改用 `skynh:superconducting_processor_print` 作为过渡物品，不再和过载电路板抢 `ae2lt`
+- **修复中子素 / 反物质蜜蜂凋零光环**：效果 ID 改为 `minecraft:wither`，并改成 ProductiveBees 要求的数组结构
+- **补回种植站配方**：原版 `mekmm:planting_station` 仍移除；改由工业先锋溶解室 + 500mB 暗耀流体合成
+- **修复灵魂沙 / 粉碎下界岩筛网**：`remove` 改为按输入方块 + 目标掉落清理原版配方，产量补上 `minecraft:uniform` / `binomial` 类型
+- **修复铀晶块铸模**：810mB 凝固体输出 `powah:uraninite_block`
+- **修复下界岩粉碎冲突**：去掉与碎下界岩抢同一输入的红沙配方
+- **太阳能发电机**：删除原版便宜配方，只保留钋锭新配方
+- **实体加速卡**：按真实配方 ID 移除 `entity_speed_card_x2/x4/x8/x16`
+- **FTB Chunks 坟包白名单**：`epitaphs:grave` 改为 `gravestone:gravestone`
+- **粗艾瑟金属虚空采矿等级**降至 3
+- **锡晶芽**补入 GeOre 石子战利品
+- **黄铜样板供应器机械合成**指定合法配方 ID，避免 `create:kjs/appliedcreate:...` 注册失败
+- **任务回退语言**改为 `zh_cn`（英文语言文件为空）
+- **窗口标题脚本**不再读取被 KubeJS 拦截的 `java.lang.System`
+- **修正一批空 `event.remove`**：Powah / IFMUP 插件 / 神秘农业种子 / Iron Furnaces / IE 温差发电机 / Integrated Dynamics 煤炭发电机 / Create Connected 流体容器 / 龙之研究发电机 / EnderIO Evolution 发电机，改为数据包真实配方 ID（JEI 隐藏不再等于删配方）
+- **Apotheosis 8.8 材料改名**：铁/金/钻石升级模板和熵种子不再引用已删除的 `common/uncommon/rare/epic/mythic_material`，改为 `mysterious_scrap_metal` / `timeworn_fabric` / `luminous_crystal_shard` / `arcane_sands` / `godforged_pearl`
+- **压缩下界岩粉碎冲突**：去掉与碎下界岩抢同一输入的红沙配方
+- **Mekanism 发电机移除 ID**：风/生物燃气/燃气/温差发电机改为 `generator/*` 真实路径；菌丝反应堆改为 `dissolution_chamber/mycelial_reactor`
+- **清理死代码**：删除指向不存在配方的移除（IFMUP 高级远程插件 47/63/71/79 级、四种板材、AppliedCreate 旧 `create:kjs/...` 自动 ID）
 
 ### 📜 KubeJS 配方调整
 - **新增配方**：
@@ -231,6 +287,7 @@
 
 | 版本         | 日期         | 主要变更                              |
 |------------|------------|-----------------------------------|
+| 0.3.8 | 2026-10-12 | NeoForge 与模组更新、KubeJS 配方整理、任务配置更新、项目自检 |
 | 0.3.7 | 2026-09-12 | Mod 批量更新、中子素蜜蜂、KubeJS 配方修复（mekmm/ECO/ExtendedAE+）、内存修正、性能调整与残留清理 |
 | 0.3.6      | 2026-06-29 | Apotheosis 附魔兼容、EnderIO 配置、Mod 更新 |
 | 0.3.5      | 2026-06-22 | 禁用 BotanyPots 种子掉落、JEI 书签优化       |

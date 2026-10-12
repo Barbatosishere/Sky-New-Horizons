@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     // 移除配方 industrialforegoing:mycelial_frosty
     event.remove({ id: 'industrialforegoing:mycelial_frosty' });
     // 移除配方 industrialforegoing:mycelial_reactor
-    event.remove({ id: 'industrialforegoing:mycelial_reactor' });
+    event.remove({ id: 'industrialforegoing:dissolution_chamber/mycelial_reactor' });
     // 移除配方 industrialforegoing:mycelial_slimey
     event.remove({ id: 'industrialforegoing:mycelial_slimey' });
     // 移除配方 industrialforegoing:mycelial_culinary

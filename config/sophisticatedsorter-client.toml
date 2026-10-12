@@ -11,3 +11,5 @@
 	pinyin = true
 	#Per-screen button offsets: screenId (screen class + "@" + title key)|sort X|sort Y|transfer X|transfer Y.
 	buttonPositions = []
+	#When transferring container items into the player inventory, fill the 27-slot main inventory before the 9-slot hotbar (true, like Sophisticated Core) or the hotbar first (false, like vanilla quick-move).
+	transferMainInventoryFirst = true

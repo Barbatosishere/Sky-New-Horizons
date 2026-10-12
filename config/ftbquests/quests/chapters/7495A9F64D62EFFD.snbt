@@ -44,6 +44,7 @@
 	quests: [
 		{
 			id: "21EF3E4919BD509C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 2
 				id: "60BE04D3357E5742"
@@ -64,6 +65,7 @@
 		}
 		{
 			id: "1389A3C36F927D4C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "1DEF0272C35A4DD2"
 				type: "xp"
@@ -82,6 +84,7 @@
 			dependencies: ["1389A3C36F927D4C"]
 			hide_details_until_startable: false
 			id: "7414833959AADDBA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "5BFE1A7ED84C17B1"
 				type: "xp"
@@ -98,6 +101,7 @@
 		{
 			dependencies: ["7414833959AADDBA"]
 			id: "275D3D0F48294D0F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "3002C64CD5A5B615"
 				type: "xp"
@@ -114,6 +118,7 @@
 		{
 			dependencies: ["7414833959AADDBA"]
 			id: "1BADA00A32875650"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6ADC0AF9A0EB48AB"
 				item: { count: 1, id: "exdeorum:oak_sieve" }
@@ -125,6 +130,7 @@
 		{
 			dependencies: ["275D3D0F48294D0F"]
 			id: "19CB3D49A81BAC78"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "1CE6B056C718775D"
 				type: "xp"
@@ -144,6 +150,7 @@
 				"1BADA00A32875650"
 			]
 			id: "132F8C9AE956C2B3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 9L
@@ -163,6 +170,7 @@
 		{
 			dependencies: ["6B8E4888F6C05FF3"]
 			id: "3168AAB7EC4EB148"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "622F2C5FEAFFF949"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -174,6 +182,7 @@
 		{
 			dependencies: ["7414833959AADDBA"]
 			id: "6092A51375869AFF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2E2FDAD7BF5134D2"
 				item: { count: 1, id: "exdeorum:oak_barrel" }
@@ -185,6 +194,7 @@
 		{
 			dependencies: ["6092A51375869AFF"]
 			id: "22424BA221B628A6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3DB78834365C3F7D"
 				item: { count: 1, id: "minecraft:dirt" }
@@ -199,6 +209,7 @@
 				"22424BA221B628A6"
 			]
 			id: "6B8E4888F6C05FF3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 4L
 				id: "589806E8920C184A"
@@ -211,6 +222,7 @@
 		{
 			dependencies: ["3168AAB7EC4EB148"]
 			id: "2248288B49BDAB94"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "26F1A66007F000B0"
 				item: { count: 1, id: "exdeorum:stone_hammer" }
@@ -222,6 +234,7 @@
 		{
 			dependencies: ["7414833959AADDBA"]
 			id: "5613CBB32AD6BCCD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "21AE7EED714DC535"
 				item: { count: 1, id: "exdeorum:oak_crucible" }
@@ -233,6 +246,7 @@
 		{
 			dependencies: ["3168AAB7EC4EB148"]
 			id: "3834B9CDCA404DE0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12FDF0354E1F6C4D"
 				item: { count: 1, id: "minecraft:furnace" }
@@ -244,6 +258,7 @@
 		{
 			dependencies: ["2248288B49BDAB94"]
 			id: "472EBC8A9F1E241F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "325AA98A49F0A316"
@@ -267,6 +282,7 @@
 		{
 			dependencies: ["132F8C9AE956C2B3"]
 			id: "60E6F63DFD629E48"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7BF9B8439151D333"
 				item: { count: 1, id: "exdeorum:flint_mesh" }
@@ -278,6 +294,7 @@
 		{
 			dependencies: ["60E6F63DFD629E48"]
 			id: "704DBE186C4401CA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "554D6F3A8259B61B"
 				item: { count: 1, id: "exdeorum:iron_mesh" }
@@ -289,6 +306,7 @@
 		{
 			dependencies: ["704DBE186C4401CA"]
 			id: "4A6C064C95E1FD79"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "45597FC6C4F5213A"
 				item: { count: 1, id: "exdeorum:golden_mesh" }
@@ -300,6 +318,7 @@
 		{
 			dependencies: ["4A6C064C95E1FD79"]
 			id: "650103341EFA9014"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4147BED70C3D27ED"
 				item: { count: 1, id: "exdeorum:diamond_mesh" }
@@ -314,6 +333,7 @@
 				"693D7F75926683F7"
 			]
 			id: "43162FEE09CED360"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "1CF2287284D4EC71"
@@ -337,6 +357,7 @@
 		{
 			dependencies: ["472EBC8A9F1E241F"]
 			id: "693D7F75926683F7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2AF974604F233BFD"
 				item: { count: 1, id: "exdeorum:oak_compressed_sieve" }
@@ -348,6 +369,7 @@
 		{
 			dependencies: ["3168AAB7EC4EB148"]
 			id: "3B1C59905C00AD50"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B23AE7BC6E5F9C3"
 				item: { count: 1, id: "exdeorum:compressed_cobblestone" }
@@ -359,6 +381,7 @@
 		{
 			dependencies: ["3834B9CDCA404DE0"]
 			id: "333F10C67262750B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "41481E243DE432AC"
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
@@ -370,6 +393,7 @@
 		{
 			dependencies: ["333F10C67262750B"]
 			id: "721A98E21BFCE059"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "595F88FF91D699DA"
 				item: { count: 1, id: "ironfurnaces:gold_furnace" }
@@ -381,6 +405,7 @@
 		{
 			dependencies: ["721A98E21BFCE059"]
 			id: "376B9DE10B25FCF3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "420FF50177B0AE2A"
 				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
@@ -392,6 +417,7 @@
 		{
 			can_repeat: false
 			id: "32104B6A986596BE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "5AB06008294E91B3"
 				item: {
@@ -410,6 +436,7 @@
 		{
 			dependencies: ["650103341EFA9014"]
 			id: "44CD967DA1341F93"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6E3537BAB59BCB6F"
 				item: { count: 1, id: "exdeorum:netherite_mesh" }
@@ -421,6 +448,7 @@
 		{
 			dependencies: ["376B9DE10B25FCF3"]
 			id: "0E17252FD44E454E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "29B85B115484945D"
 				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
@@ -439,6 +467,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5D70DD250E50043B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "519ADA3A3254955A"
 				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
@@ -450,6 +479,7 @@
 		{
 			dependencies: ["376B9DE10B25FCF3"]
 			id: "27C96E0762468812"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "40A79357AAF43739"
 				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
@@ -461,6 +491,7 @@
 		{
 			dependencies: ["3B1C59905C00AD50"]
 			id: "2F0D5B6227150788"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "32348C255022EC64"
 				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
@@ -472,6 +503,7 @@
 		{
 			dependencies: ["2F0D5B6227150788"]
 			id: "37B3025E7FFB3A18"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "39DB7BEA5A72490E"
 				item: { count: 1, id: "cobblegengalore:block_gen_copper" }
@@ -483,6 +515,7 @@
 		{
 			dependencies: ["37B3025E7FFB3A18"]
 			id: "753D5389498DBC84"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "40722CD3F9F90D82"
 				item: { count: 1, id: "cobblegengalore:block_gen_iron" }
@@ -494,6 +527,7 @@
 		{
 			dependencies: ["753D5389498DBC84"]
 			id: "3F249A4CC357F9D1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2F445B7071826370"
 				item: { count: 1, id: "cobblegengalore:block_gen_gold" }
@@ -505,6 +539,7 @@
 		{
 			dependencies: ["3F249A4CC357F9D1"]
 			id: "527B0A250254C30A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4D4899D722CB9EFD"
 				item: { count: 1, id: "cobblegengalore:block_gen_emerald" }
@@ -516,6 +551,7 @@
 		{
 			dependencies: ["527B0A250254C30A"]
 			id: "1BBB365E7B4DCAB5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "424CA09A3D161C91"
 				item: { count: 1, id: "cobblegengalore:block_gen_diamond" }
@@ -527,6 +563,7 @@
 		{
 			dependencies: ["1BBB365E7B4DCAB5"]
 			id: "2FE3B9C32A5199C1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4D9511B32D332C62"
 				item: { count: 1, id: "cobblegengalore:block_gen_netherite" }
@@ -538,6 +575,7 @@
 		{
 			dependencies: ["472EBC8A9F1E241F"]
 			id: "7A15580B2C3FA5F3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5503B215D9ADFB34"
 				item: { count: 1, id: "minecraft:end_stone" }
@@ -549,6 +587,7 @@
 		{
 			dependencies: ["7A15580B2C3FA5F3"]
 			id: "65D3F033FAC9DE3D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "234E679365BD46E3"
 				item: { count: 1, id: "xycraft_machines:extractor" }
@@ -560,6 +599,7 @@
 		{
 			dependencies: ["2248288B49BDAB94"]
 			id: "1A22D1FCEEC1C63C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "07C054FB7810BE14"
@@ -578,6 +618,7 @@
 		{
 			dependencies: ["472EBC8A9F1E241F"]
 			id: "33B7675FD67C067B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1249BBFFEB46C8F8"
 				item: { count: 1, id: "minecraft:lightning_rod" }
@@ -592,6 +633,7 @@
 				"4896FE22E8F71EED"
 			]
 			id: "2449AFF1734881BA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2D4D4A318CC1E179"
@@ -610,6 +652,7 @@
 		{
 			dependencies: ["4896FE22E8F71EED"]
 			id: "1B520A5C752C7893"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "04822A193E1AEF7A"
 				item: { count: 1, id: "teleportcakes:nether_cake" }
@@ -624,6 +667,7 @@
 				"22424BA221B628A6"
 			]
 			id: "2F72B05EB37A124E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "349BA0C06BA603CE"
 				item: { count: 1, id: "exdeorum:mycelium_spores" }
@@ -638,6 +682,7 @@
 				"6092A51375869AFF"
 			]
 			id: "7644934CD9272BBD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3C62079D662856C4"
 				item: { count: 1, id: "minecraft:soul_sand" }
@@ -652,6 +697,7 @@
 				"7644934CD9272BBD"
 			]
 			id: "4C3034099432E0CB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7F2BFB8B41CE72DD"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -661,18 +707,11 @@
 			y: 5.0d
 		}
 		{
-			dep_control_pts: {
-				0844BBD0B7FE80B5: [
-					-10.23809523809524d
-					0.5000000000000071d
-					-9.0d
-					0.5d
-				]
-			}
 			dependencies: ["0844BBD0B7FE80B5"]
 			dependency_requirement: "one_completed"
 			id: "52FFC7BEA4C083EC"
 			optional: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "07BF3728282CBA59"
@@ -698,6 +737,7 @@
 			hide_dependency_lines: true
 			id: "0844BBD0B7FE80B5"
 			progression_mode: "linear"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "141C2EE69A4E8296"
 				item: { count: 1, id: "exdeorum:porcelain_crucible" }
@@ -713,6 +753,7 @@
 			]
 			hide_dependency_lines: true
 			id: "0F28E2C36BCDA932"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6A4E1E211946F907"
 				item: { count: 1, id: "minecraft:clay" }
@@ -728,6 +769,7 @@
 			]
 			hide_dependency_lines: true
 			id: "372A909374BB8DF5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "558AE6905F035D54"
 				item: { count: 1, id: "minecraft:sugar_cane" }
@@ -739,6 +781,7 @@
 		{
 			dependencies: ["372A909374BB8DF5"]
 			id: "626AA4BFB7C37317"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7D594D60A1555696"
 				item: { count: 1, id: "mekanism:cardboard_box" }
@@ -753,6 +796,7 @@
 				"2F72B05EB37A124E"
 			]
 			id: "0A4F7488D5A0D21C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "094422C832A9F188"
 				item: { count: 1, id: "minecraft:netherrack" }
@@ -760,19 +804,6 @@
 			}]
 			x: -22.5d
 			y: 5.0d
-		}
-		{
-			id: "110AAED954C6E823"
-			tasks: [{
-				id: "3790C35A02560B2E"
-				observation_type: "block_tag"
-				observe_type: 1
-				timer: 1L
-				to_observe: "beehives"
-				type: "observation"
-			}]
-			x: -22.5d
-			y: -1.0d
 		}
 	]
 }

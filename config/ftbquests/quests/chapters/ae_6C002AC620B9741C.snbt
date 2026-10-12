@@ -78,6 +78,7 @@
 				"2EB3FC90E990F035"
 			]
 			id: "68813500A5F18B83"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "28F71B49A29D6FF9"
 				item: { count: 1, id: "extendedae:entro_seed" }
@@ -89,6 +90,7 @@
 		{
 			dependencies: ["68813500A5F18B83"]
 			id: "4C1091962B7B9177"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7C610C07714C564D"
 				item: { count: 1, id: "extendedae:entro_ingot" }
@@ -100,6 +102,7 @@
 		{
 			dependencies: ["4C1091962B7B9177"]
 			id: "17AED7860BDBA902"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "22337F3BBD63F79C"
 				item: { count: 1, id: "extendedae:crystal_assembler" }
@@ -110,6 +113,7 @@
 		}
 		{
 			id: "41F946AA9E294CD0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "7935AC2E1BA542C3"
@@ -143,6 +147,7 @@
 				"41F946AA9E294CD0"
 			]
 			id: "249360676DD0FFEF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "68358748049805AD"
 				item: { count: 1, id: "advanced_ae:quantum_core" }
@@ -157,6 +162,7 @@
 				"17AED7860BDBA902"
 			]
 			id: "24FE73A77076AB61"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "34A7C392BE843784"
@@ -195,6 +201,7 @@
 		{
 			dependencies: ["24FE73A77076AB61"]
 			id: "1A663879874E689F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "7D5A3919855D5EFF"
@@ -218,6 +225,7 @@
 		{
 			dependencies: ["4C1091962B7B9177"]
 			id: "2533B3862200C8FA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2C6265B749C6EB17"
 				item: { count: 1, id: "extendedae:machine_frame" }
@@ -229,6 +237,7 @@
 		{
 			dependencies: ["17AED7860BDBA902"]
 			id: "279D7EF720C6B73E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "46C95FC41C737C81"
 				item: { count: 1, id: "extendedae:concurrent_processor_press" }
@@ -240,6 +249,7 @@
 		{
 			dependencies: ["279D7EF720C6B73E"]
 			id: "730F6FE681C41628"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "583F65AF6692E6C7"
@@ -258,6 +268,7 @@
 		{
 			dependencies: ["279D7EF720C6B73E"]
 			id: "7552789C37E52A5D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "36F4D1CC1A4AEAD5"
 				item: { count: 1, id: "extendedae:circuit_cutter" }
@@ -269,6 +280,7 @@
 		{
 			dependencies: ["41F946AA9E294CD0"]
 			id: "0606FA6ECB6A6C81"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "34EC3401972E4A65"

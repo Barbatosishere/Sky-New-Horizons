@@ -1,0 +1,45 @@
+[reactor]
+	#放置后是否自动启动反应堆（false=需手动点击开关激活）
+	autoStart = false
+	#模拟的燃料棒数量（燃料容量 = 数量 x 每棒容量）
+	# Default: 16
+	# Range: 1 ~ 200
+	fuelRods = 16
+	#模拟的控制棒数量（影响辐射与功率计算）
+	# Default: 4
+	# Range: 1 ~ 100
+	controlRods = 4
+	#模拟的功率输出接口数量（影响能量缓冲容量）
+	# Default: 4
+	# Range: 1 ~ 100
+	powerTaps = 4
+	#模拟的反应堆内部尺寸 X（影响体积与流体容量）
+	# Default: 9
+	# Range: 3 ~ 32
+	sizeX = 9
+	#模拟的反应堆内部尺寸 Y
+	# Default: 9
+	# Range: 3 ~ 32
+	sizeY = 9
+	#模拟的反应堆内部尺寸 Z
+	# Default: 9
+	# Range: 3 ~ 32
+	sizeZ = 9
+
+[turbine]
+	#模拟的感应线圈半径（影响发电效率）
+	# Default: 3
+	# Range: 1 ~ 16
+	coilRadius = 3
+	#模拟的涡轮机内部尺寸 X（影响流体容量）
+	# Default: 9
+	# Range: 3 ~ 32
+	sizeX = 9
+	#模拟的涡轮机内部尺寸 Y（转轴高度）
+	# Default: 11
+	# Range: 3 ~ 32
+	sizeY = 11
+	#模拟的涡轮机内部尺寸 Z
+	# Default: 9
+	# Range: 3 ~ 32
+	sizeZ = 9

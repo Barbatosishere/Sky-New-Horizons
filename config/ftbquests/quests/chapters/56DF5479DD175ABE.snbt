@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "1BE6A4DA7F315BF1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "633AE314BAE945E8"
@@ -37,6 +38,7 @@
 		{
 			dependencies: ["1BE6A4DA7F315BF1"]
 			id: "10056F19C06ABA3F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "4DDA62ED7931846F"
@@ -62,6 +64,7 @@
 		{
 			dependencies: ["10056F19C06ABA3F"]
 			id: "6E6125BA2BD95141"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5DB100CA47D4C37E"
@@ -87,6 +90,7 @@
 		{
 			dependencies: ["6E6125BA2BD95141"]
 			id: "76EEE42D152AAFEA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "29EAD5E0087729E3"
@@ -112,6 +116,7 @@
 		{
 			dependencies: ["76EEE42D152AAFEA"]
 			id: "6E88AD395C5BBC2A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5C0CA6110B5FAFDD"
@@ -137,6 +142,7 @@
 		{
 			dependencies: ["6E88AD395C5BBC2A"]
 			id: "558C5256C635B67B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "123BD516699CD06F"
@@ -155,6 +161,7 @@
 		{
 			dependencies: ["558C5256C635B67B"]
 			id: "4229398DD6A370A7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6843E8C84A8FF009"
@@ -173,6 +180,7 @@
 		{
 			dependencies: ["4229398DD6A370A7"]
 			id: "6624A711A617600F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "79C64E504CD23411"
@@ -190,6 +198,7 @@
 		}
 		{
 			id: "352866F22848DBD6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "15B100093ED4F257"
@@ -216,6 +225,7 @@
 				"352866F22848DBD6"
 			]
 			id: "3358EC9A92963252"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "1810206E009310E1"
@@ -242,6 +252,7 @@
 				"3358EC9A92963252"
 			]
 			id: "0785F22D241DDAB4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "13F953F7F8AD344B"
@@ -268,6 +279,7 @@
 				"0785F22D241DDAB4"
 			]
 			id: "6AD9771DF1D8EBDD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2384D937EBD7ECE4"
@@ -294,6 +306,7 @@
 				"6AD9771DF1D8EBDD"
 			]
 			id: "7CBF2D0F7AA87D4D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "284296789828CA6C"
@@ -320,6 +333,7 @@
 				"7CBF2D0F7AA87D4D"
 			]
 			id: "51B5919DCFDF6608"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "401BF1E391E357B9"
@@ -346,6 +360,7 @@
 				"51B5919DCFDF6608"
 			]
 			id: "395112BF2DDFBAC8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "093D0F53936D18E0"
@@ -372,6 +387,7 @@
 				"4229398DD6A370A7"
 			]
 			id: "5B5C5390656B1118"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "27FB295EBE93649D"

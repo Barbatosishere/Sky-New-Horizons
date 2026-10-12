@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia:ae2_creative_energy_cell' });
     // 移除配方 avaritia:eio_creative_power
     event.remove({ id: 'avaritia:eio_creative_power' });
+    // 移除配方 avaritia:mek_creative_energy_cube
+    event.remove({ id: 'avaritia:mek_creative_energy_cube' });
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -41,7 +43,7 @@ ServerEvents.recipes(event => {
         },
         result: { id: 'mekanism:creative_bin' },
         show_notification: true
-    }).id('kubejs:infinity_crafting/creative_bin');
+    })
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -67,7 +69,7 @@ ServerEvents.recipes(event => {
         },
         result: { id: 'mekanism:creative_fluid_tank' },
         show_notification: true
-    }).id('kubejs:infinity_crafting/creative_fluid_tank');
+    })
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -93,7 +95,7 @@ ServerEvents.recipes(event => {
         },
         result: { id: 'mekanism:creative_chemical_tank' },
         show_notification: true
-    }).id('kubejs:infinity_crafting/creative_chemical_tank');
+    })
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -121,7 +123,7 @@ ServerEvents.recipes(event => {
         },
         result: { id: 'ae2:creative_energy_cell' },
         show_notification: true
-    }).id('kubejs:infinity_crafting/creative_energy_cell');
+    })
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -152,7 +154,7 @@ ServerEvents.recipes(event => {
         },
         result: { id: 'enderio:creative_power' },
         show_notification: true
-    }).id('kubejs:infinity_crafting/creative_power');
+    })
 
     // ? → ?  [shaped_table]
     event.custom({
@@ -186,5 +188,34 @@ ServerEvents.recipes(event => {
     },
     result: { id: 'extendedae_plus:infinity_biginteger_cell', count: 1 },
     show_notification: true
-}).id('kubejs:infinity_crafting/infinity_biginteger_cell');
+})
+
+    // ? → ?  [shaped_table]
+    event.custom({
+        type: 'avaritia:shaped_table',
+        tier: 4,
+        pattern: [
+            'AAABGBAAA',
+            'ACCCDCCCA',
+            'ACECDCECA',
+            'BCCCFCCCB',
+            'GDDFEFDDG',
+            'BCCCFCCCB',
+            'ACECDCECA',
+            'ACCCDCCCA',
+            'AAABGBAAA'
+        ],
+        key: {
+            A: { item: 'mekanism_extras:reinforced_induction_casing' },
+            B: { item: 'more_flux_storage:induction_port_flux' },
+            C: { item: 'mekanism_extras:infinite_induction_cell' },
+            D: { item: 'mekanism_extras:infinite_energy_cube' },
+            E: { item: 'avaritia:infinity_catalyst' } ,
+            F: { item: 'avaritia:infinity' }  ,
+            G: { item: 'mekanism_extras:infinite_induction_provider' } ,
+
+        },
+        result: { id: 'mekanism:creative_energy_cube' },
+        show_notification: true
+    })
 });

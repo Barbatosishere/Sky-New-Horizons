@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "49F7DCAED963C3B5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "185F9508F57EFECC"
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
@@ -23,6 +24,7 @@
 		{
 			dependencies: ["49F7DCAED963C3B5"]
 			id: "03993324E7FB1D0E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1895511655DC49F3"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["03993324E7FB1D0E"]
 			id: "5A8085E6652CA7C9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 8L
@@ -53,6 +56,7 @@
 		{
 			dependencies: ["03993324E7FB1D0E"]
 			id: "0BCA6F58096A4AD0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "24E0F9263185FCFD"
 				item: { count: 1, id: "draconicevolution:wyvern_core" }
@@ -64,6 +68,7 @@
 		{
 			dependencies: ["5A8085E6652CA7C9"]
 			id: "66BB6967DD8F3D2E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 8L
 				id: "29F70A58925CCB79"
@@ -76,6 +81,7 @@
 		{
 			dependencies: ["66BB6967DD8F3D2E"]
 			id: "39754EBA460BE8FD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 8L
 				id: "1B8471B52CE37F9B"
@@ -91,6 +97,7 @@
 				id: "draconicevolution:chaotic_crafting_injector"
 			}
 			id: "3144681F4314DEAC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 8L
 				id: "771D4BE8DA60ACB4"
@@ -103,6 +110,7 @@
 		{
 			dependencies: ["2C24301F41F54D82"]
 			id: "4C0DE74B3DB66744"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "23352ABE35515764"
 				item: { count: 1, id: "draconicevolution:draconic_energy_core" }
@@ -114,6 +122,7 @@
 		{
 			dependencies: ["03993324E7FB1D0E"]
 			id: "2C24301F41F54D82"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "266A87AB94E6C751"
 				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
@@ -125,6 +134,7 @@
 		{
 			dependencies: ["4C0DE74B3DB66744"]
 			id: "77B606E5BF808F33"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A759BCA58B103FE"
 				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
@@ -136,6 +146,7 @@
 		{
 			dependencies: ["2C24301F41F54D82"]
 			id: "6F772A0AA00132CB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D7D5F944C31B847"
 				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 27447024, 372394407, -1188302841, 1395478257 ] }, count: 1, id: "draconicevolution:wyvern_chestpiece" }
@@ -150,6 +161,7 @@
 				"4C0DE74B3DB66744"
 			]
 			id: "0317BE35ACA8EA47"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "763883F2DD02B61D"
 				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -580343186, 479021724, -1850008323, -701023627 ] }, count: 1, id: "draconicevolution:draconic_chestpiece" }
@@ -164,6 +176,7 @@
 				"77B606E5BF808F33"
 			]
 			id: "4D110A2045EA67D7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2D04A5BB612CCD81"
 				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1103725025, 1915700310, -1365994220, 537887652 ] }, count: 1, id: "draconicevolution:chaotic_chestpiece" }
@@ -181,6 +194,7 @@
 			]
 			hide_dependency_lines: true
 			id: "2160139D7D3C0E8F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3B22B7C26BE70DBE"
 				item: { count: 1, id: "draconicevolution:small_chaos_frag" }

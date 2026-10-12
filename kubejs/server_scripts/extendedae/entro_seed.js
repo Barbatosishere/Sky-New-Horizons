@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         C: 'mysticalagradditions:insanium_gemstone',
         D: 'pneumaticcraft:printed_circuit_board',
         E: 'occultism:trinity_gem',
-        F: 'apotheosis:mythic_material',
+        F: 'apotheosis:godforged_pearl',
         H: 'skynh:nitro_crystal_block_1',
         I: 'mekanism:pellet_antimatter',
         G: 'draconicevolution:small_chaos_frag'

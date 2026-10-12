@@ -17,11 +17,11 @@
 	capacity_multiplier = 1
 
 [useless_dimension]
-	#When non-empty, only matching blocks can be used for Useless Dimension borders, fills, or centers
+	#When non-empty, only matching blocks can be used for Useless Dimension layers, borders, fills, roads, or center markers
 	#Leave empty to allow every block that is not on the blacklist
 	#Use exact block IDs, #block tags, or * wildcard patterns
 	floor_block_whitelist = []
-	#Blocks that cannot be used for Useless Dimension borders, fills, or centers
+	#Blocks that cannot be used for Useless Dimension layers, borders, fills, roads, or center markers
 	#A block matching this list remains blocked even if it matches the whitelist
 	#Use exact block IDs, #block tags, or * wildcard patterns
 	floor_block_blacklist = []
@@ -35,7 +35,7 @@
 [omniversal_multiblock_alloy_furnace]
 	#Omniversal mold hub slots. Values are normalized to pages of 27.
 	# Default: 108
-	# Range: 27 ~ 540
+	# Range: 27 ~ 4096
 	mold_slots = 108
 	#Maximum decoded omniversal pattern entries kept per level. Takes effect after restart.
 	# Default: 2048
@@ -43,11 +43,11 @@
 	decode_cache_capacity = 2048
 	#Passive crafting hatch slots. Higher coil tiers unlock this capacity gradually.
 	# Default: 30
-	# Range: 1 ~ 540
+	# Range: 1 ~ 4096
 	passive_pattern_slots = 30
 	#ME pattern assembly slots. Values are normalized to pages of 27.
 	# Default: 108
-	# Range: 27 ~ 540
+	# Range: 27 ~ 4096
 	pattern_slots = 108
 	#普通线圈 1 阶的最大AE任务数
 	# Default: 2
@@ -211,7 +211,7 @@
 [ae2_gift_package]
 	#Items granted by the AE2 gift package. Format: modid:item_id,count.
 	#Missing items and entries with invalid quantities are skipped.
-	items = ["ae2:creative_energy_cell,1", "ae2:fluix_covered_cable,64", "ae2:wireless_access_point,1", "ae2:wireless_booster,64", "ae2:wireless_crafting_terminal,1", "ae2:crafting_terminal,1", "extendedae_plus:infinity_biginteger_cell,1", "extendedae:ex_drive,1", "ae2wtlib:quantum_bridge_card,1", "ae2:quantum_ring,8", "ae2:quantum_link,1", "ae2:quantum_entangled_singularity,2"]
+	items = ["ae2:white_covered_cable,64", "ae2:wireless_access_point,1", "ae2:wireless_booster,64", "ae2:wireless_crafting_terminal,1", "ae2:crafting_terminal,1", "ae2:storage_bus,2", "ae2:drive,1", "ae2wtlib:quantum_bridge_card,1", "ae2:quantum_ring,8", "ae2:quantum_link,1", "ae2:quantum_entangled_singularity,2"]
 
 [beef_tool]
 	#Custom potion effects. Format: modid:effect_id,amplifier.
@@ -269,11 +269,6 @@
 	# Default: 1000
 	# Range: 1 ~ 1000000
 	chain_mining_max_blocks = 1000
-	#连锁挖掘等价组，命中同一条目的方块视为同类，可以一起连锁
-	#原点方块命中多条时取并集; 一条都不命中时仅连锁完全相同的方块
-	#支持精确方块ID、#方块标签和*通配符，留空则保持仅连锁相同方块
-	#示例: "#minecraft:logs", "#c:ores", "*_ore"
-	chain_mining_equivalent_groups = []
 	#牛排工具时运附魔等级
 	# Default: 10
 	# Range: 1 ~ 127
@@ -323,6 +318,37 @@
 	beef_tool_force_kill_blacklist = ""
 	#牛排工具非生物实体强制击杀白名单, 多个实体ID用分号分隔
 	beef_tool_force_kill_non_living_whitelist = "draconicevolution:guardian_crystal"
+	#造化杖是否无视所有工具挖掘等级限制（含其它模组自定义的等级）
+	#开启：可正常挖掘任何需要特定工具等级的方块；关闭：回到下界合金层级的原版语义
+	#无论开关如何，useless_mod:beef_tool_tier_locked 标签内的方块始终按等级判定
+	beef_tool_ignores_tool_tier = true
+	#牛排工具挖掘「伪不可破坏」方块（hardness = -1）时使用的名义硬度
+	#这类方块原版层面不可破坏，靠自写 getDestroyProgress 决定进度，其进度除数远大于普通方块
+	#（如 AllTheModium 的三矿与远古石用 250，而普通方块相当于硬度x30），
+	#所以需要更大的挖掘速度才能手感一致：speed = beef_tool_mining_speed × 本值
+	#15 约等于挖普通方块的手感；调大 = 更快
+	# Default: 15.0
+	# Range: 1.0 ~ 1000.0
+	beef_tool_pseudo_hardness = 15.0
+	#造化杖短距闪现的最大距离（格）
+	#该值为上限而非保证距离：准星方向若在中途命中方块或缺少可站立空间，落点会相应前移
+	#未命中任何方块时按该距离取最远落点
+	# Default: 24
+	# Range: 4 ~ 512
+	beef_short_teleport_range = 24
+	#杀戮光环每隔多少 tick 结算一次（20 tick = 1 秒）
+	#调小 = 更快，但服务端实体查询压力会线性上升
+	# Default: 20
+	# Range: 1 ~ 1200
+	beef_kill_aura_interval = 20
+	#生物捕捉：写进刷怪蛋前额外丢弃的 NBT 键路径，格式为 容器.子键（不含点则视为顶层键）
+	#默认只列「每只都不同」的运行时数值；未知键一律保留，避免误伤其它整合包
+	#例：NeoForgeData.naturesaura:time_alive  KubeJSPersistentData.senescence
+	beef_capture_strip_keys = ["NeoForgeData.Temperature", "NeoForgeData.naturesaura:time_alive", "NeoForgeData.BalmData", "KubeJSPersistentData.senescence", "KubeJSPersistentData.isSenescent", "KubeJSPersistentData.original_max_health"]
+	#生物捕捉：写进刷怪蛋前额外丢弃的数据附件命名空间（该命名空间下所有附件都丢）
+	#默认只列「已知只装运行时数值」的模组；其余（含未知模组）一律保留
+	#例：cold_sweat  malum
+	beef_capture_strip_attachment_namespaces = ["cold_sweat", "malum", "blueflame"]
 
 [advanced_alloy_furnace]
 	#万象炉是否自动从所在AE网络抽取AppliedFlux(应用通量)存储的FE能量
@@ -500,3 +526,44 @@
 	#*可匹配任意字符；精确配方ID优先于通配符，匹配具体度相同时后面的规则覆盖前面的规则
 	#等级范围为0-10；未匹配规则的配方不受限制
 	recipe_tier_rules = []
+	#万象炉收到 AE 推送的批次后，先等待多少个 tick 再投入执行
+	#这个窗口用于把连续推送合并成一个任务，等待期间 GUI 显示为「排队」
+	#设为 0 表示推送即刻投入执行；机器完全空闲（无任何运行中任务）时会跳过该窗口
+	# Default: 10
+	# Range: 0 ~ 200
+	ae_batch_ripe_ticks = 10
+	#是否解除「材料窗口」对单批规模的限制（即去掉 线程数 × Long.MAX 这道闸）
+	#开启后单批规模只由「产物交付能力」决定，可以一次吃下任意大的份数，
+	#不必再靠堆线程数来抬高单批上限
+	#代价：单次准入可能吃下极大量材料（由调用方自己的 BigInteger 账本扣除）；
+	#低档线圈会转而受「能量」闸限制，有用线圈无能量闸、不受影响
+	ae_unlimited_bigint_parallelism = false
+	#万象炉每 tick 最多花多少毫秒把产物写回 ME 网络
+	#这个值直接决定「可持续合成速度」：AE2 存储接口单次只能写一个 long 分段，
+	#产物必须逐段插入，所以每 tick 能插多少次就决定了能跑多快
+	#调大 = 合成更快，但单 tick 更重（可能掉 TPS）；调小 = 更省 tick，但合成变慢
+	#机器或服务端过载时，本预算还会被全局降频系数按比例收窄（下限 250 微秒）
+	#全局降频基准会跟随本值放大（= 本值×2，下限 10 毫秒），所以调大本值确实能生效
+	# Default: 8
+	# Range: 1 ~ 200
+	ae_output_return_budget_millis = 8
+
+[omniversal_pattern_upload]
+	#Whether a freshly encoded omniversal pattern is uploaded to a pattern assembly
+	#on the same AE grid. When disabled, the pattern stays in the encoding terminal
+	#and the player moves it manually, as before.
+	omniversal_pattern_auto_upload = true
+
+[stafflink]
+	#无线物流：空转的线路是否启用指数退避
+	#开启（默认）：某一轮搬运量为 0 时把下一轮间隔逐次翻倍，最多放大到「周期 × stafflink_idle_backoff_cap」，
+	#搬动一次立即恢复。这样可以避免大量空通道每 tick 白跑一遍（实测能占引擎开销的九成以上）
+	#关闭：无论搬动与否都严格按线路配置的周期运行，搬运响应最及时，代价是空通道持续产生开销
+	stafflink_idle_backoff_enabled = true
+	#无线物流：空转退避的倍率上限（下一轮间隔最多放大到 配置周期 × 本值）
+	#本值取 2 的幂（如 1/2/4/8/16/32/64）：内部按 log2 换算成翻倍次数，非 2 的幂会向下取整
+	#设为 1 表示不放大（等同关闭退避）。默认 32 折合约 32 分钟封顶（周期上限 1200 tick）
+	#仅在 stafflink_idle_backoff_enabled 开启时生效
+	# Default: 32
+	# Range: 1 ~ 1024
+	stafflink_idle_backoff_cap = 32

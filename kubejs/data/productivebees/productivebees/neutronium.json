@@ -13,8 +13,10 @@
   "attack": 12,
   "size": 0.6,
   "withered": true,
-  "passiveEffects": {
-    "effect": "minecraft:withered",
-    "duration": 100
-  }
+  "passiveEffects": [
+    {
+      "effect": "minecraft:wither",
+      "duration": 100
+    }
+  ]
 }

@@ -8,6 +8,12 @@
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
 			enable_brewing_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_villager_trade_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_fishing_recipe_conversion = true
 
 		[advanced_alloy_furnace.recipe_conversion.farmers_delight]
 			#是否启用该配方来源的配方转换
@@ -61,9 +67,6 @@
 			enable_advanced_ae_recipe_conversion = true
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
-			enable_appmek_recipe_conversion = true
-			#是否启用该配方来源的配方转换
-			#修改后重启游戏生效
 			enable_ae2_recipe_conversion = true
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
@@ -85,6 +88,9 @@
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
 			enable_mekanism_generators_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_appmek_recipe_conversion = true
 
 		[advanced_alloy_furnace.recipe_conversion.other]
 			#是否启用该配方来源的配方转换
@@ -156,3 +162,38 @@
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
 			enable_bigreactors_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_irons_spellbooks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_hostilenetworks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_apothic_flux_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_fluxnetworks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_apotheosis_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_lychee_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_astralsorcery_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_botany_pots_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_exdeorum_recipe_conversion = true
+
+		[advanced_alloy_furnace.recipe_conversion.justdirethings]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_jdte_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_justdirethings_recipe_conversion = true

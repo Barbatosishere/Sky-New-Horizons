@@ -74,5 +74,5 @@ ServerEvents.recipes(event => {
         A: 'create:brass_ingot',
         B: 'create:brass_casing',
         C: 'extendedcrafting:basic_component'
-    });
+    }).id('kubejs:mechanical_crafting/brass_pattern_provider');
 });

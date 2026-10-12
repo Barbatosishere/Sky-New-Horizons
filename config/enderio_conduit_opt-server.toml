@@ -7,15 +7,19 @@
 	enableChemicalCustomFrequency = true
 
 [Optimization]
-	#Max sleep ticks for Item Conduits when empty/full.
+	#Max sleep ticks for Item Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	itemMaxSleep = 40
-	#Max sleep ticks for Fluid Conduits when empty/full.
+	#Max sleep ticks for Fluid Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	fluidMaxSleep = 40
-	#Max sleep ticks for Chemical Conduits when empty/full.
+	#Max sleep ticks for Chemical Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	chemicalMaxSleep = 40
+	#Show the Smart Sleep toggle in the pipe GUI. [true / false]
+	#When disabled, the toggle disappears from the GUI and smart sleep is always ON for every connection.
+	#Note: if a pipe type's max sleep time is set to 0, that type never sleeps regardless of this setting.
+	enableSmartSleepToggle = true

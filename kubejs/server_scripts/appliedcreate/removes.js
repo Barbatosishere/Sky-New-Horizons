@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'appliedcreate:andesite_pattern_provider' });
     // 移除配方 appliedcreate:brass_pattern_provider
     event.remove({ id: 'appliedcreate:brass_pattern_provider' });
-    event.remove({ id: 'create:kjs/appliedcreate:brass_pattern_provider' });
 
     // 移除配方 appliedcreate:kinetic_energy_acceptor
     event.remove({ id: 'appliedcreate:kinetic_energy_acceptor' });

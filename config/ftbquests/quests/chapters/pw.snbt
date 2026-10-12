@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "415FA96E4BF44353"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "3BAC48D2A0668476"
 				item: {
@@ -38,6 +39,7 @@
 		{
 			dependencies: ["415FA96E4BF44353"]
 			id: "6ECA51D9E07FDA71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "57E25865B33BBD14"
 				item: { count: 1, id: "powah:energizing_rod_starter" }
@@ -49,6 +51,7 @@
 		{
 			dependencies: ["6ECA51D9E07FDA71"]
 			id: "39B85E870389034F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "34613F60CBCD6590"
 				item: { count: 1, id: "powah:energizing_rod_basic" }
@@ -63,6 +66,7 @@
 				"268947A2F4A3CE59"
 			]
 			id: "24F901A43F8ADAC2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12EDEB57DB7519A3"
 				item: { count: 1, id: "powah:energizing_rod_hardened" }
@@ -77,6 +81,7 @@
 				"3E57813CFDBC8D17"
 			]
 			id: "34BE4BA3F3198BF2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "26A25603D59C23AE"
 				item: { count: 1, id: "powah:energizing_rod_blazing" }
@@ -91,6 +96,7 @@
 				"64DEA64EBA9D9AB2"
 			]
 			id: "38D46B2D9A325403"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "70954DD972594202"
 				item: { count: 1, id: "powah:energizing_rod_niotic" }
@@ -105,6 +111,7 @@
 				"15934D8C02937962"
 			]
 			id: "55A410789D573B7A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "712103C5160A4D9A"
 				item: { count: 1, id: "powah:energizing_rod_spirited" }
@@ -119,6 +126,7 @@
 				"12D24C1DB4D1DADB"
 			]
 			id: "3524575923BB198D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0343FBC7E4608F09"
 				item: { count: 1, id: "powah:energizing_rod_nitro" }
@@ -130,6 +138,7 @@
 		{
 			dependencies: ["415FA96E4BF44353"]
 			id: "268947A2F4A3CE59"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5CD1F7EA99CC80CC"
 				item: { count: 1, id: "powah:steel_energized" }
@@ -141,6 +150,7 @@
 		{
 			dependencies: ["268947A2F4A3CE59"]
 			id: "3E57813CFDBC8D17"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7EA09D4E002F208B"
 				item: { count: 1, id: "powah:crystal_blazing" }
@@ -152,6 +162,7 @@
 		{
 			dependencies: ["3E57813CFDBC8D17"]
 			id: "64DEA64EBA9D9AB2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4F10E6447FE1FB64"
 				item: { count: 1, id: "powah:crystal_niotic" }
@@ -163,6 +174,7 @@
 		{
 			dependencies: ["64DEA64EBA9D9AB2"]
 			id: "15934D8C02937962"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "465DE2A54982F1AB"
 				item: { count: 1, id: "powah:crystal_spirited" }
@@ -174,6 +186,7 @@
 		{
 			dependencies: ["15934D8C02937962"]
 			id: "12D24C1DB4D1DADB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "68FBF44F8B453A9E"
 				item: { count: 1, id: "powah:crystal_nitro" }
@@ -186,6 +199,7 @@
 			dependencies: ["12D24C1DB4D1DADB"]
 			hide_until_deps_complete: true
 			id: "57675F639CB0B09E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "386E7BB256459E7B"
 				item: { count: 1, id: "skynh:nitro_crystal_block_1" }

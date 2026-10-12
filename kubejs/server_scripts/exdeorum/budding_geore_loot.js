@@ -22,6 +22,7 @@ LootJS.modifiers((event) => {
     "osmium",
     "platinum",
     "silver",
+    "tin",
     "uranium"
   ]
 

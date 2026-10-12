@@ -1,0 +1,21 @@
+// Compost colors for appliedas. You may add your own colors, change existing ones, or remove colors that aren't needed.
+astral_fluix_crystal, #3652a8
+astral_processor, #7598cd
+astral_processor_press, #b5c2d7
+constellation_core, #848e89
+lumen_cell_housing, #ffffff
+lumen_processor, #a7b99b
+lumen_processor_press, #b2c0b9
+lumen_storage_cell_16k, #fbffff
+lumen_storage_cell_1k, #faffff
+lumen_storage_cell_256k, #fcffff
+lumen_storage_cell_4k, #fbffff
+lumen_storage_cell_64k, #faffff
+lumen_storage_component_16k, #ebf1ff
+lumen_storage_component_1k, #ffffff
+lumen_storage_component_256k, #d6daf5
+lumen_storage_component_4k, #ffffff
+lumen_storage_component_64k, #d2dafb
+me_resonating_wand, #aec0f4
+printed_astral_processor, #52a2ff
+printed_lumen_processor, #beff8e

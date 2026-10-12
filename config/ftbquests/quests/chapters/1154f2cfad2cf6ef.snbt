@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1154f2cfad2cf6ef"
+	group: "00687B1484DEC638"
+	icon: {
+		id: "productivebeesgenesis:mek_apiary"
+	}
+	id: "1154F2CFAD2CF6EF"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26BA8D6B19E277C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "12C56B3CA1E82BC6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			icon: {
+				id: "productivebeesgenesis:mek_centrifuge"
+			}
+			id: "380F7AA63EAF35F6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "269AF2453633A870"
+					type: "checkmark"
+				}
+				{
+					id: "0629E2E0B5250591"
+					item: { count: 1, id: "productivebeesgenesis:mek_centrifuge" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			icon: {
+				id: "productivebeesgenesis:mek_apiary"
+			}
+			id: "6164F349C9DED798"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "2C9FFFF948BAEA8C"
+					type: "checkmark"
+				}
+				{
+					id: "7137D9A12AC2AB7A"
+					item: { count: 1, id: "productivebeesgenesis:mek_apiary" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			id: "20FA0F4ABA332B52"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1F70614C3A4CEDE4"
+				item: { count: 1, id: "productivebeesgenesis:byproduct_destruction_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			id: "5EAE0EC965CBF599"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3D2CDD184391D9EC"
+				item: { count: 1, id: "productivebeesgenesis:essence_conversion_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			id: "628D64838AC38AC6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "27771E85C43C72C6"
+				item: { count: 1, id: "productivebeesgenesis:raw_ore_smelting_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			id: "18FB655B0913234C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2605628D69AB7F46"
+				item: { count: 1, id: "productivebeesgenesis:gene_type_only_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26BA8D6B19E277C6"]
+			id: "15E18B71EFD655E2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "200BCED391ED043F"
+				item: { count: 1, id: "productivebeesgenesis:gene_full_purity_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+}

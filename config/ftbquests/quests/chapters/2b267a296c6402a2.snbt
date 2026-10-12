@@ -37,6 +37,7 @@
 				"33B7675FD67C067B"
 			]
 			id: "43484AD1CAF58AD2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "ae2lt:damaged_budding_overload_crystal"
@@ -54,6 +55,7 @@
 		{
 			dependencies: ["7F4C49356FD693ED"]
 			id: "2D6D4ADFB7D97801"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "ae2lt:flawless_budding_overload_crystal"
@@ -71,6 +73,7 @@
 		{
 			dependencies: ["72B3C07788CA3774"]
 			id: "7F4C49356FD693ED"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3CCB72F927EB257A"
 				item: { count: 1, id: "ae2lt:overload_crystal_block" }
@@ -82,6 +85,7 @@
 		{
 			dependencies: ["43484AD1CAF58AD2"]
 			id: "72B3C07788CA3774"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3B6211719DBCC5BC"
 				item: { count: 1, id: "ae2lt:overload_crystal" }
@@ -93,6 +97,7 @@
 		{
 			dependencies: ["72B3C07788CA3774"]
 			id: "01755FA15255C224"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6758A8EC1CE2034E"
 				item: { count: 1, id: "ae2lt:overload_crystal_dust" }
@@ -104,6 +109,7 @@
 		{
 			dependencies: ["01755FA15255C224"]
 			id: "7887276533DE0658"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "386B066E8B21DD1C"
@@ -122,6 +128,7 @@
 		{
 			dependencies: ["7887276533DE0658"]
 			id: "0778CAE1CCA8BB93"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "75339C78006C8E62"
 				item: { count: 1, id: "ae2lt:overload_circuit_board" }
@@ -136,6 +143,7 @@
 				"01755FA15255C224"
 			]
 			id: "37A12B1B2EE1A0C9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "41C09F752E6F96C5"
 				item: { count: 1, id: "ae2lt:overload_alloy" }
@@ -146,6 +154,7 @@
 		}
 		{
 			id: "669AFE7C01A201B5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7F02A5BD897534EE"
 				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
@@ -157,6 +166,7 @@
 		{
 			dependencies: ["37A12B1B2EE1A0C9"]
 			id: "7519FF015630DBA7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "0196257DB7333D4C"
@@ -178,6 +188,7 @@
 				"219F94334A8190D7"
 			]
 			id: "46F328E86BE3A79B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "1C5D955942B469B8"
@@ -201,6 +212,7 @@
 		{
 			dependencies: ["0778CAE1CCA8BB93"]
 			id: "219F94334A8190D7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "420BB5094C1C8753"
 				item: { count: 1, id: "ae2lt:overload_processor" }
@@ -215,6 +227,7 @@
 				"219F94334A8190D7"
 			]
 			id: "32FA441EAE2EEC01"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "35BFE68FB70A64F2"
 				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
@@ -230,6 +243,7 @@
 				"17AED7860BDBA902"
 			]
 			id: "4B6BFF4DF2A1F681"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "511755493D32D536"
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
@@ -241,6 +255,7 @@
 		{
 			dependencies: ["4B6BFF4DF2A1F681"]
 			id: "104817C74ACF93BD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "60B69B3F5FC6FE03"
 				item: { count: 1, id: "ae2lt:overload_singularity" }
@@ -255,6 +270,7 @@
 				"4B6BFF4DF2A1F681"
 			]
 			id: "43CD998B48F648B6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B4F7A746580701C"
 				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
@@ -270,6 +286,7 @@
 				"32FA441EAE2EEC01"
 			]
 			id: "4C844B63F216FDE5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "06B78FCBC5E90FB2"
 				item: { count: 1, id: "ae2lt:ultimate_overload_core" }
@@ -281,6 +298,7 @@
 		{
 			dependencies: ["4752C4ADAE288C80"]
 			id: "6EB55725344A3758"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "123D5D7C5CBFB191"
@@ -312,6 +330,7 @@
 		{
 			dependencies: ["32FA441EAE2EEC01"]
 			id: "4752C4ADAE288C80"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "79EF051F08DA3554"
 				item: { count: 1, id: "ae2lt:overload_machine_frame" }
@@ -327,6 +346,7 @@
 				"43CD998B48F648B6"
 			]
 			id: "34C70525B18A0713"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0223CF5ED441E7A3"
 				item: { count: 1, id: "ae2lt:overload_processing_factory" }
@@ -338,6 +358,7 @@
 		{
 			dependencies: ["4B6BFF4DF2A1F681"]
 			id: "3BF22990867610E4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "40A46656BF197446"
@@ -377,6 +398,7 @@
 				"43CD998B48F648B6"
 			]
 			id: "6DB06C43F48D916D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "77109F575F11EE06"
@@ -395,6 +417,7 @@
 		{
 			dependencies: ["219F94334A8190D7"]
 			id: "6C2CD90BB0A95BDF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0F829B36880A38E5"
 				item: { count: 1, id: "ae2lt:tianshu_baseline_main_core" }
@@ -406,6 +429,7 @@
 		{
 			dependencies: ["219F94334A8190D7"]
 			id: "44054DF01DFD024B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0F991927D0CA5167"
 				item: { count: 1, id: "ae2lt:matter_warping_matrix_stable_main_core" }
@@ -417,6 +441,7 @@
 		{
 			dependencies: ["6C2CD90BB0A95BDF"]
 			id: "0F9E4C6A7A5FAE2D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "04D7F09E7574C09E"
 				item: { count: 1, id: "ae2lt:tianshu_quantum_main_core" }
@@ -428,6 +453,7 @@
 		{
 			dependencies: ["0F9E4C6A7A5FAE2D"]
 			id: "40EC168326331302"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "089F44BB48F6A887"
 				item: { count: 1, id: "ae2lt:tianshu_overload_main_core" }
@@ -439,6 +465,7 @@
 		{
 			dependencies: ["44054DF01DFD024B"]
 			id: "729C81C4024E517D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0E2F9019D3FDB230"
 				item: { count: 1, id: "ae2lt:matter_warping_matrix_quantum_main_core" }
@@ -450,6 +477,7 @@
 		{
 			dependencies: ["729C81C4024E517D"]
 			id: "66BAC506EF888D15"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0DB71212CB7BD136"
 				item: { count: 1, id: "ae2lt:matter_warping_matrix_overload_main_core" }
@@ -461,6 +489,7 @@
 		{
 			dependencies: ["6DB06C43F48D916D"]
 			id: "4750A05F81E6CBF1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "41F41AF9986F328A"
 				item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" }
@@ -475,6 +504,7 @@
 				"219F94334A8190D7"
 			]
 			id: "7FAE5D8FC42D1877"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "28798AE88FFBD9DC"
 				item: { count: 1, id: "ae2lt:tesla_coil" }

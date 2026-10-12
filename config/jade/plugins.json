@@ -5,6 +5,10 @@
     "crucible": true,
     "sieve": true
   },
+  "productivebeesgenesis": {
+    "apiary_status": true,
+    "ae2_status": true
+  },
   "maid_storage_manager": {
     "virtual_frame": true
   },
@@ -109,6 +113,9 @@
     "camo": true,
     "entity": true,
     "semiblock": true
+  },
+  "compactextremereactor": {
+    "machine": true
   },
   "apotheosis": {
     "adventure": true
@@ -245,6 +252,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "allthemodium": {
+    "teleport_pad": true
+  },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -268,9 +278,14 @@
     "grave": true
   },
   "neoecoae": {
+    "large_workstation_current_inputs": true,
+    "eco_computation_system": true,
     "eco_drive": true,
+    "eco_storage_interface": true,
     "eco_crafting_worker": true,
-    "eco_crafting_system": true
+    "eco_storage_system": true,
+    "eco_crafting_system": true,
+    "eco_computation_drive": true
   },
   "occultism": {
     "foliot": true,
@@ -302,6 +317,8 @@
     "item_conduit_info": true
   },
   "useless_mod": {
+    "temperature_regulator": true,
+    "multiblock_alloy_furnace_core_name": true,
     "advanced_alloy_furnace_tasks": true
   },
   "packaged_faa": {

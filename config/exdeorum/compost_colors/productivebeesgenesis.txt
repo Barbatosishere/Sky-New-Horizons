@@ -1,0 +1,7 @@
+// Compost colors for productivebeesgenesis. You may add your own colors, change existing ones, or remove colors that aren't needed.
+byproduct_destruction_upgrade, #ffffeb
+essence_conversion_upgrade, #fffff8
+gene_full_purity_upgrade, #fffffa
+gene_type_only_upgrade, #ffffff
+infinitycreation_comb, #dedede
+raw_ore_smelting_upgrade, #c3a2a7

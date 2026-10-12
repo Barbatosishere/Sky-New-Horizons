@@ -138,14 +138,14 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem(ae2lt).loops(3);
 
-        create.sequenced_assembly(
+    create.sequenced_assembly(
         ["neoecoae:superconducting_processor_print"],
         "neoecoae:energized_superconductive_ingot",
         [
-            create.deploying(ae2lt, [ae2lt, 'neoecoae:superconducting_processor_press']).keepHeldItem(),
-            create.pressing(ae2lt, ae2lt)
+            create.deploying(spp, [spp, 'neoecoae:superconducting_processor_press']).keepHeldItem(),
+            create.pressing(spp, spp)
         ]
-    ).transitionalItem(ae2lt).loops(3);
+    ).transitionalItem(spp).loops(3);
 
     create.sequenced_assembly(
         ["ae2:engineering_processor"],

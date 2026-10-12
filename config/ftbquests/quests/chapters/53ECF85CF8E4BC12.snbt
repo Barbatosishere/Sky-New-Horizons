@@ -17,6 +17,7 @@
 	quests: [
 		{
 			id: "422376E3D9B9A48D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "13E6605953236148"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
@@ -28,6 +29,7 @@
 		{
 			dependencies: ["422376E3D9B9A48D"]
 			id: "476D79FDDEADBB5A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "674E804FC67590D4"
 				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
@@ -39,6 +41,7 @@
 		{
 			dependencies: ["0A5DD76F31F7580C"]
 			id: "00C7445C6FCDB83D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					consume_items: false
@@ -65,6 +68,7 @@
 		{
 			dependencies: ["476D79FDDEADBB5A"]
 			id: "0A5DD76F31F7580C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "682EB75C829B3993"
@@ -83,6 +87,7 @@
 		{
 			dependencies: ["0A5DD76F31F7580C"]
 			id: "0EB3E0457C2692FC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 2L
 				id: "31E798CEABA07A2C"
@@ -95,6 +100,7 @@
 		{
 			dependencies: ["65EFE7605012C531"]
 			id: "5953E2ACD7CCC8FF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "7E4CE877B6374C76"
@@ -116,6 +122,7 @@
 				"006997953FE96761"
 			]
 			id: "65EFE7605012C531"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7E95330A276716F5"
 				item: { count: 1, id: "pneumaticcraft:plastic_bucket" }
@@ -131,6 +138,7 @@
 				"1B4C51310FB266DB"
 			]
 			id: "41B770BDA6B87F8F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "4D573487E9F47125"
@@ -155,6 +163,7 @@
 		}
 		{
 			id: "1B4C51310FB266DB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D7AFD513557FDD4"
 				item: { count: 1, id: "pneumaticcraft:vortex_tube" }
@@ -166,6 +175,7 @@
 		{
 			dependencies: ["41B770BDA6B87F8F"]
 			id: "3B3F4E54E6202E23"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "386FBF3F154F61C2"
 				item: { count: 1, id: "pneumaticcraft:diesel_bucket" }
@@ -177,6 +187,7 @@
 		{
 			dependencies: ["41B770BDA6B87F8F"]
 			id: "08C185B595D3D6F8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "068BDAABD9614EFD"
 				item: { count: 1, id: "pneumaticcraft:kerosene_bucket" }
@@ -188,6 +199,7 @@
 		{
 			dependencies: ["41B770BDA6B87F8F"]
 			id: "29413EF5EB2BD65B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "61FC56BF9052EF86"
 				item: { count: 1, id: "pneumaticcraft:gasoline_bucket" }
@@ -199,6 +211,7 @@
 		{
 			dependencies: ["41B770BDA6B87F8F"]
 			id: "006997953FE96761"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "09013817BA036EE4"
 				item: { count: 1, id: "pneumaticcraft:lpg_bucket" }
@@ -210,6 +223,7 @@
 		{
 			dependencies: ["3B3F4E54E6202E23"]
 			id: "2248A536FDBCA2CD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5FD98F85F24ED8F6"
 				item: { count: 1, id: "pneumaticcraft:speed_upgrade" }
@@ -221,6 +235,7 @@
 		{
 			dependencies: ["65EFE7605012C531"]
 			id: "2DBB3054009FD7A8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6285482A7EC76CC8"
 				item: { count: 1, id: "pneumaticcraft:heat_frame" }
@@ -233,6 +248,7 @@
 			dependencies: ["0A5DD76F31F7580C"]
 			hide_dependency_lines: true
 			id: "1B142B093314048C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "04321C0109B3B058"
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
@@ -247,6 +263,7 @@
 				"7D91B6823E843332"
 			]
 			id: "3EBC359723B4F7E8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "39E9ACA2EB430349"
 				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
@@ -257,6 +274,7 @@
 		}
 		{
 			id: "7D91B6823E843332"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3C0550EFD39FCBDF"
 				item: { count: 1, id: "pneumaticcraft:charging_station" }
@@ -268,6 +286,7 @@
 		{
 			dependencies: ["3EBC359723B4F7E8"]
 			id: "62537613ABA1B08C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3E661CFDCF87F728"
 				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
@@ -282,6 +301,7 @@
 				"031E208771532DB5"
 			]
 			id: "630CBF708D1F5ACB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6886ECDCC8B68863"
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
@@ -292,6 +312,7 @@
 		}
 		{
 			id: "031E208771532DB5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12886632445032AF"
 				item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
@@ -303,6 +324,7 @@
 		{
 			dependencies: ["630CBF708D1F5ACB"]
 			id: "0884E0968B95F102"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B987D5F6F07C8F8"
 				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
@@ -314,6 +336,7 @@
 		{
 			dependencies: ["1B142B093314048C"]
 			id: "399DC9B5A69F1640"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2DB7436AF5388F18"
 				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_tube" }
@@ -325,6 +348,7 @@
 		{
 			dependencies: ["2511453F89E7636F"]
 			id: "4419F45658AB7560"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "141AA3646D7A1AB1"
@@ -368,6 +392,7 @@
 		{
 			dependencies: ["4419F45658AB7560"]
 			id: "0CC7617504BF9DAE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "44FE41035D70FE74"
 				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
@@ -379,6 +404,7 @@
 		{
 			dependencies: ["0CC7617504BF9DAE"]
 			id: "5B07E17404252149"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52E145D3013F2A5E"
 				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
@@ -390,6 +416,7 @@
 		{
 			dependencies: ["0CC7617504BF9DAE"]
 			id: "55BD5CBA1D2A42C2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "31C77F45A33340BD"
 				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
@@ -401,6 +428,7 @@
 		{
 			dependencies: ["4419F45658AB7560"]
 			id: "637FFA0667193239"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "72D848E68E3E33C3"
 				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_chamber_valve" }
@@ -412,6 +440,7 @@
 		{
 			dependencies: ["0884E0968B95F102"]
 			id: "2511453F89E7636F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "236B3CE1F916B0B6"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
@@ -423,6 +452,7 @@
 		{
 			dependencies: ["2511453F89E7636F"]
 			id: "2DF0B755369BB962"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4499A989B14667FD"
 				item: { count: 1, id: "pneumaticcraft:drone" }

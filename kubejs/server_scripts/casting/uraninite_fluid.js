@@ -1,11 +1,29 @@
 // server_scripts/casting/uraninite_fluid.js
 ServerEvents.recipes(event => {
-    // powah:uraninite → ?  [casting.melting]
     event.recipes.casting.melting('powah:uraninite', '90x casting:molten_budding_uraninite', 500)
-    // casting:gem_mold → powah:uraninite  [casting.solidifier]
     event.recipes.casting.solidifier('casting:gem_mold', '90x casting:molten_budding_uraninite', 'powah:uraninite')
-    // powah:uraninite_block → ?  [casting.melting]
      event.recipes.casting.melting('powah:uraninite_block', '810x casting:molten_budding_uraninite', 500)
-    // casting:block_mold → powah:uraninite  [casting.solidifier]
-    event.recipes.casting.solidifier('casting:block_mold', '810x casting:molten_budding_uraninite', 'powah:uraninite')
+    event.recipes.casting.solidifier('casting:block_mold', '810x casting:molten_budding_uraninite', 'powah:uraninite_block')
+    event.recipes.casting.melting('allthemodium:allthemodium_nugget', '90x allthemodium:molten_allthemodium', 500)
+    event.recipes.casting.solidifier('casting:nugget_mold', '90x allthemodium:molten_allthemodium', 'allthemodium:allthemodium_nugget')
+    event.recipes.casting.melting('allthemodium:allthemodium_dust', '90x allthemodium:molten_allthemodium', 500)
+    event.recipes.casting.solidifier('casting:dust_mold', '90x allthemodium:molten_allthemodium', 'allthemodium:allthemodium_dust')
+    event.recipes.casting.melting('allthemodium:allthemodium_ingot', '90x allthemodium:molten_allthemodium', 500)
+    event.recipes.casting.solidifier('casting:ingot_mold', '90x allthemodium:molten_allthemodium', 'allthemodium:allthemodium_ingot')
+     event.recipes.casting.melting('allthemodium:allthemodium_block', '810x allthemodium:molten_allthemodium', 500)
+    event.recipes.casting.solidifier('casting:block_mold', '810x allthemodium:molten_allthemodium', 'allthemodium:allthemodium_block')
+    event.recipes.casting.melting('allthemodium:vibranium_nugget', '90x allthemodium:molten_vibranium', 500)
+    event.recipes.casting.solidifier('casting:nugget_mold', '90x allthemodium:molten_vibranium', 'allthemodium:vibranium_nugget')
+    event.recipes.casting.melting('allthemodium:vibranium_dust', '90x allthemodium:molten_vibranium', 500)
+    event.recipes.casting.melting('allthemodium:vibranium_ingot', '90x allthemodium:molten_vibranium', 500)
+    event.recipes.casting.solidifier('casting:ingot_mold', '90x allthemodium:molten_vibranium', 'allthemodium:vibranium_ingot')
+     event.recipes.casting.melting('allthemodium:vibranium_block', '810x allthemodium:molten_vibranium', 500)
+    event.recipes.casting.solidifier('casting:block_mold', '810x allthemodium:molten_vibranium', 'allthemodium:vibranium_block')
+    event.recipes.casting.melting('allthemodium:unobtainium_nugget', '90x allthemodium:molten_unobtainium', 500)
+    event.recipes.casting.solidifier('casting:nugget_mold', '90x allthemodium:molten_unobtainium', 'allthemodium:unobtainium_nugget')
+    event.recipes.casting.melting('allthemodium:unobtainium_dust', '90x allthemodium:molten_unobtainium', 500)
+    event.recipes.casting.melting('allthemodium:unobtainium_ingot', '90x allthemodium:molten_unobtainium', 500)
+    event.recipes.casting.solidifier('casting:ingot_mold', '90x allthemodium:molten_unobtainium', 'allthemodium:unobtainium_ingot')
+     event.recipes.casting.melting('allthemodium:unobtainium_block', '810x allthemodium:molten_unobtainium', 500)
+    event.recipes.casting.solidifier('casting:block_mold', '810x allthemodium:molten_unobtainium', 'allthemodium:unobtainium_block')
 })

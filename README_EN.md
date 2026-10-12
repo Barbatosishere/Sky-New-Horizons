@@ -7,9 +7,9 @@ A tech × magic skyblock modpack built around a custom quest line, heavily custo
 | Item | Version |
 |---|---|
 | Minecraft | 1.21.1 |
-| Loader | NeoForge 21.1.248 |
+| Loader | NeoForge 21.1.251 |
 | Java | 21 |
-| Modpack version | 0.3.7 |
+| Modpack version | 0.3.8 |
 | Mod count | 270+ |
 
 ## Highlights

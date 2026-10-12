@@ -1,5 +1,7 @@
 // server_scripts/mekanismgenerators/solar_generator.js
 ServerEvents.recipes(event => {
+    event.remove({ id: 'mekanismgenerators:generator/solar' });
+
     // mekanismgenerators:solar_panel → mekanismgenerators:solar_generator
     event.shaped('mekanismgenerators:solar_generator', [
         'DDD',

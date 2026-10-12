@@ -1,0 +1,510 @@
+[
+  {
+    "enchantment": "minecraft:aqua_affinity",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:armor/fury",
+    "weight": 8
+  },
+  {
+    "enchantment": "enchantplus:armor/lifeplus",
+    "weight": 8
+  },
+  {
+    "enchantment": "enchantplus:armor/venom_protection",
+    "weight": 6
+  },
+  {
+    "enchantment": "enchantplus:axe/timber",
+    "weight": 2
+  },
+  {
+    "enchantment": "farmersdelight:backstabbing",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:bane_of_arthropods",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:blast_protection",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:boon_of_the_earth",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:boots/agility",
+    "weight": 8
+  },
+  {
+    "enchantment": "enchantplus:boots/lava_walker",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:boots/step_assist",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:bow/accuracy_shot",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:bow/breezing_arrow",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:bow/echo_shot",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:bow/eternal_frost",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:bow/explosive_arrow",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:bow/rebound",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:bow/storm_arrow",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:breach",
+    "weight": 2
+  },
+  {
+    "enchantment": "create:capacity",
+    "weight": 10
+  },
+  {
+    "enchantment": "apothic_spawners:capturing",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:chainsaw",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:channeling",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:chestplate/builder_arm",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:chestplate/magnet",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:chromatic",
+    "weight": 5
+  },
+  {
+    "enchantment": "apothic_enchanting:crescendo_of_bolts",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:density",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:depth_strider",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:efficiency",
+    "weight": 10
+  },
+  {
+    "enchantment": "enchantplus:elytra/armored",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:elytra/kinetic_protection",
+    "weight": 1
+  },
+  {
+    "enchantment": "touhou_little_maid:enders_ender",
+    "weight": 1
+  },
+  {
+    "enchantment": "apothic_enchanting:endless_quiver",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:feather_falling",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:fire_aspect",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:fire_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:flame",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:fortune",
+    "weight": 2
+  },
+  {
+    "enchantment": "occultism:fracture_soul",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:frost_walker",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:growth_serum",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:helmet/auto_feed",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:helmet/bright_vision",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:helmet/voidless",
+    "weight": 8
+  },
+  {
+    "enchantment": "enchantplus:hoe/harvest",
+    "weight": 7
+  },
+  {
+    "enchantment": "enchantplus:hoe/scyther",
+    "weight": 6
+  },
+  {
+    "enchantment": "enchantplus:hoe/seiors_oblivion",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:icy_thorns",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:impaling",
+    "weight": 2
+  },
+  {
+    "enchantment": "touhou_little_maid:impeding",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:infinity",
+    "weight": 1
+  },
+  {
+    "enchantment": "apothic_enchanting:infusion",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:knockback",
+    "weight": 5
+  },
+  {
+    "enchantment": "apothic_enchanting:knowledge_of_the_ages",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:leggings/fast_swim",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:leggings/leaping",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:looting",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:loyalty",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:luck_of_the_sea",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:lure",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:mace/striker",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:mace/teluric_wave",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:mace/wind_propulsion",
+    "weight": 2
+  },
+  {
+    "enchantment": "ars_nouveau:mana_boost",
+    "weight": 5
+  },
+  {
+    "enchantment": "ars_nouveau:mana_regen",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:mending",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:midas_touch",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:miners_fervor",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:mounted/cavalier_egis",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:mounted/ethereal_leap",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:mounted/steel_fang",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:mounted/velocity",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:multishot",
+    "weight": 2
+  },
+  {
+    "enchantment": "mysticalagriculture:mystical_enlightenment",
+    "weight": 10
+  },
+  {
+    "enchantment": "apothic_enchanting:natures_blessing",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:pickaxe/bedrock_breaker",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:pickaxe/spawner_touch",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:pickaxe/vein_miner",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:piercing",
+    "weight": 10
+  },
+  {
+    "enchantment": "create:potato_recovery",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:power",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:projectile_protection",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:protection",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:punch",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:quick_charge",
+    "weight": 5
+  },
+  {
+    "enchantment": "ars_nouveau:reactive",
+    "weight": 1
+  },
+  {
+    "enchantment": "draconicevolution:reaper",
+    "weight": 10
+  },
+  {
+    "enchantment": "apothic_enchanting:rebounding",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:reflective_defenses",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:respiration",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:riptide",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:scavenger",
+    "weight": 1
+  },
+  {
+    "enchantment": "astralsorcery:scorching_heat",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:sharpness",
+    "weight": 10
+  },
+  {
+    "enchantment": "apothic_enchanting:shield_bash",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:silk_touch",
+    "weight": 1
+  },
+  {
+    "enchantment": "minecraft:smite",
+    "weight": 5
+  },
+  {
+    "enchantment": "forbidden_arcanus:soul_looting",
+    "weight": 2
+  },
+  {
+    "enchantment": "mysticalagriculture:soul_siphoner",
+    "weight": 10
+  },
+  {
+    "enchantment": "minecraft:soul_speed",
+    "weight": 1
+  },
+  {
+    "enchantment": "touhou_little_maid:speedy",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:stable_footing",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:sweeping_edge",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:swift_sneak",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:sword/attack_speed",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/critical",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/death_touch",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:sword/dimensional_hit",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/fear",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:sword/last_hope",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/life_steal",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/poison_aspect",
+    "weight": 3
+  },
+  {
+    "enchantment": "enchantplus:sword/pull",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:sword/reach",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:sword/runic_despair",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/tears_of_asflors",
+    "weight": 4
+  },
+  {
+    "enchantment": "enchantplus:sword/xp_boost",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:tempting",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:thorns",
+    "weight": 1
+  },
+  {
+    "enchantment": "enchantplus:tools/auto_smelt",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:tools/miningplus",
+    "weight": 2
+  },
+  {
+    "enchantment": "enchantplus:trident/gungnir_breath",
+    "weight": 2
+  },
+  {
+    "enchantment": "minecraft:unbreaking",
+    "weight": 5
+  },
+  {
+    "enchantment": "minecraft:wind_burst",
+    "weight": 2
+  },
+  {
+    "enchantment": "apothic_enchanting:worker_exploitation",
+    "weight": 2
+  }
+]

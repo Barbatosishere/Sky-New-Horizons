@@ -13,6 +13,7 @@
 	quests: [
 		{
 			id: "4A343D1321E97A4D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "204315A59F762108"
 				item: { count: 1, id: "createaddition:alternator" }
@@ -24,6 +25,7 @@
 		{
 			dependencies: ["6ECA51D9E07FDA71"]
 			id: "29935427DB4FF88F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "33D67998859C76F8"
@@ -36,6 +38,7 @@
 		{
 			dependencies: ["29935427DB4FF88F"]
 			id: "5C1BCC42EDC47773"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "64B54179DBFA597A"
@@ -51,6 +54,7 @@
 				"3332F64FBE62C152"
 			]
 			id: "50C8CB8941720B28"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 31L
@@ -82,6 +86,7 @@
 			can_repeat: false
 			dependencies: ["7ABBD4F708AE94AF"]
 			id: "383FDC8612A0B026"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 2L
@@ -149,6 +154,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3C2DED6565238341"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "4DA95A19905EEBB9"
@@ -161,6 +167,7 @@
 		{
 			dependencies: ["3C2DED6565238341"]
 			id: "5B8261B6FC3F98D7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "7EA9C47C6D782118"
@@ -174,6 +181,7 @@
 			dependencies: ["5B8261B6FC3F98D7"]
 			dependency_requirement: "one_completed"
 			id: "52A35329B4A28C4E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "2E3BD2747044D38D"
@@ -186,6 +194,7 @@
 		{
 			dependencies: ["52A35329B4A28C4E"]
 			id: "277DC6CEFFA7B918"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "70F2A059DC13C111"
@@ -198,6 +207,7 @@
 		{
 			dependencies: ["277DC6CEFFA7B918"]
 			id: "7ABBD4F708AE94AF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 36L
 				id: "492B784202EBFD0F"
@@ -214,6 +224,7 @@
 			]
 			id: "49B8268848F22F07"
 			optional: true
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 45L
@@ -250,6 +261,7 @@
 		{
 			dependencies: ["65D3F033FAC9DE3D"]
 			id: "589E306C20B6FCDD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5B48A8C94F3D9E39"
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
@@ -261,6 +273,7 @@
 		{
 			dependencies: ["589E306C20B6FCDD"]
 			id: "7F221DEC0AB1B065"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "329218F1B8B92C0D"
@@ -284,6 +297,7 @@
 		{
 			dependencies: ["589E306C20B6FCDD"]
 			id: "3C56E0B0387606BE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "450AEFEA769AD0A2"
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
@@ -295,6 +309,7 @@
 		{
 			dependencies: ["3C56E0B0387606BE"]
 			id: "280B6C826986156E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2236570BADE05375"
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
@@ -306,6 +321,7 @@
 		{
 			dependencies: ["280B6C826986156E"]
 			id: "300A2582C1B3905A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4F7D5C7E528A3E26"
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
@@ -317,6 +333,7 @@
 		{
 			dependencies: ["2F133A77ECD20971"]
 			id: "39DFC4C568AF990A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 32L
@@ -350,6 +367,7 @@
 				"49B8268848F22F07"
 			]
 			id: "5A45D0C071430957"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "36CE05DAEE5E6250"
@@ -387,6 +405,7 @@
 		{
 			dependencies: ["4A343D1321E97A4D"]
 			id: "3EE414CAD866152E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5F28345C47BD73B0"
 				item: { count: 1, id: "create_better_motors:andesite_alternator" }
@@ -398,6 +417,7 @@
 		{
 			dependencies: ["3EE414CAD866152E"]
 			id: "0DF35081C6C15ADA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4C741A9CFE661A0F"
 				item: { count: 1, id: "create_better_motors:copper_alternator" }
@@ -409,6 +429,7 @@
 		{
 			dependencies: ["0DF35081C6C15ADA"]
 			id: "1144A55CDD4A3B71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2E7C49F211FF1C19"
 				item: { count: 1, id: "create_better_motors:brass_alternator" }
@@ -419,6 +440,7 @@
 		}
 		{
 			id: "11E35200F888F08E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5DA617823C061774"
 				item: { count: 1, id: "immersiveengineering:dynamo" }
@@ -430,6 +452,7 @@
 		{
 			dependencies: ["300A2582C1B3905A"]
 			id: "36027E0A998D1ADC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "54C894562B3C732C"
 				item: { count: 1, id: "flux_overdrive:nether_flux_storage" }
@@ -441,6 +464,7 @@
 		{
 			dependencies: ["36027E0A998D1ADC"]
 			id: "7BCEC29863D8E111"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "47BBBB8836142957"
 				item: { count: 1, id: "flux_overdrive:ender_flux_storage" }

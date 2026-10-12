@@ -13,6 +13,7 @@
 		{
 			dependencies: ["1BADA00A32875650"]
 			id: "3FF84E0D27F7B881"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5AA9A74209A64864"
 				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
@@ -27,6 +28,7 @@
 				"7C8AF5B55EACBB79"
 			]
 			id: "7673BB41887E7C7D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "049E5FCBFA0D0186"
 				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
@@ -38,6 +40,7 @@
 		{
 			dependencies: ["7C8AF5B55EACBB79"]
 			id: "05BE605AD60C1907"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "142920604A9332F5"
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
@@ -49,6 +52,7 @@
 		{
 			dependencies: ["05BE605AD60C1907"]
 			id: "3193000767291A2F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0015E9DA4DB7A438"
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
@@ -60,6 +64,7 @@
 		{
 			dependencies: ["3193000767291A2F"]
 			id: "6F93B70718007BBC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3ADE0E3A03F172A0"
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
@@ -71,6 +76,7 @@
 		{
 			dependencies: ["6F93B70718007BBC"]
 			id: "70E578DAB7F83A1A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2A21B4F22A535849"
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
@@ -85,6 +91,7 @@
 				"153F71064281BEC9"
 			]
 			id: "3E6A7A54743D61A0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "14BB70BEA1B40881"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
@@ -96,6 +103,7 @@
 		{
 			dependencies: ["3FF84E0D27F7B881"]
 			id: "19C276EEC1080223"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "08CF119F9429B41C"
 				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
@@ -107,6 +115,7 @@
 		{
 			dependencies: ["19C276EEC1080223"]
 			id: "67D1A63C64CAEFBD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "79CEDB5E1C81A134"
 				item: { count: 1, id: "mysticalagriculture:soulium_seed_base" }
@@ -117,6 +126,7 @@
 		}
 		{
 			id: "5B0A224EA0FD934B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6E070E3B80F47ACE"
@@ -135,6 +145,7 @@
 		}
 		{
 			id: "53A5AB24CC70CC2D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6A59EF6DB3A13D0F"
@@ -165,6 +176,7 @@
 			]
 			hide_dependency_lines: true
 			id: "6FCB5941AABBBC5C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1D57A020FD6465DF"
 				item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
@@ -176,6 +188,7 @@
 		{
 			dependencies: ["70E578DAB7F83A1A"]
 			id: "697B6416A2BF1932"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "211FABA3B185AA89"
 				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
@@ -190,6 +203,7 @@
 				"70E578DAB7F83A1A"
 			]
 			id: "38FFD050AC46BB04"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "568F4201BE36E4B4"
 				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
@@ -204,6 +218,7 @@
 				"76976505C6CB65AC"
 			]
 			id: "135651607B2A4CA5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "318348D0136D0A95"
 				item: { count: 1, id: "mysticalagradditions:insanium_gemstone" }
@@ -218,6 +233,7 @@
 				"737A1261458E0240"
 			]
 			id: "76976505C6CB65AC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "47024560CF457C6A"
 				item: { count: 1, id: "mysticalagriculture:supremium_gemstone" }
@@ -232,6 +248,7 @@
 				"6F93B70718007BBC"
 			]
 			id: "737A1261458E0240"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "230B3FFD4F973A51"
 				item: { count: 1, id: "mysticalagriculture:imperium_gemstone" }
@@ -246,6 +263,7 @@
 				"3193000767291A2F"
 			]
 			id: "753EA3D8524751CF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "69ED298D3CE24B45"
 				item: { count: 1, id: "mysticalagriculture:tertium_gemstone" }
@@ -260,6 +278,7 @@
 				"05BE605AD60C1907"
 			]
 			id: "5984B51B678CDABC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7401B885392B2F28"
 				item: { count: 1, id: "mysticalagriculture:prudentium_gemstone" }
@@ -274,6 +293,7 @@
 				"7C8AF5B55EACBB79"
 			]
 			id: "2FE46ECAA0EE514E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "16BC8F003B2358EA"
 				item: { count: 1, id: "mysticalagriculture:inferium_gemstone" }
@@ -285,6 +305,7 @@
 		{
 			dependencies: ["3FF84E0D27F7B881"]
 			id: "42C126320EA48294"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7495933A4AAE675E"
 				item: { count: 1, id: "mysticalagriculture:prosperity_gemstone" }
@@ -296,6 +317,7 @@
 		{
 			dependencies: ["1BE6A4DA7F315BF1"]
 			id: "7C8AF5B55EACBB79"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "64C051C7EE6BF2CC"
 				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
@@ -307,6 +329,7 @@
 		{
 			dependencies: ["3E6A7A54743D61A0"]
 			id: "00EDD84BD0D354AA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "73F49527BD21B76A"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone" }
@@ -321,6 +344,7 @@
 				"463DC14EF8AB9836"
 			]
 			id: "153F71064281BEC9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2AF7DD2EB4AC63EB"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_block" }
@@ -331,6 +355,7 @@
 		}
 		{
 			id: "463DC14EF8AB9836"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3EF11B105A753F31"
 				item: { count: 1, id: "mysticalagriculture:cognizant_dust" }

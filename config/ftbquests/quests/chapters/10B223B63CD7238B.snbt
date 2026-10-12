@@ -7,101 +7,805 @@
 	images: [ ]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:7ad239965a3bf7e0"
+			reveal_on_hover: 0b
+			source: "q:7cfc48e4717fd2e1"
+		}
+		{
+			dependency: "q:7c866c8f7a2ea188"
+			reveal_on_hover: 0b
+			source: "q:7cfc48e4717fd2e1"
+		}
+		{
+			dependency: "q:45765f535999d464"
+			reveal_on_hover: 0b
+			source: "q:7cfc48e4717fd2e1"
+		}
+	]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "7AD239965A3BF7E0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77D5603CE4EBBA6E"
 				item: { count: 1, id: "pipez:item_pipe" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -0.5d
+			x: -17.0d
+			y: -1.5d
 		}
 		{
 			id: "7C866C8F7A2EA188"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "18308A9395690F4C"
 				item: { count: 1, id: "pipez:fluid_pipe" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -15.5d
+			y: -1.5d
 		}
 		{
 			id: "45765F535999D464"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4314887CC93D6DE1"
 				item: { count: 1, id: "pipez:energy_pipe" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -0.5d
+			x: -14.0d
+			y: -1.5d
 		}
 		{
 			id: "54058984E2DE8E61"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "608B9EA895FB4254"
 				item: { count: 1, id: "pipez:gas_pipe" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -17.0d
+			y: -3.0d
 		}
 		{
+			dependencies: [
+				"45765F535999D464"
+				"7C866C8F7A2EA188"
+				"7AD239965A3BF7E0"
+			]
 			id: "7CFC48E4717FD2E1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "180D53E5CFC7AD3F"
 				item: { count: 1, id: "pipez:universal_pipe" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -0.5d
+			x: -15.5d
+			y: -3.0d
 		}
 		{
 			id: "3A3D2A0644AD5B7F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3EF5D4D02AC8D99A"
 				item: { count: 1, id: "pipez:basic_upgrade" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -15.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3A3D2A0644AD5B7F"]
 			id: "762D7E1527F07063"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "62AFB3F960D0CED6"
 				item: { count: 1, id: "pipez:improved_upgrade" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -2.0d
+			x: -14.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["762D7E1527F07063"]
 			id: "4E3FB3D9107D82BC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "60D6F0907FFBFF7C"
 				item: { count: 1, id: "pipez:advanced_upgrade" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -14.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4E3FB3D9107D82BC"]
 			id: "750C7FB2B062669A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4393C27672A1A811"
 				item: { count: 1, id: "pipez:ultimate_upgrade" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -2.0d
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["750C7FB2B062669A"]
+			id: "57BF488EC8A7AD12"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "500FF6B654DA1F06"
+				item: { count: 1, id: "pipez_optimizer:atm_upgrade" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["57BF488EC8A7AD12"]
+			id: "24390EF893550A08"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5D21A6DE849F9515"
+				item: { count: 1, id: "pipez_optimizer:vibranium_upgrade" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["24390EF893550A08"]
+			id: "207ADD9943468066"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7B52C96D42175853"
+				item: { count: 1, id: "pipez_optimizer:unobtainium_upgrade" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			id: "41EC5CB26DDD9A09"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63951C882ED2C5C8"
+				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["41EC5CB26DDD9A09"]
+			id: "07E455C45BAEDD4B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5FD9C3B49D209DE2"
+				item: { count: 1, id: "mekanism:advanced_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			id: "58B2E351E6D12C3B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "72614267BB35B4DB"
+				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "1CAF2F49D06C0D9A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0800F415F10B70B0"
+				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "33041387EBA82E65"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C92127D56B351BD"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			id: "00894F667B2D13B6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "60F197B10909063A"
+				item: { count: 1, id: "powah:energy_cable_starter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "6F42AB2DEF9FE02C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "18B2CF5B1BC6AD09"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			id: "012A9A269989715D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "02423E5D2EC45A84"
+				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "60A36CED0CF9D45A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "40B798AE1146694B"
+				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CAF2F49D06C0D9A"]
+			id: "2DE29C79FB5A9A79"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6396477E7E8E7FEF"
+				item: { count: 1, id: "mekanism:advanced_logistical_transporter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58B2E351E6D12C3B"]
+			id: "6319D48746EF6B1E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "467C4D127C7EA1DE"
+				item: { count: 1, id: "mekanism:advanced_pressurized_tube" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6319D48746EF6B1E"]
+			id: "00DDE2E4646EA149"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6294CEDD43C19771"
+				item: { count: 1, id: "mekanism:elite_pressurized_tube" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00DDE2E4646EA149"]
+			id: "4CA6A5DF6938BB93"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0FEDB1A5FB1325FF"
+				item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CA6A5DF6938BB93"]
+			id: "0F4E6985D898D3CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5429AADA7EAB70EC"
+				item: { count: 1, id: "mekanism_extras:absolute_pressurized_tube" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F4E6985D898D3CE"]
+			id: "62A286F53E921F37"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0EB5DB1E754114AB"
+				item: { count: 1, id: "mekanism_extras:supreme_pressurized_tube" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62A286F53E921F37"]
+			id: "762CF16B68DC8B00"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "48510796A747CF8B"
+				item: { count: 1, id: "mekanism_extras:cosmic_pressurized_tube" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["762CF16B68DC8B00"]
+			id: "1AB99259AA459010"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "04714E860B420C0A"
+				item: { count: 1, id: "mekanism_extras:infinite_pressurized_tube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["07E455C45BAEDD4B"]
+			id: "60D6D23F76CFF69E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5C28C365CF2880BB"
+				item: { count: 1, id: "mekanism:elite_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60D6D23F76CFF69E"]
+			id: "5C7402525A5721DA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "09EDCF3862CB9D0E"
+				item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C7402525A5721DA"]
+			id: "6ABDAD53FE93007D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6ECA9BEEDFAA9834"
+				item: { count: 1, id: "mekanism_extras:absolute_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6ABDAD53FE93007D"]
+			id: "1CBFEC5D8111D5C2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7C5619D5A4BEED9E"
+				item: { count: 1, id: "mekanism_extras:supreme_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CBFEC5D8111D5C2"]
+			id: "24304E1D06DFCA96"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1349580AA761BD61"
+				item: { count: 1, id: "mekanism_extras:cosmic_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24304E1D06DFCA96"]
+			id: "61C92EB481E5BBAD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "00F721CF26054F06"
+				item: { count: 1, id: "mekanism_extras:infinite_mechanical_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DE29C79FB5A9A79"]
+			id: "2B906BBD57393AB1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "67299ACBBDFA2D49"
+				item: { count: 1, id: "mekanism:elite_logistical_transporter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B906BBD57393AB1"]
+			id: "0CF7DFA8B55AA7DF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4CDBEFE95AD6A783"
+				item: { count: 1, id: "mekanism:ultimate_logistical_transporter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CF7DFA8B55AA7DF"]
+			id: "2C44D3875FF3576B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "548D104DCC4E2A06"
+				item: { count: 1, id: "mekanism_extras:absolute_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C44D3875FF3576B"]
+			id: "756F82E269B9DDDE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "38F1B539A2EAB8A7"
+				item: { count: 1, id: "mekanism_extras:supreme_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["756F82E269B9DDDE"]
+			id: "1F86D7CBDB4BB21C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "74D61E00843BB97E"
+				item: { count: 1, id: "mekanism_extras:cosmic_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F86D7CBDB4BB21C"]
+			id: "41CEC7E425CC9868"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1F2AB51A7A2EA2F7"
+				item: { count: 1, id: "mekanism_extras:infinite_mechanical_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00894F667B2D13B6"]
+			id: "6BC01BCA0B7A9849"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "20CCC64F4DB2A05F"
+				item: { count: 1, id: "powah:energy_cable_basic" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BC01BCA0B7A9849"]
+			id: "50DFE03D65E22E95"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6560D3E4693E3B1A"
+				item: { count: 1, id: "powah:energy_cable_hardened" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50DFE03D65E22E95"]
+			id: "7F4CB9B3E0DAFAEC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "320DB8AFAC5E35EA"
+				item: { count: 1, id: "powah:energy_cable_blazing" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F4CB9B3E0DAFAEC"]
+			id: "560190853991DAA8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "65CEBDF256178E90"
+				item: { count: 1, id: "powah:energy_cable_niotic" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["560190853991DAA8"]
+			id: "4C13693A62D47488"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1517ECC8E530EE8E"
+				item: { count: 1, id: "powah:energy_cable_spirited" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C13693A62D47488"]
+			id: "564C1BD6649A6013"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6D6027DECB22F4EC"
+				item: { count: 1, id: "powah:energy_cable_nitro" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0F5DA30F29B7C639"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B6823215DBEE9ED"
+				item: { components: { "enderio:conduit": "enderio_evolution:crude_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F42AB2DEF9FE02C"]
+			id: "12DD5D92F078E99B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2894BC3EDD604DF5"
+				item: { components: { "enderio:conduit": "enderio_evolution:gold_crude_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F5DA30F29B7C639"]
+			id: "557C6D401BA8097C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3E9DCC451D68AFED"
+				item: { components: { "enderio:conduit": "enderio:enhanced_energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12DD5D92F078E99B"]
+			id: "2312873AFC13EB36"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "57D00F2CEB4F26C9"
+				item: { components: { "enderio:conduit": "enderio_evolution:construction_alloy_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["557C6D401BA8097C"]
+			id: "5C346B40A13A6C11"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "757380F33577DA3A"
+				item: { components: { "enderio:conduit": "enderio:ender_energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2312873AFC13EB36"]
+			id: "4FBC6462B6E7D09C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2BD518C1FE9121AC"
+				item: { components: { "enderio:conduit": "enderio_evolution:energetic_silver_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4FBC6462B6E7D09C"]
+			id: "3FE4F701236F7556"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "168098FC115AB3BB"
+				item: { components: { "enderio:conduit": "enderio_evolution:crystalline_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3FE4F701236F7556"]
+			id: "4815F478B20C21C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C2085890E771B83"
+				item: { components: { "enderio:conduit": "enderio_evolution:crystalline_pink_slime_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4815F478B20C21C6"]
+			id: "777B7496119D09EC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7765E47B73B661BB"
+				item: { components: { "enderio:conduit": "enderio_evolution:melodic_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["777B7496119D09EC"]
+			id: "754EAE1E523C8979"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "62F41E9EE881840C"
+				item: { components: { "enderio:conduit": "enderio_evolution:stellar_energy_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "268CEC64FB0544DA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7D90031A97222A0A"
+				item: { components: { "enderio:conduit": "enderio_evolution:speedy_item_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["012A9A269989715D"]
+			id: "72569919B9A8B07A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "438B552E089CB133"
+				item: { components: { "enderio:conduit": "enderio:enhanced_item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72569919B9A8B07A"]
+			id: "6FDB1FD1F7223880"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6B7751F52C659040"
+				item: { components: { "enderio:conduit": "enderio:ender_item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FDB1FD1F7223880"]
+			id: "6D32A038A01027BA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "16016FAC60EBAB48"
+				item: { components: { "enderio:conduit": "enderio_evolution:melodic_item_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D32A038A01027BA"]
+			id: "7F7F3111F47C65AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "093586A440FDC548"
+				item: { components: { "enderio:conduit": "enderio_evolution:stellar_item_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60A36CED0CF9D45A"]
+			id: "08D4B2EEE9AECE63"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "615DFBBF1F91BF53"
+				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08D4B2EEE9AECE63"]
+			id: "5B70E47F4A028C4E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "33B776DE31DC02E1"
+				item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B70E47F4A028C4E"]
+			id: "1B305C786C39FC7C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0F73C88DF3F80736"
+				item: { components: { "enderio:conduit": "enderio_evolution:melodic_fluid_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B305C786C39FC7C"]
+			id: "7DD75AF01E353525"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0CA5A1D867A1AD20"
+				item: { components: { "enderio:conduit": "enderio_evolution:stellar_fluid_conduit" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 }
